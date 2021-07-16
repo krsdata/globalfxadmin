@@ -39,7 +39,7 @@
     <section class="booking bg-smallwhite">
         <div class=container>
             <div class=booking-fig></div>
-            <a href=bookTicket.html class="btn btn-red">Download App Now</a></div>
+            <a href="{{$settings->playstore_url}}" class="btn btn-red">Download App Now</a></div>
         </div>
     </section>
    
