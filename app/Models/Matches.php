@@ -41,7 +41,7 @@ class Matches extends Eloquent
 
     public function venue()
     {
-        return $this->hasOne('App\Models\venue', 'match_id', 'match_id') ;
+        return $this->hasOne('App\Models\Venue', 'match_id', 'match_id') ;
     }
     public function teama()
     {
