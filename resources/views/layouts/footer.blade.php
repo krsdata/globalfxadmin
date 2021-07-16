@@ -15,7 +15,7 @@
                        
                         <ul class="widget_productdetails">
                         @foreach($static_page as $key =>  $result)
-                            @if($key <= 5)
+                            @if($key < 5)
                             <?php continue; ?>
                             @endif
                             <li><a href="#" class=clearfix>
