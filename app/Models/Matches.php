@@ -39,6 +39,10 @@ class Matches extends Eloquent
         return $this->hasOne('App\Models\Player', 'match_id', 'match_id') ;
     }
 
+    public function venue()
+    {
+        return $this->hasOne('App\Models\venue', 'match_id', 'match_id') ;
+    }
     public function teama()
     {
         return $this->hasOne('App\Models\TeamA', 'match_id', 'match_id') ;
