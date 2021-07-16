@@ -25,9 +25,15 @@
                             </div>
                         </nav>
                     </div>
-                    <div class=social><a href=https://www.facebook.com/templatespoint.net class=facebook><i
-                            class="fa fa-facebook"></i></a> <a href=https://twitter.com/itobuztech class=twitter><i
-                            class="fa fa-twitter"></i></a> </div>
+              
+                    <div class=social>
+                    <a href="{{$settings->facebook_url}}" class=><i
+                                    class="fa fa-facebook"></i></a>
+                                    <a href="{{$settings->twitter_url}}"  target=_blank><i
+                                    class="fa fa-twitter"></i></a>
+                                    <a href="{{$settings->instagram_url}}"  target=_blank><i
+                                    class="fa fa-instagram"></i></a>
+                         </div>
                 </div>
             </div>
         </div>

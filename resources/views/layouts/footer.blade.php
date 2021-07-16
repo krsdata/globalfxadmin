@@ -4,12 +4,11 @@
                 <ul class=footer-widget>
                     <li class=widget-about><h4 class=footerheading>about <span>soccer club</span></h4>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis vitae, velit perferendis
-                            dolor atque magni, </p>
+                        <p>{{$settings->website_description}}</p>
 
-                        <p><span class=uppercaseheading>address:</span>{{env('company_address')}}</p>
+                        <p><span class=uppercaseheading>address:</span>{{$settings->company_address}}</p>
 
-                        <p><span class=uppercaseheading>Email:</span> <span class=red>{{env('company_email')}}</span></p>
+                        <p><span class=uppercaseheading>Email:</span> <span class=red>{{$settings->website_email}}</span></p>
                         
                         </li>
                         <li class="widget-product"><h4 class="footerheading">Importnant <span>Links</span></h4>
@@ -43,23 +42,29 @@
         </div>
         <div class=footer-type02>
             <div class=container>
-                <div class=row><a href=index-2.html class=footer-logo><img src="{{URL::asset('webmedia/images/logo.png')}}" alt=image></a>
+                <div class=row><a href="/" class=footer-logo><img src="{{URL::asset('webmedia/images/logo.png')}}" alt=image></a>
 
                     <div class=footer-container>
                         <ul class=clearfix>
-                            <li><a href=https://www.facebook.com/templatespoint.net class=bigsocial-link><i
+                            <li><a href="{{$settings->facebook_url}}" class=bigsocial-link><i
                                     class="fa fa-facebook"></i></a></li>
-                            <li><a href=https://twitter.com/ class=bigsocial-link target=_blank><i
+                            <li><a href="{{$settings->twitter_url}}" class=bigsocial-link target=_blank><i
                                     class="fa fa-twitter"></i></a></li>
+                                    <li><a href="{{$settings->instagram_url}}" class=bigsocial-link target=_blank><i
+                                    class="fa fa-instagram"></i></a></li>
                           
                         </ul>
-                        <p><a target="_blank" href="https://www.templateshub.net">{{env('company_name')}} © All rights reserved {{date('Y')}}.</a>
+                       
                         </div>
                     <div class=footer-appstore>
                        
-                        <figure><a href=#><img src="{{URL::asset('webmedia/images/appstore/google.png')}}" alt=image></a></figure>
+                        <figure><a href="{{$settings->playstore_url}}"><img src="{{URL::asset('webmedia/images/appstore/google.png')}}" alt=image></a></figure>
                     </div>
+                   
                 </div>
+                <div class="row copywriteline">
+                <p><a target="_blank" href="{{$settings->website_url}}">{{$settings->copywrite}}</a></p>
+</div>
             </div>
         </div>
     </footer>

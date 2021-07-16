@@ -33,10 +33,10 @@
 
                 <div class=innerWrapper>
                     <ul class="contact_icon clearfix">
-                        <li><a><i class="fa fa-phone"></i> <span>{{env('number')}}</span></a></li>
+                        <li><a><i class="fa fa-phone"></i> <span>{{$settings->mobile}}</span></a></li>
                         <li><a><i class="fa fa-envelope-o"></i>
-                            <span>{{env('company_email')}}</span></a></li>
-                        <li><a href=#><i class="fa fa-map-marker"></i> <span>{{env('company_address')}}</span></a>
+                            <span>{{$settings->website_email}}</span></a></li>
+                        <li><a href=#><i class="fa fa-map-marker"></i> <span>{{$settings->company_address}}</span></a>
                         </li>
                     </ul>
                 </div>

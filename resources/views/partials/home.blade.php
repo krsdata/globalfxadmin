@@ -38,9 +38,8 @@
     </div>
     <section class="booking bg-smallwhite">
         <div class=container>
-            <div class=booking-fig><h2>Download Application</h2></div>
-            <a href=bookTicket.html
-                                                                                        class="btn btn-red">Download Now</a></div>
+            <div class=booking-fig></div>
+            <a href=bookTicket.html class="btn btn-red">Download App Now</a></div>
         </div>
     </section>
    
@@ -128,11 +127,10 @@
     </section>
     <section class="booking bookticket">
         <div class=container>
-            <div class=booking-fig><h2>Download the App</h2></div>
+            <div class=booking-fig><h2></h2></div>
             <div class=booking-content><a href="{{$settings->playstore_url}}" class="btn btn-white">Download Now</a></div>
         </div>
-    </section>
-    
+    </section> 
     <section class="social-media">
         <div class=container>
             <div class=row><h2 class=heading></span><span>Payment</span></h2>

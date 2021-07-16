@@ -6918,7 +6918,7 @@ h6 {
   @media screen and (min-width: 1200px) {
     .footer-appstore figure {
       display: inline-block;
-      width: 48%; } }
+      width: 100%; } }
 
 .footer-appstore img {
   max-width: 100%; }
@@ -7397,9 +7397,9 @@ h6 {
       position: relative; }
       .booking-fig h2:after {
         position: absolute;
-        background: url("../images/logo.png");
+        background: url("../images/logow.png");
         content: '';
-        width: 140px;
+        width: 400px;
         top: -119px;
         left: 25%;
         height: auto;
@@ -7677,6 +7677,7 @@ h6 {
         color: white;
         font-weight: 700;
         display: inline-block;
+        width: 100%;
         padding: 0 5px; }
     .latestResult .result .dateTime {
       font-family: "Open Sans", sans-serif;
@@ -11392,3 +11393,17 @@ ul.slick-dots {
     .mail-cart button:hover {
       color: #63aa3d;
       background: white; }
+      .footer-logo img {
+
+        width: 360px;
+    position: absolute;
+    left: 0;
+    top: -64px;
+}
+.copywriteline p a {
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  float: left;
+  font-size: 20px;
+} 
