@@ -1140,10 +1140,10 @@ class ApiController extends BaseController
         return $final_playing11;
     }
 
-    public function getMyTeamNinja11()
-    {
-        dd(1);
-    }
+    // public function getMyTeamNinja11()
+    // {
+    //     dd(1);
+    // }
     /*
     @method : createTeam
    */

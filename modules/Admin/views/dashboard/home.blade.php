@@ -33,7 +33,7 @@
                         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <div class="dashboard-stat2 bordered">
                                 <div class="display">
-                                   <a href="https://ninja11.in/admin/user">
+                                   <a href="https://justkhelo.com/admin/user">
                                     <div class="number">
                                         <h3 class="font-purple-soft">
                                             <span data-counter="counterup" data-value="276">{{$users_count}}</span>
@@ -57,7 +57,7 @@
                         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <div class="dashboard-stat2 bordered">
                                 <div class="display">
-                                   <a href="https://ninja11.in/admin/user">
+                                   <a href="https://justkhelo.com/admin/user">
                                     <div class="number">
                                         <h3 class="font-purple-soft">
                                             <span data-counter="counterup" data-value="276">{{$total_reg}}</span>
@@ -85,7 +85,7 @@
                         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <div class="dashboard-stat2 bordered">
                                 <div class="display">
-                                    <a href="https://ninja11.in/admin/match">
+                                    <a href="https://justkhelo.com/admin/match">
                                     <div class="number">
                                         <h3 class="font-blue-sharp">
                                             <span data-counter="counterup" data-value="567">{{$match}}</span>
@@ -114,7 +114,7 @@
                       <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <div class="dashboard-stat2 bordered">
                                 <div class="display">
-                                   <a href="https://ninja11.in/admin/match?status=3">
+                                   <a href="https://justkhelo.com/admin/match?status=3">
                                     <div class="number">
                                         <h3 class="font-blue-sharp">
                                             <span data-counter="counterup" data-value="567">{{$match_3}}</span>
@@ -189,7 +189,7 @@
                         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <div class="dashboard-stat2 bordered">
                                 <div class="display">
-                                    <a href="https://ninja11.in/admin/paymentsHistory">
+                                    <a href="https://justkhelo.com/admin/paymentsHistory">
                                     <div class="number">
                                         <h3 class="font-blue-sharp">
                                             <span data-counter="counterup" data-value="567">{{round($deposit,2)}} INR  </span>
@@ -264,7 +264,7 @@
                         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <div class="dashboard-stat2 bordered">
                                 <div class="display">
-                                    <a href="https://ninja11.in/admin/paymentsHistory">
+                                    <a href="https://justkhelo.com/admin/paymentsHistory">
                                     <div class="number">
                                         <h3 class="font-blue-sharp">
                                             <span data-counter="counterup" data-value="567">{{$today_deposit}} INR  </span>
@@ -291,7 +291,7 @@
                         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <div class="dashboard-stat2 bordered">
                                 <div class="display">
-                                    <a href="https://ninja11.in/admin/paymentsHistory">
+                                    <a href="https://justkhelo.com/admin/paymentsHistory">
                                     <div class="number">
                                         <h3 class="font-blue-sharp">
                                             <span data-counter="counterup" data-value="567">{{$today_deposit_paytm}} INR  </span>
@@ -318,7 +318,7 @@
                         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <div class="dashboard-stat2 bordered">
                                 <div class="display">
-                                    <a href="https://ninja11.in/admin/paymentsHistory">
+                                    <a href="https://justkhelo.com/admin/paymentsHistory">
                                     <div class="number">
                                         <h3 class="font-blue-sharp">
                                             <span data-counter="counterup" data-value="567">{{$today_deposit_razorpay}} INR  </span>
@@ -393,7 +393,7 @@
                         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <div class="dashboard-stat2 bordered">
                                 <div class="display">
-                                   <a href="https://ninja11.in/admin/payments">
+                                   <a href="https://justkhelo.com/admin/payments">
                                     <div class="number">
                                         <h3 class="font-blue-sharp">
                                             <span data-counter="counterup" data-value="567">{{$today_withdrawal}} INR  </span>

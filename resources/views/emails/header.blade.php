@@ -9,17 +9,17 @@
     <meta content="all" name="robots" />
     <meta name="language" content="EN" />
     <meta name="robots" content="index, follow" />
-    <meta name="keywords" content="Ninja11, 
+    <meta name="keywords" content="justkhelo, 
 JustKhelo 11 app download, JustKheloapp, JustKhelo 11 fantasy app ,JustKhelo 11 fantasy app download, JustKhelo 11, Fantasy App, Best Fantasy App, Cricket, cricket Fantasy, Fantasy, Fantasy app 100% bonus used, Instant withdrawal, No KYC Fantasy App, Most popular fantasy app">
     <meta name="description" content="We drive one of the biggest virtual yet fantasy sports platform.Here you can create a team choosing your favourite players which help you gain more coins in any contest.">
 
-    <meta name="copyright" content="https://www.ninja11.in" />
+    <meta name="copyright" content="https://www.justkhelo.com" />
     <meta name="author" content="JustKheloGaming Techno">
     <meta name="document-classification" content="Internet" />
     <meta name="document-type" content="Public" />
 
 
-    <link rel="shortcut icon" type="image/png" href="https://ninja11.in/assets/global/fevicon.png" /> 
+    <link rel="shortcut icon" type="image/png" href="https://justkhelo.com/assets/global/fevicon.png" /> 
 
     <link rel="stylesheet" href="{{ URL::asset('webmedia/css/open-iconic-bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{ URL::asset('webmedia/css/animate.css')}}">
@@ -52,14 +52,14 @@ JustKhelo 11 app download, JustKheloapp, JustKhelo 11 fantasy app ,JustKhelo 11 
         }
       }, {
         "@type": "Question",
-        "name": "How can I play Fantasy Cricket on Ninja11?",
+        "name": "How can I play Fantasy Cricket on justkhelo?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Follow these 3 simple steps to start your fantasy cricket<p> Select Match </p> <p> Create Team </p> <p> Join Contest</p>"
         }
       }, {
         "@type": "Question",
-        "name": "How do I create my Fantasy Cricket team on Ninja11?",
+        "name": "How do I create my Fantasy Cricket team on justkhelo?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Follow these 3 simple steps to start your fantasy cricket<p> Select Match </p> <p> Create Team </p> <p> Join Contest</p>.
@@ -68,17 +68,17 @@ JustKhelo 11 app download, JustKheloapp, JustKhelo 11 fantasy app ,JustKhelo 11 
         }
       }, {
         "@type": "Question",
-        "name": "What contests can I join on Ninja11?",
+        "name": "What contests can I join on justkhelo?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "There are so many contest running on each match so if you are new and want to play so you can try bonus or practice contest."
         }
       }, {
         "@type": "Question",
-        "name": "Can I actually win money on Ninja11?",
+        "name": "Can I actually win money on justkhelo?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text":"<p>Lots of players have won huge amount on Ninja11, and you can too! Each paid contest has different rewards, and if your selected teams score more points than others’, then you will win for sure!</p>"
+          "text":"<p>Lots of players have won huge amount on justkhelo, and you can too! Each paid contest has different rewards, and if your selected teams score more points than others’, then you will win for sure!</p>"
         }
       },
         {

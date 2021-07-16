@@ -27,7 +27,7 @@
             No Match Live
           @endif
           @foreach($liveMatch as $key => $val)
-         <a class="btn btn-success"  href="https://ninja11.in/liveScore?match_id={{$val->match_id}}"  style="margin: 10px" >
+         <a class="btn btn-success"  href="https://justkhelo.com/liveScore?match_id={{$val->match_id}}"  style="margin: 10px" >
              {{$val->short_title}}-{{$val->format_str}}
           </a>
               

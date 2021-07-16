@@ -780,10 +780,10 @@ class UserController extends BaseController
             }
         }
 
-        $list_email = [
+        // $list_email = [
 
-            'kroy.iips@gmail.com','kroy.aws@gmail.com','kroy.webxpert@gmail.com','rp.yadav775@gmail.com','kishorsmita1@gmail.com','rp.ninja11@gmail.com'
-        ];
+        //     'kroy.iips@gmail.com','kroy.aws@gmail.com','kroy.webxpert@gmail.com','rp.yadav775@gmail.com','kishorsmita1@gmail.com','rp.ninja11@gmail.com'
+        // ];
 
 
        /* if(!in_array($request->email, $list_email)){
