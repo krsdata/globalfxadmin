@@ -2,7 +2,7 @@
         <div class=container>
             <div class=row>
                 <ul class=footer-widget>
-                    <li class=widget-about><h4 class=footerheading>about <span>soccer club</span></h4>
+                    <li class=widget-about><h4 class=footerheading>About <span>Us</span></h4>
 
                         <p>{{$settings->website_description}}</p>
 
