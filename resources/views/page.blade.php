@@ -1,5 +1,8 @@
 @extends('layouts.master') 
-   
+@section('header')
+    
+    @stop
+    @section('content') 
 <body><!--[if lt IE 10]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
     your browser</a> to improve your experience.</p>
@@ -45,3 +48,4 @@
     </section>
     @endif
   
+    @stop

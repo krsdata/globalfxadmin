@@ -7006,7 +7006,7 @@ h6 {
       width: 25%; } }
 
 .widget_productdetails {
-  margin-top: 10px;
+  margin-top: 5px;
   width: 60%; }
   .widget_productdetails li {
     width: 100%;
@@ -7019,7 +7019,7 @@ h6 {
       color: #979da0;
       font-weight: 400;
       text-transform: uppercase;
-      padding: 10px 35px;
+      padding: 5px 35px;
       display: block;
       transition: color 0.3s ease-in-out; }
       .widget_productdetails li a:hover {
@@ -7034,7 +7034,7 @@ h6 {
       line-height: 22px;
       border: 2px solid #b81e20;
       border-radius: 50%;
-      top: 50%;
+      top: 60%;
       text-align: center;
       -webkit-transform: translateY(-50%);
           -ms-transform: translateY(-50%);
