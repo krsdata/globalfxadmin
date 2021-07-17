@@ -112,11 +112,12 @@ class SettingsController extends Controller {
         $website_url        = $setting::where('field_key','website_url')->first();
         $contact_number     = $setting::where('field_key','contact_number')->first();
         $company_address    = $setting::where('field_key','company_address')->first();
+        $about_short    = $setting::where('field_key','about_short')->first();
 
         $banner             = $setting::where('field_key','LIKE','%banner_image%')->get(); 
 
 
-        return view('packages::setting.create', compact('setting','website_title','website_email','website_url','contact_number','company_address','banner', 'page_title', 'page_action','helper'));
+        return view('packages::setting.create', compact('setting','website_title','website_email','website_url','contact_number','company_address','banner', 'page_title', 'page_action','helper','about_short'));
      }
 
     /*
