@@ -42,7 +42,7 @@
             <a href="{{$settings->playstore_url}}" class="btn btn-red">Download App Now</a></div>
         </div>
     </section>
-   
+    @if (!empty($completed)) 
     <section class=latestResult>
         <div class=container>
             <div class=row><h2 class=heading>latest <span>result</span></h2>
@@ -87,6 +87,9 @@
             </div>
         </div>
     </section>
+
+    @endif
+    @if (!empty($upcomings)) 
     <section class=matchSchedule>
         <div class=container>
             <div class=row><h2 class=heading>match <span>schedule</span></h2>
@@ -125,6 +128,7 @@
             </div>
         </div>
     </section>
+    @endif
     <section class="booking bookticket">
         <div class=container>
             <div class=booking-fig><h2></h2></div>

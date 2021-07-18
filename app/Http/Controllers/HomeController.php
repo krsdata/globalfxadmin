@@ -80,11 +80,11 @@ class HomeController extends BaseController
          return view('404');
     }
     public function home(Request $request){
-        $liveMatch =  Matches::where('status',3)->first();
+      
         $upcomings =  Matches::where('status',1)->limit(6)->get();
         $completed =  Matches::where('status',2)->latest('date_end')->first();
   
-         return view('home',compact('liveMatch','upcomings','completed'));
+         return view('home',compact('upcomings','completed'));
     }
 
     public function liveChat(Request $request){
