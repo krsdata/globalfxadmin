@@ -80,7 +80,7 @@ class HomeController extends BaseController
          return view('404');
     }
     public function home(Request $request){
-      $remove_header = false;
+      $remove_header = true;
         $upcomings =  Matches::where('status',1)->limit(6)->get();
         $completed =  Matches::where('status',2)->latest('date_end')->first();
   
