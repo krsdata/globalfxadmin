@@ -47,6 +47,10 @@ _________________________________
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,300,700");
+@import url("http://fonts.googleapis.com/css?family=Oswald:400,300,700");
+@import url("http://fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic");
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -279,7 +283,8 @@ th {
 
 @font-face {
   font-family: 'Glyphicons Halflings';
-  }
+  src: url("http://0effortthemes.com/fonts/bootstrap/glyphicons-halflings-regular.eot");
+  src: url("http://0effortthemes.com/fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("http://0effortthemes.com/fonts/bootstrap/glyphicons-halflings-regular.woff2") format("woff2"), url("http://0effortthemes.com/fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("http://0effortthemes.com/fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("http://0effortthemes.com/fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
 
 .glyphicon {
   position: relative;
@@ -6119,12 +6124,12 @@ h4 {
 
 p {
   font-family: "Open Sans", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   color: #979da0;
   font-weight: 400; }
   p.headParagraph {
     width: 80%;
-    margin: 40px auto;
+    margin: 50px auto;
     text-align: center; }
   p.red_p {
     font-family: "Open Sans", sans-serif;
@@ -6548,7 +6553,7 @@ h6 {
   transition: background, -webkit-transform 0.7s ease-in-out;
   transition: background, transform 0.7s ease-in-out;
   padding: 30px 0 20px;
- 
+  top: 40px;
   z-index: 9;
   -webkit-transform: translateY(0);
       -ms-transform: translateY(0);
@@ -6863,7 +6868,7 @@ h6 {
 
 .footer-type02 {
   padding: 30px 0;
-  background-image: url("../images/background/heroesBg.jpg");
+  background-image: url("images/background/heroesBg.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
@@ -6913,7 +6918,7 @@ h6 {
   @media screen and (min-width: 1200px) {
     .footer-appstore figure {
       display: inline-block;
-      width: 100%; } }
+      width: 48%; } }
 
 .footer-appstore img {
   max-width: 100%; }
@@ -6938,7 +6943,7 @@ h6 {
   @media (min-width: 992px) {
     .widget-about {
       float: left;
-      width: 33%; } }
+      width: 16.6666666667%; } }
   .widget-about p {
     padding: 10px 0; }
     .widget-about p:first-of-type {
@@ -6982,7 +6987,7 @@ h6 {
   @media (min-width: 992px) {
     .widget-product {
       float: left;
-      width: 33%; } }
+      width: 25%; } }
 
 .widget-comment {
   position: relative;
@@ -7001,12 +7006,12 @@ h6 {
       width: 25%; } }
 
 .widget_productdetails {
-  margin-top: 5px;
+  margin-top: 40px;
   width: 60%; }
   .widget_productdetails li {
     width: 100%;
     border-bottom: 1px solid #979da0;
-    padding: 0px 0;
+    padding: 5px 0;
     position: relative; }
     .widget_productdetails li a {
       font-family: "Open Sans", sans-serif;
@@ -7029,7 +7034,7 @@ h6 {
       line-height: 22px;
       border: 2px solid #b81e20;
       border-radius: 50%;
-      top: 60%;
+      top: 50%;
       text-align: center;
       -webkit-transform: translateY(-50%);
           -ms-transform: translateY(-50%);
@@ -7392,9 +7397,9 @@ h6 {
       position: relative; }
       .booking-fig h2:after {
         position: absolute;
-        background: url("../images/logow.png");
+        background: url("images/logo.png");
         content: '';
-        width: 400px;
+        width: 140px;
         top: -119px;
         left: 25%;
         height: auto;
@@ -7518,7 +7523,7 @@ h6 {
 /* -------------- latest result section -----------*/
 .latestResult {
   padding: 100px 0;
-  background: url("../images/background/latestnews.jpg") no-repeat;
+  background: url("images/background/latestnews.jpg") no-repeat;
   background-size: cover;
   background-position: center; }
   .latestResult h2 {
@@ -7589,7 +7594,7 @@ h6 {
       min-height: 1px;
       padding-left: 15px;
       padding-right: 15px;
-      background-image: url("../images/result/resultlogo.png");
+      background-image: url("images/result/resultlogo.png");
       background-size: contain;
       background-position: center;
       background-repeat: no-repeat;
@@ -7613,7 +7618,7 @@ h6 {
         left: 60%;
         top: 50px;
         transition: all 0.9s ease;
-        background: url("../images/result/resultBoard.png") top right no-repeat; }
+        background: url("images/result/resultBoard.png") top right no-repeat; }
     .latestResult .result .content {
       position: relative;
       min-height: 1px;
@@ -7668,14 +7673,13 @@ h6 {
       padding: 40px 0 30px; }
       .latestResult .result .count-number span {
         font-family: "Oswald", sans-serif;
-        font-size: 20px;
+        font-size: 110px;
         color: white;
         font-weight: 700;
         display: inline-block;
-        width: 100%;
         padding: 0 5px; }
     .latestResult .result .dateTime {
-      font-family: "Open Sans", sans-serif; 
+      font-family: "Open Sans", sans-serif;
       font-size: 16px;
       color: rgba(255, 255, 255, 0.7);
       font-weight: 400;
@@ -7747,7 +7751,7 @@ h6 {
 
 @media screen and (min-width: 1200px) {
   .latestResult .result-details .figure {
-    background-image: url("../images/result/resultlogo.png");
+    background-image: url("images/result/resultlogo.png");
     background-size: inherit;
     background-position: center;
     background-repeat: no-repeat;
@@ -7784,7 +7788,7 @@ h6 {
     padding: 40px 0; }
 
 .bookticket {
-  background-image: url("../images/background/ticketbooking.jpg");
+  background-image: url("images/background/ticketbooking.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -7964,7 +7968,7 @@ ul.videoLive {
   height: 600px;
   position: relative;
   overflow: hidden;
-  background: url(../images/background/innerpageBg.jpg) center no-repeat;
+  background: url(images/background/innerpageBg.jpg) center no-repeat;
   /* Image Credit: Unsplash.me */
   background-size: cover;
   background-attachment: fixed; }
@@ -7991,22 +7995,22 @@ ul.videoLive {
 
 /*------------ different background --------------*/
 .bg-red {
-  background-image: url("../images/background/redBg.jpg");
+  background-image: url("images/background/redBg.jpg");
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat; }
 
 .bg-blackimg {
-  background-image: url("../images/background/blackbg.jpg");
+  background-image: url("images/background/blackbg.jpg");
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat; }
 
 .bg-white {
-  background: url(../images/background/bgBottomRight.png) right bottom no-repeat, url(../images/background/bgTopLeft.png) left top no-repeat #f5f5f5; }
+  background: url(images/background/bgBottomRight.png) right bottom no-repeat, url(images/background/bgTopLeft.png) left top no-repeat #f5f5f5; }
 
 .bg-smallwhite {
-  background-image: url("../images/background/whiteBg.jpg");
+  background-image: url("images/background/whiteBg.jpg");
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat; }
@@ -8149,7 +8153,7 @@ section {
         position: absolute; }
 
 .news_display_container {
-  padding: 60px 0;
+  padding: 70px 0;
   position: relative; }
   .news_display_container ul {
     list-style-type: none;
@@ -8177,7 +8181,7 @@ section {
     .news_display_container .figure-01 img {
       transition: all 0.4s ease-in-out; }
   .news_display_container .content-01 {
-    background: #000 url(../images/background/background-news.jpg);
+    background: #000 url(images/background/background-news.jpg);
     padding: 20px 15px; }
     .news_display_container .content-01 .describtion {
       padding: 10px 0; }
@@ -8328,7 +8332,7 @@ section {
 
 .players {
   padding: 70px 0 0;
-  background-image: url("../images/background/heroesBg.jpg");
+  background-image: url("images/background/heroesBg.jpg");
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat; }
@@ -8366,14 +8370,14 @@ section {
       padding: 0px; }
     .playerDetails li.playinfodetails {
       padding: 20px 20px 20px 20px;
-      background-image: url("../images/background/infoBg.jpg");
+      background-image: url("images/background/infoBg.jpg");
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
       transition: all 0.3s ease-in-out; }
     .playerDetails li.playerInfo {
       padding: 0;
-      background-image: url("../images/background/infoBg.jpg");
+      background-image: url("images/background/infoBg.jpg");
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -8524,16 +8528,11 @@ section {
 /*------------ social media ----------- */
 .social-media {
   padding: 70px 0;
-  background-image: url("../images/background/socialMediaHomeBg.jpg");
+  background-image: url("images/background/socialMediaHomeBg.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
-  .social-media_one {
-    padding: 70px 0;
-   
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; }
+
 .socialinfo {
   text-align: center;
   overflow: hidden;
@@ -8580,7 +8579,7 @@ section {
         position: relative;
         height: 380px;
         line-height: 380px;
-        background-image: url("../images/background/background-news.jpg");
+        background-image: url("images/background/background-news.jpg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat; }
@@ -8668,7 +8667,7 @@ section {
     padding: 15px;
     width: 100%;
     margin: 5px 0 0;
-    background-image: url("../images/background/infoBg.jpg");
+    background-image: url("images/background/infoBg.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; }
@@ -8794,7 +8793,7 @@ section {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
-  background-image: url("../images/background/counterBg.jpg");
+  background-image: url("images/background/counterBg.jpg");
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
@@ -8817,7 +8816,7 @@ section {
     font-weight: 400; }
 
 .home_tInfo {
-  background-image: url("../images/background/counterBg.jpg");
+  background-image: url("images/background/counterBg.jpg");
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat; }
@@ -8832,7 +8831,7 @@ section {
   padding: 5px 0; }
 
 .point_table {
-  background-image: url("../images/background/counterBg.jpg");
+  background-image: url("images/background/counterBg.jpg");
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat; }
@@ -9381,7 +9380,7 @@ a.blacklrnmore {
   text-align: center;
   display: none;
   padding: 70px 0;
-  background-image: url("../images/product/backgroundd.jpg");
+  background-image: url("images/product/backgroundd.jpg");
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat; }
@@ -9957,7 +9956,7 @@ a.blacklrnmore {
 
 /*-------- about page --------*/
 .countryclub {
-  background-image: url("../images/background/whiteBgBig.jpg");
+  background-image: url("images/background/whiteBgBig.jpg");
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat; }
@@ -9998,7 +9997,7 @@ a.blacklrnmore {
     min-height: 1px;
     padding-left: 15px;
     padding-right: 15px;
-    background-image: url("../images/background/background-news.jpg");
+    background-image: url("images/background/background-news.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -10110,7 +10109,7 @@ ul.slick-dots {
 
 /* ------------ player details ---------------*/
 .playerDetails02 {
-  background-image: url("../images/background/playerdetailsBg.jpg");
+  background-image: url("images/background/playerdetailsBg.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
@@ -10128,7 +10127,7 @@ ul.slick-dots {
     min-height: 1px;
     padding-left: 15px;
     padding-right: 15px;
-    background-image: url("../images/background/blackblueBg.jpg");
+    background-image: url("images/background/blackblueBg.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -10578,33 +10577,32 @@ ul.slick-dots {
     .playerDetailsPage-info li {
       float: left;
       width: 33.3333333333%; } }
-  .playerDetailsPage-info li {
+  .playerDetailsPage-info li:first-of-type {
     padding: 50px;
-    background-image: url("../images/background/heroesBg.jpg");
+    background-image: url("images/background/heroesBg.jpg");
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat; }
-    .playerDetailsPage-info li h2 {
+    .playerDetailsPage-info li:first-of-type h2 {
       font-family: "Oswald", sans-serif;
       font-size: 80px;
       color: #b81e20;
       font-weight: 400;
-      line-height: 40px; }
-    .playerDetailsPage-info li h3 {
+      line-height: 80px; }
+    .playerDetailsPage-info li:first-of-type h3 {
       font-family: "Oswald", sans-serif;
       font-size: 40px;
       color: #EEE8E8;
       font-weight: 400;
       text-transform: capitalize; }
-  .playerDetailsPage-info {
-    background-image: url("../images/background/heroesBg.jpg");
+  .playerDetailsPage-info li:nth-of-type(2) {
+    background-image: url("images/player/player01.jpg");
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
-    font-weight: 400;
-      line-height: 40px;}
+    height: 600px; }
   .playerDetailsPage-info li:last-of-type {
-    background-image: url("../images/background/heroesBg.jpg");
+    background-image: url("images/background/heroesBg.jpg");
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
@@ -10887,12 +10885,12 @@ ul.slick-dots {
     font-size: 16px;
     color: #b81e20;
     font-weight: 400; }
-  /* .achivement-dtl li:nth-of-type(2) {
-    background-image: url("../images/awards/award-d01.jpg");
+  .achivement-dtl li:nth-of-type(2) {
+    background-image: url("images/awards/award-d01.jpg");
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
-    height: 500px; } */
+    height: 500px; }
   .achivement-dtl li:last-of-type {
     padding: 50px; }
   .achivement-dtl li .details {
@@ -10926,7 +10924,7 @@ ul.slick-dots {
 
 @media screen and (min-width: 992px) {
   .achivement-dtl li {
-    height: auto; } }
+    height: 500px; } }
 
 .clubHistoryWrapper {
   padding: 0 15px; }
@@ -10994,7 +10992,7 @@ ul.slick-dots {
   position: relative;
   width: 100vw;
   height: 100vh;
-  background-image: url("../images/error/errorBg.jpg");
+  background-image: url("images/error/errorBg.jpg");
   background-size: cover;
   background-position: center right;
   background-repeat: no-repeat;
@@ -11394,17 +11392,3 @@ ul.slick-dots {
     .mail-cart button:hover {
       color: #63aa3d;
       background: white; }
-      .footer-logo img {
-
-        width: 360px;
-    position: absolute;
-    left: 0;
-    top: -64px;
-}
-.copywriteline p a {
-  text-align: center;
-  color: #fff;
-  width: 100%;
-  float: left;
-  font-size: 20px;
-} 

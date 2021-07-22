@@ -36,12 +36,52 @@
             <div class=row>Dil Se khelo On <sup>st</sup>JUSTKHELO</div>
         </div>
     </div>
-    <section class="booking bg-smallwhite">
-        <div class=container>
-            <div class=booking-fig></div>
-            <a href="{{$settings->playstore_url}}" class="btn btn-red">Download App Now</a></div>
+    
+
+    <section class="sponsors">
+        <div class="container">
+            <div class="row"><h2 class="heading">How It<span> Works</span></h2>
+
+            <ul class="playerDetailsPage-info achivement-dtl clearfix">
+        
+        <li><h4>Step-1</h4>
+
+           
+
+            <div class="details"><h6>Check Out Contest For the League</h6>
+
+                <p>You are allowed to check over the participating teams based on the previous match listings, and you can also check the entry ticket amount.</p></div>
+        </li>
+        <li><h4>Step-2</h4>
+
+           
+
+<div class="details"><h6>Create your Best Team</h6>
+
+    <p>JUSTKHELO gives you an opportunity to organize the best team, choosing from real-life players and get paid for your knowledge & expertise by winning the cash rewards.</p></div>
+</li>
+<li><h4>Step-3</h4>
+
+           
+
+<div class="details"><h6>Pay Small And Win Big</h6>
+
+    <p>Pay small and win big is the concept of winning a considerable amount by taking part in the contest with a small token of entry amount. Not just this, but also all the participants are getting rewarded based on their ranks.</p></div>
+</li>
+        
+       
+    </ul>
+               
+            </div>
         </div>
+        
     </section>
+     <section class="booking bookticket">
+        <div class=container>
+            <div class=booking-fig><h2></h2></div>
+            <div class=booking-content><a href="{{$settings->playstore_url}}" class="btn btn-white">Download Now</a></div>
+        </div>
+    </section> 
     @if (!empty($completed)) 
     <section class=latestResult>
         <div class=container>
@@ -129,12 +169,10 @@
         </div>
     </section>
     @endif
-    <section class="booking bookticket">
-        <div class=container>
-            <div class=booking-fig><h2></h2></div>
-            <div class=booking-content><a href="{{$settings->playstore_url}}" class="btn btn-white">Download Now</a></div>
-        </div>
-    </section> 
+    
+   
+    
+   
     <section class="social-media">
         <div class=container>
             <div class=row><h2 class=heading></span><span>Payment</span></h2>
