@@ -208,7 +208,14 @@
             </div>
         </div> 
 
-
+        <div class="form-group {{ $errors->first('playstore_url', 'has-error') }}">
+            <label class="control-label col-md-3">Playstore  Url  </label>
+            <div class="col-md-6"> 
+                {!! Form::text('playstore_url',isset($setting->playstore_url)?$setting->playstore_url:'https://twitter.com/1marketresearc1', ['class' => 'form-control'])  !!} 
+                
+                <span class="help-block">{{ $errors->first('playstore_url', ':message') }}</span>
+            </div>
+        </div> 
         <div class="form-group {{ $errors->first('about_short', 'has-error') }}">
             <label class="control-label col-md-3">About Short </label>
             <div class="col-md-6"> 
