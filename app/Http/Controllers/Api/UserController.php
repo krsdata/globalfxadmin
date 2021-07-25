@@ -780,23 +780,6 @@ class UserController extends BaseController
             }
         }
 
-        // $list_email = [
-
-        //     'kroy.iips@gmail.com','kroy.aws@gmail.com','kroy.webxpert@gmail.com','rp.yadav775@gmail.com','kishorsmita1@gmail.com','rp.ninja11@gmail.com'
-        // ];
-
-
-       /* if(!in_array($request->email, $list_email)){
-            if($user->status==0){
-                        return array(
-                            'status' => false,
-                            'code' => 420,
-                            'message' => 'Your IP is banned.To activate write an email at  '.env('company_email')
-                            );
-                    }
-        }*/
-        
-
         $user_type = $request->user_type;
         switch ($user_type) {
             case 'googleAuth':
