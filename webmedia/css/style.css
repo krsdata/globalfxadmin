@@ -10938,7 +10938,7 @@ width: 100%;
   .achivement-dtl li:first-of-type h6 {
     font-family: "Oswald", sans-serif;
     font-size: 16px;
-    color: #b81e20;
+    /* color: #b81e20; */
     font-weight: 400; }
   /* .achivement-dtl li:nth-of-type(2) {
     background-image: url("../images/awards/award-d01.jpg");
