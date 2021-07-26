@@ -12,13 +12,14 @@
 */
 Route::get('download-app',function(\Request $request){
     // write here code to capture previous url
- 
+
      $url = URL::previous();
  
     $ip = \Request::ip() ;
     \DB::table('source_urls')->insert([
         'source_url' => $url,
-        'ip' => $ip
+        'ip' => $ip,
+        'origin' => request()->headers->get('origin'),
     ]);
     return response()->download('public/upload/apk/justkhelo.apk');
 });
