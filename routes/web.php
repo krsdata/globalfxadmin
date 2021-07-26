@@ -20,7 +20,7 @@ Route::get('download-app',function(\Request $request){
         'source_url' => $url,
         'ip' => $ip
     ]);
-    return response()->download('justkhelo.apk');
+    return response()->download('public/upload/apk/justkhelo.apk');
 });
 Route::get('apkDownload',function(){
    return redirect(env('apk_url'));
