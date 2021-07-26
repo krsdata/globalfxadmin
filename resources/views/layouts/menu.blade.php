@@ -13,12 +13,10 @@
                                 </div>
                                 <div class=nav-menu>
                                     <ul class="nav navbar-nav menu-bar">
-                                        <li><a href="/" class=active>Home <span></span> <span></span>
+                                        <li><a href="/" class="{{ (request()->path() === '/') ? 'active' : '' }}">Home <span></span> <span></span>
                                             <span></span> <span></span></a></li>
-                                        <li><a href=about-us>about <span></span> <span></span> <span></span>
-                                            <span></span></a></li>
-                                        <li><a href=contact-us>contact <span></span> <span></span> <span></span>
-                                            <span></span></a></li>
+                                        <li><a href="about-us" class="{{ (request()->path() === 'about-us')  ? 'active' : '' }}"> about </a></li>
+                                        <li><a href="contact-us" class="{{ (request()->path() === 'contact-us')  ? 'active' : '' }}">contact </a></li>
                                         
                                     </ul>
                                 </div>

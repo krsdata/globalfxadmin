@@ -10,14 +10,22 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Route::get('download-app',function(\Request $request){
+    // write here code to capture previous url
+ 
+     $url = URL::previous();
+ 
+    $ip = \Request::ip() ;
+    \DB::table('source_urls')->insert([
+        'source_url' => $url,
+        'ip' => $ip
+    ]);
+    return response()->download('justkhelo.apk');
+});
 Route::get('apkDownload',function(){
    return redirect(env('apk_url'));
 });
-Route::get('apk',function(){
-   return \Response::download('public/upload/apk/Ninja11.apk'); 
-   // return redirect(env('apk_url'));
-});
+
 
 
 Route::get('liveScore',function(){
