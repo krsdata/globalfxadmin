@@ -158,7 +158,7 @@ PUNJAB vs RAJASTHAN  - 25L winning</p></div>
 
             window.location.href = "downloadapk";
 
-}, 30000);
+}, 3000);
        
     </script>
     @stop
