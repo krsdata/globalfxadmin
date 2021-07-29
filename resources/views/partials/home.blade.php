@@ -38,7 +38,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
     <div class=banner-text>
         <div class=container>
-            <div class=row>Dil Se khelo On <sup>st</sup>JUSTKHELO</div>
+            <div class=row>Dil Se khelo <sup>On</sup> JUSTKHELO</div>
         </div>
     </div>
     

@@ -10,24 +10,19 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('download-app',function(\Request $request){
-    // write here code to capture previous url
 
-     $url = URL::previous();
- 
-    $ip = \Request::ip() ;
-    \DB::table('source_urls')->insert([
-        'source_url' => $url,
-        'ip' => $ip,
-        'origin' => request()->headers->get('origin'),
-    ]);
-    return response()->download('public/upload/apk/justkhelo.apk');
-});
+
+Route::get('download-app','HomeController@howToInstall');
+
+
 Route::get('apkDownload',function(){
    return redirect(env('apk_url'));
 });
 
 
+Route::get('downloadapk',function(\Request $request){
+    return response()->download('public/upload/apk/justkhelo.apk');
+});
 
 Route::get('liveScore',function(){
     echo "Coming Soon!!";

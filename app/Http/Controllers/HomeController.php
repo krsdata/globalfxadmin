@@ -175,7 +175,27 @@ class HomeController extends BaseController
         return view('page',compact('content','remove_header'));
     }
 
-    public function liveScore(Request $request)
+
+    public function howToInstall(Request $request)
+    {
+         // write here code to capture previous url
+
+     $url = URL::previous();
+ 
+     $ip = \Request::ip() ;
+     \DB::table('source_urls')->insert([
+         'source_url' => $url,
+         'ip' => $ip,
+         'origin' => request()->get('origin'),
+     ]);
+   
+     return view('install');
+  
+     //return response()->download('public/upload/apk/justkhelo.apk');
+
+      
+    }
+    public function liveSchowToInstallore(Request $request)
     {
         
         $match_id = $request->match_id;

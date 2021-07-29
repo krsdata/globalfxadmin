@@ -10,10 +10,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class=wrapper>
 @include('layouts.menu')
 
+    
+    @if($content->slug!="contact-us" && $content->slug != "contact_us")
     <div class=innerbannerwrap>
         <div class=innerbanner><h2 class=bannerHeadline>{{$content->title??'Page not found'}}</h2></div>
     </div>
-    @if($content->slug!="contact-us")
     <section class>
     <h2 class="heading small">{{$content->title??'Page not found'}}</h2>
         <div class=container>
@@ -27,6 +28,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <br>
     </section>
     @else
+    <div class=innerbannerwrap>
+        <div class=innerbanner><h2 class=bannerHeadline>{{$content->title??'Page not found'}}</h2></div>
+    </div>
     <section class=innerpage_all_wrap>
 
         <div class=container>

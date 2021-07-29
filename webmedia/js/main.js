@@ -295,18 +295,49 @@ $(document).ready(function () {
         ]
     };
 
+    var slickOptions1 = {
+      infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+      prevArrow: '.club_prev',
+      nextArrow: '.club_next',
+      responsive: [
+        {
+          breakpoint: 2000,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll:1
+          }
+        },
+        {
+          breakpoint:600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll:1
+          }
+        }
+    ]
+  };
+
     if (('#club_news').length){
-        $('#club_news').slick(slickOptions);
+        $('#club_news').slick(slickOptions1);
     }
     
     $('#world_news_button').on('shown.bs.tab', function () {
         $('#club_news').slick('unslick');
-        $('#world_news').slick(slickOptions);
+        $('#world_news').slick(slickOptions1);
     });
 
     $('#club_news_button').on('shown.bs.tab', function () {
         $('#world_news').slick('unslick');
-        $('#club_news').slick(slickOptions);
+        $('#club_news').slick(slickOptions1);
     });
 
     /*------------------- history slide ----------------*/

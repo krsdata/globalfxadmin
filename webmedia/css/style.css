@@ -8107,7 +8107,8 @@ section {
 
 /* --------------- latest news ----------*/
 .latest_news {
-  padding: 100px 0; }
+  margin-top:10px;  
+   padding: 100px 0; }
 
 .accordion-news {
   list-style-type: none;
@@ -8178,7 +8179,7 @@ section {
       @media (min-width: 992px) {
         .news_display_container ul li {
           float: left;
-          width: 25%; } }
+          width: 33%; } }
   .news_display_container .figure {
     display: block; }
   .news_display_container .figure-01 {
@@ -8308,7 +8309,7 @@ section {
   @media (min-width: 992px) {
     .historyVideo, .historyContent {
       float: left;
-      width: 50%; } }
+      width: 100%; } }
 
 .historyContent {
   padding: 50px 50px 0; }
@@ -8429,7 +8430,7 @@ section {
 .wrapplayer {
   position: relative;
   height: 400px;
-  margin-bottom: 400px; }
+  margin-bottom: 50px; }
 
 @media screen and (min-width: 768px) {
   .playerDetails li:first-of-type, .playerDetails li.playinfodetails {
@@ -11454,9 +11455,9 @@ width: 100%;
     left: 0;
     top: -64px;
 }
-.copywriteline p a {
+.copywriteline  a {
   text-align: center;
-  color: #fff;
+  color: #fff !important;
   width: 100%;
   float: left;
   font-size: 20px;

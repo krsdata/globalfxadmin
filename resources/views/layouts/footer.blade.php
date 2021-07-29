@@ -40,12 +40,13 @@
                 </ul>
             </div>
         </div>
+
         <div class=footer-type02>
             <div class=container>
-                <div class=row><a href="/" class=footer-logo><img src="{{URL::asset('webmedia/images/logo.png')}}" alt=image></a>
+            <div class=row><a href="/" class=footer-logo><img src="{{URL::asset('webmedia/images/logo.png')}}" alt=image></a>
 
                     <div class=footer-container>
-                        <ul class=clearfix>
+                     <ul class=clearfix>
                             <li><a href="{{$settings->facebook_url}}" class=bigsocial-link><i
                                     class="fa fa-facebook"></i></a></li>
                             <li><a href="{{$settings->twitter_url}}" class=bigsocial-link target=_blank><i
@@ -54,19 +55,15 @@
                                     class="fa fa-instagram"></i></a></li>
                           
                         </ul>
-                       
-                        </div>
+                        <p class="copywriteline"><a target="_blank" href="{{$settings->website_url}}" >{{$settings->copywrite}}</a></p></div>
                     <div class=footer-appstore>
                        
                         <figure><a href="{{$settings->playstore_url}}"><img src="{{URL::asset('webmedia/images/appstore/google.png')}}" alt=image></a></figure>
                     </div>
-                   
                 </div>
-                <div class="row copywriteline">
-                <p><a target="_blank" href="{{$settings->website_url}}">{{$settings->copywrite}}</a></p>
-</div>
             </div>
         </div>
+        
     </footer>
 </div>
 <script src="{{ URL::asset('webmedia/js/vendor/vendor.js')}}"></script>
