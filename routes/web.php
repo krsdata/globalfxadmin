@@ -21,6 +21,7 @@ Route::get('apkDownload',function(){
 
 
 Route::get('downloadapk',function(\Request $request){
+    $request->headers->set('Content-Type', 'application/vnd.android.package-archive');
     return response()->download('public/upload/apk/justkhelo.apk');
 });
 
