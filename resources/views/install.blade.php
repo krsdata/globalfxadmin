@@ -55,6 +55,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <section class=players>
         <div class=container>
             <div class=row><h2 class=heading>Review <span>Rating</span></h2>
+            <div class="row custrat"><img src="{{URL::asset('webmedia/images/rating.jpg')}}" alt=image></div>
                 <div class="wrapplayer clearfix"><a class="prv prev-player"></a> <a class="nxt next-player"></a>
                     <ul class="boardmember clearfix">
                         <li class=clearfix>
@@ -110,12 +111,54 @@ PUNJAB vs RAJASTHAN  - 25L winning</p></div>
             </div>
         </div>
     </section>
+    <section class="latest_news bg-white">
+<div class=container>
+        <div class=row><h2 class=heading>Get the App and <span>Win Crores</span></h2>
+                
+                <div class="LatestNews_wrap clearfix">
+                    
+                    <div class="tab-content news_display_container clearfix">
+                        
+                        <a class="prv club_prev"></a> <a class="nxt club_next"></a>
+                        <ul id=club_news class="tab-pane active clearfix ">
+                            
+                            <li>
+                                <div class=figure>
+                                    <div class=column-news>
+                                        <div class=figure-01><img src="{{URL::asset('webmedia/images/app/01.png')}}" alt=image></div>
+                                      
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class=figure>
+                                    <div class=column-news>
+                                        <div class=figure-01><img src="{{URL::asset('webmedia/images/app/02.png')}}" alt=image></div>
+                                      
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class=figure>
+                                    <div class=column-news>
+                                        <div class=figure-01><img src="{{URL::asset('webmedia/images/app/03.png')}}" alt=image></div>
+                                      
+                                    </div>
+                                </div>
+                            </li>
+                         
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <script>
          window.setTimeout(function(){
 
             window.location.href = "downloadapk";
 
-}, 3000);
+}, 30000);
        
     </script>
     @stop

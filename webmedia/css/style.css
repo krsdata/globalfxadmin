@@ -11462,3 +11462,8 @@ width: 100%;
   float: left;
   font-size: 20px;
 } 
+.custrat{
+  text-align: center;
+  padding: 20px;
+} 
+.custrat img{  max-width: 40%;} 
