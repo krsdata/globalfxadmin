@@ -1,5 +1,4 @@
-@extends('layouts.master') 
-
+@extends('layouts.master')
     @section('content') 
 <body>
     
@@ -7,12 +6,10 @@
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KVN6NHG"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-<div class=wrapper>
-@include('layouts.menu')
 
-    
+@include('layouts.menu')
 <section class="latest_news bg-white">
-        <div class=container>
+<div class=container>
         <div class=row><h2 class=heading>How To <span>Install</span></h2>
                 <p class=headParagraph>Fantasy sports that allow you to win money are not allowed on the google play store</p>
 
@@ -55,7 +52,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
         </div>
     </section>
-    <section class=players>
+<section class=players>
         <div class=container>
             <div class=row><h2 class=heading>Review <span>Rating</span></h2>
                 <div class="wrapplayer clearfix"><a class="prv prev-player"></a> <a class="nxt next-player"></a>
@@ -114,7 +111,11 @@ PUNJAB vs RAJASTHAN  - 25L winning</p></div>
         </div>
     </section>
     <script>
-        window.location.href = "downloadapk";
+         window.setTimeout(function(){
+
+            window.location.href = "downloadapk";
+
+}, 3000);
+       
     </script>
     @stop
-    
