@@ -207,7 +207,7 @@ All Major Banks & Payment Wallets</p>
                             <li>
                                 <div class=figure>
                                     <div class=column-news>
-                                        <div class=figure-01><img src="{{URL::asset('webmedia/images/payment/master.png')}}" alt=image></div>
+                                        <div class=figure-01><img src="{{URL::asset('webmedia/images/payment/mastercard.png')}}" alt=image></div>
                                     </div>
                                 </div>
                             </li>
@@ -215,6 +215,13 @@ All Major Banks & Payment Wallets</p>
                                 <div class=figure>
                                     <div class=column-news>
                                         <div class=figure-01><img src="{{URL::asset('webmedia/images/payment/rupay.png')}}" alt=image></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class=figure>
+                                    <div class=column-news>
+                                        <div class=figure-01><img src="{{URL::asset('webmedia/images/payment/Rozor_pay.png')}}" alt=image></div>
                                     </div>
                                 </div>
                             </li>
