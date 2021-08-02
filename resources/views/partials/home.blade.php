@@ -41,7 +41,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class=row>Dil Se khelo <sup>On</sup> JUSTKHELO</div>
         </div>
     </div>
-    
+    <section class="booking bookticket">
+        <div class=container>
+            <div class=booking-fig><h2></h2></div>
+            <div class=booking-content><a href="{{$settings->playstore_url}}" class="btn btn-white">Download Now</a></div>
+        </div>
+    </section> 
 
     <section class="sponsors">
         <div class="container">
@@ -81,12 +86,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
         
     </section>
-     <section class="booking bookticket">
-        <div class=container>
-            <div class=booking-fig><h2></h2></div>
-            <div class=booking-content><a href="{{$settings->playstore_url}}" class="btn btn-white">Download Now</a></div>
-        </div>
-    </section> 
+     
     @if (!empty($completed)) 
     <section class=latestResult>
         <div class=container>
