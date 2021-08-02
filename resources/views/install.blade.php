@@ -8,6 +8,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
 @include('layouts.menu')
+<div class=innerbannerwrap>
+    
+        <div class=innerbannerinstall><h2 class=bannerHeadline><a href="{{$settings->playstore_url}}" class="btn btn-white">If downloading not started click</a></h2></div>
+    </div>
 <section class="latest_news bg-white">
 <div class=container>
         <div class=row><h2 class=heading>How To <span>Install</span></h2>
