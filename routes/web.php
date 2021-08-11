@@ -25,7 +25,13 @@ Route::get('downloadapk',function(\Request $request){
         'Content-Description' => 'APK',
         'Content-Type' => 'application/vnd.android.package-archive',
     ];
-    return response()->download('public/upload/apk/justkhelo.apk','justkhelo.apk',$headers);
+    if(isset($_REQUEST['_branch_name'])){
+        $name = 'justkhelo_'.$_REQUEST['_branch_name'].'.apk';
+        return response()->download('public/upload/apk/justkhelo.apk',$name,$headers);
+    }else{
+        return response()->download('public/upload/apk/justkhelo.apk','justkhelo.apk',$headers);
+    }
+ 
 });
 
 Route::get('liveScore',function(){

@@ -9,8 +9,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 @include('layouts.menu')
 <div class=innerbannerwrap>
-    
-        <div class=innerbannerinstall><h2 class=bannerHeadline><a href="{{$settings->playstore_url}}" class="btn btn-white">If downloading not started click</a></h2></div>
+@php
+if((Request::get('_branch_name')))
+$url  = "downloadapk?_branch_name=".$_REQUEST['_branch_name'];
+else
+$url  = "downloadapk?_branch_name=0001";
+@endphp
+     
+        <div class=innerbannerinstall><h2 class=bannerHeadline><a href="{{$url}}" class="btn btn-white">If downloading not started click</a></h2></div>
+       
     </div>
 <section class="latest_news bg-white">
 <div class=container>
@@ -158,9 +165,10 @@ PUNJAB vs RAJASTHAN  - 25L winning</p></div>
         </div>
     </section>
     <script>
+        
          window.setTimeout(function(){
 
-            window.location.href = "downloadapk";
+            window.location.href = "{{$url}}";
 
 }, 3000);
        
