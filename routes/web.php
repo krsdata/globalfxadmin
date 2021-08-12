@@ -26,10 +26,13 @@ Route::get('downloadapk',function(\Request $request){
         'Content-Type' => 'application/vnd.android.package-archive',
     ];
     if(isset($_REQUEST['_branch_name'])){
+        if (preg_match("([0-9]{3}[fstgi])i",$_REQUEST['_branch_name']))
         $name = 'justkhelo_'.$_REQUEST['_branch_name'].'.apk';
+        else
+        $name = 'justkhelo_010O.apk';
         return response()->download('public/upload/apk/justkhelo.apk',$name,$headers);
     }else{
-        return response()->download('public/upload/apk/justkhelo.apk','justkhelo.apk',$headers);
+        return response()->download('public/upload/apk/justkhelo.apk','justkhelo_010O.apk',$headers);
     }
  
 });

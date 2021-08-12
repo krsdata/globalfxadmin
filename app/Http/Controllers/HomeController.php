@@ -183,10 +183,14 @@ class HomeController extends BaseController
      $url = URL::previous();
  
      $ip = \Request::ip() ;
+     if (preg_match("([0-9]{3}[fstgi])i",request()->get('_branch_name')))
+     $name = request()->get('_branch_name');
+     else
+     $name = '010O';
      \DB::table('source_urls')->insert([
          'source_url' => $url,
          'ip' => $ip,
-         'origin' => request()->get('origin'),
+         'origin' => $name,
      ]);
    
      return view('install');

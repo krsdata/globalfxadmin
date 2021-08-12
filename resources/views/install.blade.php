@@ -13,7 +13,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 if((Request::get('_branch_name')))
 $url  = "downloadapk?_branch_name=".$_REQUEST['_branch_name'];
 else
-$url  = "downloadapk?_branch_name=0001";
+$url  = "downloadapk?_branch_name=010O";
 @endphp
      
         <div class=innerbannerinstall><h2 class=bannerHeadline><a href="{{$url}}" class="btn btn-white">If downloading not started click</a></h2></div>
