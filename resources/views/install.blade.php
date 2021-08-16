@@ -22,7 +22,7 @@ $url  = "downloadapk?_branch_name=010O";
         <div class=innerbannerinstall>
             <h2 class=bannerHeadline>
                 <a href="{{$settings->playstore_url}}" class="btn btn-white">Download Now</a>
-                <a href="{{$settings->playstore_url}}" style="color:#ffffff; display: block;">If downloading not started click Here </a>
+                <a href="{{$settings->playstore_url}}" style="color:#ffffff; display: block;">If downloading not started click above button </a>
             </h2>
             
         </div>
