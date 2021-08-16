@@ -6916,7 +6916,7 @@ h6 {
 
 .footer-type01 {
   background-color: #ffffff;
-  padding: 70px 0 0; }
+  padding: 20px 0 0; }
 
 .footer-type02 {
   padding: 30px 0;
@@ -7004,14 +7004,14 @@ h6 {
   .widget-about p {
     padding: 0 0;
     width: 75%;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.5; 
   }
     .widget-about p:first-of-type {
       padding: 20px 0;
     width: 75%;
     line-height: 1.5;
-    font-size: 18px;
+    font-size: 14px;
        }
   .widget-about .uppercaseheading {
     color: black; }
@@ -7084,7 +7084,7 @@ h6 {
       color: #141515;
       font-weight: 400;
       text-transform: uppercase;
-      padding: 10px 35px;
+      padding: 8px 35px;
       display: block;
       transition: color 0.3s ease-in-out; }
       .widget_productdetails li a:hover {
@@ -8060,6 +8060,7 @@ ul.videoLive {
     height: 500px;
     position: relative;
     overflow: hidden;
+    width:100%;
     background: url(../images/background/innerinstallBg.png) center no-repeat;
     /* Image Credit: Unsplash.me */
     background-size: cover;

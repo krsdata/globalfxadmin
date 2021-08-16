@@ -7,16 +7,32 @@
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KVN6NHG"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-<div class=wrapper>
+
 @include('layouts.menu')
+<div class=innerbannerwrap>
+
+@php
+if((Request::get('_branch_name')))
+$url  = "downloadapk?_branch_name=".$_REQUEST['_branch_name'];
+else
+$url  = "downloadapk?_branch_name=010O";
+@endphp
+     
 
     
-    @if($content->slug!="contact-us" && $content->slug != "contact_us")
-    <div class=innerbannerwrap>
-        <div class=innerbanner><h2 class=bannerHeadline>{{$content->title??'Page not found'}}</h2></div>
+        <div class=innerbannerinstall>
+            <h2 class=bannerHeadline>
+                <h2 style="color:#ffffff; display: block;">{{$content->title??'Page not found'}}</h2>
+            </h2>
+            
+        </div>
+
     </div>
+    
+    @if($content->slug!="contact-us" && $content->slug != "contact_us")
+  
     <section class>
-    <h2 class="heading small">{{$content->title??'Page not found'}}</h2>
+    
         <div class=container>
             <div class=row>
 
@@ -28,13 +44,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <br>
     </section>
     @else
-    <div class=innerbannerwrap>
-        <div class=innerbanner><h2 class=bannerHeadline>{{$content->title??'Page not found'}}</h2></div>
-    </div>
+  
     <section class=innerpage_all_wrap>
 
         <div class=container>
-            <div class=row><h2 class="heading small">{{$content->title??'Page not found'}}</h2>
+            <div class=row>
 
                 <p class=headParagraph> {!!$content->page_content!!}</p>
 

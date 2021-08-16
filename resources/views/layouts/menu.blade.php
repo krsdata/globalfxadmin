@@ -11,27 +11,27 @@
     <a href="#" class="navbar-brand "><img src="{{URL::asset('webmedia/images/logo.png')}}" alt=image></a></div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#Home">Home</a></li>
-        <li><a href="#About">About</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="{{url('/')}}">Home</a></li>
+        <li><a href="{{url('/about-us')}}">About</a></li>
+        <li><a href="{{url('/contact-us')}}">Contact</a></li>
          
 
 <!-- social icon-->
 <div class="social_icon">
 <li class="nav-item">
-<a href="#">
+<a href="{{$settings->facebook_url}}">
 <img src="webmedia/images/banner/fb.svg" class="img-thumbnail" alt="social" width="40px">
 </a></li>
 
-<li class="nav-item"><a href="#">
+<li class="nav-item"><a href="{{$settings->instagram_url}}">
      <img src="webmedia/images/banner/insta.svg" class="img-thumbnail" alt="social" width="40px" >
 </a></li>
 
-  <li class="nav-item"><a href="#">
+  <li class="nav-item"><a href="{{$settings->twitter_url}}">
    <img src="webmedia\images\banner/twitter.svg" class="img-thumbnail " alt="social" width="40px"   >
     </a></li>
 
-  <li class="nav-item"><a href="#">
+  <li class="nav-item"><a href="{$settings->youtube_url}}">
   <img src="webmedia\images\banner/youtube.svg" class="img-thumbnail" alt="social"width="40px"  >
     </a></li>
 
