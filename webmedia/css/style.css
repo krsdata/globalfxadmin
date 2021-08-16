@@ -47,6 +47,10 @@ _________________________________
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -1094,7 +1098,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.428571429;
-  color: #ffffff;
+  /*color: #ffffff;*/
   background-color: #fff; }
 
 input,
@@ -2928,8 +2932,8 @@ fieldset[disabled] a.btn {
     background-color: #333; }
 
 .btn-primary {
-  color: #2438b4;
-  background-color: #ffffff;
+  color: #ffffff;
+  background-color: #2755bf;
   /*border-color: #2e6da4;*/ }
   .btn-primary:focus,
   .btn-primary.focus {
@@ -6109,11 +6113,22 @@ h2.heading {
   font-family: "poppins", sans-serif;
   font-size: 40px;
   color: black;
-  font-weight: 400;
+  font-weight: 600;
   margin-bottom: 20px;
   text-transform: uppercase;
   text-align: center; 
 }
+
+h2.line span:after {
+    
+    background-color:#0e42b8 !important;
+    
+}
+
+
+
+
+
   h2.heading.small span:after {
     width: 20%;
     left: 0; }
@@ -6152,7 +6167,7 @@ h4 {
   font-size: 17px;
   color: #000000;
   font-weight: 400;
-  padding: 20px 0;
+  padding: 0 0;
   line-height: 1.7;
    }
   p.headParagraph {
@@ -6987,9 +7002,17 @@ h6 {
       float: left;
       width: 33%; } }
   .widget-about p {
-    padding: 10px 0; }
+    padding: 0 0;
+    width: 75%;
+    font-size: 18px;
+    line-height: 1.5; 
+  }
     .widget-about p:first-of-type {
-      padding: 40px 0; }
+      padding: 20px 0;
+    width: 75%;
+    line-height: 1.5;
+    font-size: 18px;
+       }
   .widget-about .uppercaseheading {
     color: black; }
 
@@ -7279,8 +7302,8 @@ h6 {
 
 .btn {
   padding: 15px 60px;
-  border: 1px solid grey;
-  font-family: "Oswald", sans-serif;
+  border: none;
+  font-family: "poppins", sans-serif;
   font-size: 18px;
   color: ##0e42b8;
   font-weight: 400;
@@ -7571,7 +7594,10 @@ h6 {
   padding: 100px 0;
   background: url("../images/background/latestnews.jpg") no-repeat;
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  margin-top: 50px;
+}
+
   .latestResult h2 {
     color: white; }
   .latestResult .team-logo {
@@ -7590,7 +7616,7 @@ h6 {
     background-position: top center !important;
     background-repeat: no-repeat !important; }
   .latestResult-wrap {
-    padding: 50px 0;
+    padding:0 0;
     text-align: center; }
   .latestResult .result {
     padding: 40px 0; }
@@ -7835,7 +7861,7 @@ h6 {
     padding: 40px 0; }
 
 .bookticket {
-  /*background-image: url("../images/background/ticketbooking.png");*/
+  /*background-color: #DCFFFB;*/
   background-size:contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -11539,6 +11565,7 @@ width: 100%;
 
 .img_space{
   margin-top: 20px;
+  text-align: center;
 
   }
 
@@ -11663,51 +11690,81 @@ width: 25%;
 padding:0;
 }
 /********nav_icon********/
-
-
-
-
-
-
-
-
-
-  /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
-}
-
 /*dipali*/
 
-.spacing{padding: 20px;}
+.text{
+  padding-top:20px !important;
+}
+
+
+.spacing{padding: 20px;
+text-align: center;}
 
 
 .booking{
 
-  margin-top: 80px;
+  margin-top:50px;
 }
 
 .download{
 padding: 20px 0;
 
 }
+
+
+/*******Css******/
+
+
+.box {
+    border-radius: 3px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    padding: 22px 10px;
+    text-align: right;
+    display: block;
+    margin-top: 60px;
+    height: 250px;
+}
+
+.box-icon {
+    background-color: #57a544;
+    border-radius: 50%;
+    display: table;
+    height: 100px;
+    margin: 0 auto;
+    width: 100px;
+    margin-top: -61px;
+}
+.box-icon span {
+    color: #fff;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.info h5 {
+    font-size: 20px;
+    color: #0e42b8;
+    line-height: normal;
+    padding-top: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.info > p {
+    color: #1b1b1b;
+    font-size: 15px;
+    padding-top: 10px;
+    text-align: center;
+    line-height: 1.5;
+}
+.info > a {
+    background-color: #03a9f4;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    color: #fff;
+    transition: all 0.5s ease 0s;
+}
+/*.info > a:hover {
+    background-color: #0288d1;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.12);
+    color: #fff;
+    transition: all 0.5s ease 0s;
+}*/

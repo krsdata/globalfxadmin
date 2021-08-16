@@ -25,14 +25,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <img src="{{URL::asset('webmedia/images/banner/back_particles.png')}}" alt=particles class=ls-l style="z-index:3; left:50%;"
                  data-ls="offsetxin: left; offsetxout:left; scalein:90; easingin: easeoutquart; durationin: 3000; delayin: 250;"> -->
 
-            <h2 class="ls-l bannertext02 layercontent03" data-ls="offsetxin:right; rotatexin:90 ; durationin: 3500;">
+            <h2 class="ls-l bannertext02 layercontent03" data-ls="offsetxin:right; rotatexin:90 ; durationin: 3500;" style="color:#0e42b8;">
                 DIL SE</h2>
 
-            <h2 class="ls-l bannertext01 italic01 layercontent04"
+<h2 class="ls-l bannertext01 italic01 layercontent04" style="color:#ffffff;" 
                 data-ls="offsetxin:left; scalexin:9; durationin: 4000;">Khelo On</h2>
                 <!-- <h4 class="ls-l bannertext02 layercontent05" data-ls="offsetxin:left; rotatexin:90 ; durationin: 4500;"></h4>-->
 
-            <h2 class="ls-l bannertext01 layercontent06" style="left: 10%; top:760px;"
+    <h2 class="ls-l bannertext01 layercontent06" style="left: 10%; top:760px; color:#ffffff;"
                 data-ls="offsetxin:left; flipxin:90 ; durationin: 5000;">JUSTKHELO</h2>
 <p class="ls-l bannertext layercontent05" data-ls="offsetxin:left; rotatexin:90 ; durationin: 4500;">
 We drive one of the biggest virtual yet fancy sports platform. Also, we help you set-up your fan base by keeping a watch over shared posts in the feed. </p>
@@ -54,8 +54,8 @@ We drive one of the biggest virtual yet fancy sports platform. Also, we help you
     <section class="booking bookticket">
         <div class="container">
             <div class="col-md-12 text-center">
-            <h2>JUSTKHELO Fantasy SPORTS</h2>
-                <p> We drive one of the biggest virtual yet fancy sports platform. Also, we help you set-up your fan base by keeping a watch over shared posts in the feed. Not just this, but here you can enhance your performance by playing more to reach the next best level along with exciting cash rewards. Here you can create a team choosing your favourite players which help you gain more coins in any contest. JUSTKHELO Fantasy League is a stage that permits you to play virtually opting amongst real-life players and earn points using your game expertise and knowledge </p>
+            <h2>JUSTKHELO FANTASY SPORTS</h2>
+                <p class="text"> We drive one of the biggest virtual yet fancy sports platform. Also, we help you set-up your fan base by keeping a watch over shared posts in the feed. Not just this, but here you can enhance your performance by playing more to reach the next best level along with exciting cash rewards. Here you can create a team choosing your favourite players which help you gain more coins in any contest. JUSTKHELO Fantasy League is a stage that permits you to play virtually opting amongst real-life players and earn points using your game expertise and knowledge </p>
           <div class="col-md-12 text-center download">
             <a href="https://justkhelo.com/download-app?_branch_name=1112">
                 <button type="button" class="btn btn-primary">Download Now</button>
@@ -67,13 +67,66 @@ We drive one of the biggest virtual yet fancy sports platform. Also, we help you
     </section>
 
 
-    <section class="booking bookticket">
+    <section class="sponsors">
+        <div class="container">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h2 class="heading line">How It<span> Works</span></h2>
+            
+</div>
+        <div class="col-md-4">
+            <div class="box">
+                <div class="box-icon">
+                    <span ><img src="webmedia/images/icons/step1.png" class="img-responsive" alt="step1" width="100">
+</span>
+                </div>
+                <div class="info">
+                    <h5 class="text-center">Check Out Contest For the League</h5>
+                    <p>You are allowed to check over the participating teams based on the previous match listings, and you can also check the entry ticket amount</p>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4">
+            <div class="box">
+                <div class="box-icon">
+                    <span><img src="webmedia/images/icons/step2.png" class="img-responsive" alt="step1" width="100"></span>
+                </div>
+                <div class="info">
+                    <h5 class="text-center">Create your Best Team</h5>
+                    <p>JUSTKHELO gives you an opportunity to organize the best team, choosing from real-life players and get paid for your knowledge & expertise by winning the cash rewards</p>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="box">
+                <div class="box-icon">
+                    <span><img src="webmedia/images/icons/step3.png" class="img-responsive" alt="step1" width="100"></span>
+                </div>
+                <div class="info">
+                    <h5 class="text-center">Pay Small And Win Big</h5>
+                    <p>Pay small and win big is the concept of winning a considerable amount by taking part in the contest with a small token of entry amount. Not just this, but also all the participants are getting rewarded based on their ranks.</p>
+                    
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+</div>
+  </section>
+
+
+
+ <section class="booking bookticket">
         <div class="container">
             <div class="row">
        <div class="col-md-12 text-center">
             <h2> Why is JustKhelo most popular?</h2>
             <p>Play Fantasy Cricket this season on JustKhelo and taste the winning feeling.</p>
-
+</div>
 
             <div class="col-md-4 spacing">
                   <div class="img_space"><img src="{{URL::asset('webmedia/images/icons/1Quickest.png')}}" alt=image class="img-thumbnail" width="70"></div>
@@ -115,109 +168,55 @@ We drive one of the biggest virtual yet fancy sports platform. Also, we help you
 
 </div>
 
-
-
-
-
-        </div>
+</div>
     </div>
     </section> 
 
-    <section class="sponsors">
-        <div class="container">
-            <div class="row">
-                
 
-                <h2 class="heading">How It<span> Works</span></h2>
-
-            <ul class="playerDetailsPage-info achivement-dtl clearfix">
-
-        <div class="col-sm-4">
-
-        <li style="text-align:center;"> <img src="webmedia/images/icons/step1.png" class="img-responsive" alt="step1" width="100">
-            <h4></h4>
-            <div class="details"><h6>Check Out Contest For the League</h6>
-            <p>You are allowed to check over the participating teams based on the previous match listings, and you can also check the entry ticket amount.</p></div>
-        </li>
-    </div>
-
-<div class="col-sm-4">
-        <li style="text-align:center;"><img src="webmedia/images/icons/step2.png" class="img-responsive" alt="step1" width="100">
-
-            <h4></h4>
-
-           
-
-<div class="details"><h6>Create your Best Team</h6>
-
-    <p>JUSTKHELO gives you an opportunity to organize the best team, choosing from real-life players and get paid for your knowledge & expertise by winning the cash rewards.</p></div>
-</li>
-
-</div>
-
-<div class="col-sm-4">
-
-<li style="text-align:center;"><img src="webmedia/images/icons/step3.png" class="img-responsive" alt="step1" width="100">
-
-    <h4></h4>
-
-           
-
-<div class="details"><h6>Pay Small And Win Big</h6>
-
-    <p>Pay small and win big is the concept of winning a considerable amount by taking part in the contest with a small token of entry amount. Not just this, but also all the participants are getting rewarded based on their ranks.</p></div>
-</li>
-</div>
-        
        
-    </ul>
-               
-            </div>
-        </div>
-        
-    </section>
+  
      
     @if (!empty($completed)) 
-    <section class=latestResult>
-        <div class=container>
-            <div class=row><h2 class=heading>latest <span style="color: white;">result</span></h2>
+    <section class="latestResult">
+        <div class="container">
+            <div class="row"><h2 class="heading">latest <span style="color: white;">result</span></h2>
 
-                <div class=latestResult-wrap><h4 style="color: white;">{{$completed->title }} ({{$completed->subtitle }})</h4>
+                <div class="latestResult-wrap"><h4 style="color: white;">{{$completed->title }} ({{$completed->subtitle }})</h4>
 
                     <p style="color:white;">{{$completed->status_note }}</p></div>
                 <div class="result clearfix">
-                    <div class=result-details>
-                        <div class=content><h4>{{$completed->teama->name }}</h4>
+                    <div class="result-details">
+                        <div class="content"><h4>{{$completed->teama->name }}</h4>
 
                             <p></p>
 
                            </div>
-                        <div class=figure>
-                            <div class=team-logo>
-                                <div style="background:url('{{$completed->teama->thumb_url }}')" class=teamLogoImg></div>
+                        <div class="figure">
+                            <div class="team-logo">
+                                <div style="background:url('{{$completed->teama->thumb_url }}')" class="teamLogoImg"></div>
                             </div>
                         </div>
                     </div>
-                    <div class=result-count>
-                        <div class=count-number><span class=lose-team>{{$completed->teama->scores_full }}</span> <span>-</span> <span
-                                class=win-team>{{$completed->teamb->scores_full }}</span></div>
-                        <div class=dateTime>
-                            <div class=dateTime-container><span class=date>{{$completed->date_start }}</span></div>
-                            <div class=country-wrap><span class=field>{{$completed->venue->name }}</span> 
+                    <div class="result-count">
+                        <div class="count-number"><span class="lose-team">{{$completed->teama->scores_full }}</span> <span>-</span> <span
+                                class="win-team">{{$completed->teamb->scores_full }}</span></div>
+                        <div class="dateTime">
+                            <div class="dateTime-container"><span class="date">{{$completed->date_start }}</span></div>
+                            <div class="country-wrap"><span class="field">{{$completed->venue->name }}</span> 
                             </div>
                         </div>
                     </div>
-                    <div class=result-details>
+                    <div class="result-details">
                         <div class="content contentresult"><h4>{{$completed->teamb->name }}</h4>
 
                             <p></p></div>
                         <div class="figure figresult">
                             <div class=team-logo>
-                                <div style="background:url('{{$completed->teamb->thumb_url }}')"class=teamLogoImg></div>
+                                <div style="background:url('{{$completed->teamb->thumb_url }}')"class="teamLogoImg"></div>
                             </div>
                         </div>
                     </div>
-                    <div class=center><a href=# class="btn btn-red score-btn">{{$completed->status_note }}</a></div>
+                    <div class="center"><a href=# class="btn btn-red score-btn">{{$completed->status_note }}</a></div>
                 </div>
             </div>
         </div>
