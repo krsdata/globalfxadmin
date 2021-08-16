@@ -31,7 +31,7 @@ $url  = "downloadapk?_branch_name=010O";
 <section class="latest_news bg-white">
 <div class=container>
         <div class=row><h2 class=heading>How To <span style="color:#0e42b8;">Install</span></h2>
-                <p class=headParagraph>Fantasy sports that allow you to win money are not allowed on the google play store</p>
+                <p class="headParagraph headParagraphInsta">Fantasy sports that allow you to win money are not allowed on the google play store</p>
 
 
                 <div class="LatestNews_wrap clearfix">

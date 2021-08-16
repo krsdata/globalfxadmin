@@ -6170,6 +6170,10 @@ h4 {
   padding: 0 0;
   line-height: 1.7;
    }
+  .headParagraphInsta{
+  color:#333 !important;
+  }
+
   p.headParagraph {
     width: 1000%;
     margin: 5px auto;
@@ -6916,7 +6920,7 @@ h6 {
 
 .footer-type01 {
   background-color: #ffffff;
-  padding: 20px 0 0; }
+  padding: 0px 0 0; }
 
 .footer-type02 {
   padding: 30px 0;
@@ -6924,7 +6928,7 @@ h6 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  margin-top: 80px; }
+  margin-top: 20px; }
 
 .footer-logo,
 .footer-container,
@@ -7591,7 +7595,7 @@ h6 {
 
 /* -------------- latest result section -----------*/
 .latestResult {
-  padding: 100px 0;
+  padding: 50px 0;
   background: url("../images/background/latestnews.jpg") no-repeat;
   background-size: cover;
   background-position: center;
@@ -7855,7 +7859,7 @@ h6 {
     opacity: 0; } }
 
 .matchSchedule {
-  padding: 70px 0; }
+  padding: 50px 0; }
   .matchSchedule p {
     text-align: center;
     padding: 40px 0; }
@@ -8057,7 +8061,7 @@ ul.videoLive {
   background-attachment: fixed; }
 
   .innerbannerinstall {
-    height: 500px;
+    height: 400px;
     position: relative;
     overflow: hidden;
     width:100%;
@@ -8316,7 +8320,7 @@ section {
           color: white; }
 
 .LatestNews_wrap {
-  padding: 20px 0; }
+  padding: 10px 0; }
 
 .nav > li > a:hover, .nav > li > a:focus {
   background: transparent; }
@@ -8621,7 +8625,7 @@ section {
 
 /*------------ social media ----------- */
 .social-media {
-  padding: 70px 0;
+  padding: 50px 0;
   background-image: url("../images/background/socialMediaHomeBg.png");
   background-size: cover;
   background-position: center;
@@ -10356,7 +10360,7 @@ ul.slick-dots {
 
 /*-------------- sponsors -----------*/
 .sponsors {
-  padding: 70px 0; }
+  padding: 50px 0; }
   .sponsors ul {
     overflow: hidden;
     padding: 40px 0; }
