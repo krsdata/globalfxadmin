@@ -13,56 +13,138 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class=banner id=layerSlider style="width: 100%;">
         <div class=ls-slide data-ls="transition3d: 33,15; slidedelay: 8000 ; durationin:0;"><img
                 src="{{ URL::asset('webmedia/images/banner/background01.jpg')}}" class=ls-bg alt="Slide background">
-
-            <div class="ls-l layercontent01" style="top: 50%; left: 50%; z-index:4;"
-                 data-ls="offsetxin:left; offsetxout:right; durationin: 4000; parallaxlevel: 8;"><img
-                    src="{{URL::asset('webmedia/images/banner/player.png')}}"  alt=innerimage class=img-responsive
+<div class="ls-l layercontent01" style="top: 50%; left: 50%; z-index:4;"data-ls="offsetxin:right; offsetxout:right; durationin: 4000; parallaxlevel:8;"><img
+                    src="{{URL::asset('webmedia/images/banner/bgitem.png')}}"  alt=innerimage class=img-responsive
                     style="max-width: 100% !important ;"></div>
+
             <img src="{{ URL::asset('webmedia/images/banner/ball.png')}}" alt=innerimage class="ls-l layercontent02" style=z-index:5;
                  data-ls="offsetxin: right; offsetxout:left; rotatein:-360; easingin: easeoutquart; durationin: 4000; delayin: 250; parallaxlevel: -5;">
-            <img src="{{URL::asset('webmedia/images/banner/front_particles.png')}}" alt=particles class=ls-l style="z-index:3; left:0;"
+
+            <!-- <img src="{{URL::asset('webmedia/images/banner/front_particles.png')}}" alt=particles class=ls-l style="z-index:3; left:0;"
                  data-ls="offsetxin: left; offsetxout:left; scalexin:50; easingin: easeoutquart; durationin: 3000; delayin: 250;">
             <img src="{{URL::asset('webmedia/images/banner/back_particles.png')}}" alt=particles class=ls-l style="z-index:3; left:50%;"
-                 data-ls="offsetxin: left; offsetxout:left; scalein:90; easingin: easeoutquart; durationin: 3000; delayin: 250;">
+                 data-ls="offsetxin: left; offsetxout:left; scalein:90; easingin: easeoutquart; durationin: 3000; delayin: 250;"> -->
 
-            <h2 class="ls-l bannertext layercontent03" data-ls="offsetxin:left; rotatexin:90 ; durationin: 3500;">
-                DIL</h2>
+            <h2 class="ls-l bannertext02 layercontent03" data-ls="offsetxin:right; rotatexin:90 ; durationin: 3500;">
+                DIL SE</h2>
 
             <h2 class="ls-l bannertext01 italic01 layercontent04"
-                data-ls="offsetxin:left; scalexin:9; durationin: 4000;">se khelo </h2><h4
-                    class="ls-l bannertext02 layercontent05" data-ls="offsetxin:left; rotatexin:90 ; durationin: 4500;">
-                on</h4>
+                data-ls="offsetxin:left; scalexin:9; durationin: 4000;">Khelo On</h2>
+                <!-- <h4 class="ls-l bannertext02 layercontent05" data-ls="offsetxin:left; rotatexin:90 ; durationin: 4500;"></h4>-->
 
-            <h2 class="ls-l bannertext01 layercontent06" style="left: 50%; top:760px;"
-                data-ls="offsetxin:left; flipxin:90 ; durationin: 5000;">JUSTKHELO</h2></div>
+            <h2 class="ls-l bannertext01 layercontent06" style="left: 10%; top:760px;"
+                data-ls="offsetxin:left; flipxin:90 ; durationin: 5000;">JUSTKHELO</h2>
+<p class="ls-l bannertext layercontent05" data-ls="offsetxin:left; rotatexin:90 ; durationin: 4500;">
+We drive one of the biggest virtual yet fancy sports platform. Also, we help you set-up your fan base by keeping a watch over shared posts in the feed. </p>
+
+
+ 
+            </div>
     </div>
+
     <div class=banner-text>
-        <div class=container>
-            <div class=row>Dil Se khelo <sup>On</sup> JUSTKHELO</div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                Dil Se khelo <sup>On</sup>JUSTKHELO
+            </div>
+            </div>
         </div>
     </div>
     <section class="booking bookticket">
-        <div class=container>
-            <div class=booking-fig><h2></h2></div>
-            <div class=booking-content><a href="{{$settings->playstore_url}}" class="btn btn-white">Download Now</a></div>
+        <div class="container">
+            <div class="col-md-12 text-center">
+            <h2>JUSTKHELO Fantasy SPORTS</h2>
+                <p> We drive one of the biggest virtual yet fancy sports platform. Also, we help you set-up your fan base by keeping a watch over shared posts in the feed. Not just this, but here you can enhance your performance by playing more to reach the next best level along with exciting cash rewards. Here you can create a team choosing your favourite players which help you gain more coins in any contest. JUSTKHELO Fantasy League is a stage that permits you to play virtually opting amongst real-life players and earn points using your game expertise and knowledge </p>
+          <div class="col-md-12 text-center download">
+            <a href="https://justkhelo.com/download-app?_branch_name=1112">
+                <button type="button" class="btn btn-primary">Download Now</button>
+            </a>
         </div>
+        </div>
+    </div>
+        
+    </section>
+
+
+    <section class="booking bookticket">
+        <div class="container">
+            <div class="row">
+       <div class="col-md-12 text-center">
+            <h2> Why is JustKhelo most popular?</h2>
+            <p>Play Fantasy Cricket this season on JustKhelo and taste the winning feeling.</p>
+
+
+            <div class="col-md-4 spacing">
+                  <div class="img_space"><img src="{{URL::asset('webmedia/images/icons/1Quickest.png')}}" alt=image class="img-thumbnail" width="70"></div>
+                     <h4>India’s Quickest Fantasy Game</h4>
+                        <p>Create your teams with 2/3/4 Players to enjoy Fantasy Gaming</p>
+
+</div>
+<div class="col-md-4 spacing">
+       <div class="img_space"><img src="{{URL::asset('webmedia/images/icons/2bonus.png')}}" alt=image class="img-thumbnail" width="70"></div>
+            <h4>Play 100% Bonus and Free Entry Contests</h4>
+            <p>Play Free Entry Contests and use 100% of your sign-up bonus to join contests</p>
+
+</div>
+<div class="col-md-4 spacing">
+     <div class="img_space"><img src="{{URL::asset('webmedia/images/icons/3winning.png')}}" alt=image class="img-thumbnail" width="70"></div>
+            <h4>50% higher chances of winning</h4>
+            <p>Just Khelo offers you 50% chances of winning every single time.</p>
+
+</div>
+
+<div class="col-md-4 spacing">
+     <div class="img_space"><img src="{{URL::asset('webmedia/images/icons/4instantbonus.png')}}" alt=image class="img-thumbnail" width="70"></div>
+            <h4>Instant 200% Welcome Bonus</h4>
+            <p>Get 200% welcome bonus up to INR 1000 on your First Deposit</p>
+
+</div>
+
+<div class="col-md-4 spacing">
+   <div class="img_space"><img src="{{URL::asset('webmedia/images/icons/5creditscore.png')}}" alt=image class="img-thumbnail" width="70"></div>
+            <h4>Lowest Credit Scores</h4>
+            <p>In our 11-Player game, you will find the lowest Credit Scores for all the players</p>
+
+</div>
+
+<div class="col-md-4 spacing">
+  <div class="img_space"><img src="{{URL::asset('webmedia/images/icons/6support.png')}}" alt=image class="img-thumbnail" width="70"></div>
+            <h4>Best Customer Support</h4>
+            <p>Our dedicated Support Team answers your KYC or Withdrawal queries across email and social handles</p>
+
+</div>
+
+
+
+
+
+        </div>
+    </div>
     </section> 
 
     <section class="sponsors">
         <div class="container">
-            <div class="row"><h2 class="heading">How It<span> Works</span></h2>
+            <div class="row">
+                
+
+                <h2 class="heading">How It<span> Works</span></h2>
 
             <ul class="playerDetailsPage-info achivement-dtl clearfix">
-        
-        <li><h4>Step-1</h4>
 
-           
+        <div class="col-sm-4">
 
+        <li style="text-align:center;"> <img src="webmedia/images/icons/step1.png" class="img-responsive" alt="step1" width="100">
+            <h4></h4>
             <div class="details"><h6>Check Out Contest For the League</h6>
-
-                <p>You are allowed to check over the participating teams based on the previous match listings, and you can also check the entry ticket amount.</p></div>
+            <p>You are allowed to check over the participating teams based on the previous match listings, and you can also check the entry ticket amount.</p></div>
         </li>
-        <li><h4>Step-2</h4>
+    </div>
+
+<div class="col-sm-4">
+        <li style="text-align:center;"><img src="webmedia/images/icons/step2.png" class="img-responsive" alt="step1" width="100">
+
+            <h4></h4>
 
            
 
@@ -70,7 +152,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <p>JUSTKHELO gives you an opportunity to organize the best team, choosing from real-life players and get paid for your knowledge & expertise by winning the cash rewards.</p></div>
 </li>
-<li><h4>Step-3</h4>
+
+</div>
+
+<div class="col-sm-4">
+
+<li style="text-align:center;"><img src="webmedia/images/icons/step3.png" class="img-responsive" alt="step1" width="100">
+
+    <h4></h4>
 
            
 
@@ -78,6 +167,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <p>Pay small and win big is the concept of winning a considerable amount by taking part in the contest with a small token of entry amount. Not just this, but also all the participants are getting rewarded based on their ranks.</p></div>
 </li>
+</div>
         
        
     </ul>
@@ -90,11 +180,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     @if (!empty($completed)) 
     <section class=latestResult>
         <div class=container>
-            <div class=row><h2 class=heading>latest <span>result</span></h2>
+            <div class=row><h2 class=heading>latest <span style="color: white;">result</span></h2>
 
-                <div class=latestResult-wrap><h4>{{$completed->title }} ({{$completed->subtitle }})</h4>
+                <div class=latestResult-wrap><h4 style="color: white;">{{$completed->title }} ({{$completed->subtitle }})</h4>
 
-                    <p>{{$completed->status_note }}</p></div>
+                    <p style="color:white;">{{$completed->status_note }}</p></div>
                 <div class="result clearfix">
                     <div class=result-details>
                         <div class=content><h4>{{$completed->teama->name }}</h4>
@@ -180,7 +270,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    
     <section class="social-media">
         <div class=container>
-            <div class=row><h2 class=heading></span><span>Payment</span></h2>
+            <div class=row><h2 class=heading></span><span style="color:white;">Payment</span></h2>
 
                 <p class=headParagraph>Payment Accepted by
 All Major Banks & Payment Wallets</p>
@@ -234,3 +324,5 @@ All Major Banks & Payment Wallets</p>
         </div>
     </section>
   
+
+

@@ -9,6 +9,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 @include('layouts.menu')
 <div class=innerbannerwrap>
+
 @php
 if((Request::get('_branch_name')))
 $url  = "downloadapk?_branch_name=".$_REQUEST['_branch_name'];
@@ -16,12 +17,20 @@ else
 $url  = "downloadapk?_branch_name=010O";
 @endphp
      
-        <div class=innerbannerinstall><h2 class=bannerHeadline><a href="{{$url}}" class="btn btn-white">If downloading not started click</a></h2></div>
-       
+
+    
+        <div class=innerbannerinstall>
+            <h2 class=bannerHeadline>
+                <a href="{{$settings->playstore_url}}" class="btn btn-white">Download Now</a>
+                <a href="{{$settings->playstore_url}}" style="color:#ffffff; display: block;">If downloading not started click Here </a>
+            </h2>
+            
+        </div>
+
     </div>
 <section class="latest_news bg-white">
 <div class=container>
-        <div class=row><h2 class=heading>How To <span>Install</span></h2>
+        <div class=row><h2 class=heading>How To <span style="color:#0e42b8;">Install</span></h2>
                 <p class=headParagraph>Fantasy sports that allow you to win money are not allowed on the google play store</p>
 
 
@@ -56,8 +65,10 @@ $url  = "downloadapk?_branch_name=010O";
                                     </div>
                                 </div>
                             </li>
-                         
-                        </ul>
+                         </ul>
+
+                      <div class="secure_safe"><img src="{{URL::asset('webmedia/images/widget/safe_secure.jpg')}}" alt=image></div>
+
                     </div>
                 </div>
             </div>
@@ -79,8 +90,7 @@ $url  = "downloadapk?_branch_name=010O";
 
                                         <p>I have been playing Dream11 since 2017, and one thing I can say for sure is practice matters if you want to win big. I take a lot of time to study teams and players, and this time my hard work helped me win ₹25 Lakh.</p></div>
                                     
-                                    <div class="bg-redcolor fig02"><p>Mega Contest Winner
-PUNJAB vs RAJASTHAN  - 25L winning</p></div>
+                                    <div class="bg-redcolor fig02"><p>Mega Contest Winner PUNJAB vs RAJASTHAN  - 25L winning</p></div>
                                 </div>
                             </div>
                         </li>
@@ -124,7 +134,7 @@ PUNJAB vs RAJASTHAN  - 25L winning</p></div>
     </section>
     <section class="latest_news bg-white">
 <div class=container>
-        <div class=row><h2 class=heading>Get the App and <span>Win Crores</span></h2>
+        <div class=row><h2 class=heading>Get the App and <span style="color:#0e42b8;">Win Crores</span></h2>
                 
                 <div class="LatestNews_wrap clearfix">
                     
