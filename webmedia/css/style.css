@@ -6170,14 +6170,12 @@ h4 {
   padding: 0 0;
   line-height: 1.7;
    }
-  .headParagraphInsta{
-  color:#333 !important;
-  }
-
   p.headParagraph {
-    width: 1000%;
+    width: 100%;
     margin: 5px auto;
-    text-align: center; }
+    text-align: center;
+    color: #ffffff;
+     }
   p.red_p {
     font-family: "Open Sans", sans-serif;
     font-size: 13px;
@@ -6209,8 +6207,8 @@ h4 {
 
 .center {
   text-align: center;
-  width: 100%;
-  float: left; }
+ /* width: 100%;
+  float: left;*/ }
 
 h6 {
   font-family: "poppins", sans-serif;
@@ -6924,7 +6922,7 @@ h6 {
 
 .footer-type01 {
   background-color: #ffffff;
-  padding: 0px 0 0; }
+  padding: 70px 0 0; }
 
 .footer-type02 {
   padding: 30px 0;
@@ -6932,7 +6930,7 @@ h6 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  margin-top: 20px; }
+  margin-top: 80px; }
 
 .footer-logo,
 .footer-container,
@@ -6977,7 +6975,23 @@ h6 {
       display: block;
       margin-left: auto;
       margin-right: auto;
-      width: 70%; } }
+      width: 70%; } 
+
+.widget-about p:first-of-type{
+width: 100% !important;
+text-align: center;
+
+}
+
+.footerheading{
+  text-align: center;
+}
+
+
+.footerheading:after{
+  text-align: center;
+}
+    }
   @media screen and (min-width: 1200px) {
     .footer-appstore figure {
       display: inline-block;
@@ -7012,14 +7026,14 @@ h6 {
   .widget-about p {
     padding: 0 0;
     width: 75%;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.5; 
   }
     .widget-about p:first-of-type {
       padding: 20px 0;
     width: 75%;
     line-height: 1.5;
-    font-size: 14px;
+    font-size: 18px;
        }
   .widget-about .uppercaseheading {
     color: black; }
@@ -7092,7 +7106,7 @@ h6 {
       color: #141515;
       font-weight: 400;
       text-transform: uppercase;
-      padding: 8px 35px;
+      padding: 10px 35px;
       display: block;
       transition: color 0.3s ease-in-out; }
       .widget_productdetails li a:hover {
@@ -7599,7 +7613,7 @@ h6 {
 
 /* -------------- latest result section -----------*/
 .latestResult {
-  padding: 50px 0;
+  padding: 100px 0;
   background: url("../images/background/latestnews.jpg") no-repeat;
   background-size: cover;
   background-position: center;
@@ -7608,10 +7622,11 @@ h6 {
 
   .latestResult h2 {
     color: white; }
+
   .latestResult .team-logo {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 48%;
+    left: 45%;
     width: 150px;
     height: 150px;
     margin-left: -75px;
@@ -7815,7 +7830,13 @@ h6 {
   .latestResult
 .result-details .content {
     width: 50%;
-    float: left; } }
+    float: left; }
+     .box{
+    height: 220px !important;
+    }
+
+
+     }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   .latestResult
@@ -7829,6 +7850,18 @@ h6 {
 .result-details .content {
     width: 40%;
     float: left; } }
+
+.latestResult .result .score-btn {
+    margin: 25px 20px 0 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+
+     }
 
 @media screen and (min-width: 1200px) {
   .latestResult .result-details .figure {
@@ -7860,10 +7893,23 @@ h6 {
   .latestResult .team-logo {
     opacity: 0; }
   .latestResult .content {
-    opacity: 0; } }
+    opacity: 0; }
+
+
+    @media screen and (min-width: 1200px)
+.latestResult .result-details:first-of-type .figure:after {
+    right: 58%;
+    left: auto;
+}
+
+@media screen and (min-width: 1200px)
+.latestResult .result-details .figure.animatefig-before:after {
+    width: 335px;
+}
+     }
 
 .matchSchedule {
-  padding: 50px 0; }
+  padding: 70px 0; }
   .matchSchedule p {
     text-align: center;
     padding: 40px 0; }
@@ -8068,10 +8114,9 @@ ul.videoLive {
   background-attachment: fixed; }
 
   .innerbannerinstall {
-    height: 400px;
+    height: 500px;
     position: relative;
     overflow: hidden;
-    width:100%;
     background: url(../images/background/innerinstallBg.png) center no-repeat;
     /* Image Credit: Unsplash.me */
     background-size: cover;
@@ -8327,7 +8372,7 @@ section {
           color: white; }
 
 .LatestNews_wrap {
-  padding: 10px 0; }
+  padding: 20px 0; }
 
 .nav > li > a:hover, .nav > li > a:focus {
   background: transparent; }
@@ -8632,7 +8677,7 @@ section {
 
 /*------------ social media ----------- */
 .social-media {
-  padding: 50px 0;
+  padding: 70px 0;
   background-image: url("../images/background/socialMediaHomeBg.png");
   background-size: cover;
   background-position: center;
@@ -8808,7 +8853,7 @@ section {
   @media (min-width: 768px) {
     .match_next {
       float: left;
-      width: 25%; } }
+      width: 100%; } }
 
 .wrap_match_next {
   background-color: #0e42b8;
@@ -8826,10 +8871,15 @@ section {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px; }
+
   @media (min-width: 768px) {
     .match_versus-wrap {
       float: left;
-      width: 75%; } }
+      width: 100%; }
+
+   .headline03{
+ margin-top: 0 !important;}
+}
 
 .match_timing {
   position: relative;
@@ -9003,25 +9053,32 @@ section {
     padding: 0px;
     background-color: #b81e20; }
   .home_tInfo::-webkit-scrollbar {
-    background: #b81e20; }
+    background: #0e42b8; }
   .match_versus-wrap {
     padding: 0;
-    background: #232a32; }
+    background: #0e42b8; }
   .match_next {
     padding: 0;
-    height: 400px; }
+    height:; }
   .wrap_match_next {
-    height: 400px;
-    text-align: left;
-    padding: 0; }
+   /* height: 400px;*/
+    text-align:center;
+    padding: 0;
+    display: block; }
     .wrap_match_next p {
-      text-align: left; }
+      text-align: center;
+      display:none; }
   .point_table {
     overflow-y: scroll;
     height: 400px; }
+
   .home_tInfo {
     overflow-y: scroll;
-    height: 400px; } }
+    height: 400px; }
+ .info > p {
+    font-size: 15px;
+       }
+     }
 
 @media screen and (min-width: 992px) {
   .right-padding {
@@ -9051,11 +9108,12 @@ section {
     border-top: 0px solid transparent;
     border-left: 175px solid #b81e20;
     left: 100%; }
-  .left_triangle:after {
+
+  /*.left_triangle:after {
     right: 100%;
     border-bottom: 400px solid transparent;
     border-top: 0px solid transparent;
-    border-right: 175px solid #0e42b8; } }
+    border-right: 175px solid #0e42b8; }*/ }
 
 @media screen and (min-width: 1200px) {
   .match_timing {
@@ -10367,7 +10425,7 @@ ul.slick-dots {
 
 /*-------------- sponsors -----------*/
 .sponsors {
-  padding: 50px 0; }
+  padding: 70px 0; }
   .sponsors ul {
     overflow: hidden;
     padding: 40px 0; }
@@ -11730,11 +11788,11 @@ padding: 20px 0;
 .box {
     border-radius: 3px;
     box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
-    padding: 22px 10px;
+    padding: 22px 30px 0 30px;
     text-align: right;
     display: block;
     margin-top: 60px;
-    height: 250px;
+    height: 275px;
 }
 
 .box-icon {
