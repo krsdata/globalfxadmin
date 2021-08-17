@@ -34,8 +34,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <h2 class="ls-l bannertext01 layercontent06" style="left: 10%; top:760px; color:#ffffff;"
                 data-ls="offsetxin:left; flipxin:90 ; durationin: 5000;">JUSTKHELO</h2>
-<!-- <p class="ls-l bannertext layercontent05" data-ls="offsetxin:left; rotatexin:90 ; durationin: 4500;">
-We drive one of the biggest virtual yet fancy sports platform. Also, we help you set-up your fan base by keeping a watch over shared posts in the feed. </p> -->
+
+<p class="ls-l bannertext layercontent05" data-ls="offsetxin:left; rotatexin:90 ; durationin: 4500;">
+We drive one of the biggest virtual yet fancy sports platform. Also, we help you set-up your fan base by keeping a watch over shared posts in the feed. 
+
+</p>
+
 
 
  
@@ -45,8 +49,14 @@ We drive one of the biggest virtual yet fancy sports platform. Also, we help you
     <div class=banner-text>
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                Dil Se khelo <sup>On</sup>JUSTKHELO
+                
+            <div class="col-md-12 text-center download">
+            <a href="https://justkhelo.com/download-app?_branch_name=1112">
+                <button type="button" class="btn btn-primary">Download Now</button>
+            </a>
+        </div>
+        <div class="col-md-12">
+                Dil Se khelo On JUSTKHELO
             </div>
             </div>
         </div>
@@ -74,7 +84,7 @@ We drive one of the biggest virtual yet fancy sports platform. Also, we help you
             <h2 class="heading line">How It<span> Works</span></h2>
             
 </div>
-        <div class="col-md-4">
+      <div class="col-md-4">
             <div class="box">
                 <div class="box-icon">
                     <span ><img src="webmedia/images/icons/step1.png" class="img-responsive" alt="step1" width="100">
@@ -127,7 +137,7 @@ We drive one of the biggest virtual yet fancy sports platform. Also, we help you
             <h2> Why is JustKhelo most popular?</h2>
             <p>Play Fantasy Cricket this season on JustKhelo and taste the winning feeling.</p>
 </div>
-
+<div class="col-md-12">
             <div class="col-md-4 spacing">
                   <div class="img_space"><img src="{{URL::asset('webmedia/images/icons/1Quickest.png')}}" alt=image class="img-thumbnail" width="70"></div>
                      <h4>India’s Quickest Fantasy Game</h4>
@@ -146,7 +156,7 @@ We drive one of the biggest virtual yet fancy sports platform. Also, we help you
             <p>Just Khelo offers you 50% chances of winning every single time.</p>
 
 </div>
-
+</div>
 <div class="col-md-4 spacing">
      <div class="img_space"><img src="{{URL::asset('webmedia/images/icons/4instantbonus.png')}}" alt=image class="img-thumbnail" width="70"></div>
             <h4>Instant 200% Welcome Bonus</h4>
