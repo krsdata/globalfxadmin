@@ -11,8 +11,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    
 @include('layouts.menu')
     <div class=banner id=layerSlider style="width: 100%;">
-        <div class=ls-slide data-ls="transition3d: 33,15; slidedelay: 8000 ; durationin:0;"><img
-                src="{{ URL::asset('webmedia/images/banner/background01.jpg')}}" class=ls-bg alt="Slide background">
+        <div class=ls-slide data-ls="transition3d: 33,15; slidedelay: 8000 ; durationin:0;" width="100%" height="750px" >
+<img src="{{ URL::asset('webmedia/images/banner/background01.jpg')}}" class=ls-bg alt="Slide background">
 <div class="ls-l layercontent01" style="top: 50%; left: 50%; z-index:4;"data-ls="offsetxin:right; offsetxout:right; durationin: 4000; parallaxlevel:8;"><img
                     src="{{URL::asset('webmedia/images/banner/bgitem.png')}}"  alt=innerimage class=img-responsive
                     style="max-width: 100% !important ;"></div>
@@ -34,8 +34,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <h2 class="ls-l bannertext01 layercontent06" style="left: 10%; top:760px; color:#ffffff;"
                 data-ls="offsetxin:left; flipxin:90 ; durationin: 5000;">JUSTKHELO</h2>
-<p class="ls-l bannertext layercontent05" data-ls="offsetxin:left; rotatexin:90 ; durationin: 4500;">
-We drive one of the biggest virtual yet fancy sports platform. Also, we help you set-up your fan base by keeping a watch over shared posts in the feed. </p>
+<!-- <p class="ls-l bannertext layercontent05" data-ls="offsetxin:left; rotatexin:90 ; durationin: 4500;">
+We drive one of the biggest virtual yet fancy sports platform. Also, we help you set-up your fan base by keeping a watch over shared posts in the feed. </p> -->
 
 
  
@@ -211,7 +211,7 @@ We drive one of the biggest virtual yet fancy sports platform. Also, we help you
 
                             <p></p></div>
                         <div class="figure figresult">
-                            <div class=team-logo>
+                            <div class="team-logo">
                                 <div style="background:url('{{$completed->teamb->thumb_url }}')"class="teamLogoImg"></div>
                             </div>
                         </div>
@@ -224,16 +224,16 @@ We drive one of the biggest virtual yet fancy sports platform. Also, we help you
 
     @endif
     @if (!empty($upcomings)) 
-    <section class=matchSchedule>
-        <div class=container>
-            <div class=row><h2 class=heading>match <span>schedule</span></h2>
+    <section class="matchSchedule">
+        <div class="container">
+            <div class=row><h2 class="heading line">match <span>schedule</span></h2>
 
                 
 
                
                 <div class="matchSchedule_details row">
-                    <div class=match_versus-wrap>
-                        <div class=wrap_match-innerdetails>
+                    <div class="match_versus-wrap">
+                        <div class="wrap_match-innerdetails">
                             <ul class="home_tInfo scrollable">
                             @foreach($upcomings as $key =>  $upcoming)
                                 <li><a href="#">
@@ -251,9 +251,9 @@ We drive one of the biggest virtual yet fancy sports platform. Also, we help you
                             </ul>
                         </div>
                     </div>
-                    <div class=match_next>
+                    <div class="match_next">
                         <div class="wrap_match_next left_triangle">
-                            <div class=left_padding><h4 class=headline03>Upcoming Matches</h4>
+                            <div class="left_padding"><h4 class="headline03">Upcoming Matches</h4>
 </div>
                         </div>
                     </div>
