@@ -92,40 +92,7 @@ function stickIt() {
 
 
 
-                       <!--  <nav class=navbar>
-                            <div class=nav-wrapper>
-                                <div class=navbar-header>
-                                    <button type=button class=navbar-toggle><span class=sr-only>Toggle navigation</span>
-                                        <span class=icon-bar></span></button>
-                                </div>
-                                <div class=nav-menu>
-                                    <ul class="nav navbar-nav menu-bar">
-                                        <li><a href="/" class="{{ (request()->path() === '/') ? 'active' : '' }}">Home <span></span> <span></span>
-                                            <span></span> <span></span></a></li>
-                                        <li><a href="about-us" class="{{ (request()->path() === 'about-us')  ? 'active' : '' }}"> about </a></li>
-                                        <li><a href="contact-us" class="{{ (request()->path() === 'contact-us')  ? 'active' : '' }}">contact </a></li>
-                                        
-                                    </ul>
-                                    <div class=social>
-                    <ul class="nav navbar-nav navbar-right">
-                   <li class="space"><a href="{{$settings->facebook_url}}" class=> <i class="fa fa-facebook"></i></a></li>
-                   <li class="space"><a href="{{$settings->twitter_url}}"  target=_blank> <i class="fa fa-twitter"></i></a></li>
-                   <li class="space"><a href="{{$settings->instagram_url}}"  target=_blank> <i class="fa fa-instagram"></i></a></li>
-                   
-
-                    </ul>            
-                         </div>
-
-
-
-
-                                </div>
-
-
-                            </div>
-                        </nav> -->
-<!---mynav--->
-
+        
 
 
 

@@ -10,7 +10,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class=wrapper>
    
 @include('layouts.menu')
-   
+
+
+
 
     <div class=banner-text>
         <div class="container">
@@ -258,35 +260,35 @@ Payment Accepted by All Major Banks & Payment Wallets</p>
                             <li>
                                 <div class=figure>
                                     <div class=column-news>
-                                        <div class=figure-01><img src="{{URL::asset('webmedia/images/payment/paytm.png')}}" alt=image></div>
+                <div class=figure-01><img src="{{URL::asset('webmedia/images/payment/paytm.svg')}}" alt="image"  class="img-responsive" ></div>
                                     </div>
                                 </div>
                             </li>
                             <li>
                                 <div class=figure>
                                     <div class=column-news>
-                                        <div class=figure-01><img src="{{URL::asset('webmedia/images/payment/visa.png')}}" alt=image></div>
+                        <div class=figure-01><img src="{{URL::asset('webmedia/images/payment/visa.svg')}}" alt="image"  class="img-responsive"></div>
                                     </div>
                                 </div>
                             </li>
                             <li>
                                 <div class=figure>
                                     <div class=column-news>
-                                        <div class=figure-01><img src="{{URL::asset('webmedia/images/payment/mastercard.png')}}" alt=image></div>
+                    <div class=figure-01><img src="{{URL::asset('webmedia/images/payment/mastercard.svg')}}" alt="image" class="img-responsive" ></div>
                                     </div>
                                 </div>
                             </li>
                             <li>
                                 <div class=figure>
                                     <div class=column-news>
-                                        <div class=figure-01><img src="{{URL::asset('webmedia/images/payment/rupay.png')}}" alt=image></div>
+    <div class=figure-01><img src="{{URL::asset('webmedia/images/payment/rupay.svg')}}" alt="image" class="img-responsive"></div>
                                     </div>
                                 </div>
                             </li>
                             <li>
                                 <div class=figure>
                                     <div class=column-news>
-                                        <div class=figure-01><img src="{{URL::asset('webmedia/images/payment/Rozor_pay.png')}}" alt=image></div>
+    <div class=figure-01><img src="{{URL::asset('webmedia/images/payment/Rozor_pay.svg')}}" alt="image" class="img-responsive" ></div>
                                     </div>
                                 </div>
                             </li>
