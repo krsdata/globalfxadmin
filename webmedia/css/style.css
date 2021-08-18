@@ -7737,16 +7737,16 @@ h4.footerheading span:after{
         .latestResult .result .figure {
           float: left;
           width: 58.3333333333%; } }
-      .latestResult .result .figure:after {
+      /* .latestResult .result .figure:after {
         position: absolute;
         content: '';
         height: 340px;
         width: 100%;
         z-index: -1;
-        left: 60%;
+        left: 0%;
         top: 50px;
         transition: all 0.9s ease;
-        background: url("../images/result/resultBoard.png") top right no-repeat; }
+        background: url("../images/result/resultBoard.png") top right no-repeat; } */
     .latestResult .result .content {
       position: relative;
       min-height: 1px;

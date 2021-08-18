@@ -10,33 +10,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class=wrapper>
    
 @include('layouts.menu')
-    <div class="banner" id="layerSlider" style="width: 100%;">
-<div class="ls-slide" width="100%" height="750px" >
-<img src="{{ URL::asset('webmedia/images/banner/background01.jpg')}}" class="ls-bg" alt="Slide background">
-
-
-<!-- <h2 class="ls-l bannertext02 layercontent03" data-ls="offsetxin:right; rotatexin:90 ; durationin: 3500;" style="color:#0e42b8;"> DIL SE</h2>
-
-<h2 class="ls-l bannertext01 italic01 layercontent04" style="color:#ffffff;" 
-data-ls="offsetxin:left; scalexin:9; durationin: 4000;">Khelo On</h2>
-
- <h4 class="ls-l bannertext02 layercontent05" data-ls="offsetxin:left; rotatexin:90 ; durationin: 4500;"></h4>-->
-
-    <!-- <h2 class="ls-l bannertext01 layercontent06" style="left: 10%; top:760px; color:#ffffff;" data-ls="offsetxin:left; flipxin:90 ; durationin: 5000;">JUSTKHELO</h2>
-
-<p class="ls-l bannertext layercontent05" data-ls="offsetxin:left; rotatexin:90 ; durationin: 4500;">
-We drive one of the biggest virtual yet fancy sports platform. Also, we help you set-up your fan base by keeping a watch over shared posts in the feed. 
-
-</p> --> -->
-
-<div class="ls-l" style="float:right;">
-    <img src="{{URL::asset('webmedia/images/banner/bgitem.svg')}}"  alt=innerimage class=img-responsive style="max-width: 100% !important ;"></div>
-
-
-
- 
-            </div>
-    </div>
+   
 
     <div class=banner-text>
         <div class="container">
