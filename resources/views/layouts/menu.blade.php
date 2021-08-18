@@ -19,20 +19,21 @@
 <!-- social icon-->
 <div class="social_icon">
 <li class="nav-item">
-<a href="{{$settings->facebook_url}}">
+<a href="{{$settings->facebook_url}}" class="social-link">
 <img src="webmedia/images/banner/fb.svg" class="img-thumbnail" alt="social" width="40px">
 </a></li>
 
-<li class="nav-item"><a href="{{$settings->instagram_url}}">
+<li class="nav-item">
+    <a href="{{$settings->instagram_url}}" class="social-link">
      <img src="webmedia/images/banner/insta.svg" class="img-thumbnail" alt="social" width="40px" >
 </a></li>
 
-  <li class="nav-item"><a href="{{$settings->twitter_url}}">
-   <img src="webmedia\images\banner/twitter.svg" class="img-thumbnail " alt="social" width="40px"   >
+  <li class="nav-item"><a href="{{$settings->twitter_url}}" class="social-link">
+   <img src="webmedia\images\banner/twitter.svg" class="img-thumbnail " alt="social" width="40px">
     </a></li>
 
-  <li class="nav-item"><a href="{$settings->youtube_url}}">
-  <img src="webmedia\images\banner/youtube.svg" class="img-thumbnail" alt="social"width="40px"  >
+  <li class="nav-item"><a href="{$settings->youtube_url}}" class="social-link">
+  <img src="webmedia\images\banner/youtube.svg" class="img-thumbnail" alt="social" width="40px">
     </a></li>
 
 </div>

@@ -10,35 +10,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class=wrapper>
    
 @include('layouts.menu')
-    <div class=banner id=layerSlider style="width: 100%;">
-        <div class=ls-slide data-ls="transition3d: 33,15; slidedelay: 8000 ; durationin:0;" width="100%" height="750px" >
-<img src="{{ URL::asset('webmedia/images/banner/background01.jpg')}}" class=ls-bg alt="Slide background">
-<div class="ls-l layercontent01" style="top: 50%; left: 50%; z-index:4;"data-ls="offsetxin:right; offsetxout:right; durationin: 4000; parallaxlevel:8;"><img
-                    src="{{URL::asset('webmedia/images/banner/bgitem.png')}}"  alt=innerimage class=img-responsive
-                    style="max-width: 100% !important ;"></div>
+    <div class="banner" id="layerSlider" style="width: 100%;">
+<div class="ls-slide" width="100%" height="750px" >
+<img src="{{ URL::asset('webmedia/images/banner/background01.jpg')}}" class="ls-bg" alt="Slide background">
 
-            <img src="{{ URL::asset('webmedia/images/banner/ball.png')}}" alt=innerimage class="ls-l layercontent02" style=z-index:5;
-                 data-ls="offsetxin: right; offsetxout:left; rotatein:-360; easingin: easeoutquart; durationin: 4000; delayin: 250; parallaxlevel: -5;">
 
-            <!-- <img src="{{URL::asset('webmedia/images/banner/front_particles.png')}}" alt=particles class=ls-l style="z-index:3; left:0;"
-                 data-ls="offsetxin: left; offsetxout:left; scalexin:50; easingin: easeoutquart; durationin: 3000; delayin: 250;">
-            <img src="{{URL::asset('webmedia/images/banner/back_particles.png')}}" alt=particles class=ls-l style="z-index:3; left:50%;"
-                 data-ls="offsetxin: left; offsetxout:left; scalein:90; easingin: easeoutquart; durationin: 3000; delayin: 250;"> -->
-
-            <h2 class="ls-l bannertext02 layercontent03" data-ls="offsetxin:right; rotatexin:90 ; durationin: 3500;" style="color:#0e42b8;">
-                DIL SE</h2>
+<!-- <h2 class="ls-l bannertext02 layercontent03" data-ls="offsetxin:right; rotatexin:90 ; durationin: 3500;" style="color:#0e42b8;"> DIL SE</h2>
 
 <h2 class="ls-l bannertext01 italic01 layercontent04" style="color:#ffffff;" 
-                data-ls="offsetxin:left; scalexin:9; durationin: 4000;">Khelo On</h2>
-                <!-- <h4 class="ls-l bannertext02 layercontent05" data-ls="offsetxin:left; rotatexin:90 ; durationin: 4500;"></h4>-->
+data-ls="offsetxin:left; scalexin:9; durationin: 4000;">Khelo On</h2>
 
-    <h2 class="ls-l bannertext01 layercontent06" style="left: 10%; top:760px; color:#ffffff;"
-                data-ls="offsetxin:left; flipxin:90 ; durationin: 5000;">JUSTKHELO</h2>
+ <h4 class="ls-l bannertext02 layercontent05" data-ls="offsetxin:left; rotatexin:90 ; durationin: 4500;"></h4>-->
+
+    <!-- <h2 class="ls-l bannertext01 layercontent06" style="left: 10%; top:760px; color:#ffffff;" data-ls="offsetxin:left; flipxin:90 ; durationin: 5000;">JUSTKHELO</h2>
 
 <p class="ls-l bannertext layercontent05" data-ls="offsetxin:left; rotatexin:90 ; durationin: 4500;">
 We drive one of the biggest virtual yet fancy sports platform. Also, we help you set-up your fan base by keeping a watch over shared posts in the feed. 
 
-</p>
+</p> --> -->
+
+<div class="ls-l" style="float:right;">
+    <img src="{{URL::asset('webmedia/images/banner/bgitem.svg')}}"  alt=innerimage class=img-responsive style="max-width: 100% !important ;"></div>
 
 
 
@@ -244,14 +236,14 @@ We drive one of the biggest virtual yet fancy sports platform. Also, we help you
                 <div class="matchSchedule_details row">
                     <div class="match_versus-wrap">
                         <div class="wrap_match-innerdetails">
-                            <ul class="home_tInfo scrollable">
+                <ul class="home_tInfo scrollable">
                             @foreach($upcomings as $key =>  $upcoming)
                                 <li><a href="#">
                                     <ul class="t_info match_info01 headline01 clearfix">
                                         <li>{{$key +1}}</li>
                                         <li>
-                                            <div class="headline01 clearfix"><span>{{$upcoming->teama->name}}</span><span
-                                                    class=vs>vs</span> <span>{{$upcoming->teamb->name}}</span></div>
+    <div class="headline01 clearfix"><span>{{$upcoming->teama->name}}</span>
+        <span class=vs>vs</span> <span>{{$upcoming->teamb->name}}</span></div>
                                             <div class="paragraph02 clearfix"><span>{{$upcoming->date_start}}</span></div>
                                         </li>
                                     </ul>
@@ -278,16 +270,16 @@ We drive one of the biggest virtual yet fancy sports platform. Also, we help you
     
    
     <section class="social-media">
-        <div class=container>
-            <div class=row><h2 class=heading></span><span style="color:white;">Payment</span></h2>
+        <div class="container">
+            <div class="row"><h2 class=heading></span><span style="color:white;">Payment</span></h2>
 
-                <p class=headParagraph>Payment Accepted by
-All Major Banks & Payment Wallets</p>
+<p class="headParagraph" style="color:#fff;">
+Payment Accepted by All Major Banks & Payment Wallets</p>
 
                 <div class="LatestNews_wrap clearfix">
                    
                     <div class="tab-content news_display_container clearfix">
-                    <ul id=club_news class="tab-pane active clearfix">
+                    <ul id="club_news" class="tab-pane active clearfix">
                            
                             <li>
                                 <div class=figure>

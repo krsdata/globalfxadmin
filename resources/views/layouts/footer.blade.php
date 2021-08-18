@@ -20,7 +20,7 @@
                             @if($key < 5)
                             <?php continue; ?>
                             @endif
-                            <li><a href="#" class=clearfix>
+                            <li><a href="#" class="clearfix">
                                 <a  href="{{url($result->slug)}}">{{$result->title}}</a></li>
                             @endforeach
                         </ul>
@@ -32,7 +32,7 @@
                         @if($key > 5)
                             <?php continue; ?>
                             @endif
-                            <li><a href="#" class=clearfix>
+                            <li><a href="#" class="clearfix">
                                 <a  href="{{url($result->slug)}}">{{$result->title}}</a></li>
                             @endforeach
                            
@@ -43,20 +43,32 @@
             </div>
         </div>
 
-        <div class=footer-type02>
-            <div class=container>
-            <div class=row><a href="/" class=footer-logo><img src="{{URL::asset('webmedia/images/logo.png')}}" alt=image></a>
+        <div class="footer-type02">
+            <div class="container">
+            <div class="row"><a href="/" class="footer-logo"><img src="{{URL::asset('webmedia/images/logo.png')}}" alt=image></a>
 
                     <div class=footer-container>
                      <ul class=clearfix>
-                            <li><a href="{{$settings->facebook_url}}" class=bigsocial-link><i
-                                    class="fa fa-facebook"></i></a></li>
-                            <li><a href="{{$settings->twitter_url}}" class=bigsocial-link target=_blank><i
-                                    class="fa fa-twitter"></i></a></li>
-                                    <li><a href="{{$settings->instagram_url}}" class=bigsocial-link target=_blank><i
-                                    class="fa fa-instagram"></i></a></li>
-                            <li><a href="{{$settings->youtube_url}}" class=bigsocial-link target=_blank><i
-                                    class="fa fa-youtube"></i></a></li>
+                    <li><a href="{{$settings->facebook_url}}" class=bigsocial-link>
+<i><img src="webmedia/images/banner/fb.svg" class="img-responsive" alt="social" width="50px"></i>
+</a></li>
+
+
+<li><a href="{{$settings->instagram_url}}" class=bigsocial-link target=_blank>
+<i><img src="webmedia/images/banner/insta.svg" class="img-responsive" alt="social" width="50px" ></i>
+    
+</a></li>
+
+    <li><a href="{{$settings->twitter_url}}" class=bigsocial-link target=_blank>
+        <i><img src="webmedia\images\banner/twitter.svg" class="img-responsive " alt="social" width="50px"></i>
+                </a>
+            </li>
+
+            
+
+        <li><a href="{{$settings->youtube_url}}" class=bigsocial-link target=_blank>
+<i><img src="webmedia\images\banner/youtube.svg" class="img-responsive" alt="social"width="50px"></i>
+                </a></li>
                           
                         </ul>
                         <p class="copywriteline"><a target="_blank" href="{{$settings->website_url}}" >{{$settings->copywrite}}</a></p></div>

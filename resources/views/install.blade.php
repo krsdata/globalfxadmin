@@ -76,21 +76,27 @@ $url  = "downloadapk?_branch_name=010O";
     </section>
 <section class=players>
         <div class=container>
-            <div class=row><h2 class=heading>Review <span>Rating</span></h2>
-            <div class="row custrat"><img src="{{URL::asset('webmedia/images/rating.jpg')}}" alt=image></div>
+            <div class=row><h2 class=heading>Review <span style="color:#fff;">Rating</span></h2>
+<div class="row custrat"><img src="{{URL::asset('webmedia/images/rating.jpg')}}" alt=image></div>
                 <div class="wrapplayer clearfix"><a class="prv prev-player"></a> <a class="nxt next-player"></a>
-                    <ul class="boardmember clearfix">
-                        <li class=clearfix>
-                            <div>
-                                <div>
-                                    
-                                    <div class="bg-black01 fig02"><h6 class=paragraph02>Sonu Shrivastav</h6>
 
-                                        <p class="uppercaseheading red">Indore</p>
-
-                                        <p>I have been playing Dream11 since 2017, and one thing I can say for sure is practice matters if you want to win big. I take a lot of time to study teams and players, and this time my hard work helped me win ₹25 Lakh.</p></div>
+    <ul class="boardmember clearfix">
+    <li class=clearfix>
+        <div>
+        <div class="testimonial-img">
+            
                                     
-                                    <div class="bg-redcolor fig02"><p>Mega Contest Winner PUNJAB vs RAJASTHAN  - 25L winning</p></div>
+            <div class="bg-black01 fig02">
+<img src="{{URL::asset('webmedia/images/background/user.svg')}}" style="width:50px">
+                <h6 class=paragraph02>Sonu Shrivastav</h6>
+
+            <p class="uppercaseheading red">Indore</p>
+
+            <p>I have been playing Dream11 since 2017, and one thing I can say for sure is practice matters if you want to win big. I take a lot of time to study teams and players, and this time my hard work helped me win ₹25 Lakh.</p></div>
+                                    
+        <div class="bg-redcolor fig02">
+            
+            <p>Mega Contest Winner PUNJAB vs RAJASTHAN  - 25L winning</p></div>
                                 </div>
                             </div>
                         </li>
@@ -99,13 +105,17 @@ $url  = "downloadapk?_branch_name=010O";
                             <div>
                                 <div>
                                     
-                                    <div class="bg-black01 fig02"><h6 class=paragraph02>Sonu Shrivastav</h6>
+                                    <div class="bg-black01 fig02">
+                                        <img src="{{URL::asset('webmedia/images/background/user.svg')}}" style="width:50px">
+
+                                        <h6 class=paragraph02>Sonu Shrivastav</h6>
 
                                         <p class="uppercaseheading red">Indore</p>
 
                                         <p>I have been playing Dream11 since 2017, and one thing I can say for sure is practice matters if you want to win big. I take a lot of time to study teams and players, and this time my hard work helped me win ₹25 Lakh.</p></div>
                                     
-                                    <div class="bg-redcolor fig02"><p>Mega Contest Winner
+                                    <div class="bg-redcolor fig02">
+                                        <p>Mega Contest Winner
 PUNJAB vs RAJASTHAN  - 25L winning</p></div>
                                 </div>
                             </div>
@@ -115,7 +125,9 @@ PUNJAB vs RAJASTHAN  - 25L winning</p></div>
                             <div>
                                 <div>
                                     
-                                    <div class="bg-black01 fig02"><h6 class=paragraph02>Sonu Shrivastav</h6>
+                                    <div class="bg-black01 fig02">
+                                        <img src="{{URL::asset('webmedia/images/background/user.svg')}}" style="width:50px">
+                                        <h6 class=paragraph02>Sonu Shrivastav</h6>
 
                                         <p class="uppercaseheading red">Indore</p>
 
