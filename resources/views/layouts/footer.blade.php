@@ -49,25 +49,25 @@
 
                     <div class=footer-container>
                      <ul class=clearfix>
-                    <li><a href="{{$settings->facebook_url}}" class=bigsocial-link>
-<i><img src="webmedia/images/banner/fb.svg" class="img-responsive" alt="social" width="50px"></i>
+                    <li><a href="{{$settings->facebook_url}}" class=social-link>
+<i><img src="webmedia/images/banner/fb.svg" class="img-thumbnail" alt="social" width="50px"></i>
 </a></li>
 
 
-<li><a href="{{$settings->instagram_url}}" class=bigsocial-link target=_blank>
-<i><img src="webmedia/images/banner/insta.svg" class="img-responsive" alt="social" width="50px" ></i>
+<li><a href="{{$settings->instagram_url}}" class=social-link target=_blank>
+<i><img src="webmedia/images/banner/insta.svg" class="img-thumbnail" alt="social" width="50px" ></i>
     
 </a></li>
 
-    <li><a href="{{$settings->twitter_url}}" class=bigsocial-link target=_blank>
-        <i><img src="webmedia\images\banner/twitter.svg" class="img-responsive " alt="social" width="50px"></i>
+    <li><a href="{{$settings->twitter_url}}" class=social-link target=_blank>
+        <i><img src="webmedia\images\banner/twitter.svg" class="img-thumbnail " alt="social" width="50px"></i>
                 </a>
             </li>
 
             
 
-        <li><a href="{{$settings->youtube_url}}" class=bigsocial-link target=_blank>
-<i><img src="webmedia\images\banner/youtube.svg" class="img-responsive" alt="social"width="50px"></i>
+        <li><a href="{{$settings->youtube_url}}" class=social-link target=_blank>
+<i><img src="webmedia\images\banner/youtube.svg" class="img-thumbnail" alt="social"width="50px"></i>
                 </a></li>
                           
                         </ul>
