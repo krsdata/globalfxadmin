@@ -30,7 +30,8 @@ $url  = "downloadapk?_branch_name=010O";
     </div>
 <section class="latest_news bg-white">
 <div class="container">
-        <div class="row"><h2 class="heading-d">How To <span style="color:#0e42b8;">Install</span></h2>
+        <div class="row">
+            <h2 class="heading line">How To<span> Install</span></h2>
                 <p class="headParagraph headParagraphInsta">Fantasy sports that allow you to win money are not allowed on the google play store</p>
 
 
@@ -76,7 +77,10 @@ $url  = "downloadapk?_branch_name=010O";
     </section>
 <section class="players">
         <div class="container">
-            <div class="row"><h2 class="heading-d">Review <span style="color:#fff;">Rating</span></h2>
+            <div class="row">
+             
+                
+            <h2 class="heading line">Review<span> Rating</span></h2>
 <div class="row custrat"><img src="{{URL::asset('webmedia/images/rating.jpg')}}" alt=image></div>
                 <div class="wrapplayer clearfix"><a class="prv prev-player"></a> <a class="nxt next-player"></a>
 
@@ -142,7 +146,10 @@ $url  = "downloadapk?_branch_name=010O";
     </section>
     <section class="latest_news bg-white">
 <div class="container">
-        <div class="row"><h2 class="heading-d">Get the App and <span style="color:#0e42b8;">Win Crores</span></h2>
+        <div class="row">
+            
+                
+            <h2 class="heading line">Get the App and<span> Win Crores</span></h2>
                 
                 <div class="LatestNews_wrap clearfix">
                     
