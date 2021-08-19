@@ -10661,11 +10661,11 @@ ul.slick-dots {
 
 @media screen and (min-width: 480px) {
   .item {
-    width: 50%; } }
+    width: 100%; } }
 
 @media screen and (min-width: 768px) {
   .item {
-    width: 25%; }
+    width: 100%; }
     .item.gallery-item-width2 {
       width: 50%; }
     .item.gallery-item-width3 {
