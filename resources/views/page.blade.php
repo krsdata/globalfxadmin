@@ -49,34 +49,22 @@ $url  = "downloadapk?_branch_name=010O";
 
         <div class=container>
             <div class=row>
-                <div class="innerWrapper">
-                <div class="col-md-12 text-center">
-                    <h2 class="contct-heading">Get In Touch With Us<h2>
-                </div>
-           <ul class="contact_icon clearfix">
-            
-            <div class="col-md-4">
+            <ul class="contact_icon clearfix">
+           <li>
+            <a><i class="fa fa-phone"></i>
+            <span>+917999587754</span></a></li>
+            <li><a><i class="fa fa-envelope-o"></i>
+           <span>info@justkhelo.com</span></a></li>
 
-            <li><a><i class="fa fa-phone">
-              </i> <span>{{$settings->mobile}}</span></a></li>
-                    
-                </div>
-
-
-                <div class="col-md-4">
-                    <li><a href=#><i class="fa fa-map-marker"></i> <span>{{$settings->company_address}}</span></a>
+        <li>
+            <a href="#"><i class="fa fa-map-marker"></i>
+                <span>JUST KHELO
+                    (A Unit Of InstaIT Technologies)
+F,No 301, 50 - A , Veer Sanwarkar Nagar, Near Bhakti Priya Mandir, Indore</span>
+</a>
                         </li>
+                    </ul>
                 </div>
-
-                <div class="col-md-4">
-                    <li><a href=#><i class="fa fa-map-marker"></i> <span>{{$settings->company_address}}</span></a>
-                        </li>
-           
-                    
-                </div>
-</ul>
-
-   </div> 
                
             </div>
         </div>
