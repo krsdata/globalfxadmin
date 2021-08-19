@@ -7670,6 +7670,7 @@ h4.footerheading span:after{
     transition: all 0.8s ease-in-out; }
   .latestResult .teamLogoImg {
     height: 100%;
+    border-radius: 40%;
     background-size: contain !important;
     background-position: top center !important;
     background-repeat: no-repeat !important; }
@@ -11660,7 +11661,7 @@ width: 100%;
     width: 360px;
     position: relative;
     left: 0;
-    top: 10px;
+    bottom: 20px;
 }
 .copywriteline  a {
   text-align: center;
@@ -11726,7 +11727,7 @@ text-align: center;
   }
   .navbar li a, .navbar .navbar-brand {
     color: #fff !important;
-    margin:10px;
+    margin:15px;
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
     color: #ff5722 !important;

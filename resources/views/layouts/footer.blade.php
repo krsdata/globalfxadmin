@@ -45,7 +45,7 @@
 
         <div class="footer-type02">
             <div class="container">
-            <div class="row"><a href="/" class="footer-logo"><img src="{{URL::asset('webmedia/images/logo.png')}}" alt=image></a>
+            <div class="row"><a href="/" class="footer-logo"><img src="{{URL::asset('webmedia/images/logow.png')}}" alt=image></a>
 
                     <div class=footer-container>
                      <ul class=clearfix>
