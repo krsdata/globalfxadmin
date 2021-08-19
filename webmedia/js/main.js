@@ -305,21 +305,21 @@ $(document).ready(function () {
         {
           breakpoint: 2000,
           settings: {
-            slidesToShow: 3,
+            slidesToShow:4,
             slidesToScroll: 1
           }
         },
         {
           breakpoint: 992,
           settings: {
-            slidesToShow: 2,
+            slidesToShow: 3,
             slidesToScroll:1
           }
         },
         {
           breakpoint:600,
           settings: {
-            slidesToShow: 1,
+            slidesToShow: 3,
             slidesToScroll:1
           }
         }

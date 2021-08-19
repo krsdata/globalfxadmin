@@ -35,11 +35,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="item">
         <img src="webmedia/images/banner/bg-3.jpg" alt="New york">
         <div class="container">
-            <div class="carousel-caption">
+            <!-- <div class="carousel-caption">
               <h1>Join Now</h1>
               <p>Get INR 100 as welcome bonus</p>
               <p><a class="btn btn-lg btn-primary" href="https://justkhelo.com/download-app?_branch_name=001" role="button">Download Now</a></p>
-            </div>
+            </div> -->
           </div>
       </div>
       <div class="item">
@@ -304,7 +304,7 @@ Payment Accepted by All Major Banks & Payment Wallets</p>
                 <div class="LatestNews_wrap clearfix">
                    
                     <div class="tab-content news_display_container clearfix">
-                    <ul id="club_news" class="tab-pane active clearfix">
+                    <ul id="club_news" class="tab-pane active clearfix boardmember">
                            
                             <li>
                                 <div class="figure">
