@@ -80,8 +80,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <section class="booking bookticket ">
         <div class="container">
             <div class="col-md-12 text-center">
-            <h2>JUSTKHELO FANTASY SPORTS</h2>
-                <p class="text"> We drive one of the biggest virtual yet fancy sports platform. Also, we help you set-up your fan base by keeping a watch over shared posts in the feed. Not just this, but here you can enhance your performance by playing more to reach the next best level along with exciting cash rewards. Here you can create a team choosing your favourite players which help you gain more coins in any contest. JUSTKHELO Fantasy League is a stage that permits you to play virtually opting amongst real-life players and earn points using your game expertise and knowledge </p>
+            <h2 class="heading line">JUSTKHELO<span> FANTASY SPORTS</span></h2>
+                <p class="text justify"> We drive one of the biggest virtual yet fancy sports platform. Also, we help you set-up your fan base by keeping a watch over shared posts in the feed. Not just this, but here you can enhance your performance by playing more to reach the next best level along with exciting cash rewards. Here you can create a team choosing your favourite players which help you gain more coins in any contest. JUSTKHELO Fantasy League is a stage that permits you to play virtually opting amongst real-life players and earn points using your game expertise and knowledge </p>
           <div class="col-md-12 text-center download">
             <a href="https://justkhelo.com/download-app?_branch_name=001">
                 <button type="button" class="btn btn-info">Download Now</button>
@@ -150,7 +150,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="container">
             <div class="row">
        <div class="col-md-12 text-center">
-            <h2> Why is JustKhelo most popular?</h2>
+            <h2 class="heading line">Why is JustKhelo <span>most popular?</span></h2>
             <p>Play Fantasy Cricket this season on JustKhelo and taste the winning feeling.</p>
 </div>
 <div class="col-md-12">

@@ -8015,11 +8015,11 @@ h4.footerheading span:after{
     overflow: overlay;}
 
   .bookticket h2 {
-    color:#193db5;
+    /* color:#193db5;
     font-weight: 700;
     text-align: center;
-  text-transform: uppercase;}
-
+  text-transform: uppercase; */
+}
   .bookticket .btn-white {
     border-color: white;
     margin-top: 100px;
@@ -12041,6 +12041,6 @@ footer ul{
 }
 
 
-/* p{
+.justify{
   text-align: justify !important;
-} */
+} 
