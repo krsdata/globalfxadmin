@@ -16,44 +16,39 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <div class="container-fluid">
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-   <!--  <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol> -->
-
+  
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
-      <div class="item active">
-        <img src="webmedia/images/banner/background01.jpg" alt="Los Angeles">
-        <div class="container">
-            <div class="carousel-caption">
-              <h1>DIL SE KHELO ON<span> JUSTKHELO </span></h1>
-              <p>Defining Entertainment and delivering it to the world</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Download Now</a></p>
-            </div>
-          </div>
-      </div>
+     
 
-      <div class="item">
+      <div class="item active">
         <img src="webmedia/images/banner/background02.png" alt="Chicago">
         <div class="container">
             <div class="carousel-caption">
-              <h1>Defining Entertainment and delivering it to the world</h1>
-              <p>DIL SE KHELO ON JUSTKHELO</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Download Now</a></p>
+              <h1>DIL SE KHELO ON JUSTKHELO</h1>
+              <p>Defining Entertainment and delivering it to the world</p>
+              <p><a class="btn btn-lg btn-primary" href="https://justkhelo.com/download-app?_branch_name=001" role="button">Download Now</a></p>
             </div>
           </div>
       </div>
     
       <div class="item">
-        <img src="webmedia/images/banner/background03.jpg" alt="New york">
+        <img src="webmedia/images/banner/bg-3.jpg" alt="New york">
         <div class="container">
             <div class="carousel-caption">
-              <h1>DIL SE KHELO ON JUSTKHELO</h1>
-              <p>Defining Entertainment and delivering it to the world</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Download Now</a></p>
+              <h1>Join Now</h1>
+              <p>Get INR 100 as welcome bonus</p>
+              <p><a class="btn btn-lg btn-primary" href="https://justkhelo.com/download-app?_branch_name=001" role="button">Download Now</a></p>
+            </div>
+          </div>
+      </div>
+      <div class="item">
+        <img src="webmedia/images/banner/background-02.jpg" alt="New york">
+        <div class="container">
+            <div class="carousel-caption">
+              <!-- <h1>Download Now </h1>
+              <p>Get INR 100 as welcome bonus</p>
+              <p><a class="btn btn-lg btn-primary" href="https://justkhelo.com/download-app?_branch_name=001" role="button">Download Now</a></p> -->
             </div>
           </div>
       </div>
@@ -72,7 +67,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="row">
                 
             <div class="col-md-12 text-center download">
-            <a href="https://justkhelo.com/download-app?_branch_name=1112">
+            <a href="https://justkhelo.com/download-app?_branch_name=001">
                 <button type="button" class="btn btn-default">Download Now</button>
             </a>
         </div>
@@ -88,7 +83,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <h2>JUSTKHELO FANTASY SPORTS</h2>
                 <p class="text"> We drive one of the biggest virtual yet fancy sports platform. Also, we help you set-up your fan base by keeping a watch over shared posts in the feed. Not just this, but here you can enhance your performance by playing more to reach the next best level along with exciting cash rewards. Here you can create a team choosing your favourite players which help you gain more coins in any contest. JUSTKHELO Fantasy League is a stage that permits you to play virtually opting amongst real-life players and earn points using your game expertise and knowledge </p>
           <div class="col-md-12 text-center download">
-            <a href="https://justkhelo.com/download-app?_branch_name=1112">
+            <a href="https://justkhelo.com/download-app?_branch_name=001">
                 <button type="button" class="btn btn-info">Download Now</button>
             </a>
         </div>

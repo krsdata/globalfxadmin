@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-    <a href="#" class="navbar-brand "><img src="{{URL::asset('webmedia/images/logo.png')}}" alt=image></a></div>
+    <a href="{{url('/')}}" class="navbar-brand "><img src="{{URL::asset('webmedia/images/logo.png')}}" alt=image></a></div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="{{url('/')}}">Home</a></li>
