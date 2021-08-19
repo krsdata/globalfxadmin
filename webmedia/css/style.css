@@ -3063,8 +3063,8 @@ fieldset[disabled] a.btn {
     border-color: #1b6d85; }
   .btn-info:hover {
     color: #fff;
-    background-color: #31b0d5;
-    border-color: #269abc; }
+    background-color: #1c00e3;
+    border-color: #1c00e3; }
   .btn-info:active,
   .btn-info.active,
   .open > .btn-info.dropdown-toggle {
@@ -7322,8 +7322,8 @@ h4.footerheading span:after{
     font-weight: 400; }
 
 .banner-text {
-  background: #57606a;
-  font-family: "poppins", sans-serif;
+  background: #0e42b8;
+  font-family: "poppins",sans-serif;
   font-size: 30px;
   color: white;
   font-weight: 400;
@@ -7393,10 +7393,10 @@ h4.footerheading span:after{
     top: 150px !important; } }
 
 .btn {
-  padding: 15px 60px;
+  padding: 15px 45px;
   border: none;
   font-family: "poppins", sans-serif;
-  font-size: 18px;
+  font-size: 15px;
   color: ##0e42b8;
   font-weight: 400;
   text-transform: uppercase;
@@ -8017,6 +8017,7 @@ h4.footerheading span:after{
     overflow: overlay;}
 
   .bookticket h2 {
+
     /* color:#193db5;
     font-weight: 700;
     text-align: center;
@@ -8957,7 +8958,7 @@ ul.videoLive {
       width: 100%; } }
 
 .wrap_match_next {
-  background-color: #0e42b8;
+  background-color:#232a32;
   padding: 20px 0;
   text-align: center;
   display: table-cell;
@@ -9077,7 +9078,7 @@ ul.videoLive {
     font-weight: 400; }
 
 .home_tInfo {
-  background-image: url("../images/background/counterBg.jpg");
+ /* background-image: url("../images/background/counterBg.jpg");*/
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat; }
@@ -11889,7 +11890,10 @@ margin-top: 80px;
   margin: 0;
 }
 
+.box{
+ height: 320px !important;
 
+}
 
   }
 
@@ -11929,7 +11933,7 @@ text-align: center;}
 }
 
 .download{
-padding: 50px 0;
+padding: 20px;
 
 }
 
