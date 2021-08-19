@@ -11872,6 +11872,12 @@ background-color:transparent ;
     display: none;
 }
 
+.slider-up{
+margin-top: 80px;
+
+}
+
+
 
   }
 
@@ -12015,4 +12021,8 @@ footer ul{
 .news_display_container .payment-img{
 
   width:50%;
+}
+
+.contact-heading{
+  text-align: center;
 }

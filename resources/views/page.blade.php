@@ -49,21 +49,49 @@ $url  = "downloadapk?_branch_name=010O";
 
         <div class=container>
             <div class=row>
-
-                <p class=headParagraph> {!!$content->page_content!!}</p>
-
-                <div class=innerWrapper>
-                    <ul class="contact_icon clearfix">
-                        <li><a><i class="fa fa-phone"></i> <span>{{$settings->mobile}}</span></a></li>
-                        <li><a><i class="fa fa-envelope-o"></i>
-                            <span>{{$settings->website_email}}</span></a></li>
-                        <li><a href=#><i class="fa fa-map-marker"></i> <span>{{$settings->company_address}}</span></a>
-                        </li>
-                    </ul>
+                <div class="innerWrapper">
+                <div class="col-md-12 text-center">
+                    <h2 class="contct-heading">Get In Touch With Us<h2>
                 </div>
+           <ul class="contact_icon clearfix">
+            
+            <div class="col-md-4">
+
+            <li><a><i class="fa fa-phone">
+              </i> <span>{{$settings->mobile}}</span></a></li>
+                    
+                </div>
+
+
+                <div class="col-md-4">
+                    <li><a href=#><i class="fa fa-map-marker"></i> <span>{{$settings->company_address}}</span></a>
+                        </li>
+                </div>
+
+                <div class="col-md-4">
+                    <li><a href=#><i class="fa fa-map-marker"></i> <span>{{$settings->company_address}}</span></a>
+                        </li>
+           
+                    
+                </div>
+</ul>
+
+   </div> 
+               
             </div>
         </div>
     </section>
     @endif
   
     @stop
+
+
+
+   
+
+                
+                   
+                      
+
+                        
+             
