@@ -77,7 +77,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
         </div>
     </div>
-    <section class="booking bookticket">
+    <section class="booking bookticket ">
         <div class="container">
             <div class="col-md-12 text-center">
             <h2>JUSTKHELO FANTASY SPORTS</h2>

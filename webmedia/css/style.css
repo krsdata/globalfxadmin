@@ -6205,6 +6205,7 @@ h4 {
   font-weight: 400;
   padding: 0 0;
   line-height: 1.7;
+  
    }
   p.headParagraph {
     width: 100%;
@@ -7092,13 +7093,13 @@ h4.footerheading span:after{
       width: 33%; } }
   .widget-about p {
     padding: 0 0;
-    width: 75%;
+    /* width: 75%; */
     font-size: 17px;
     line-height: 1.5; 
   }
     .widget-about p:first-of-type {
       padding: 20px 0;
-    width: 75%;
+    /* width: 75%; */
     line-height: 1.5;
     font-size: 17px;
        }
@@ -7161,7 +7162,7 @@ h4.footerheading span:after{
 
 .widget_productdetails {
   margin-top: 5px;
-  width: 60%; }
+  }
   .widget_productdetails li {
     width: 100%;
     border-bottom: 1px solid #979da0;
@@ -11966,6 +11967,7 @@ padding: 50px 0;
     padding-top: 10px;
     text-align: center;
     line-height: 1.5;
+    text-align: justify !important;
 }
 .info > a {
     background-color: #03a9f4;
@@ -12026,3 +12028,8 @@ footer ul{
 .contact-heading{
   text-align: center;
 }
+
+
+/* p{
+  text-align: justify !important;
+} */
