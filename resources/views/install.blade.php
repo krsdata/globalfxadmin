@@ -80,7 +80,7 @@ $url  = "downloadapk?_branch_name=010O";
             <div class="row">
              
                 
-            <h2 class="heading line">Review<span> Rating</span></h2>
+            <h2 class="heading line">Review Rating</h2>
 <div class="row custrat"><img src="{{URL::asset('webmedia/images/rating.jpg')}}" alt=image></div>
                 <div class="wrapplayer clearfix"><a class="prv prev-player"></a> <a class="nxt next-player"></a>
 
