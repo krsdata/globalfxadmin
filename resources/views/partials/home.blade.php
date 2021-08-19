@@ -27,26 +27,40 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="carousel-inner">
       <div class="item active">
         <img src="webmedia/images/banner/background01.jpg" alt="Los Angeles">
+        <div class="container">
+            <div class="carousel-caption">
+              <h1>DIL SE KHELO ON<span> JUSTKHELO </span></h1>
+              <p>Defining Entertainment and delivering it to the world</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Download Now</a></p>
+            </div>
+          </div>
       </div>
 
       <div class="item">
-        <img src="webmedia/images/banner/background01.jpg" alt="Chicago">
+        <img src="webmedia/images/banner/background02.png" alt="Chicago">
+        <div class="container">
+            <div class="carousel-caption">
+              <h1>Defining Entertainment and delivering it to the world</h1>
+              <p>DIL SE KHELO ON JUSTKHELO</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Download Now</a></p>
+            </div>
+          </div>
       </div>
     
       <div class="item">
-        <img src="webmedia/images/banner/background01.jpg" alt="New york">
+        <img src="webmedia/images/banner/background03.jpg" alt="New york">
+        <div class="container">
+            <div class="carousel-caption">
+              <h1>DIL SE KHELO ON JUSTKHELO</h1>
+              <p>Defining Entertainment and delivering it to the world</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Download Now</a></p>
+            </div>
+          </div>
       </div>
     </div>
 
     <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
+    
   </div>
 </div>
 </section>
@@ -59,7 +73,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 
             <div class="col-md-12 text-center download">
             <a href="https://justkhelo.com/download-app?_branch_name=1112">
-                <button type="button" class="btn btn-primary">Download Now</button>
+                <button type="button" class="btn btn-default">Download Now</button>
             </a>
         </div>
         <div class="col-md-12">
@@ -75,7 +89,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <p class="text"> We drive one of the biggest virtual yet fancy sports platform. Also, we help you set-up your fan base by keeping a watch over shared posts in the feed. Not just this, but here you can enhance your performance by playing more to reach the next best level along with exciting cash rewards. Here you can create a team choosing your favourite players which help you gain more coins in any contest. JUSTKHELO Fantasy League is a stage that permits you to play virtually opting amongst real-life players and earn points using your game expertise and knowledge </p>
           <div class="col-md-12 text-center download">
             <a href="https://justkhelo.com/download-app?_branch_name=1112">
-                <button type="button" class="btn btn-primary">Download Now</button>
+                <button type="button" class="btn btn-info">Download Now</button>
             </a>
         </div>
         </div>
@@ -259,7 +273,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                         <li>
     <div class="headline01 clearfix"><span>{{$upcoming->teama->name}}</span>
         <span class=vs>vs</span> <span>{{$upcoming->teamb->name}}</span></div>
-                                            <div class="paragraph02 clearfix"><span>{{$upcoming->date_start}}</span></div>
+                                            <div class="paragraph02 clearfix">
+                                                <span style="color:#ffffff; text-align: center;">{{$upcoming->date_start}}</span></div>
                                         </li>
                                     </ul>
                                 </a></li>
@@ -286,7 +301,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    
     <section class="social-media">
         <div class="container">
-            <div class="row"><h2 class=heading></span><span style="color:white;">Payment</span></h2>
+    <div class="row"><h2 class=heading></span><span style="color:white;">Payment</span></h2>
 
 <p class="headParagraph" style="color:#fff;">
 Payment Accepted by All Major Banks & Payment Wallets</p>
@@ -297,37 +312,37 @@ Payment Accepted by All Major Banks & Payment Wallets</p>
                     <ul id="club_news" class="tab-pane active clearfix">
                            
                             <li>
-                                <div class=figure>
-                                    <div class=column-news>
-                <div class=figure-01><img src="{{URL::asset('webmedia/images/payment/paytm.svg')}}" alt="image"  class="img-responsive" ></div>
+                                <div class="figure">
+                                    <div class="column-news">
+                <div class="figure-01 payment-img"><img src="{{URL::asset('webmedia/images/payment/paytm.svg')}}" alt="image"  class="img-responsive" ></div>
                                     </div>
                                 </div>
                             </li>
                             <li>
-                                <div class=figure>
+                                <div class="figure">
                                     <div class=column-news>
-                        <div class=figure-01><img src="{{URL::asset('webmedia/images/payment/visa.svg')}}" alt="image"  class="img-responsive"></div>
+                        <div class="figure-01 payment-img"><img src="{{URL::asset('webmedia/images/payment/visa.svg')}}" alt="image"  class="img-responsive"></div>
                                     </div>
                                 </div>
                             </li>
                             <li>
-                                <div class=figure>
+                                <div class="figure">
                                     <div class=column-news>
-                    <div class=figure-01><img src="{{URL::asset('webmedia/images/payment/mastercard.svg')}}" alt="image" class="img-responsive" ></div>
+                    <div class="figure-01 payment-img"><img src="{{URL::asset('webmedia/images/payment/mastercard.svg')}}" alt="image" class="img-responsive" ></div>
                                     </div>
                                 </div>
                             </li>
                             <li>
-                                <div class=figure>
-                                    <div class=column-news>
-    <div class=figure-01><img src="{{URL::asset('webmedia/images/payment/rupay.svg')}}" alt="image" class="img-responsive"></div>
+                                <div class="figure">
+                                    <div class="column-news">
+    <div class="figure-01 payment-img"><img src="{{URL::asset('webmedia/images/payment/rupay.svg')}}" alt="image" class="img-responsive"></div>
                                     </div>
                                 </div>
                             </li>
                             <li>
-                                <div class=figure>
+                                <div class="figure">
                                     <div class=column-news>
-    <div class=figure-01><img src="{{URL::asset('webmedia/images/payment/Rozor_pay.svg')}}" alt="image" class="img-responsive" ></div>
+    <div class="figure-01 payment-img"><img src="{{URL::asset('webmedia/images/payment/Rozor_pay.svg')}}" alt="image" class="img-responsive" ></div>
                                     </div>
                                 </div>
                             </li>

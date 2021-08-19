@@ -2932,9 +2932,12 @@ fieldset[disabled] a.btn {
     background-color: #333; }
 
 .btn-primary {
-  color: #ffffff;
-  background-color: #2755bf;
-  /*border-color: #2e6da4;*/ }
+    color: #0400fb;
+    background-color: #ffffff;
+    border-color: #0300fc;
+}
+
+
   .btn-primary:focus,
   .btn-primary.focus {
     color: #fff;
@@ -3051,7 +3054,7 @@ fieldset[disabled] a.btn {
 
 .btn-info {
   color: #fff;
-  background-color: #5bc0de;
+  background-color: #1900e7;
   border-color: #46b8da; }
   .btn-info:focus,
   .btn-info.focus {
@@ -3258,7 +3261,7 @@ fieldset[disabled] a.btn {
   padding: 10px 16px;
   font-size: 18px;
   line-height: 1.3333333;
-  border-radius: 6px; }
+  border-radius: 65px; }
 
 .btn-sm, .btn-group-sm > .btn {
   padding: 5px 10px;
@@ -5661,7 +5664,7 @@ button.close {
 
 .carousel {
   position: relative; 
-margin-top:80px;
+/*margin-top:80px;*/
 }
 
 .carousel-inner {
@@ -5740,13 +5743,13 @@ margin-top:80px;
   .carousel-control.left {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
     background-repeat: repeat-x;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1); }
+    filter: progid:DXImageTransform.Microsoft.gradient (startColorstr='#80000000', endColorstr='#00000000', GradientType=1); }
   .carousel-control.right {
     left: auto;
     right: 0;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
     background-repeat: repeat-x;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1); }
+    filter: progid:DXImageTransform.Microsoft.gradient("startColorstr='#00000000', endColorstr='#80000000', GradientType=1"); }
   .carousel-control:hover,
   .carousel-control:focus {
     outline: 0;
@@ -5811,17 +5814,35 @@ margin-top:80px;
 
 .carousel-caption {
   position: absolute;
-  left: 15%;
-  right: 15%;
+  left: 0;
+  right: 0;
   bottom: 20px;
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
   color: #fff;
-  text-align: center;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6); }
+  text-align: left;
+  /*text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6); */
+  top: 30% !important;
+}
   .carousel-caption .btn {
-    text-shadow: none; }
+    text-shadow: none;
+    margin-top: 20px;}
+
+
+.carousel-caption h1{
+  font-family: poppins, sans-serif;
+   font-size: 45px;
+   font-weight: 600;
+
+    }
+
+.carousel-caption p{
+  font-family: poppins, sans-serif;
+   font-size: 20px;
+   font-weight:normal;
+
+    }
 
 @media screen and (min-width: 768px) {
   .carousel-control .glyphicon-chevron-left,
@@ -5839,7 +5860,7 @@ margin-top:80px;
   .carousel-control .icon-next {
     margin-right: -15px; }
   .carousel-caption {
-    left: 20%;
+    left: 70px;
     right: 20%;
     padding-bottom: 30px; }
   .carousel-indicators {
@@ -6120,6 +6141,18 @@ h2.heading {
   text-transform: uppercase;
   text-align: center; 
   /*padding-top: 60px;*/
+}
+
+
+h2.heading-d {
+  font-family: "poppins", sans-serif;
+  font-size: 40px;
+  color: black;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-align: center; 
+  padding-top: 60px;
 }
 
 h2.line span:after {
@@ -7850,7 +7883,13 @@ h4.footerheading span:after{
   .latestResult
 .result-details .content {
     width: 50%;
-    float: left; } }
+    float: left; }
+ .box{
+    height: 300px !important;
+    }
+
+
+     }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .latestResult
@@ -8376,8 +8415,12 @@ ul.videoLive {
           width: 33%; } }
   .news_display_container .figure {
     display: block; }
+
   .news_display_container .figure-01 {
-    overflow: hidden; }
+    overflow: hidden;
+    /*width: 50%;*/
+     }
+
     .news_display_container .figure-01 img {
       transition: all 0.4s ease-in-out; }
   .news_display_container .content-01 {
@@ -11729,7 +11772,7 @@ text-align: center;
     margin:10px;
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #ff5722 !important;
+    color: #ffffff !important;
 background-color:transparent ;
 }
   .navbar-default .navbar-toggle {
@@ -11784,16 +11827,56 @@ background-color:transparent ;
       width: 100%;
       margin-bottom: 35px;
     }
+
+.carousel-caption h1 {
+    font-family: poppins, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+.carousel-caption p {
+    font-family: poppins, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.carousel-caption .btn {
+    
+    display: none;
+}
+
   }
   @media screen and (max-width: 480px) {
     .logo {
       font-size: 150px;
     }
+.carousel-caption h1 {
+    font-family: poppins, sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+ text-align: center;
+
+
+}
+.carousel-caption p {
+    font-family: poppins, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+
+}
+.carousel-caption .btn {
+    
+    display: none;
+}
+
+
   }
 
   .btn-default {
     color: #333;
-    background-color: #fff0;
+    background-color: #ffffff;
     /* border-color: #ccc; */
     border: 1px solid #ffffff;
     margin-top: 5px;
@@ -11830,6 +11913,8 @@ text-align: center;}
 padding: 50px 0;
 
 }
+
+
 
 
 /*******Css******/
@@ -11924,4 +12009,9 @@ footer ul{
 
 .testimonial-img{
   position: absolute;
+}
+
+.news_display_container .payment-img{
+
+  width:50%;
 }
