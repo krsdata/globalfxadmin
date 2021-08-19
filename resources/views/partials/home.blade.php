@@ -180,8 +180,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 <div class="col-md-4 spacing">
      <div class="img_space"><img src="{{URL::asset('webmedia/images/icons/4instantbonus.png')}}" alt=image class="img-thumbnail" width="70"></div>
-            <h4>Instant 200% Welcome Bonus</h4>
-            <p>Get 200% welcome bonus up to INR 1000 on your First Deposit</p>
+            <h4>Instant INR 100 Welcome Bonus</h4>
+            <p>Get 100% welcome bonus up to INR 5000 on your First Deposit</p>
 
 </div>
 
@@ -261,7 +261,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                 
 
-               
+            <div class="match_next">
+                        <div class="wrap_match_next left_triangle">
+                            <div class="left_padding"><h4 class="headline03">Upcoming Matches</h4>
+</div>
+                        </div>
+                    </div>
                 <div class="matchSchedule_details row">
                     <div class="match_versus-wrap">
                         <div class="wrap_match-innerdetails">
@@ -283,12 +288,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             </ul>
                         </div>
                     </div>
-                    <div class="match_next">
-                        <div class="wrap_match_next left_triangle">
-                            <div class="left_padding"><h4 class="headline03">Upcoming Matches</h4>
-</div>
-                        </div>
-                    </div>
+                    
                 </div>
               
             </div>
