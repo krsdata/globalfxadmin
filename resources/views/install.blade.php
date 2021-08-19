@@ -87,16 +87,32 @@ $url  = "downloadapk?_branch_name=010O";
             
                                     
             <div class="bg-black01 fig02">
-<img src="{{URL::asset('webmedia/images/background/user.svg')}}" style="width:50px">
-                <h6 class="paragraph02">Sonu Shrivastav</h6>
+<img src="{{URL::asset('webmedia/images/background/user.png')}}" style="width:50px">
+                <h6 class="paragraph02">Himani Shankarv</h6>
 
-            <p class="uppercaseheading red">Indore</p>
+            <p class="uppercaseheading red">Mumbai</p>
 
-            <p>I have been playing Dream11 since 2017, and one thing I can say for sure is practice matters if you want to win big. I take a lot of time to study teams and players, and this time my hard work helped me win ₹25 Lakh.</p></div>
+            <p>JustKhelo is a very easy platform to create teams and play. I have tried other fantasy games but to my disappointment they were hard to understand. I have also actually won on this app and OH BOY! I LOVE IT!!
+</p></div>
                                     
-        <div class="bg-redcolor fig02">
-            
-            <p>Mega Contest Winner PUNJAB vs RAJASTHAN  - 25L winning</p></div>
+       
+                        </li>
+
+                        <li class="clearfix">
+                            <div>
+                                <div>
+                                    
+                                    <div class="bg-black01 fig02">
+                                        <img src="{{URL::asset('webmedia/images/background/mohit.png')}}" style="width:50px">
+
+                                        <h6 class="paragraph02">Mohit</h6>
+
+                                        <p class="uppercaseheading red">Delhi</p>
+
+                                        <p>During lockdown being busy was a task. At home all day and nothing to do. JustKhelo came as a blessing. Selecting players and playing was fun and easy. When i got my first payout, I was over the moon! Play Hard and Earn Well was a reality. 
+</p></div>
+                                    
+                                  
                                 </div>
                             </div>
                         </li>
@@ -107,34 +123,14 @@ $url  = "downloadapk?_branch_name=010O";
                                     
                                     <div class="bg-black01 fig02">
                                         <img src="{{URL::asset('webmedia/images/background/user.png')}}" style="width:50px">
+                                        <h6 class="paragraph02">Kapil D/</h6>
 
-                                        <h6 class="paragraph02">Sonu Shrivastav</h6>
+                                        <p class="uppercaseheading red">Jaipur</p>
 
-                                        <p class="uppercaseheading red">Indore</p>
-
-                                        <p>I have been playing Dream11 since 2017, and one thing I can say for sure is practice matters if you want to win big. I take a lot of time to study teams and players, and this time my hard work helped me win ₹25 Lakh.</p></div>
+                                        <p>If you play on JustKhelo you will forget other game apps. It is so engaging and the process of payout, customer service is seamless. It is a MUST TRY APP!
+</p></div>
                                     
-                                    <div class="bg-redcolor fig02">
-                                        <p>Mega Contest Winner
-PUNJAB vs RAJASTHAN  - 25L winning</p></div>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="clearfix">
-                            <div>
-                                <div>
-                                    
-                                    <div class="bg-black01 fig02">
-                                        <img src="{{URL::asset('webmedia/images/background/user.png')}}" style="width:50px">
-                                        <h6 class="paragraph02">Sonu Shrivastav</h6>
-
-                                        <p class="uppercaseheading red">Indore</p>
-
-                                        <p>I have been playing Dream11 since 2017, and one thing I can say for sure is practice matters if you want to win big. I take a lot of time to study teams and players, and this time my hard work helped me win ₹25 Lakh.</p></div>
-                                    
-                                    <div class="bg-redcolor fig02"><p>Mega Contest Winner
-PUNJAB vs RAJASTHAN  - 25L winning</p></div>
+                                   
                                 </div>
                             </div>
                         </li>
