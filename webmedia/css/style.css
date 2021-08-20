@@ -11791,7 +11791,7 @@ background-color:transparent ;
   .navbar-default .navbar-toggle {
     border-color: transparent;
     color: #fff !important;
-   /* margin-top: 15px;*/
+    margin-top: 35px;
     /*background-color: white;*/
   }
 

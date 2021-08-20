@@ -13,8 +13,6 @@
       <link rel=stylesheet href="{{ URL::asset('webmedia/css/vendor.css')}}">
       <link rel=stylesheet href="{{ URL::asset('webmedia/css/style.css')}}">
       <link rel=stylesheet type=text/css href="{{ URL::asset('webmedia/css/layerslider.css')}}">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
       <!--   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
       <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
       <script src="{{ URL::asset('webmedia/js/vendor/modernizr.js')}}"></script>
