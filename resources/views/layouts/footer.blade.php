@@ -11,7 +11,7 @@
                </p>
             </li>
             <li class="widget-product">
-               <h4 class="footerheading">Importnant <span>Links</span></h4>
+               <h4 class="footerheading">Quick <span>Links</span></h4>
                <ul class="widget_productdetails">
                   @foreach($static_page as $key =>  $result)
                   @if($key < 5)
@@ -24,7 +24,7 @@
                </ul>
             </li>
             <li class="widget-product">
-               <h4 class="footerheading">Importnant <span>Links</span></h4>
+               <h4 class="footerheading">Quick <span>Links</span></h4>
                <ul class="widget_productdetails">
                   @foreach($static_page as $key =>  $result)
                   @if($key > 5)
