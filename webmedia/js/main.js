@@ -195,23 +195,30 @@ $(document).ready(function () {
           }
         },
         {
-          breakpoint: 992,
+          breakpoint: 1200,
           settings: {
             slidesToShow: 3,
             slidesToScroll:1
           }
         },
         {
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll:1
+          }
+        },
+        {
           breakpoint:600,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 2,
             slidesToScroll:1
           }
         }
     ]
   };
 
-    if (('#club_news').length){
+    if (('#club_news,  .club_new').length){
         $('#club_news').slick(slickOptions1);
     }
     

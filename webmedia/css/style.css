@@ -7678,6 +7678,7 @@ h4.footerheading span:after{
     padding: 20px 50px; } }
 
 @media screen and (min-width: 992px) {
+  
   .about .nav-header ul li a:hover {
     background: #57606a;
     color: white; } }
@@ -8398,7 +8399,7 @@ ul.videoLive {
         position: absolute; }
 
 .news_display_container {
-  padding: 60px 0;
+  padding: 20px 0;
   position: relative; }
   .news_display_container ul {
     list-style-type: none;
@@ -11829,6 +11830,7 @@ background-color:transparent ;
     }
   }
   @media screen and (max-width: 768px) {
+    .custrat img{width:100%}
     .col-sm-4 {
       text-align: center;
       margin: 25px 0;
