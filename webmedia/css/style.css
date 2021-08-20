@@ -7724,7 +7724,7 @@ h4.footerheading span:after{
       padding-right: 15px;
       position: relative;
       min-height: 1px;
-      padding-left: 15px;
+      padding-left: 50px;
       padding-right: 15px;
       z-index: 20; }
       @media (min-width: 1200px) {
@@ -9078,7 +9078,7 @@ ul.videoLive {
     font-weight: 400; }
 
 .home_tInfo {
- /* background-image: url("../images/background/counterBg.jpg");*/
+  background-image: url("../images/background/counterBg.jpg");
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat; }
@@ -9086,7 +9086,7 @@ ul.videoLive {
     padding: 15px 0 9px;
     background: transparent; }
     .home_tInfo li:nth-of-type(even) {
-      background-color: #4a2a99; }
+      background-color: #2937b3; }
 
 .match_info01 .paragraph02 {
   text-align: center;
@@ -9395,7 +9395,7 @@ a.blacklrnmore {
     @media (min-width: 768px) {
       .t_info li:nth-of-type(2) {
         float: left;
-        width: 58.3333333333%; } }
+        } }
     .t_info li:nth-of-type(2) .headline01 span {
       width: 100%;
       text-align: center;

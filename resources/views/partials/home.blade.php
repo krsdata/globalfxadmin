@@ -214,13 +214,6 @@
       <div class="container">
          <div class=row>
             <h2 class="heading line">match <span>schedule</span></h2>
-            <div class="match_next">
-               <div class="wrap_match_next left_triangle">
-                  <div class="left_padding">
-                     <h4 class="headline03">Upcoming Matches</h4>
-                  </div>
-               </div>
-            </div>
             <div class="matchSchedule_details row">
                <div class="match_versus-wrap">
                   <div class="wrap_match-innerdetails">
