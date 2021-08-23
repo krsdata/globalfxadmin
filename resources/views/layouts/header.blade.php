@@ -14,7 +14,7 @@
       <link rel=stylesheet href="{{ URL::asset('webmedia/css/style.css')}}">
       <link rel=stylesheet type=text/css href="{{ URL::asset('webmedia/css/layerslider.css')}}">
       <!--   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
-      <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+      <!-- <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'> -->
       <script src="{{ URL::asset('webmedia/js/vendor/modernizr.js')}}"></script>
       <!-- Google Tag Manager -->
       <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':

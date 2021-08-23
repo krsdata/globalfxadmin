@@ -2,10 +2,7 @@
     @section('content') 
       @include('partials.navigation')
       <!-- Left side column. contains the logo and sidebar -->
-     
- 
-
-        <!-- services -->
+     <!-- services -->
         <section class="ftco-section ftco-services-2" id="services-section">
             <div class="container">
                 <div class="row justify-content-center pb-5">

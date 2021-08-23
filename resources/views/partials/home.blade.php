@@ -26,13 +26,14 @@
                   </div>
                </div>
                <div class="item">
-                  <img src="webmedia/images/banner/bg-3.jpg" alt="jk">
+                  <img src="webmedia/images/banner/background.jpg" alt="jk">
                   <div class="container">
-                     <!-- <div class="carousel-caption">
-                        <h1>Join Now</h1>
+                     <div class="carousel-caption">
+                        <h1>Sign up & enjoy the most<br>
+                            exciting fantasy sports in India anytime, anywhere!</h1>
                         <p>Get INR 100 as welcome bonus</p>
                         <p><a class="btn btn-lg btn-primary" href="https://justkhelo.com/download-app?_branch_name=001" role="button">Download Now</a></p>
-                        </div> -->
+                        </div>
                   </div>
                </div>
                <div class="item">

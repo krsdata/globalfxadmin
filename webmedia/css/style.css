@@ -50,6 +50,25 @@ _________________________________
 
 @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
 
+@font-face {
+  font-family:poppins, sans-serif;
+  src: url(webmedia/fonts/Poppins/Poppins-regular.woff);
+}
+
+@font-face {
+  font-family:poppins, sans-serif;
+  src: url(webmedia/fonts/Poppins/Poppins-bold.woff);
+}
+
+@font-face {
+  font-family:poppins, sans-serif;
+  src: url(webmedia/fonts/Poppins/Poppins-medium.woff);
+}
+
+
+
+
+
 
 html {
   font-family: sans-serif;
@@ -5683,8 +5702,8 @@ button.close {
       line-height: 1; }
     @media all and (transform-3d), (-webkit-transform-3d) {
       .carousel-inner > .item {
-        transition: -webkit-transform 0.6s ease-in-out;
-        transition: transform 0.6s ease-in-out;
+        transition: -webkit-transform 0.3s ease-in-out;
+        transition: transform 0.3s ease-in-out;
         -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
         -webkit-perspective: 1000px;
@@ -5834,6 +5853,7 @@ button.close {
   font-family: poppins, sans-serif;
    font-size: 45px;
    font-weight: 600;
+   text-align: center;
 
     }
 
@@ -5841,6 +5861,7 @@ button.close {
   font-family: poppins, sans-serif;
    font-size: 20px;
    font-weight:normal;
+   text-align: center;
 
     }
 
@@ -5860,8 +5881,8 @@ button.close {
   .carousel-control .icon-next {
     margin-right: -15px; }
   .carousel-caption {
-    left: 70px;
-    right: 20%;
+    /*left: 70px;
+    right: 20%;*/
     padding-bottom: 30px; }
   .carousel-indicators {
     bottom: 20px; } }
