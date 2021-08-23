@@ -69,7 +69,7 @@
       <div class="container">
          <div class="col-md-12 text-center">
             <h2 class="heading line">JUSTKHELO<span> FANTASY SPORTS</span></h2>
-            <p class="text justify"> We drive one of the biggest virtual yet fancy sports platform. Also, we help you set-up your fan base by keeping a watch over shared posts in the feed. Not just this, but here you can enhance your performance by playing more to reach the next best level along with exciting cash rewards. Here you can create a team choosing your favourite players which help you gain more coins in any contest. JUSTKHELO Fantasy League is a stage that permits you to play virtually opting amongst real-life players and earn points using your game expertise and knowledge. </p>
+            <p class="text justify">We offer one of the biggest virtual fantasy sports platform. We let you create/pick your team from a pool of the best cricketers from all around the world. Also, keep a watch on your fan base through shared posts in the feed. Here, the more you are invested to play and move up to the next level, the more you are rewarded with Cash Bonuses and other Rewards. JUSTKHELO Fantasy League is an arena that permits you to utilize and execute your expertize and knowledge. </p>
             <div class="col-md-12 text-center download">
                <a href="https://justkhelo.com/download-app?_branch_name=001">
                <button type="button" class="btn btn-info">Download Now</button>
