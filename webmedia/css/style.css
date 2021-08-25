@@ -10871,7 +10871,8 @@ ul.slick-dots {
     .contact_icon li i, .contact_icon li span {
       float: none; }
     .contact_icon li span {
-      display: block; } }
+      display: block; }
+}
 
 @media screen and (min-width: 992px) {
   .contact_icon li {
@@ -11891,9 +11892,10 @@ background-color:transparent ;
     }
 .carousel-caption h1 {
     font-family: poppins, sans-serif;
-    font-size: 22px;
+    font-size: 15px;
     font-weight: 600;
  text-align: center;
+ margin: -7px;
 
 
 }
@@ -11919,7 +11921,7 @@ margin-top: 80px;
 }
 
 .box{
- height: 320px !important;
+ height: 380px !important;
 
 }
 
@@ -11944,7 +11946,7 @@ width: 25%;
 padding:0;
 }
 /********nav_icon********/
-/*dipali*/
+
 
 .text{
   padding-top:20px !important;
@@ -12078,3 +12080,8 @@ footer ul{
 .justify{
   text-align: justify !important;
 } 
+
+.address{
+  margin: 0;
+  padding: 0;
+}
