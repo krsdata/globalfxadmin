@@ -13,27 +13,46 @@
             <li class="widget-product">
                <h4 class="footerheading">Quick <span>Links</span></h4>
                <ul class="widget_productdetails">
-                  @foreach($static_page as $key =>  $result)
-                  @if($key < 5)
-                  <?php continue; ?>
-                  @endif
+                  
                   <li><a href="#" class="clearfix">
-                     <a  href="{{url($result->slug)}}">{{$result->title}}</a>
+                     <a  href="{{url('/')}}">Home</a>
                   </li>
-                  @endforeach
+                  <li><a href="#" class="clearfix">
+                     <a  href="{{url('about-us')}}">About Us</a>
+                  </li>
+                 
+                  <li><a href="#" class="clearfix">
+                     <a  href="{{url('how-to-play')}}">How To Play</a>
+                  </li>
+                  <li><a href="#" class="clearfix">
+                     <a  href="{{url('legality')}}">Legality</a>
+                  </li>
+                  <li><a href="#" class="clearfix">
+                     <a  href="{{url('disclaimer')}}">Disclaimer</a>
+                  </li>
                </ul>
             </li>
             <li class="widget-product">
                <h4 class="footerheading">Quick <span>Links</span></h4>
                <ul class="widget_productdetails">
-                  @foreach($static_page as $key =>  $result)
-                  @if($key > 5)
-                  <?php continue; ?>
-                  @endif
                   <li><a href="#" class="clearfix">
-                     <a  href="{{url($result->slug)}}">{{$result->title}}</a>
+                     <a  href="{{url('terms-and-conditions')}}">Terms And Conditions</a>
                   </li>
-                  @endforeach
+                  <li><a href="#" class="clearfix">
+                     <a  href="{{url('privacy-policy')}}">Privacy Policy</a>
+                  </li>
+                  <li><a href="#" class="clearfix">
+                     <a  href="{{url('refund-policy')}}">Refund Policy</a>
+                  </li>
+                 
+                 
+                  <li><a href="#" class="clearfix">
+                     <a  href="{{url('faq')}}">FAQ</a>
+                  </li>
+                  <li><a href="#" class="clearfix">
+                     <a  href="{{url('contact-us')}}">Help</a>
+                  </li>
+                
                </ul>
             </li>
          </ul>
