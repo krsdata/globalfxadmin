@@ -8233,7 +8233,7 @@ ul.videoLive {
 
   .innerbannerinstall {
     width: 100%;
-    height: 500px;
+    height: 350px;
     position: relative;
     overflow: hidden;
     background: url(../images/background/innerinstallBg.jpg);
@@ -8373,7 +8373,7 @@ ul.videoLive {
 
 /* --------------- latest news ----------*/
 .latest_news {
-   margin-top:80px;  
+   padding-top:80px;  
   }
 
 .accordion-news {
