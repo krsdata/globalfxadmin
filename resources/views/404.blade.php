@@ -4,11 +4,17 @@
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
     your browser</a> to improve your experience.</p>
 <![endif]-->
-<div class=wrapper>
-@include('layouts.menu')
-
-    <div class=innerbannerwrap>
-        <div class=innerbanner><h2 class=bannerHeadline>{{$content->title??'Page not found'}}</h2></div>
-    </div>
-   
-  
+ @include('layouts.menu')
+   <div class=innerbannerwrap>
+      @php
+      if((Request::get('_branch_name')))
+      $url  = "downloadapk?_branch_name=".$_REQUEST['_branch_name'];
+      else
+      $url  = "downloadapk?_branch_name=010O";
+      @endphp
+      <div class=innerbannerinstall>
+         <h2 class=bannerHeadline>
+            <h2 style="color:#ffffff; display: block;">{{$content->title??'Page not found'}}</h2>
+         </h2>
+      </div>
+   </div>
