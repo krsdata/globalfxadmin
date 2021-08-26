@@ -9,7 +9,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>                        
             </button>
-            <a href="{{url('/')}}" class="navbar-brand "><img src="{{URL::asset('webmedia/images/logo.png')}}" alt=image></a>
+            <a href="{{url('/')}}" class="navbar-brand "><img src="{{URL::asset('webmedia/images/jk-logo.svg')}}" alt="image-logo" width="200px"></a>
          </div>
          <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
