@@ -32,7 +32,7 @@
                      <img src="webmedia\images\banner/twitter.svg" class="img-thumbnail " alt="social" width="40px">
                      </a>
                   </li>
-                  <li class="nav-item"><a href="{$settings->youtube_url}}" class="social-link">
+                  <li class="nav-item"><a href="{{$settings->youtube_url}}" class="social-link">
                      <img src="webmedia\images\banner/youtube.svg" class="img-thumbnail" alt="social" width="40px">
                      </a>
                   </li>
@@ -43,7 +43,5 @@
    </div>
 </header>
 <script>
-   $('.navbar-header').addClass('original').clone().insertAfter('.navbar-header').addClass('cloned').css('position','fixed').css('top','0').css('margin-top','0').css('z-index','500').removeClass('original').hide();
-   
-  
+   $('.navbar-header').addClass('original').clone().insertAfter('.navbar-header').addClass('cloned').css('position','fixed').css('top','0').css('margin-top','0').css('z-index','500').removeClass('original').hide();  
 </script>
