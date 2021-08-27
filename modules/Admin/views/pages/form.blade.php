@@ -72,7 +72,7 @@
         <div class="form-group {{ $errors->first('meta_description', 'has-error') }}">
             <label class="control-label col-md-3">Meta Description  </label>
             <div class="col-md-6">  
-                {!! Form::textarea('meta_description',null, ['class' => 'form-control ckeditor form-cascade-control input-small'])  !!}
+                {!! Form::textarea('meta_description',null, ['class' => 'form-control  form-cascade-control input-small'])  !!}
                 <span class="help-block">{{ $errors->first('meta_description', ':message') }}</span>
             </div>
         </div> 

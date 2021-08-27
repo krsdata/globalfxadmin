@@ -6,12 +6,7 @@
 <![endif]-->
  @include('layouts.menu')
    <div class=innerbannerwrap>
-      @php
-      if((Request::get('_branch_name')))
-      $url  = "downloadapk?_branch_name=".$_REQUEST['_branch_name'];
-      else
-      $url  = "downloadapk?_branch_name=010O";
-      @endphp
+      
       <div class=innerbannerinstall>
          <h2 class=bannerHeadline>
             <h2 style="color:#ffffff; display: block;">{{$content->title??'Page not found'}}</h2>
