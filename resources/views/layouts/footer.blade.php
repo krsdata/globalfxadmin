@@ -61,7 +61,7 @@
    <div class="footer-type02">
       <div class="container">
          <div class="row">
-            <a href="/" class="footer-logo"><img src="{{URL::asset('webmedia/images/logow.png')}}" alt=image></a>
+            <a href="/" class="footer-logo"><img src="{{URL::asset('webmedia/images/jk-logo.svg')}}" alt=image></a>
             <div class=footer-container>
                <ul class=clearfix>
                   <li><a href="{{$settings->facebook_url}}" class=social-link>

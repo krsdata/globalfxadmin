@@ -9,13 +9,14 @@
       <meta name="description"content="{{isset($content->meta_description) ? $content->meta_description :$settings->meta_description}}" />
       <meta name="keywords"
          content="{{isset($content->meta_key) ? $content->meta_key : $settings->meta_key}}" />
+
       <meta name="google-site-verification" content="UHF02krjE6P_UzBkn8ZNRZK8R7FGkcyAkQ4VtR3NQoI" />
 
 
       <meta name="robots" content="index, follow">
 
-      
-      <link rel="shortcut icon" href="{{ URL::asset('webmedia/images/favicon.png')}}">
+      <link rel="shortcut icon" href="{{ URL::asset('webmedia/images/JKfavicon.svg')}}">
+
       <link rel=stylesheet href="{{ URL::asset('webmedia/css/vendor.css')}}">
       <link rel=stylesheet href="{{ URL::asset('webmedia/css/style.css')}}">
       <link rel=stylesheet type=text/css href="{{ URL::asset('webmedia/css/layerslider.css')}}">
