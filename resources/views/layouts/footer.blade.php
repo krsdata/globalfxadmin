@@ -47,7 +47,7 @@
                  
                  
                   <li><a href="#" class="clearfix">
-                     <a  href="{{url('faq')}}">FAQ</a>
+                     <a  href="{{url('faqs')}}">FAQ</a>
                   </li>
                   <li><a href="#" class="clearfix">
                      <a  href="{{url('contact-us')}}">Help</a>
