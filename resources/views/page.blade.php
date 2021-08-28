@@ -38,9 +38,7 @@
                </li>
                <li>
                   <a href="#"><i class="fa fa-map-marker"></i>
-                  <span class="address">JUST KHELO
-                  (A Unit Of InstaIT Technologies)
-                  F,No 301, 50 - A , Veer Sanwarkar Nagar, Near Bhakti Priya Mandir, Indore</span>
+                  <span class="address">{{$settings->company_address}}</span>
                   </a>
                </li>
             </ul>
