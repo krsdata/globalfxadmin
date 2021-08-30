@@ -21,7 +21,8 @@
                      <div class="carousel-caption">
                         <h1>DIL SE KHELO ON JUSTKHELO</h1>
                         <p>Defining Entertainment and delivering it to the world</p>
-                        <p><a class="btn btn-lg btn-primary" href="https://justkhelo.com/download-app?_branch_name=001" role="button">Download Now</a></p>
+                        <p>
+                           <a class="btn btn-lg btn-primary" href="https://justkhelo.com/download-app?_branch_name=001" role="button">Download Now</a></p>
                      </div>
                   </div>
                </div>
@@ -32,7 +33,8 @@
                         <h1>Sign up & enjoy the most<br>
                             exciting fantasy sports in India anytime, anywhere!</h1>
                         <p>Get INR 100 as welcome bonus</p>
-                        <p><a class="btn btn-lg btn-primary" href="https://justkhelo.com/download-app?_branch_name=001" role="button">Download Now</a></p>
+                        <p>
+                           <a class="btn btn-lg btn-primary" href="https://justkhelo.com/download-app?_branch_name=001" role="button">Download Now</a></p>
                         </div>
                   </div>
                </div>
@@ -180,7 +182,7 @@
                   </div>
                   <div class="figure">
                      <div class="team-logo">
-                        <div style="background:url('{{$completed->teama->thumb_url }}')" class="teamLogoImg"></div>
+      <div style="background:url('{{$completed->teama->thumb_url }}')" class="teamLogoImg"></div>
                      </div>
                   </div>
                </div>
@@ -214,7 +216,7 @@
    <section class="matchSchedule">
       <div class="container">
          <div class=row>
-            <h2 class="heading line">match <span>schedule</span></h2>
+            <h2 class="heading line">match<span>schedule</span></h2>
             <div class="matchSchedule_details row">
                <div class="match_versus-wrap">
                   <div class="wrap_match-innerdetails">
@@ -244,13 +246,15 @@
       </div>
    </section>
    @endif
+
    <section class="social-media">
       <div class="container">
          <div class="row">
-            <h2 class=heading></span><span style="color:white;">Payment</span></h2>
+            <h2 class=heading><span style="color:white;">Payment</span></h2>
             <p class="headParagraph" style="color:#fff;">
                Payment Accepted by All Major Banks & Payment Wallets
             </p>
+
             <div class="LatestNews_wrap clearfix">
                <div class="tab-content news_display_container clearfix">
                   <ul id="club_news" class="tab-pane active clearfix boardmember">
@@ -293,6 +297,7 @@
                   <a class="prv club_prev"></a> <a class="nxt club_next"></a>
                </div>
             </div>
-         </div>
+         
       </div>
+   </div>
    </section>

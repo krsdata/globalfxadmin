@@ -14,43 +14,42 @@
                <h4 class="footerheading">Quick <span>Links</span></h4>
                <ul class="widget_productdetails">
                   
-                  <li><a href="#" class="clearfix">
-                     <a  href="{{url('/')}}">Home</a>
+                  <li><a href="{{url('/')}}" class="clearfix">Home</a>
                   </li>
-                  <li><a href="#" class="clearfix">
-                     <a  href="{{url('about-us')}}">About Us</a>
+                  <li>
+                     <a  href="{{url('about-us')}}" class="clearfix">About Us</a>
                   </li>
                  
-                  <li><a href="#" class="clearfix">
-                     <a  href="{{url('how-to-play')}}">How To Play</a>
+                  <li>
+                     <a  href="{{url('how-to-play')}}" class="clearfix">How To Play</a>
                   </li>
-                  <li><a href="#" class="clearfix">
-                     <a  href="{{url('legality')}}">Legality</a>
+                  <li>
+                     <a  href="{{url('legality')}}" class="clearfix">Legality</a>
                   </li>
-                  <li><a href="#" class="clearfix">
-                     <a  href="{{url('disclaimer')}}">Disclaimer</a>
+                  <li>
+                     <a  href="{{url('disclaimer')}}" class="clearfix">Disclaimer</a>
                   </li>
                </ul>
             </li>
             <li class="widget-product">
                <h4 class="footerheading">Quick <span>Links</span></h4>
                <ul class="widget_productdetails">
-                  <li><a href="#" class="clearfix">
-                     <a  href="{{url('terms-and-conditions')}}">Terms And Conditions</a>
+                  <li>
+                     <a href="{{url('terms-and-conditions')}}" class="clearfix">Terms And Conditions</a>
                   </li>
-                  <li><a href="#" class="clearfix">
-                     <a  href="{{url('privacy-policy')}}">Privacy Policy</a>
+                  <li>
+                     <a href="{{url('privacy-policy')}}" class="clearfix">Privacy Policy</a>
                   </li>
-                  <li><a href="#" class="clearfix">
-                     <a  href="{{url('refund-policy')}}">Refund Policy</a>
+                  <li>
+                     <a href="{{url('refund-policy')}}" class="clearfix">Refund Policy</a>
                   </li>
                  
                  
-                  <li><a href="#" class="clearfix">
-                     <a  href="{{url('faq')}}">FAQ</a>
+                  <li>
+                     <a  href="{{url('faq')}}" class="clearfix">FAQ</a>
                   </li>
-                  <li><a href="#" class="clearfix">
-                     <a  href="{{url('contact-us')}}">Help</a>
+                  <li>
+                     <a  href="{{url('contact-us')}}" class="clearfix">Help</a>
                   </li>
                 
                </ul>
@@ -65,19 +64,19 @@
             <div class=footer-container>
                <ul class=clearfix>
                   <li><a href="{{$settings->facebook_url}}" class=social-link>
-                     <i><img src="webmedia/images/banner/fb.svg" class="img-thumbnail" alt="social" width="50px"></i>
+                     <i><img src="webmedia/images/banner/fb.svg" class="img-thumbnail" alt="social" width="50"></i>
                      </a>
                   </li>
                   <li><a href="{{$settings->instagram_url}}" class=social-link target=_blank>
-                     <i><img src="webmedia/images/banner/insta.svg" class="img-thumbnail" alt="social" width="50px" ></i>
+                     <i><img src="webmedia/images/banner/insta.svg" class="img-thumbnail" alt="social" width="50" ></i>
                      </a>
                   </li>
                   <li><a href="{{$settings->twitter_url}}" class=social-link target=_blank>
-                     <i><img src="webmedia\images\banner/twitter.svg" class="img-thumbnail " alt="social" width="50px"></i>
+                     <i><img src="webmedia/images/banner/twitter.svg" class="img-thumbnail " alt="social" width="50"></i>
                      </a>
                   </li>
                   <li><a href="{{$settings->youtube_url}}" class=social-link target=_blank>
-                     <i><img src="webmedia\images\banner/youtube.svg" class="img-thumbnail" alt="social"width="50px"></i>
+                     <i><img src="webmedia/images/banner/youtube.svg" class="img-thumbnail" alt="social"width="50"></i>
                      </a>
                   </li>
                </ul>
