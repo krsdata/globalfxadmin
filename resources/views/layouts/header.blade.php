@@ -1,5 +1,5 @@
 <!doctype html>
-<<<<<<< HEAD
+
 <html  class="no-js" lang="en">
 <head>
      <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
@@ -41,17 +41,3 @@
       </script>
       <!-- End Google Tag Manager -->
    </head>
-   </html>
-=======
-     <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-8LSXV83R27"></script>
-      <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-8LSXV83R27');
-      </script>
-
-   </head>
->>>>>>> 02c6f72e03ecbeb2b90d5a1a7c697eb7452abe62
