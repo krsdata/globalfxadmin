@@ -19,10 +19,10 @@
                   <img src="webmedia/images/banner/background02.jpg" alt="jk">
                   <div class="container">
                      <div class="carousel-caption">
-                        <h1>DIL SE KHELO ON JUSTKHELO</h1>
-                        <p>Defining Entertainment and delivering it to the world</p>
+                        <h1>Join & Play The Best Fantasy Sports In India Anytime & Anywhere! </h1>
+                        <p>You will receive a welcome bonus of INR 100</p>
                         <p>
-                           <a class="btn btn-lg btn-primary" href="https://justkhelo.com/download-app?_branch_name=001" role="button">Download Now</a></p>
+                           <a class="btn btn-lg btn-primary" href="https://justkhelo.com/download-app?_branch_name=001" role="button">GET INR 100 BONUS NOW</a></p>
                      </div>
                   </div>
                </div>
@@ -30,11 +30,11 @@
                   <img src="webmedia/images/banner/background.jpg" alt="jk">
                   <div class="container">
                      <div class="carousel-caption">
-                        <h1>Sign up & enjoy the most<br>
-                            exciting fantasy sports in India anytime, anywhere!</h1>
-                        <p>Get INR 100 as welcome bonus</p>
+                        <h1>ON JUSTKHELO, DIL SE KHELO</h1>
+                        <p>We define entertainment and deliver it to the world</p>
+</p>
                         <p>
-                           <a class="btn btn-lg btn-primary" href="https://justkhelo.com/download-app?_branch_name=001" role="button">Download Now</a></p>
+                           <a class="btn btn-lg btn-primary" href="https://justkhelo.com/download-app?_branch_name=001" role="button">Dil se khelo now</a></p>
                         </div>
                   </div>
                </div>

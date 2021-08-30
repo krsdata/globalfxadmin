@@ -5853,7 +5853,7 @@ button.close {
 
 .carousel-caption h1{
   font-family: poppins, sans-serif;
-   font-size: 45px;
+   font-size:36px;
    font-weight: 600;
    text-align: center;
 
@@ -8247,7 +8247,7 @@ ul.videoLive {
     background: url(../images/background/innerinstallBg.jpg);
     /* Image Credit: Unsplash.me */
     background-repeat: no-repeat;
-    background-position: center right;
+    background-position: center;
     background-attachment: fixed;
     background-size: cover;
 

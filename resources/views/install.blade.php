@@ -15,8 +15,8 @@
       @endphp -->
       <div class="innerbannerinstall">
          <h2 class="bannerHeadline">
-            <a href="{{$settings->playstore_url}}" class="btn btn-white">Download Now</a>
-            <a href="{{$settings->playstore_url}}" style="color:#ffffff; display: block;">If downloading not started click above button </a>
+           <!--  <a href="{{$settings->playstore_url}}" class="btn btn-white"></a> -->
+            <a href="{{$settings->playstore_url}}" style="color:#ffffff; display: block; background-color:#1041b7db; padding: 10px; border-radius:50px">Download Play & Win</a>
          </h2>
       </div>
    </div>
