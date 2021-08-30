@@ -1,10 +1,6 @@
 @extends('layouts.master') 
 @section('content') 
 <body>
-   <!-- Google Tag Manager (noscript) -->
-   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KVN6NHG"
-      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-   <!-- End Google Tag Manager (noscript) -->
    @include('layouts.menu')
    <div class=innerbannerwrap>
       @php
@@ -42,9 +38,7 @@
                </li>
                <li>
                   <a href="#"><i class="fa fa-map-marker"></i>
-                  <span class="address">JUST KHELO
-                  (A Unit Of InstaIT Technologies)
-                  F,No 301, 50 - A , Veer Sanwarkar Nagar, Near Bhakti Priya Mandir, Indore</span>
+                  <span class="address">{{$settings->company_address}}</span>
                   </a>
                </li>
             </ul>
