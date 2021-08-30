@@ -7167,11 +7167,13 @@ h4.footerheading span:after{
   position: relative;
   min-height: 1px;
   padding-left: 15px;
-  padding-right: 15px; }
+  padding-right: 15px;
+   }
   @media (min-width: 992px) {
     .widget-product {
       float: left;
-      width: 33%; } }
+      width: 33%;
+    /*  margin-left:25px*/ } }
 
 .widget-comment {
   position: relative;
@@ -7197,15 +7199,19 @@ h4.footerheading span:after{
     border-bottom: 1px solid #979da0;
     padding: 0px 0;
     position: relative; }
+
     .widget_productdetails li a {
       font-family: "poppins", sans-serif;
       font-size: 14px;
       color: #141515;
       font-weight: 400;
       text-transform: uppercase;
-      padding: 10px 35px;
+      padding: 20px 35px;
       display: block;
-      transition: color 0.3s ease-in-out; }
+      transition: color 0.3s ease-in-out;
+      line-height: 1.5; 
+
+    }
       .widget_productdetails li a:hover {
         color: #0e42b8; }
     .widget_productdetails li:after {
