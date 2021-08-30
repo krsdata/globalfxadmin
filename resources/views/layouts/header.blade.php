@@ -10,8 +10,8 @@
 <html class="no-js" lang="en">
    <head>
     
-   <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
-      <meta charset="utf-8"/>
+   <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+      <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0"/>
       <title>{{isset($content->meta_title) ? $content->meta_title : $settings->meta_title}}</title>
       <meta name="description"content="{{isset($content->meta_description) ? $content->meta_description :$settings->meta_description}}" />
