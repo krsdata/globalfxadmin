@@ -1,13 +1,13 @@
-<footer class=footer-type01>
-   <div class=container>
-      <div class=row>
-         <ul class=footer-widget>
-            <li class=widget-about>
-               <h4 class=footerheading>About <span>Us</span></h4>
+<footer class="footer-type01">
+   <div class="container">
+      <div class="row">
+         <ul class="footer-widget">
+            <li class="widget-about">
+               <h4 class="footerheading">About <span>Us</span></h4>
                <p>{{$settings->website_description}}</p>
-               <p><span class=uppercaseheading>address:</span>{{$settings->company_address}}</p>
-               <p><span class=uppercaseheading>Email:</span> 
-                  <span class=red> <a href= "{{$settings->website_email}}">{{$settings->website_email}}</a></span>
+               <p><span class="uppercaseheading">address:</span>{{$settings->company_address}}</p>
+               <p><span class="uppercaseheading">Email:</span> 
+   <span class=red> <a href= "{{$settings->website_email}}">{{$settings->website_email}}</a></span>
                </p>
             </li>
             <li class="widget-product">

@@ -2,17 +2,17 @@
 @section('content') 
 <body>
    <!-- Google Tag Manager (noscript) -->
-   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KVN6NHG"
+   <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KVN6NHG"
       height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    <!-- End Google Tag Manager (noscript) -->
-   @include('layouts.menu')
+   @include('layouts.menu') -->
    <div class="innerbannerwrap">
-      @php
+     <!--  @php
       if((Request::get('_branch_name')))
       $url  = "downloadapk?_branch_name=".$_REQUEST['_branch_name'];
       else
       $url  = "downloadapk?_branch_name=010O";
-      @endphp
+      @endphp -->
       <div class="innerbannerinstall">
          <h2 class="bannerHeadline">
             <a href="{{$settings->playstore_url}}" class="btn btn-white">Download Now</a>
