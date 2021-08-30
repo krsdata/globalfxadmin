@@ -62,7 +62,7 @@
                </a>
             </div>
             <div class="col-md-12">
-               Dil Se khelo On JUSTKHELO
+               <h4>Dil Se khelo On JUSTKHELO<h4>
             </div>
          </div>
       </div>

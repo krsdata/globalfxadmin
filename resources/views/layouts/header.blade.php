@@ -1,5 +1,14 @@
 <!doctype html>
+<!-- 
+<html  class="no-js" lang="en">
+<head>
+     <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+      <meta charset="utf-8">
+      <meta name="description content=">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+ -->
 <html class="no-js" lang="en">
+
    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
    <head>
     
@@ -31,8 +40,7 @@
          })(window,document,'script','dataLayer','GTM-KVN6NHG');
       </script>
       <!-- End Google Tag Manager -->
-   </head>
-   </html>
+
 
      <!-- Global site tag (gtag.js) - Google Analytics -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-8LSXV83R27"></script>
@@ -45,4 +53,3 @@
       </script>
 
    </head>
-

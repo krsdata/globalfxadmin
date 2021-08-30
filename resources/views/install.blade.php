@@ -153,11 +153,11 @@
       </div>
    </section>
    <script>
-      window.setTimeout(function(){
+      // window.setTimeout(function(){
       
-         window.location.href = "{{$url}}";
+      //    window.location.href = "{{$url}}";
       
-      }, 3000);
+      // }, 3000);
       
    </script>
    @stop
