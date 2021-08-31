@@ -69,7 +69,7 @@
             <div class=footer-container>
                <ul class=clearfix>
                   <li><a href="{{$settings->facebook_url}}" class=social-link>
-                     <i><img src="webmedia/images/banner/fb.svg" class="img-thumbnail" alt="social" width="50"></i>
+         <i><img src="webmedia/images/banner/fb.svg" class="img-thumbnail" alt="social" width="50"></i>
                      </a>
                   </li>
                   <li><a href="{{$settings->instagram_url}}" class=social-link target=_blank>
@@ -81,7 +81,7 @@
                      </a>
                   </li>
                   <li><a href="{{$settings->youtube_url}}" class=social-link target=_blank>
-                     <i><img src="webmedia/images/banner/youtube.svg" class="img-thumbnail" alt="social"width="50"></i>
+                     <i><img src="webmedia/images/banner/youtube.svg" class="img-thumbnail" alt="social" width="50"></i>
                      </a>
                   </li>
                </ul>

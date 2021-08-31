@@ -22,7 +22,7 @@
                   <ul class="social_icon navbar-right">
                   <li class="nav-item">
                      <a href="{{$settings->facebook_url}}" class="social-link">
-                     <img src="webmedia/images/banner/fb.svg" class="img-thumbnail" alt="social" width="40">
+            <img src="webmedia/images/banner/fb.svg" class="img-thumbnail" alt="social" width="40">
                      </a>
                   </li>
                   <li class="nav-item">
@@ -42,9 +42,12 @@
              </ul>
             
          </div>
+      </div>
    </nav>
-   </div>
-
+   
+   
+         </div>
+      
 </header>
 <script>
    $('.navbar-header').addClass('original').clone().insertAfter('.navbar-header').addClass('cloned').css('position','fixed').css('top','0').css('margin-top','0').css('z-index','500').removeClass('original').hide();  

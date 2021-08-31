@@ -32,7 +32,7 @@
                      <div class="carousel-caption">
                         <h1>ON JUSTKHELO, DIL SE KHELO</h1>
                         <p>We define entertainment and deliver it to the world</p>
-</p>
+
                         <p>
                            <a class="btn btn-lg btn-primary" href="https://justkhelo.com/download-app?_branch_name=001" role="button">Dil se khelo now</a></p>
                         </div>
@@ -62,7 +62,7 @@
                </a>
             </div>
             <div class="col-md-12">
-               <h4>Dil Se khelo On JUSTKHELO<h4>
+               <h4>Dil Se khelo On JUSTKHELO</h4>
             </div>
          </div>
       </div>
@@ -202,7 +202,7 @@
                   </div>
                   <div class="figure figresult">
                      <div class="team-logo">
-                        <div style="background:url('{{$completed->teamb->thumb_url }}')"class="teamLogoImg"></div>
+                        <div style="background:url('{{$completed->teamb->thumb_url }}')" class="teamLogoImg"></div>
                      </div>
                   </div>
                </div>
