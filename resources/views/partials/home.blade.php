@@ -22,7 +22,7 @@
                         <h1>Join & Play The Best Fantasy Sports In India Anytime & Anywhere! </h1>
                         <p>You will receive a welcome bonus of INR 100</p>
                         <p>
-                           <a class="btn btn-lg btn-primary" href="https://justkhelo.com/download-app?_branch_name=001" role="button">GET INR 100 BONUS NOW</a></p>
+                  <a class="btn btn-lg btn-primary" href="https://justkhelo.com/download-app?_branch_name=001" role="button">GET INR 100 BONUS NOW</a></p>
                      </div>
                   </div>
                </div>
@@ -57,12 +57,10 @@
       <div class="container">
          <div class="row">
             <div class="col-md-12 text-center download">
-               <a href="https://justkhelo.com/download-app?_branch_name=001">
-               <button type="button" class="btn btn-default">Download Now</button>
-               </a>
+               <a href="https://justkhelo.com/download-app?_branch_name=001" class="btn btn-default" role="button">Download Now</a>
             </div>
             <div class="col-md-12">
-               <h4>Dil Se khelo On JUSTKHELO</h4>
+               Dil Se khelo On JUSTKHELO
             </div>
          </div>
       </div>
@@ -72,10 +70,9 @@
          <div class="col-md-12 text-center">
             <h2 class="heading line">JUSTKHELO<span> FANTASY SPORTS</span></h2>
             <p class="text justify">We offer one of the biggest virtual fantasy sports platform. We let you create/pick your team from a pool of the best cricketers from all around the world. Also, keep a watch on your fan base through shared posts in the feed. Here, the more you are invested to play and move up to the next level, the more you are rewarded with Cash Bonuses and other Rewards. JUSTKHELO Fantasy League is an arena that permits you to utilize and execute your expertize and knowledge. </p>
+
             <div class="col-md-12 text-center download">
-               <a href="https://justkhelo.com/download-app?_branch_name=001">
-               <button type="button" class="btn btn-info">Download Now</button>
-               </a>
+               <a href="https://justkhelo.com/download-app?_branch_name=001" class="btn btn-info" role="button">Download Now</a>
             </div>
          </div>
       </div>
