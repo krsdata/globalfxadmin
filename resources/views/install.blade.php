@@ -4,8 +4,8 @@
    <!-- Google Tag Manager (noscript) -->
    <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KVN6NHG"
       height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-   <!-- End Google Tag Manager (noscript) -->
-   @include('layouts.menu') -->
+   <!-End Google Tag Manager (noscript)-->
+   @include('layouts.menu')-->
    <div class="innerbannerwrap">
      <!--  @php
       if((Request::get('_branch_name')))
@@ -14,13 +14,146 @@
       $url  = "downloadapk?_branch_name=010O";
       @endphp -->
       <div class="innerbannerinstall">
+         <!-- <img src="webmedia/images/background/innerinstallBg.jpg" alt="bg" class="img-responsive"> -->
          <h2 class="bannerHeadline">
-           <!--  <a href="{{$settings->playstore_url}}" class="btn btn-white"></a> -->
-            <a href="{{$settings->playstore_url}}" style="color:#ffffff; display: block; background-color:#1041b7db; padding: 10px; border-radius:50px">Download Play & Win</a>
-         </h2>
+           <a href="{{$settings->playstore_url}}">Download Play & Win</a> </h2>
+           <p>In Respect Of Legands</p>
+        
       </div>
    </div>
-   <section class="latest_news bg-white">
+
+<section class="wining_slider ">
+<div class="container text-center">
+  <div class="row">
+    <h2 class="heading line">Latest <span>Winning </span></h2>
+  </div>
+  <div class='row'>
+    <div class='col-md-12'>
+      <div class="carousel slide media-carousel" id="media">
+        <div class="carousel-inner">
+          <div class="item  active">
+            <div class="row">
+              <div class="col-md-4">
+               <div class="box1">
+                <a class="thumbnail" href="#">
+                  <img alt="wining_user" src="webmedia/images/background/himani.png"></a>
+                  <div class="carousel-caption caption">
+                   <h3>Himani <span>contest Winner</span></h3>
+                   <h4>Rs. 35,000</h4>
+                    <p>Justkhelo is the best App for Entertainment.</p>
+                   </div>
+                     </div> 
+              </div>
+
+              <div class="col-md-4">
+                <div class="box1">
+                <a class="thumbnail" href="#">
+                  <img alt="wining_user" src="webmedia/images/background/kapil.png"></a>
+                  <div class="carousel-caption caption">
+                   <h3>kapil <span>contest Winner</span></h3>
+                   <h4>Rs. 30,000</h4>
+                    <p>Justkhelo is the best App for Entertainment.</p>
+                   </div>
+                     </div> 
+               </div>
+           <div class="col-md-4">
+               <div class="box1">
+                <a class="thumbnail" href="#">
+                  <img alt="wining_user" src="webmedia/images/background/mohit.png"></a>
+                  <div class="carousel-caption caption">
+                   <h3>Mohit <span>contest Winner</span></h3>
+                   <h4>Rs. 25,000</h4>
+                    <p>Justkhelo is the best App for Entertainment.</p>
+                   </div>
+                     </div> 
+              </div>        
+            </div>
+          </div>
+          <div class="item">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="box1">
+                <a class="thumbnail" href="#">
+                  <img alt="wining_user" src="webmedia/images/background/himani.png"></a>
+                  <div class="carousel-caption caption">
+                   <h3>Himani<span>contest Winner</span></h3>
+                   <h4>Rs. 15,000</h4>
+                    <p>Justkhelo is the best App for Entertainment.</p>
+                   </div>
+                     </div> 
+              </div>          
+              <div class="col-md-4">
+                <div class="box1">
+                <a class="thumbnail" href="#">
+                  <img alt="wining_user" src="webmedia/images/background/kapil.png"></a>
+                  <div class="carousel-caption caption">
+                  <h3>Kapil<span>contest Winner</span></h3>
+                   <h4>Rs. 17,000</h4>
+                    <p>Justkhelo is the best App for Entertainment.</p>
+                   </div>
+                     </div> 
+              </div>
+              <div class="col-md-4">
+                <div class="box1">
+                <a class="thumbnail" href="#">
+                  <img alt="wining_user" src="webmedia/images/background/mohit.png"></a>
+                  <div class="carousel-caption caption">
+                  <h3>Mohit <span>contest Winner</span></h3>
+                   <h4>Rs. 25,000</h4>
+                    <p>Justkhelo is the best App for Entertainment.</p>
+                   </div>
+                     </div> 
+              </div>        
+            </div>
+          </div>
+          <div class="item">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="box1">
+                <a class="thumbnail" href="#">
+                  <img alt="wining_user" src="webmedia/images/background/himani.png"></a>
+                  <div class="carousel-caption caption">
+                   <h3>Himani <span>contest Winner</span></h3>
+                   <h4>Rs. 30,000</h4>
+                    <p>Justkhelo is the best App for Entertainment.</p>
+                   </div>
+                     </div> 
+              </div>          
+              <div class="col-md-4">
+                <div class="box1">
+                <a class="thumbnail" href="#">
+                  <img alt="wining_user" src="webmedia/images/background/kapil.png"></a>
+                  <div class="carousel-caption caption">
+                   <h3>kapil<span>contest Winner</span></h3>
+                   <h4>Rs. 15,000</h4>
+                    <p>Justkhelo is the best App for Entertainment.</p>
+                   </div>
+                     </div> 
+              </div>
+              <div class="col-md-4">
+                <div class="box1">
+                <a class="thumbnail" href="#">
+                  <img alt="wining_user" src="webmedia/images/background/mohit.png"></a>
+                  <div class="carousel-caption caption">
+                   <h3>Mohit<span>contest Winner</span></h3>
+                   <h4>Rs. 20,000</h4>
+                    <p>Justkhelo is the best App for Entertainment.</p>
+                   </div>
+                     </div> 
+              </div>      
+            </div>
+          </div>
+        </div>
+        <a data-slide="prev" href="#media" class="left carousel-control">‹</a>
+        <a data-slide="next" href="#media" class="right carousel-control">›</a>
+      </div>                          
+    </div>
+  </div>
+</div>
+</section>
+   
+
+<section class="latest_news bg-white">
       <div class="container">
          <div class="row">
             <h2 class="heading line">How To<span> Install</span></h2>
@@ -153,11 +286,26 @@
       </div>
    </section>
    <script>
-      // window.setTimeout(function(){
+       //window.setTimeout(function(){
       
-      //    window.location.href = "{{$url}}";
+        //window.location.href = "{{$url}}";
       
-      // }, 3000);
+     // }, 3000);
       
    </script>
+
+<script>
+   $(document).ready(function() {
+  $('#media').carousel({
+    pause: true,
+    interval: false,
+  });
+});
+
+</script>
+ 
+
+
+
+
    @stop
