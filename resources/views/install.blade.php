@@ -13,13 +13,13 @@
       <div class="innerbannerinstall">
          <!-- <img src="webmedia/images/background/innerinstallBg.jpg" alt="bg" class="img-responsive"> -->
          <h2 class="bannerHeadline">
-           <a href="{{$url}}">Download Play & Win</a> </h2>
+           <a href="{{$url}}" >Download Play & Win</a> </h2>
            <p>In Respect Of Legands</p>
         
       </div>
    </div>
 
-<section class="wining_slider ">
+<!-- <section class="wining_slider ">
 <div class="container text-center">
   <div class="row">
     <h2 class="heading line">Latest <span>Winning </span></h2>
@@ -147,7 +147,7 @@
     </div>
   </div>
 </div>
-</section>
+</section> -->
    
 
 <section class="latest_news bg-white">
