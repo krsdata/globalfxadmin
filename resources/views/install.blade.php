@@ -1,28 +1,25 @@
 @extends('layouts.master')
 @section('content') 
 <body>
-   <!-- Google Tag Manager (noscript) -->
-   <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KVN6NHG"
-      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-   <!-End Google Tag Manager (noscript)-->
-   @include('layouts.menu')-->
+
+   @include('layouts.menu')
    <div class="innerbannerwrap">
-     <!--  @php
+       @php
       if((Request::get('_branch_name')))
       $url  = "downloadapk?_branch_name=".$_REQUEST['_branch_name'];
       else
       $url  = "downloadapk?_branch_name=010O";
-      @endphp -->
+      @endphp 
       <div class="innerbannerinstall">
          <!-- <img src="webmedia/images/background/innerinstallBg.jpg" alt="bg" class="img-responsive"> -->
          <h2 class="bannerHeadline">
-           <a href="{{$settings->playstore_url}}">Download Play & Win</a> </h2>
+           <a href="{{$url}}" >Download Play & Win</a> </h2>
            <p>In Respect Of Legands</p>
         
       </div>
    </div>
 
-<section class="wining_slider ">
+<!-- <section class="wining_slider ">
 <div class="container text-center">
   <div class="row">
     <h2 class="heading line">Latest <span>Winning </span></h2>
@@ -150,7 +147,7 @@
     </div>
   </div>
 </div>
-</section>
+</section> -->
    
 
 <section class="latest_news bg-white">
