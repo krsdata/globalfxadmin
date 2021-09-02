@@ -1,13 +1,10 @@
 <body>
-   <!--[if lt IE 10]>
-   <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
-      your browser</a> to improve your experience.
-   </p>
-   <![endif]-->
-   <!-- Google Tag Manager (noscript) -->
-   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KVN6NHG"
-      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-   <!-- End Google Tag Manager (noscript) -->
+    @php
+      if((Request::get('_branch_name')))
+      $url  = "downloadapk?_branch_name=".$_REQUEST['_branch_name'];
+      else
+      $url  = "downloadapk?_branch_name=010O";
+      @endphp 
    <div class=wrapper>
    @include('layouts.menu')
    <section class="slider-up">
@@ -22,7 +19,7 @@
                         <h1>Join & Play The Best Fantasy Sports In India Anytime & Anywhere! </h1>
                         <p>You will receive a welcome bonus of INR 100</p>
                         <p>
-                  <a class="btn btn-lg btn-primary" href="https://justkhelo.com/download-app?_branch_name=001" role="button">GET INR 100 BONUS NOW</a></p>
+                  <a class="btn btn-lg btn-primary" href="{{$url}}" role="button">GET INR 100 BONUS NOW</a></p>
                      </div>
                   </div>
                </div>
@@ -34,7 +31,7 @@
                         <p>We define entertainment and deliver it to the world</p>
 
                         <p>
-                           <a class="btn btn-lg btn-primary" href="https://justkhelo.com/download-app?_branch_name=001" role="button">Dil se khelo now</a></p>
+                           <a class="btn btn-lg btn-primary" href="{{$url}}" role="button">Dil se khelo now</a></p>
                         </div>
                   </div>
                </div>
@@ -44,7 +41,7 @@
                      <div class="carousel-caption">
                         <!-- <h1>Download Now </h1>
                            <p>Get INR 100 as welcome bonus</p>
-                           <p><a class="btn btn-lg btn-primary" href="https://justkhelo.com/download-app?_branch_name=001" role="button">Download Now</a></p> -->
+                           <p><a class="btn btn-lg btn-primary" href="{{$url}}" role="button">Download Now</a></p> -->
                      </div>
                   </div>
                </div>
@@ -57,7 +54,7 @@
       <div class="container">
          <div class="row">
             <div class="col-md-12 text-center download">
-               <a href="https://justkhelo.com/download-app?_branch_name=001" class="btn btn-default" role="button">Download Now</a>
+               <a href="{{$url}}" class="btn btn-default" role="button">Download Now</a>
             </div>
             <div class="col-md-12">
                Dil Se khelo On JUSTKHELO
@@ -72,7 +69,7 @@
             <p class="text justify">We offer one of the biggest virtual fantasy sports platform. We let you create/pick your team from a pool of the best cricketers from all around the world. Also, keep a watch on your fan base through shared posts in the feed. Here, the more you are invested to play and move up to the next level, the more you are rewarded with Cash Bonuses and other Rewards. JUSTKHELO Fantasy League is an arena that permits you to utilize and execute your expertize and knowledge. </p>
 
             <div class="col-md-12 text-center download">
-               <a href="https://justkhelo.com/download-app?_branch_name=001" class="btn btn-info" role="button">Download Now</a>
+               <a href="{{$url}}" class="btn btn-info" role="button">Download Now</a>
             </div>
          </div>
       </div>
