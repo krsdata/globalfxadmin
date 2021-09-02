@@ -15,9 +15,9 @@
             <ul class="nav navbar-nav navbar-right">
                <li><a href="{{url('/')}}">Home</a></li>
                <li><a  href="{{url('how-to-play')}}">How To Play</a></li>
-               <li><a href="{{url('/about-us')}}">About</a></li>
-              <li><a  href="{{url('contact-us')}}">Help</a>
-                  </li>
+                <li><a  href="{{url('how-to-play')}}">How To Install</a></li>
+                <li><a href="{{url('/about-us')}}">About</a></li>
+                <li><a  href="{{url('contact-us')}}">Help</a></li>
 
 
                <!-- social icon-->

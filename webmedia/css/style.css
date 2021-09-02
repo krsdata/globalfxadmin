@@ -12175,7 +12175,7 @@ footer ul{
   border-radius: 23px 23px 23px 23px;
   height: 40px;
   width : 40px;
-  margin-top: 25px
+  margin-top: 90px
 }
 /* Next button  */
 .media-carousel .carousel-control.right 
@@ -12187,7 +12187,7 @@ footer ul{
   border-radius: 23px 23px 23px 23px;
   height: 40px;
   width : 40px;
-  margin-top: 25px
+  margin-top: 90px
 }
 /* Changes the position of the indicators */
 .media-carousel .carousel-indicators 
@@ -12210,7 +12210,11 @@ footer ul{
 {
   width:25%;
   height:auto;
+  padding-top: 20px;
 }
+
+
+
 /* End carousel */
 
 .caption{
@@ -12218,7 +12222,7 @@ margin-top:-20px;
 display: inline-table;
 font-family: poppins, sans-serif;
 color: #000;
-padding:50px;
+padding:70px;
 
 }
 
@@ -12245,7 +12249,7 @@ margin-top: 10px;
 
 .box1{
   height: 300px;
- /* box-shadow: #000000 transparent 16%;*/
+ border: 1px solid #d2cece;
 }
 
 

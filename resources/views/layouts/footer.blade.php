@@ -49,10 +49,7 @@
                   <li>
                      <a  href="{{url('faq')}}" class="clearfix">FAQ</a>
 
-                  <li>
-                     <a  href="{{url('faqs')}}" class="clearfix">FAQ</a>
-
-                  </li>
+                  
                   <li>
                      <a  href="{{url('contact-us')}}" class="clearfix">Help</a>
                   </li>

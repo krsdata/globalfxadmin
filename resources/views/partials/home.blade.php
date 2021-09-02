@@ -71,11 +71,11 @@
             <p class="text justify">The Best Fantasy App of Justkhelo lets you showcase your expertise and knowledge. We offer one of the biggest virtual cricket fantasy sports platforms of India. We let you pick your team from a pool of the best cricketers from all around the world. Lets  keep a watch on your fan base through shared posts in the feed. The more you invest in learning to Invest in Fantasy Sports </a> and advancing to the next level, the more Cash Bonuses and other Rewards you receive. </p>
 
             <div class="col-md-12 text-center download">
-<<<<<<< HEAD
+
                <a href="https://justkhelo.com/download-app?_branch_name=001" class="btn btn-info" role="button">DOWNLOAD AND START INVESTING NOW</a>
-=======
-               <a href="{{$url}}" class="btn btn-info" role="button">Download Now</a>
->>>>>>> 08728b777c4d9c174aff9365ed8b2f1d5ec5f32a
+
+          
+
             </div>
          </div>
       </div>

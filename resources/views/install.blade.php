@@ -19,7 +19,7 @@
       </div>
    </div>
 
-<!-- <section class="wining_slider ">
+<section class="wining_slider ">
 <div class="container text-center">
   <div class="row">
     <h2 class="heading line">Latest <span>Winning </span></h2>
@@ -37,7 +37,7 @@
                   <div class="carousel-caption caption">
                    <h3>Himani <span>contest Winner</span></h3>
                    <h4>Rs. 35,000</h4>
-                    <p>Justkhelo is the best App for Entertainment.</p>
+                    <p>Himani won IND Vs ENG match. </p>
                    </div>
                      </div> 
               </div>
@@ -48,8 +48,8 @@
                   <img alt="wining_user" src="webmedia/images/background/kapil.png"></a>
                   <div class="carousel-caption caption">
                    <h3>kapil <span>contest Winner</span></h3>
-                   <h4>Rs. 30,000</h4>
-                    <p>Justkhelo is the best App for Entertainment.</p>
+                   <h4>Rs. 100,000</h4>
+                    <p>Kapil won Mega Contest 100,000rs </p>
                    </div>
                      </div> 
                </div>
@@ -59,8 +59,8 @@
                   <img alt="wining_user" src="webmedia/images/background/mohit.png"></a>
                   <div class="carousel-caption caption">
                    <h3>Mohit <span>contest Winner</span></h3>
-                   <h4>Rs. 25,000</h4>
-                    <p>Justkhelo is the best App for Entertainment.</p>
+                   <h4>Rs. 10,000</h4>
+                    <p>Mohit won 10,000 in CPL </p>
                    </div>
                      </div> 
               </div>        
@@ -71,75 +71,39 @@
               <div class="col-md-4">
                 <div class="box1">
                 <a class="thumbnail" href="#">
-                  <img alt="wining_user" src="webmedia/images/background/himani.png"></a>
+                  <img alt="wining_user" src="webmedia/images/background/Anand.png"></a>
                   <div class="carousel-caption caption">
-                   <h3>Himani<span>contest Winner</span></h3>
-                   <h4>Rs. 15,000</h4>
-                    <p>Justkhelo is the best App for Entertainment.</p>
+                   <h3>Anand<span>contest Winner</span></h3>
+                   <h4>Rs.1,25,000</h4>
+                    <p>Anand won IPL</p>
                    </div>
                      </div> 
               </div>          
               <div class="col-md-4">
                 <div class="box1">
                 <a class="thumbnail" href="#">
-                  <img alt="wining_user" src="webmedia/images/background/kapil.png"></a>
+                  <img alt="wining_user" src="webmedia/images/background/lokendra.png"></a>
                   <div class="carousel-caption caption">
-                  <h3>Kapil<span>contest Winner</span></h3>
-                   <h4>Rs. 17,000</h4>
-                    <p>Justkhelo is the best App for Entertainment.</p>
+                  <h3>Lokendra<span>contest Winner</span></h3>
+                   <h4>Rs. 95,000</h4>
+                    <p>Lokendra won 95,000 rs in BPL</p>
                    </div>
                      </div> 
               </div>
               <div class="col-md-4">
                 <div class="box1">
                 <a class="thumbnail" href="#">
-                  <img alt="wining_user" src="webmedia/images/background/mohit.png"></a>
+                  <img alt="wining_user" src="webmedia/images/background/user.png"></a>
                   <div class="carousel-caption caption">
-                  <h3>Mohit <span>contest Winner</span></h3>
-                   <h4>Rs. 25,000</h4>
-                    <p>Justkhelo is the best App for Entertainment.</p>
+                  <h3> Hitanshi <span>contest Winner</span></h3>
+                   <h4>Rs. 60,000</h4>
+                    <p>She Won INA VS ENG Match</p>
                    </div>
                      </div> 
               </div>        
             </div>
           </div>
-          <div class="item">
-            <div class="row">
-              <div class="col-md-4">
-                <div class="box1">
-                <a class="thumbnail" href="#">
-                  <img alt="wining_user" src="webmedia/images/background/himani.png"></a>
-                  <div class="carousel-caption caption">
-                   <h3>Himani <span>contest Winner</span></h3>
-                   <h4>Rs. 30,000</h4>
-                    <p>Justkhelo is the best App for Entertainment.</p>
-                   </div>
-                     </div> 
-              </div>          
-              <div class="col-md-4">
-                <div class="box1">
-                <a class="thumbnail" href="#">
-                  <img alt="wining_user" src="webmedia/images/background/kapil.png"></a>
-                  <div class="carousel-caption caption">
-                   <h3>kapil<span>contest Winner</span></h3>
-                   <h4>Rs. 15,000</h4>
-                    <p>Justkhelo is the best App for Entertainment.</p>
-                   </div>
-                     </div> 
-              </div>
-              <div class="col-md-4">
-                <div class="box1">
-                <a class="thumbnail" href="#">
-                  <img alt="wining_user" src="webmedia/images/background/mohit.png"></a>
-                  <div class="carousel-caption caption">
-                   <h3>Mohit<span>contest Winner</span></h3>
-                   <h4>Rs. 20,000</h4>
-                    <p>Justkhelo is the best App for Entertainment.</p>
-                   </div>
-                     </div> 
-              </div>      
-            </div>
-          </div>
+    
         </div>
         <a data-slide="prev" href="#media" class="left carousel-control">‹</a>
         <a data-slide="next" href="#media" class="right carousel-control">›</a>
@@ -147,7 +111,7 @@
     </div>
   </div>
 </div>
-</section> -->
+</section>
    
 
 <section class="latest_news bg-white">
