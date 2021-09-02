@@ -14,12 +14,15 @@
          <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
                <li><a href="{{url('/')}}">Home</a></li>
+               <li><a  href="{{url('how-to-play')}}">How To Play</a></li>
                <li><a href="{{url('/about-us')}}">About</a></li>
-               <li><a href="{{url('/contact-us')}}">Contact</a></li>
+              <li><a  href="{{url('contact-us')}}">Help</a>
+                  </li>
+
 
                <!-- social icon-->
                
-                  <ul class="social_icon navbar-right">
+          <!--         <ul class="social_icon navbar-right">
                   <li class="nav-item">
                      <a href="{{$settings->facebook_url}}" class="social-link">
             <img src="webmedia/images/banner/fb.svg" class="img-thumbnail" alt="social" width="40">
@@ -38,7 +41,7 @@
    <img src="webmedia\images\banner/youtube.svg" class="img-thumbnail" alt="social" width="40">
                      </a>
                   </li>
-               </ul>
+               </ul> -->
              </ul>
             
          </div>
