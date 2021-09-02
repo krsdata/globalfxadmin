@@ -11,7 +11,7 @@
       $url  = "downloadapk?_branch_name=010O";
       @endphp 
       <div class="innerbannerinstall">
-         <!-- <img src="webmedia/images/background/innerinstallBg.jpg" alt="bg" class="img-responsive"> -->
+        
          <h2 class="bannerHeadline">
            <a href="{{$url}}" >Download Play & Win</a> </h2>
            <p>In Respect Of Legands</p>
@@ -33,7 +33,8 @@
               <div class="col-md-4">
                <div class="box1">
                 <a class="thumbnail" href="#">
-                  <img alt="wining_user" src="webmedia/images/background/himani.png"></a>
+                  <img alt="wining_user" src="webmedia/images/background/Himani.png"></a>
+
                   <div class="carousel-caption caption">
                    <h3>Himani <span>contest Winner</span></h3>
                    <h4>Rs. 35,000</h4>
@@ -82,7 +83,7 @@
               <div class="col-md-4">
                 <div class="box1">
                 <a class="thumbnail" href="#">
-                  <img alt="wining_user" src="webmedia/images/background/lokendra.png"></a>
+                  <img alt="wining_user" src="webmedia/images/background/lokendra.png" ></a>
                   <div class="carousel-caption caption">
                   <h3>Lokendra<span>contest Winner</span></h3>
                    <h4>Rs. 95,000</h4>
@@ -255,15 +256,6 @@
       
    </script>
 
-<script>
-   $(document).ready(function() {
-  $('#media').carousel({
-    pause: true,
-    interval: false,
-  });
-});
-
-</script>
  
 
 

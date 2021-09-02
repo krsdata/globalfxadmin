@@ -95,5 +95,15 @@
 <script src="{{ URL::asset('webmedia/js/vendor/vendor.js')}}"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src="{{ URL::asset('webmedia/js/main.js')}}"></script>
+
+<script>
+   $(document).ready(function() {
+  $('#media').carousel({
+    pause: true,
+    interval: false,
+  });
+});
+
+</script>
 </body>
 </html>
