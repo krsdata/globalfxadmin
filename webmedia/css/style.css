@@ -8271,7 +8271,13 @@ ul.videoLive {
     top: 50%;
     left: 50%;
     color: #fff;
-    z-index: 2; }
+    z-index: 2;
+    background-color: #ffffff;
+    font-size: 17px;
+    padding: 10px 35px 10px 35px;
+    border-radius: 50px;
+
+  }
 
 
 .bannerHeadline a {
@@ -8283,7 +8289,14 @@ ul.videoLive {
     margin: 87px 0 80px;}
 
 
+.bannerHeadline h2{
+color:#1041b7;
+   background-color: #ffffff;
+    font-size: 17px;
+    padding: 10px 35px 10px 35px;
+    border-radius: 50px;
 
+}
 
 
 /*------------ different background --------------*/
@@ -8616,7 +8629,7 @@ ul.videoLive {
 .slideHeroes {
   list-style-type: none;
   overflow: hidden;
-  padding: 40px 0; }
+  padding:0 0; }
   .slideHeroes li {
     position: relative;
     min-height: 1px;
