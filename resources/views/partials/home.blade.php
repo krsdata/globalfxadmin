@@ -84,7 +84,7 @@
       <div class="container">
          <div class="row">
             <div class="col-md-12 text-center">
-               <h2 class="heading line">How<span>Justkhelo Works</span></h2>
+               <h2 class="heading line">How <span> Justkhelo Works</span></h2>
               <h4 class="subtitle">Justkhelo provides a simplified view of how to earn rewards using your skills.</h4>
             </div>
             <div class="col-md-4">
@@ -219,7 +219,7 @@
    <section class="matchSchedule">
       <div class="container">
          <div class=row>
-            <h2 class="heading line">match<span>schedule</span></h2>
+            <h2 class="heading line">match <span> schedule</span></h2>
             <div class="matchSchedule_details row">
                <div class="match_versus-wrap">
                   <div class="wrap_match-innerdetails">

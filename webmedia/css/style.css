@@ -11980,7 +11980,7 @@ margin-top: 80px;
 }
 
 .box{
- height: 380px !important;
+ height: 300px !important;
 
 }
 
@@ -12049,7 +12049,7 @@ padding: 20px 0;
     text-align: right;
     display: block;
     margin-top: 60px;
-    height: 350px;
+    height: 280px;
 }
 
 .box-icon {
@@ -12079,7 +12079,7 @@ padding: 20px 0;
 .info > p {
   font-family: poppins,sans-serif;
     color: #1b1b1b;
-    font-size: 17px;
+    font-size: 16px;
     padding-top: 10px;
     /*text-align: center;*/
     line-height: 1.5;
@@ -12160,7 +12160,7 @@ footer ul{
 
 
 .wining_slider{
-  margin-top: 50px;
+  margin-top:0;
  
 }
 
@@ -12206,104 +12206,14 @@ footer ul{
 
 }
 
-/*
-
-
- .media-carousel 
-{
-  margin-bottom: 0;
-  padding: 0 0;
-  margin-top: 30px;
-}
-/* Previous button  */
-/*.media-carousel .carousel-control.left 
-{
-  left: -36px;
-  background-image: none;
-  background: none repeat scroll 0 0 #222222;
-  border: 4px solid #FFFFFF;
-  border-radius: 23px 23px 23px 23px;
-  height: 40px;
-  width : 40px;
-  margin-top: 90px
-}
-/* Next button  */
-/*.media-carousel .carousel-control.right 
-{
-  right: -36px !important;
-  background-image: none;
-  background: none repeat scroll 0 0 #222222;
-  border: 4px solid #FFFFFF;
-  border-radius: 23px 23px 23px 23px;
-  height: 40px;
-  width : 40px;
-  margin-top: 90px
-}
-/* Changes the position of the indicators */
-/*.media-carousel .carousel-indicators 
-{
-  right: 50%;
-  top: auto;
-  bottom: 0px;
-  margin-right: -19px;*/
-/*}*/
-/* Changes the colour of the indicators */
-/*.media-carousel .carousel-indicators li 
-{
-  background: #c0c0c0;
-}
-.media-carousel .carousel-indicators .active 
-{
-  background: #333333;
-}
-.media-carousel img
-{
-  width:25%;
-  height:auto;
-  padding-top: 20px;
-}*/
-
-
-
-/* End carousel */
-
-./*caption{
-margin-top:-20px;
-display: inline-table;
-font-family: poppins, sans-serif;
-color: #000;
-padding:70px;
-
-}
-
-.caption h3{
-  font-size: 20px;
-text-align: center;
-
-}
-
-.caption p{
-  font-size: 14px;
-  text-align: center;
-  
-}
-
-.caption h4{
-text-align: center;
-margin-top: 10px;}
-
-.box1{
-  height: 300px;
- border: 1px solid #d2cece;
-}*/
-
-
 
 /*FAQ Questions*/
 
-.FaQ_question{
 
-  margin-top: 80px;
+
+
+.FaQ_question{
+margin-top:80px;
 }
 
 .template_faq {
@@ -12404,9 +12314,9 @@ font-size: 14px;
     color: #1340b6;
     display: block;
     background-color: #ffffffdb;
-    padding: 20px 20px 20px 20px;
+    padding:12px
     border-radius: 50px;
-    margin: 78px 0 0 0;
+    margin: 0 0 0 0;
     font-size: 12px;
 }
 
@@ -12418,15 +12328,19 @@ font-size: 14px;
 
 .innerbannerinstall {
     width: 100%;
-    height: 360px;}
+    height: 280px;
+    background-size: contain;
+    /* top: 0; */
+    bottom: 0;
+    position: relative;}
 
     .bannerHeadline a {
     color: #1340b6;
     display: block;
     background-color: #ffffffdb;
-    padding: 20px 20px 20px 20px;
+    padding:12px
     border-radius: 50px;
-    margin: 78px 0 0 0;
+    margin: 0;
     font-size: 12px;
 }
   }
@@ -12447,7 +12361,7 @@ font-size: 14px;
     padding: 20px 20px 20px 20px;
     border-radius: 50px;
     margin: 78px 0 0 0;
-    font-size: 17px;
+    font-size: 12px;
 }
 
 }
