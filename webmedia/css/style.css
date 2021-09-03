@@ -7927,7 +7927,23 @@ h4.footerheading span:after{
     height: 300px !important;
     }
 
+.innerbannerwrap h2 {
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    z-index: 2;
+    background-color: #ffffff;
+    font-size: 17px;
+    padding: 10px 35px 10px 35px;
+    border-radius: 50px;
 
+  }
      }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -8246,10 +8262,8 @@ ul.videoLive {
     position: relative;
     overflow: hidden;
     background: url(../images/background/innerinstallBg.jpg);
-    
     background-repeat: no-repeat;
     background-position: center;
-
     background-size: cover;
 
      }
@@ -8261,6 +8275,7 @@ ul.videoLive {
     left: 0;
     right: 0;
     bottom: 0; }
+
   .innerbannerwrap h2 {
     -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
@@ -8270,11 +8285,11 @@ ul.videoLive {
     position: absolute;
     top: 50%;
     left: 50%;
-    color: #fff;
+    /*color: #fff;*/
     z-index: 2;
     background-color: #ffffff;
     font-size: 17px;
-    padding: 10px 35px 10px 35px;
+     padding: 6px;
     border-radius: 50px;
 
   }
@@ -8293,7 +8308,7 @@ ul.videoLive {
 color:#1041b7;
    background-color: #ffffff;
     font-size: 17px;
-    padding: 10px 35px 10px 35px;
+   /* padding: 10px 35px 10px 35px;*/
     border-radius: 50px;
 
 }
@@ -10841,7 +10856,7 @@ ul.slick-dots {
 
 .contact_icon {
   text-align: center;
-  padding: 30px 0; }
+  padding: 0px 0; }
   .contact_icon li {
     width: 100%;
     float: left;
@@ -12351,12 +12366,19 @@ font-size: 14px;
     color: #1340b6;
     display: block;
     background-color: #ffffffdb;
-    padding:12px;
+    
     border-radius: 50px;
     margin: 0;
     font-size:9px;
     padding: 10px;
+
 }
+.innerbannerwrap h2{
+  padding: 3px;
+  font-size: 12px;
+}
+
+
   }
 
 
@@ -12375,7 +12397,13 @@ font-size: 14px;
     padding:10px;
     border-radius: 50px;
     margin:0;
-    font-size: 12px;
+    
 }
+
+ .innerbannerwrap h2 {
+  padding: 3px;
+  font-size: 15px;
+
+ }
 
 }

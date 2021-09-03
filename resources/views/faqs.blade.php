@@ -5,9 +5,8 @@
    @include('layouts.menu')
    <div class="innerbannerwrap">
       <div class="innerbannerinstall">
-      <h2 class="bannerHeadline">
-          FAQ's</h2>
-           <p>In Respect Of Legands</p>
+      <h2 class="bannerHeadline"> FAQ's</h2>
+           
       </div>
    </div>
 

@@ -9,7 +9,7 @@
       
       <div class=innerbannerinstall>
          <h2 class=bannerHeadline>
-            <h2 style="color:#1041b7; display: block;">{{$content->title??'Page not found'}}</h2>
+            <h2 style="color:#1041b7; display: block; padding: 10px">{{$content->title??'Page not found'}}</h2>
          </h2>
       </div>
    </div>
