@@ -12351,10 +12351,11 @@ font-size: 14px;
     color: #1340b6;
     display: block;
     background-color: #ffffffdb;
-    padding:12px
+    padding:12px;
     border-radius: 50px;
     margin: 0;
-    font-size: 12px;
+    font-size:9px;
+    padding: 10px;
 }
   }
 
