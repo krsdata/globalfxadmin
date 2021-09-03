@@ -199,6 +199,16 @@ class HomeController extends BaseController
 
       
     }
+    public function FAQS(Request $request)
+    {
+         // write here code to capture previous url
+
+     return view('faqs');
+  
+     //return response()->download('public/upload/apk/justkhelo.apk');
+
+      
+    }
     public function liveSchowToInstallore(Request $request)
     {
         

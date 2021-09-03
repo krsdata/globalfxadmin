@@ -13,6 +13,7 @@
 
 
 Route::get('download-app','HomeController@howToInstall');
+Route::get('faqs','HomeController@FAQS');
 Route::get('just-khelo-download-app','HomeController@howToInstall');
 
 Route::get('apkDownload',function(){

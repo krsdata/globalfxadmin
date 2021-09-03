@@ -47,7 +47,7 @@
                  
 
                   <li>
-                     <a  href="{{url('faq')}}" class="clearfix">FAQ</a>
+                     <a  href="{{url('faqs')}}" class="clearfix">FAQ</a>
 
                   
                   <li>
