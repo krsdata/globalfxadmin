@@ -5,8 +5,13 @@
    @include('layouts.menu')
    <div class="innerbannerwrap">
       <div class="innerbannerinstall">
+
       <h2 class="bannerHeadline"> FAQ's</h2>
            
+
+      <h2 class="bannerHeadline" style="color:#1041b7; display: block; padding:10px;">
+          FAQ's</h2>
+          
       </div>
    </div>
 

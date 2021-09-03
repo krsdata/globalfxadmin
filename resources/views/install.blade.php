@@ -13,7 +13,7 @@
       <div class="innerbannerinstall">
         
          <h2 class="bannerHeadline">
-           <a href="{{$url}}" >Download Play & Win</a> </h2>
+           <a href="{{$url}}" style="color:#1041b7; display: block; padding:10px;">Download Play & Win</a> </h2>
            <p>In Respect Of Legands</p>
         
       </div>
@@ -34,7 +34,7 @@
                                  <div class="bg-black01 fig02">
                                     <img src="{{URL::asset('webmedia/images/background/Himani.png')}}" style="width:100px">
                                     <h6 class="paragraph02">Himani Shankarv</h6>
-                                    <p class="uppercaseheading red">INR.25,000</p>
+                                    <p class="uppercaseheading red">INR 25,000</p>
                                     <p>Himani Won INR 25,000 in IND VS ENG</p>
                                  </div>
                               </div>
@@ -61,7 +61,7 @@
                            <div class=column-news>
                               <div class=figure-01>
                                  <div class="bg-black01 fig02">
-                                    <img src="{{URL::asset('webmedia/images/background/kapil.png')}}" style="width:100px">
+                                    <img src="{{URL::asset('webmedia/images/background/Kapil.png')}}" style="width:100px">
                                     <h6 class="paragraph02">Kapil D</h6>
                                     <p class="uppercaseheading red">INR 100,000</p>
                                     <p>Kapil Won INR 100,000 in CPL.</p>
