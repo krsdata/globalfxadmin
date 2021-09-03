@@ -7427,10 +7427,10 @@ h4.footerheading span:after{
     top: 150px !important; } }
 
 .btn {
-  padding: 15px 45px;
+  padding: 15px 30px;
   border: none;
   font-family: "poppins", sans-serif;
-  font-size: 15px;
+  font-size: 12px;
   color: ##0e42b8;
   font-weight: 400;
   text-transform: uppercase;
@@ -7567,7 +7567,7 @@ h4.footerheading span:after{
 
 @media (min-width: 480px) {
   .btn {
-    padding: 15px 60px; } }
+    padding: 15px 30px; } }
 
 .booking {
   /*padding: 70px 0;
@@ -11989,6 +11989,11 @@ footer ul {
     margin-top: 17px;
 }
 
+.download{
+padding: 20px 0;
+
+}
+
   }
 
   .btn-default {
@@ -12027,7 +12032,7 @@ text-align: center;}
 }
 
 .download{
-padding: 20px;
+padding: 20px 0;
 
 }
 
@@ -12155,9 +12160,54 @@ footer ul{
 
 
 .wining_slider{
-  margin-top: 10px;
+  margin-top: 50px;
  
 }
+
+.MultiCarousel{ 
+  float: left;
+  overflow: hidden;
+  padding: 15px;
+  width: 100%;
+  position:relative; }
+
+.MultiCarousel .MultiCarousel-inner
+{ transition: 1s ease all; float: left; }
+
+.MultiCarousel .MultiCarousel-inner .item
+{ float: left;}
+
+.MultiCarousel .MultiCarousel-inner .item > div {
+  text-align: center;
+  padding:10px;
+  margin:10px;
+  background:#f1f1f1;
+  color:#666;}
+
+.MultiCarousel .leftLst, .MultiCarousel .rightLst {
+  position:absolute;
+  border-radius:50%;
+  top:calc(50% - 20px); }
+
+.MultiCarousel .leftLst { left:0; }
+
+.MultiCarousel .rightLst { right:0; }
+    
+.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over {
+  pointer-events: none;
+  background:#ccc;
+  width: 50px;
+  height: 50px;
+} 
+
+.pad15 img{
+  width: 50%;
+  height: auto;
+
+}
+
+/*
+
 
  .media-carousel 
 {
@@ -12166,7 +12216,7 @@ footer ul{
   margin-top: 30px;
 }
 /* Previous button  */
-.media-carousel .carousel-control.left 
+/*.media-carousel .carousel-control.left 
 {
   left: -36px;
   background-image: none;
@@ -12178,7 +12228,7 @@ footer ul{
   margin-top: 90px
 }
 /* Next button  */
-.media-carousel .carousel-control.right 
+/*.media-carousel .carousel-control.right 
 {
   right: -36px !important;
   background-image: none;
@@ -12190,15 +12240,15 @@ footer ul{
   margin-top: 90px
 }
 /* Changes the position of the indicators */
-.media-carousel .carousel-indicators 
+/*.media-carousel .carousel-indicators 
 {
   right: 50%;
   top: auto;
   bottom: 0px;
-  margin-right: -19px;
-}
+  margin-right: -19px;*/
+/*}*/
 /* Changes the colour of the indicators */
-.media-carousel .carousel-indicators li 
+/*.media-carousel .carousel-indicators li 
 {
   background: #c0c0c0;
 }
@@ -12211,13 +12261,13 @@ footer ul{
   width:25%;
   height:auto;
   padding-top: 20px;
-}
+}*/
 
 
 
 /* End carousel */
 
-.caption{
+./*caption{
 margin-top:-20px;
 display: inline-table;
 font-family: poppins, sans-serif;
@@ -12240,17 +12290,13 @@ text-align: center;
 
 .caption h4{
 text-align: center;
-margin-top: 10px;
-
-
-}
-
-
+margin-top: 10px;}
 
 .box1{
   height: 300px;
  border: 1px solid #d2cece;
-}
+}*/
+
 
 
 /*FAQ Questions*/
@@ -12372,7 +12418,7 @@ font-size: 14px;
 
 .innerbannerinstall {
     width: 100%;
-    height: 235px;}
+    height: 360px;}
 
     .bannerHeadline a {
     color: #1340b6;

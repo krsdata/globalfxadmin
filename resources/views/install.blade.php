@@ -19,99 +19,79 @@
       </div>
    </div>
 
-<section class="wining_slider ">
-<div class="container text-center">
-  <div class="row">
-    <h2 class="heading line">Latest <span>Winning </span></h2>
-  </div>
-  <div class='row'>
-    <div class='col-md-12'>
-      <div class="carousel slide media-carousel" id="media">
-        <div class="carousel-inner">
-          <div class="item  active">
-            <div class="row">
-              <div class="col-md-4">
-               <div class="box1">
-                <a class="thumbnail" href="#">
-                  <img alt="wining_user" src="webmedia/images/background/Himani.png"></a>
-
-                  <div class="carousel-caption caption">
-                   <h3>Himani <span>contest Winner</span></h3>
-                   <h4>Rs. 35,000</h4>
-                    <p>Himani won IND Vs ENG match. </p>
-                   </div>
-                     </div> 
-              </div>
-
-              <div class="col-md-4">
-                <div class="box1">
-                <a class="thumbnail" href="#">
-                  <img alt="wining_user" src="webmedia/images/background/kapil.png"></a>
-                  <div class="carousel-caption caption">
-                   <h3>kapil <span>contest Winner</span></h3>
-                   <h4>Rs. 100,000</h4>
-                    <p>Kapil won Mega Contest 100,000rs </p>
-                   </div>
-                     </div> 
+<section class="wining_slider">
+<div class="container">
+         <div class="row">
+            <h2 class="heading line">LATEST<span>WINNER</span></h2>
+            <div class="LatestNews_wrap clearfix">
+               <div class="tab-content news_display_container clearfix">
+                  <a class="prv club_prev"></a> <a class="nxt club_next"></a>
+                  <ul id=club_news class="tab-pane active clearfix slideHeroes">
+                     <li>
+                        <div class=figure>
+                           <div class=column-news>
+                              <div class=figure-01>
+                                 <div class="bg-black01 fig02">
+                                    <img src="{{URL::asset('webmedia/images/background/Himani.png')}}" style="width:100px">
+                                    <h6 class="paragraph02">Himani Shankarv</h6>
+                                    <p class="uppercaseheading red">RS.25,000</p>
+                                    <p>Himani Won 25,000 rs In IND VS ENG</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </li>
+                     <li>
+                        <div class=figure>
+                           <div class=column-news>
+                              <div class=figure-01>
+                                 <div class="bg-black01 fig02">
+                                    <img src="{{URL::asset('webmedia/images/background/mohit.png')}}" style="width:100px">
+                                    <h6 class="paragraph02">Mohit J</h6>
+                                    <p class="uppercaseheading red">Rs 45,000</p>
+                                    <p>Mohit won 45000 Rs IN IPL </p>
+                                   
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </li>
+                     <li>
+                        <div class=figure>
+                           <div class=column-news>
+                              <div class=figure-01>
+                                 <div class="bg-black01 fig02">
+                                    <img src="{{URL::asset('webmedia/images/background/kapil.png')}}" style="width:100px">
+                                    <h6 class="paragraph02">Kapil D</h6>
+                                    <p class="uppercaseheading red">100,000</p>
+                                    <p>Kapil Won 100,000 RS in CPL.</p>
+                                    
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </li>
+                     <li>
+                        <div class=figure>
+                           <div class=column-news>
+                              <div class=figure-01>
+                                 <div class="bg-black01 fig02">
+                                    <img src="{{URL::asset('webmedia/images/background/Anand.png')}}" style="width:100px">
+                                    <h6 class="paragraph02">Kapil D</h6>
+                                    <p class="uppercaseheading red">100,000</p>
+                                    <p>Kapil Won 100,000 RS in CPL.</p>
+                                    
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </li>
+                  </ul>
                </div>
-           <div class="col-md-4">
-               <div class="box1">
-                <a class="thumbnail" href="#">
-                  <img alt="wining_user" src="webmedia/images/background/mohit.png"></a>
-                  <div class="carousel-caption caption">
-                   <h3>Mohit <span>contest Winner</span></h3>
-                   <h4>Rs. 10,000</h4>
-                    <p>Mohit won 10,000 in CPL </p>
-                   </div>
-                     </div> 
-              </div>        
+               
             </div>
-          </div>
-          <div class="item">
-            <div class="row">
-              <div class="col-md-4">
-                <div class="box1">
-                <a class="thumbnail" href="#">
-                  <img alt="wining_user" src="webmedia/images/background/Anand.png"></a>
-                  <div class="carousel-caption caption">
-                   <h3>Anand<span>contest Winner</span></h3>
-                   <h4>Rs.1,25,000</h4>
-                    <p>Anand won IPL</p>
-                   </div>
-                     </div> 
-              </div>          
-              <div class="col-md-4">
-                <div class="box1">
-                <a class="thumbnail" href="#">
-                  <img alt="wining_user" src="webmedia/images/background/lokendra.png" ></a>
-                  <div class="carousel-caption caption">
-                  <h3>Lokendra<span>contest Winner</span></h3>
-                   <h4>Rs. 95,000</h4>
-                    <p>Lokendra won 95,000 rs in BPL</p>
-                   </div>
-                     </div> 
-              </div>
-              <div class="col-md-4">
-                <div class="box1">
-                <a class="thumbnail" href="#">
-                  <img alt="wining_user" src="webmedia/images/background/user.png"></a>
-                  <div class="carousel-caption caption">
-                  <h3> Hitanshi <span>contest Winner</span></h3>
-                   <h4>Rs. 60,000</h4>
-                    <p>She Won INA VS ENG Match</p>
-                   </div>
-                     </div> 
-              </div>        
-            </div>
-          </div>
-    
-        </div>
-        <a data-slide="prev" href="#media" class="left carousel-control">‹</a>
-        <a data-slide="next" href="#media" class="right carousel-control">›</a>
-      </div>                          
-    </div>
-  </div>
-</div>
+         </div>
+      </div>
 </section>
    
 
@@ -255,7 +235,115 @@
      // }, 3000);
       
    </script>
+<script>
+   $(document).ready(function () {
+    var itemsMainDiv = ('.MultiCarousel');
+    var itemsDiv = ('.MultiCarousel-inner');
+    var itemWidth = "";
 
+    $('.leftLst, .rightLst').click(function () {
+        var condition = $(this).hasClass("leftLst");
+        if (condition)
+            click(0, this);
+        else
+            click(1, this)
+    });
+
+    ResCarouselSize();
+
+
+
+
+    $(window).resize(function () {
+        ResCarouselSize();
+    });
+
+    //this function define the size of the items
+    function ResCarouselSize() {
+        var incno = 0;
+        var dataItems = ("data-items");
+        var itemClass = ('.item');
+        var id = 0;
+        var btnParentSb = '';
+        var itemsSplit = '';
+        var sampwidth = $(itemsMainDiv).width();
+        var bodyWidth = $('body').width();
+        $(itemsDiv).each(function () {
+            id = id + 1;
+            var itemNumbers = $(this).find(itemClass).length;
+            btnParentSb = $(this).parent().attr(dataItems);
+            itemsSplit = btnParentSb.split(',');
+            $(this).parent().attr("id", "MultiCarousel" + id);
+
+
+            if (bodyWidth >= 1200) {
+                incno = itemsSplit[3];
+                itemWidth = sampwidth / incno;
+            }
+            else if (bodyWidth >= 992) {
+                incno = itemsSplit[2];
+                itemWidth = sampwidth / incno;
+            }
+            else if (bodyWidth >= 768) {
+                incno = itemsSplit[1];
+                itemWidth = sampwidth / incno;
+            }
+            else {
+                incno = itemsSplit[0];
+                itemWidth = sampwidth / incno;
+            }
+            $(this).css({ 'transform': 'translateX(0px)', 'width': itemWidth * itemNumbers });
+            $(this).find(itemClass).each(function () {
+                $(this).outerWidth(itemWidth);
+            });
+
+            $(".leftLst").addClass("over");
+            $(".rightLst").removeClass("over");
+
+        });
+    }
+
+
+    //this function used to move the items
+    function ResCarousel(e, el, s) {
+        var leftBtn = ('.leftLst');
+        var rightBtn = ('.rightLst');
+        var translateXval = '';
+        var divStyle = $(el + ' ' + itemsDiv).css('transform');
+        var values = divStyle.match(/-?[\d\.]+/g);
+        var xds = Math.abs(values[4]);
+        if (e == 0) {
+            translateXval = parseInt(xds) - parseInt(itemWidth * s);
+            $(el + ' ' + rightBtn).removeClass("over");
+
+            if (translateXval <= itemWidth / 2) {
+                translateXval = 0;
+                $(el + ' ' + leftBtn).addClass("over");
+            }
+        }
+        else if (e == 1) {
+            var itemsCondition = $(el).find(itemsDiv).width() - $(el).width();
+            translateXval = parseInt(xds) + parseInt(itemWidth * s);
+            $(el + ' ' + leftBtn).removeClass("over");
+
+            if (translateXval >= itemsCondition - itemWidth / 2) {
+                translateXval = itemsCondition;
+                $(el + ' ' + rightBtn).addClass("over");
+            }
+        }
+        $(el + ' ' + itemsDiv).css('transform', 'translateX(' + -translateXval + 'px)');
+    }
+
+    //It is used to get some elements from btn
+    function click(ell, ee) {
+        var Parent = "#" + $(ee).parent().attr("id");
+        var slide = $(Parent).attr("data-slide");
+        ResCarousel(ell, Parent, slide);
+    }
+
+});
+   
+</script>
  
 
 

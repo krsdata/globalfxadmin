@@ -28,7 +28,7 @@
       <link rel=stylesheet href="{{ URL::asset('webmedia/css/style.css')}}">
       <link rel=stylesheet type=text/css href="{{ URL::asset('webmedia/css/layerslider.css')}}">
       <script src="{{ URL::asset('webmedia/js/vendor/modernizr.js')}}"></script>
-
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
       
 
