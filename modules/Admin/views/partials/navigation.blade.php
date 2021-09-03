@@ -11,7 +11,7 @@
     color: #fff;
     font-size: 25px;
     margin-top: 20px;
-"> {{$setting->website_title??'Admin'}} </p>
+"> {{'Admin'}} </p>
                        </a>
                     <div class="menu-toggler sidebar-toggler">
                         <!-- DOC: Remove the above "hide" to enable the sidebar toggler button on header -->
