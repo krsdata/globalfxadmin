@@ -13,7 +13,7 @@
 
 
 Route::get('download-app','HomeController@howToInstall');
-
+Route::get('just-khelo-download-app','HomeController@howToInstall');
 
 Route::get('apkDownload',function(){
    return redirect(env('apk_url'));
