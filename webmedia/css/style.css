@@ -11999,7 +11999,7 @@ background-color:transparent ;
 }
 
 .slider-up{
-margin-top: 80px;
+margin-top:55px;
 
 }
 
@@ -12356,11 +12356,13 @@ font-size: 14px;
 
 .innerbannerinstall {
     width: 100%;
-    /* height: 280px; */
+     height: 430px; 
     /* background-size: contain; */
     /* top: 0; */
     bottom: 0;
-    position: relative;}
+    position: relative;
+    margin-top: 33px;
+  }
 
     .bannerHeadline a {
     color: #1340b6;
