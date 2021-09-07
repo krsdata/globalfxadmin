@@ -41,7 +41,6 @@
 
       gtag('config', 'G-8LSXV83R27');
       </script>
-!-- Facebook Pixel Code -->
 <script>
   !function(f,b,e,v,n,t,s)
   {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
