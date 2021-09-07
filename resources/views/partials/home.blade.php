@@ -185,7 +185,7 @@
                   </div>
                   <div class="figure">
                      <div class="team-logo">
-      <div style="background:url('{{str_replace('-32x32','',$completed->teama->thumb_url) }}')')" class="teamLogoImg"></div>
+      <div style="background:url('{{str_replace('-32x32','',$completed->teama->thumb_url) }}')" class="teamLogoImg"></div>
                      </div>
                   </div>
                </div>
