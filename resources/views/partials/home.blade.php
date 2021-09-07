@@ -185,12 +185,12 @@
                   </div>
                   <div class="figure">
                      <div class="team-logo">
-      <div style="background:url('{{$completed->teama->thumb_url }}')" class="teamLogoImg"></div>
+      <div style="background:url('{{str_replace('-32x32','',$completed->teama->thumb_url) }}')')" class="teamLogoImg"></div>
                      </div>
                   </div>
                </div>
                <div class="result-count">
-                  <div class="count-number"><span class="lose-team">{{str_replace('-32x32','',$completed->teama->thumb_url) }}</span> <span>-</span> <span
+                  <div class="count-number"><span class="lose-team">{{$completed->teama->scores_full }}</span> <span>-</span> <span
                      class="win-team">{{$completed->teamb->scores_full }}</span></div>
                   <div class="dateTime">
                      <div class="dateTime-container"><span class="date">{{$completed->date_start }}</span></div>
