@@ -190,7 +190,7 @@
                   </div>
                </div>
                <div class="result-count">
-                  <div class="count-number"><span class="lose-team">{{$completed->teama->scores_full }}</span> <span>-</span> <span
+                  <div class="count-number"><span class="lose-team">{{str_replace('-32x32','',$completed->teama->thumb_url) }}</span> <span>-</span> <span
                      class="win-team">{{$completed->teamb->scores_full }}</span></div>
                   <div class="dateTime">
                      <div class="dateTime-container"><span class="date">{{$completed->date_start }}</span></div>
@@ -205,11 +205,11 @@
                   </div>
                   <div class="figure figresult">
                      <div class="team-logo">
-                        <div style="background:url('{{$completed->teamb->thumb_url }}')" class="teamLogoImg"></div>
+                        <div style="background:url('{{str_replace('-32x32','',$completed->teamb->thumb_url) }}')" class="teamLogoImg"></div>
                      </div>
                   </div>
                </div>
-               <div class="center"><a href=# class="btn btn-red score-btn">{{$completed->status_note }}</a></div>
+               <div class="center"><span class="btn btn-red score-btn">{{$completed->status_note }}</span></div>
             </div>
          </div>
       </div>
