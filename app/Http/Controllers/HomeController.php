@@ -96,6 +96,16 @@ class HomeController extends BaseController
         return view('aboutus');
     }
 
+    public function termsAndConditions(Request $request){
+
+        return view('terms');
+    }
+
+    public function privacyPolicy(Request $request){
+
+        return view('policy');
+    }
+
     public function topReferralUser(Request $request){
        // dd($request->all());
         $user = \DB::table('referral_codes')->get()->groupBy('refer_by');
