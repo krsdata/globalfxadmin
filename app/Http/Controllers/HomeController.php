@@ -91,9 +91,70 @@ class HomeController extends BaseController
         return view('liveChat');
     }
 
+    public function FAQS(Request $request)
+    {
+     return view('faqs');
+   
+    }
+
     public function aboutus(Request $request){
 
-        return view('aboutus');
+        $content = \DB::table('pages')
+        ->where('slug','about-us')
+        ->first();
+        $remove_header = false;
+        if($request->get('request')=='mobile'){
+
+            $remove_header = true;
+
+        }
+        return view('aboutus',compact('content','remove_header'));
+        
+    }
+
+    public function disclaimer(Request $request){
+
+        $content = \DB::table('pages')
+        ->where('slug','disclaimer')
+        ->first();
+        $remove_header = false;
+        if($request->get('request')=='mobile'){
+
+            $remove_header = true;
+
+        }
+        return view('disclaimer',compact('content','remove_header'));
+        
+    }
+
+    public function howTo(Request $request){
+
+        $content = \DB::table('pages')
+        ->where('slug','how-to-play')
+        ->first();
+        $remove_header = false;
+        if($request->get('request')=='mobile'){
+
+            $remove_header = true;
+
+        }
+        return view('howto',compact('content','remove_header'));
+        
+    }
+
+    public function legality(Request $request){
+
+        $content = \DB::table('pages')
+        ->where('slug','legality')
+        ->first();
+        $remove_header = false;
+        if($request->get('request')=='mobile'){
+
+            $remove_header = true;
+
+        }
+        return view('legality',compact('content','remove_header'));
+        
     }
 
     public function termsAndConditions(Request $request){
@@ -102,8 +163,16 @@ class HomeController extends BaseController
     }
 
     public function privacyPolicy(Request $request){
+        $content = \DB::table('pages')
+        ->where('slug','privacy-policy')
+        ->first();
+        $remove_header = false;
+        if($request->get('request')=='mobile'){
 
-        return view('policy');
+            $remove_header = true;
+
+        }
+        return view('policy',compact('content','remove_header'));
     }
 
     public function topReferralUser(Request $request){
@@ -209,16 +278,7 @@ class HomeController extends BaseController
 
       
     }
-    public function FAQS(Request $request)
-    {
-         // write here code to capture previous url
-
-     return view('faqs');
-  
-     //return response()->download('public/upload/apk/justkhelo.apk');
-
-      
-    }
+   
     public function liveSchowToInstallore(Request $request)
     {
         

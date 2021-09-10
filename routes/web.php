@@ -14,9 +14,13 @@
 
 Route::get('download-app','HomeController@howToInstall');
 Route::get('faqs','HomeController@FAQS');
+Route::get('about-us','HomeController@aboutus');
 
+Route::get('disclaimer','HomeController@disclaimer');
+Route::get('how-to-play','HomeController@howTo');
 Route::get('terms-and-conditions','HomeController@termsAndConditions');
 Route::get('privacy-policy','HomeController@privacyPolicy');
+Route::get('legality','HomeController@legality');
 
 
 Route::get('just-khelo-download-app','HomeController@howToInstall');
