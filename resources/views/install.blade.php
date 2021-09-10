@@ -14,7 +14,7 @@
         
          <h2 class="bannerHeadline">
            <a href="{{$url}}" style="color:#1041b7; display: block; padding:10px; font-weight: 600;">Download Play & Win</a> </h2>
-           <p>In Respect Of Legands</p>
+          
         
       </div>
    </div>
