@@ -10,14 +10,14 @@
            
 
       <h2 class="bannerHeadline" style="color:#1041b7; display: block; padding:10px;">
-          FAQ's</h2>
+      {{$content->title}}</h2>
           
       </div>
    </div>
 
 
    <section class="FaQ_question">
-<div class="container">
+
          <div class="row">
             <div class="col-md-12">
                <div class="section-title text-center wow zoomIn">
@@ -293,7 +293,7 @@ Changing the Password on your social network provider requires that you sign in 
 
             </div><!--- END COL -->    
          </div><!--- END ROW -->       
-      </div>
+    
 
    </section>
    @stop

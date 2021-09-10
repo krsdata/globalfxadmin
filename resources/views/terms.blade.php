@@ -13,7 +13,7 @@
       <div class="innerbanner">
         
          <h2 class="bannerHeadline">
-           <a  style="color:#1041b7; display: block; padding:10px; font-weight: 600;">Terms & Conditions</a> </h2>
+           <a  style="color:#1041b7; display: block; padding:10px; font-weight: 600;">{{$content->title}}</a> </h2>
           
         
       </div>

@@ -93,7 +93,16 @@ class HomeController extends BaseController
 
     public function FAQS(Request $request)
     {
-     return view('faqs');
+        $content = \DB::table('pages')
+        ->where('slug','faqs')
+        ->first();
+        $remove_header = false;
+        if($request->get('request')=='mobile'){
+
+            $remove_header = true;
+
+        }
+        return view('faqs',compact('content','remove_header'));
    
     }
 
