@@ -5296,6 +5296,7 @@ button.list-group-item-danger {
   padding-bottom: 75%; }
 
 .well {
+  margin-top: 50px;
   min-height: 20px;
   padding: 19px;
   margin-bottom: 20px;
@@ -12440,4 +12441,16 @@ padding: 10px;
 font-weight:600;
 font-size: 20px;
 font-family: poppins,sans-serif;
+}
+
+.infobtn{
+
+  margin-top: 50px;
+}
+
+.paragraph-Pp h3{
+   font-size: 22px;
+  font-family: poppins, sans-serif;
+  line-height: 1.5 !important;
+  padding-top: 20px;
 }
