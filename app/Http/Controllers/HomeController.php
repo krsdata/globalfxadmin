@@ -157,6 +157,20 @@ class HomeController extends BaseController
         
     }
 
+    public function refund(Request $request){
+
+        $content = \DB::table('pages')
+        ->where('slug','refund-policy')
+        ->first();
+        $remove_header = false;
+        if($request->get('request')=='mobile'){
+
+            $remove_header = true;
+
+        }
+        return view('refund',compact('content','remove_header'));
+        
+    }
     public function termsAndConditions(Request $request){
 
         return view('terms');
@@ -232,8 +246,17 @@ class HomeController extends BaseController
         Session::put('status','Your Request successfully submitted!');
         
         }
+        $content = \DB::table('pages')
+        ->where('slug','contact-us')
+        ->first();
+        $remove_header = false;
+        if($request->get('request')=='mobile'){
 
-        return view('contactus');
+            $remove_header = true;
+
+        }
+        return view('contactus',compact('content','remove_header'));
+
     }
     public function getPage(Request $request, $name=null){
         

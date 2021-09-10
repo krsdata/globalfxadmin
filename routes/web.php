@@ -22,6 +22,10 @@ Route::get('terms-and-conditions','HomeController@termsAndConditions');
 Route::get('privacy-policy','HomeController@privacyPolicy');
 Route::get('legality','HomeController@legality');
 
+Route::get('refund-policy','HomeController@refund');
+
+Route::get('contact-us','HomeController@contactus');
+
 
 Route::get('just-khelo-download-app','HomeController@howToInstall');
 
