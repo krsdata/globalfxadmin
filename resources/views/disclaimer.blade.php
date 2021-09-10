@@ -13,121 +13,53 @@
       <div class="innerbanner">
         
          <h2 class="bannerHeadline">
-           <a style="color:#1041b7; display: block; padding:10px; font-weight: 600;">Privacy Policy</a> </h2>
+           <a  style="color:#1041b7; display: block; padding:10px; font-weight: 600;">Disclaimer</a> </h2>
           
         
       </div>
    </div>
-<style type="text/css">
-  .page_title{
-    margin-top: -135px;right: 10px;position: absolute;background: #fff;padding: 10px;border-radius: 10px;
-  }
-</style>
+
 
   <!--Section: Content-->
-  <section  id="termscondition">
-      <div class="container">
-           <div class="row">
-					<div class="col-md-12">
-           <div class="heading-section">
-						<h2 class="heading line">PRIVACY <span> POLICY</span></h2>
-           </div> 
-           <div class="paragraph-Pp">
-            <p>This Privacy Notice describes how members of the JUSTKHELO group (known as "we", "us", "our" or "JUSTKHELO") treat the information and data you provide to us so we can manage your relationship with JUSTKHELO. In accordance with this Privacy Policy, we will process any personal information that you provide to us or that is otherwise in our possession relating to you. The JUSTKHELO website (the "Website"), telephone calls, and any other means of providing information are acceptable. This Privacy Policy requires you to acknowledge your understanding of and approval of the use of personal information as described here. Using this Website or providing us with any personal information is not permitted if you do not agree with this Privacy Policy.
-</p>
-           </div>
-</div>
-  </div>
-    </div>
-     </section>  
-
-     <section class="">
+ <section class="refund_policy">
       <div class="container">
            <div class="row">
           <div class="col-md-12">
            <div class="heading-section">
-            <h2 class="heading line">PURPOSE & <span> USAGE</span></h2>
-              <div class="paragraph-Pp">
-            <p>To avail of certain Services on the Portal, Users would be required to provide certain information for the registration process namely:
-<ol class="paragraph-Pp">
-<li>Username</strong></li>
-<li>Password</li>
-<li>Email address </li>
-<li>Mobile Number </li>
-<li>Date of Birth</li>  
- </ol>
+            <h2 class="heading line"> JUSTKHELO FANTASY CRICKET <span> DISCLAIMER</span></h2>
+           </div> 
+           <div class="paragraph-Pp">
+            <p>As permitted by law, neither JUSTKHELO nor its parent/holding company, subsidiaries, affiliates, directors, officers, professional advisors, or employees shall be responsible for the deletion, the failure to store, the misdelivery, or untimely delivery of any information.
 
-<p>You may be required to provide additional information, such as your Permanent Account Number, as part of the process of obtaining access to the Services and to use the features offered through the Portal.
- You may also provide us with Sensitive Personal Information ("SPI") on the portal in certain circumstances. SPI means such personal information which consists of information relating to your physical, physiological, and mental health condition; medical records and history; biometric information, sexual orientation, and financial information, such as information regarding the payment instrument/modes used by you to make such payments, which may include cardholder name, credit/debit card number (in encrypted form) with an expiration date, banking details, wallet details, etc. During the payment process, you will be provided with this information in order to facilitate your payment process.</p>
-
-<p>JUSTKHELO does not collect any other SPI in the course of providing the Services, aside from any financial information you choose to provide when making payment for any Services on the Portal. Unless otherwise specified in this Privacy Policy, or as provided in a separate written agreement between you and JUSTKHELO, or as required by law, SPI collected by JUSTKHELO will not be disclosed to any third party. The information on the Portal in relation to you that is publicly available, including SPI, will not be covered by this condition.
-In the course of providing the Services, Users also have the option of inviting other existing users or other users ("Invited Users") to utilize any of the Services by providing their email address. After receiving this information, JUSTKHELO may contact the Invited User and invite him or her to register with JUSTKHELO (if such Invited User is not already an existing User) and participate in the Game to which he or she has been invited. Participants in any of the Games shall be subject to the terms and conditions of this Privacy Policy and the Terms and Conditions for use of the Portal. In this case, the User represents that the Invited Users have consented and agreed to the disclosure and use of their email addresses.</p>
-
- <p>The required information is specific to the kind of Game/Services the User wishes to participate in, access, and will be utilized in order to provide services, including but not limited to the Services requested by the User. We use the information supplied by the Users in order to provide you with a user-friendly game experience and to improve the Services.</p>
-
-<p>In limited circumstances, JUSTKHELO may also share this information with affiliates and third parties, including to provide services requested by the User, to comply with legal processes, to prevent fraud and to ensure the security of our network and services.</p>
 
 </p>
-           </div>
-       </div>
-       </div>
-       </div>
-       </div>
 
-     </section>  
+<p>As far as permitted by law, JUSTKHELO shall not be responsible for any harm caused by the downloading or accessing of any information or material, the quality of servers, games, products, or JUSTKHELO services or sites, or the cancellation of any competitions or prizes. JUSTKHELO disclaims any responsibility for, and if a User pays for access to one of JUSTKHELO Services the User will not be entitled to a refund as a result of, any inaccessibility that is caused by JUSTKHELO maintenance on the servers or the technology that underlies our sites, failures of JUSTKHELO service providers (including telecommunications, hosting, and power providers), computer viruses, natural disasters or other destruction or damage of our facilities, acts of nature, war, civil disturbance, or any other cause beyond our reasonable control. In addition, JUSTKHELO does not provide any warranty as to the content on the JUSTKHELO(s). JUSTKHELO(s) content is distributed on an "as is, as available" basis.
+</p>
+<p>JUSTKHELO allows the User to access, download or otherwise obtain material at his or her own discretion, competence, acceptance, and risk, and the User will be solely responsible for any damage to his or her computer system resulting from the download of such material.
+</p>
 
-<section class="">
-      <div class="container">
-           <div class="row">
-          <div class="col-md-12">
-           <div class="heading-section">
-            <h2 class="heading line">Disclosure/ <span>Sharing</span></h2>
-           </div> 
-           <div class="paragraph-Pp">
-            <p>The company may also share information provided by you and data concerning use of the services and participation in the games with third party service providers engaged by the company for the purpose of data analytics or other similar purposes, for storing, improving the services or otherwise helping JUSTKHELO better serve you.
-We will ensure that you are notified if we plan to use your personal information (that is, information that can be used to identify the User and that is not otherwise publicly available) for any other purpose. Furthermore, you will have the option to withhold or withdraw your consent for any use other than those above.
-The information you enter into the Portal is collected, used, and stored by JUSTKHELO. The information collected hereunder may be shared, disclosed, and transferred with the affiliates of JUSTKHELO. Consumer information may be included among the business assets that are shared, disclosed, or transferred when JUSTKHELO sells or transfers its business assets. Hereby, you expressly grant JUSTKHELO permission to disclose and transfer your information to such third parties. For game-related marketing and promotional purposes, and other purposes related to user engagement, JustKhelo may share information and data that you provide to the company with its commercial partners. Furthermore, JUSTKHELO reserves the right to disclose personal information as required by law in accordance with duly authorized legal processes, government requests, and as necessary to protect the rights and interests of JUSTKHELO.
+<p>Although JUSTKHELO shall do its utmost to ensure that the JUSTKHELO(s) is error-free and secure, neither JUSTKHELO nor its partners, licensors or associates make any warranty that:</p>
+<ul>
+ <li>The JUSTKHELO(s) will meet Users' expectations,</li>
+ <li>The JUSTKHELO(s) will be uninterrupted, timely, secure and error-free</li>
+<li>Results from the use of JUSTKHELO(s) will be accurate and reliable; and</li>
+<li>JUSTKHELO guarantees that the quality of its products, services, information, or other material will meet Users' expectations.</li>
+
+</ul>
+
+<p>In case JUSTKHELO discovers any error, including any error in the determination of Winners or in the transfer of amounts to a User's account, JUSTKHELO reserves the right (exercisable at its discretion) to rectify the error in such manner as it deems fit, including through a set-off of the erroneous payment from amounts due to the User or deduction from the User's account of the amount of erroneous payment. Upon exercising the remedies in accordance with this clause, JUSTKHELO agrees to inform the User of the error and of the remedy(ies) used to correct it.
+</p>
+
+<p>Even when advised of the possibility of such damages, neither JUSTKHELO nor its partners, licensors or associates will be liable for any direct, indirect, incidental, special, or consequential damages arising out of the use of or inability to use our sites.
 
 </p>
-           </div>
-</div>
-  </div>
-    </div>
-     </section>  
-     <section class="">
-      <div class="container">
-           <div class="row">
-          <div class="col-md-12">
-           <div class="heading-section">
-            <h2 class="heading line">Use of <span> Cookies</span></h2>
-           </div> 
-           <div class="paragraph-Pp">
-            <p>User identification (User ID) is used in order to understand a user's individual interests based on the computer identifier in order to improve the effectiveness and usability of the Portal. Cookies are used in this process. If a User does not voluntarily identify himself/herself (e.g., by registering), JUSTKHELO cannot identify the User, even if we assign a cookie to the computer of the User. The only information a cookie can contain is the information provided by the User. Users' hard drives cannot be read by a cookie. JUSTKHELO advertisers may also assign their own cookies to the User's browser (if the user clicks on their ads), a process that Sportsfight does not control.
-            </p>
 
-            <p>When a User visits the Portal, the JustKHELO web servers automatically collect limited information about the User's computer's connection to the Internet, such as the User's IP address. (An IP address is the digital address that lets computers connected to the Internet know how and to where to send data to User, such as web pages viewed by User). IP addresses do not identify a User personally. This information is used by JUSTKHELO to deliver web pages when users request them, to tailor its Portal to the interests of its users, to measure traffic within the Portal, and to inform advertisers of the geographical locations from which JUSTKHELO visitors come.</p>
+<p>Any JUSTKHELO Services, events or Contest(s) being hosted or provided, or intended to be hosted on JUSTKHELO platform and requiring specific permission or authority from any statutory authority or any state or the central government, or the board of directors shall be deemed cancelled or terminated, if such permission or authority is either not obtained or denied either before or after the availability of the relevant JUSTKHELO Services, events or Contest(s) are hosted or provided.
+</p>
 
-
-
-           </div>
-</div>
-  </div>
-    </div>
-     </section>  
-                     
-      <section class="">
-      <div class="container">
-           <div class="row">
-          <div class="col-md-12">
-           <div class="heading-section">
-            <h2 class="heading line">JUSTKHELO <span>LINKS</span></h2>
-           </div> 
-           <div class="paragraph-Pp">
-            <p>There are also links to other websites on JUSTKHELO. Sites like these have their own privacy policies, which are beyond JUSTKHELO's control. When the User leaves the JUSTKHELO servers (the User can determine where they are by checking the URL displayed in the location bar on the User's browser), the use of any information provided by the User is governed by the privacy policies of the site that the User is visiting. Those policies may differ from those of JUSTKHELO. If the user is unable to find the privacy policies of any of these sites on the site's homepage, the user may contact the site directly for more information. JustKHELO is not responsible for the privacy policies or content of such websites.
-
-            </p>
-
-           
+<p>Users (including Participants) shall not be entitled to make any demands, claims, of any nature whatsoever, in the event that any Services, events or Contests are suspended or closed for any reason.
+</p>
 
            </div>
 </div>
@@ -135,136 +67,195 @@ The information you enter into the Portal is collected, used, and stored by JUST
     </div>
      </section>  
 
-      <section class="">
+
+ <section class="refund_policy">
       <div class="container">
            <div class="row">
           <div class="col-md-12">
            <div class="heading-section">
-            <h2 class="heading line">Security<span>Procedures</span></h2>
+            <h2 class="heading line">STANDARD TERM AND CONDITION <span> OF PROMOTION</span></h2>
            </div> 
            <div class="paragraph-Pp">
-            <p>Data collected by JUSTKHELO is securely stored in a JUSTKHELO-controlled database. The database is stored on servers protected by a firewall; access to these servers is password-protected and based on a need-to-know basis. As effective as our security measures are, we understand no system is impenetrable. So, we cannot guarantee the security of our database, nor can we guarantee that the information you supply won't be intercepted as it is transmitted to us over the Internet. Additionally, any information you include in a posting to the discussion areas is available to anyone with Internet access. By using the Portal, you agree that your information may be used or transferred outside of India.</p>
-<p>JUSTKHELO also believes that the internet is an ever-evolving medium. Periodically, we may review and update our privacy policy to incorporate any future changes as we deem appropriate, without notifying you. We will always use the information we gather in accordance with the policy under which it was collected, regardless of what the new policy may be. Any changes to our privacy policy will be posted on this page, so you will always know what information we collect, how we use it, how we store it, and under what circumstances we disclose it.
+            <p>In addition to these standard terms of promotions ("Standard Terms"), all promotions on JUSTKHELO.com which reference these Standard Terms (a "Promotion") follow these Standard Terms:</p>
+
+<ul>
+    <li>Participation in any Promotion will be subject to a user complying with the Promotion Terms implemented by JUSTKHELO in respect of such Promotion (“Promotion Terms”) and these Standard Terms. By participating in any Promotion, the participant further consents to and agrees to adhere to the terms and conditions of the JUSTKHELO game and JUSTKHELO privacy policy.
+</li>
+
+ <li>The Promotions are only open to users in India. Participation in the Promotions by proxy is not permitted.
+</li>
+
+  <li> Promotional participation is voluntary.</li>
+
+   <li>A user's participation in one Promotion does not guarantee that they will be eligible to participate in another.
+</li>
+    <li>Participants may only participate in one Promotion at a time via a single account. It is prohibited for existing users of JUSTKHELO to register a new account or operate more than one account with JUSTKHELO or to participate in a Promotion by creating a new account.
+</li>
+
+<li>The Promotion Terms for such a Promotion may require users to verify their mobile number and other account details before participating in such a Promotion.
+
+</li>
+
+<li>Persons intending to participate in a Promotion, who have listed their phone numbers on the National Do Not Call Registry (“NDNC Registry”), shall de-register themselves from the NDNC Registry till the completion of such Promotion (including the delivery of Bonus Amount (if any) or the free-entry (if any) under such Promotion). Such persons agree not to make any claim or raise any complaint whatsoever against JUSTKHELO in this respect. Please note that persons intending to participate in a Promotion who have not de-registered themselves from the NDNC Registry shall also have no right to make any claim or raise any complaints against JUSTKHELO if they do or do not receive any call or SMS with respect to their participation and all other matters pertaining to a Promotion.
+
+</li>
+<li>The verification process may require you to submit personal information about yourself. You agree to receive communication from JUSTKHELO. Any information collected in respect of your identity and contact details as part of a Promotion or otherwise in the course of your use of the JUSTKHELO Website shall be subject to JUSTKHELO Privacy Policy
+
+</li>
+
+<li> JUSTKHELO may, at its sole and absolute discretion, disqualify any user from a Promotion if such user engages in or it is found that such user has engaged in any illegal, unlawful or improper conduct (with regard to any of the Promotions or otherwise).
+
+</li>
+
+<li>The Bonus Amount (if any) deposited into the user’s account can be used to join cash contests and contests on JUSTKHELO. However, the Bonus Amount (if any) cannot be: (i) used to join 2-member contests; or (ii) withdrawn or transferred to any other cash balance account held by you with JUSTKHELO or to any third party account or to any bank/payment instrument account. THE BONUS AMOUNT (IF ANY) SHALL EXPIRE AND BE WITHOUT EFFECT AT THE END OF FOURTEEN DAYS FROM THE DATE OF CREDIT OF THE BONUS AMOUNT (IF ANY).
+</li>
+
+<li>The deposit of the Bonus Amount (if applicable) or the grant of the free-entry (if any) shall be at the sole discretion of JUSTKHELO and shall be subject to the user’s compliance with these Standard Terms and the applicable Promotion Terms. JUSTKHELO may substitute or change the Bonus Amount(if any) or free-entry (if any) offered under a Promotion at any time without notice. Users may not substitute Bonus Amount (if any) or free-entry (if any) for other items or exchange for cash.
+
+</li>
+
+<li> JUSTKHELO reserves the right to withhold or forfeit the benefits of a Promotion (including a free-entry or Bonus Amount due to a participant or any prizes/winnings earned by the participant by using such benefits) in the event that it determines or reasonably believes that the participating user has violated these Standard Terms, the applicable Promotion Terms or the terms and conditions of the JUSTKHELO fantasy game(s).
+
+</li>
+<li> As a result of participating in a Promotion, no free entry or Bonus Amount(s) may be received as a prize.
+</li>
+
+<li> In terms of the Promotions and the prizes therein, the decision of JUSTKHELO will be final and binding. No correspondence, objections, complaints, etc, will be accepted regarding these matters.
+
+</li>
+
+<li> JUSTKHELO does not allow participants to enter a contest, offer, or promotion simultaneously run by another promoter, unless the contest/offer/promotion is organized by JUSTKHELO.
+
+</li>
 
 
-            </p>
+<li> Please note that JustKhelo reserves the right to change/modify/or withdraw any Promotions and/or to change these Standard Terms and/or the Promotion Terms at any time at its sole discretion.
 
-           
+</li>
 
-           </div>
+<li> Participant feedback, suggestions, and questions about the Promotions are not obliged to be replied to by JustKhelo, expressly or impliedly.
+
+</li>
+
+<li> Whatever else may be contained herein, the aggregate liability of JUSTKHELO to a participating user with respect to any Promotion shall not exceed Rs. 50.
+
+</li>
+
+<li> This Promotion shall be governed by the laws of the Republic of India, and any disputes or disagreements relative to this Promotion shall be subject to the exclusive jurisdiction of the courts of Mumbai.
+
+
+</li>
+</ul>
 </div>
-  </div>
-    </div>
-     </section>  
-                          <section class="">
-      <div class="container">
-           <div class="row">
-          <div class="col-md-12">
-           <div class="heading-section">
-            <h2 class="heading line">Adver<span>tising</span></h2>
-           </div> 
-           <div class="paragraph-Pp">
-            <p>As part of its advertising program, JUSTKHELO tends to provide its advertisers with information regarding traffic to various pages of its site as a means of enabling them to understand the value of advertising on the Portal. JUSTKHELO contacts you from time to time about updating your content to provide you with features that may benefit you.
-
-</p>
-<p>There may or may not be several deceptive emails, websites, blogs, etc. claiming to be from or associated with JUSTKHELO circulating online. Our logo, photos, links, content, and other information is often included in these emails, websites, blogs, etc. In some emails, websites, blogs, etc., the user is asked for login information, a password, or that the user has won a prize, or they are asked to provide methods to commit an illegal/unauthorized act/deed, etc request detailed personal information or a payment of some kind. These emails, websites, blogs, etc., and accompanying materials are not affiliated with JUSTKHELO in any way. Please do not respond to emails or use websites, blogs, etc. for your own protection. In the future, we may use any information you provide to JUSTKHELO, including your email address or phone number, to contact you about the services you have used or to provide you with information about updated services.
-
-
-            </p>
-
-           
-
-           </div>
-</div>
-  </div>
-    </div>
-     </section>   
-
-      <section class="">
-      <div class="container">
-           <div class="row">
-          <div class="col-md-12">
-           <div class="heading-section">
-            <h2 class="heading line">Conditions <span>of Use</span></h2>
-           </div> 
-           <div class="paragraph-Pp">
-            <p>JUSTKHELO DOES NOT WARRANT THAT THIS PORTAL, IT’S SERVERS, OR EMAIL SENT BY US OR ON OUR BEHALF ARE VIRUS FREE. JUSTKHELO WILL NOT BE LIABLE FOR ANY DAMAGES OF ANY KIND ARISING FROM THE USE OF THIS PORTAL, INCLUDING, BUT NOT LIMITED TO COMPENSATORY, DIRECT, INDIRECT, INCIDENTAL, PUNITIVE, SPECIAL AND CONSEQUENTIAL DAMAGES, LOSS OF DATA, GOODWILL, BUSINESS OPPORTUNITY, INCOME OR PROFIT, LOSS OF OR DAMAGE TO PROPERTY AND CLAIMS OF THIRD PARTIES. IN NO EVENT WILL JUSTKHELO BE LIABLE FOR ANY DAMAGES WHATSOEVER IN AN AMOUNT IN EXCESS OF AN AMOUNT OF INR 100.
-
-
-</p>
-
-           
-
-           </div>
-</div>
-  </div>
-    </div>
-     </section>   
-                   
-      <section class="">
-      <div class="container">
-           <div class="row">
-          <div class="col-md-12">
-           <div class="heading-section">
-            <h2 class="heading line">Retention<span>of Data</span></h2>
-           </div> 
-           <div class="paragraph-Pp">
-            <p>Your personal information may be retained and may continue to be used until: (i) the relevant purposes for the use of your information described in this Privacy Policy are no longer applicable; and (ii) we are no longer required by applicable law, regulations, contractual obligations or legitimate business purposes to retain your personal information and the retention of your personal information is not required for the establishment, exercise or defense of any legal claim.
-
-
-</p>
-
-           
-
-           </div>
-</div>
-  </div>
-    </div>
-     </section>    
-
-           <section class="">
-      <div class="container">
-           <div class="row">
-          <div class="col-md-12">
-           <div class="heading-section">
-            <h2 class="heading line">Applicable Law <span>and Jurisdiction</span></h2>
-           </div> 
-           <div class="paragraph-Pp">
-            <p>The User agrees that any dispute arising from the use of the Portal shall be governed and governed by the agreements set out in the Terms and Conditions, without regard to conflict of laws principles of the Republic of India.
-
-
-
-</p>
-
-           
-
-           </div>
-</div>
-  </div>
-    </div>
-     </section>   
-                <section class="">
-      <div class="container">
-           <div class="row">
-          <div class="col-md-12">
-           <div class="heading-section">
-            <h2 class="heading line">Updating <span>Information</span></h2>
-           </div> 
-           <div class="paragraph-Pp">
-            <p>Any changes, updates or modifications to your information will be promptly notified to JUSTKHELO. Moreover, you can review, update or modify your information and preferences by logging into your Profile page on the Portal. 
- 
-
-
-
-</p>
-
-           
-
-           </div>
 </div>
   </div>
     </div>
      </section> 
-       
+
+
+
+     <section class="refund_policy">
+      <div class="container">
+           <div class="row">
+          <div class="col-md-12">
+           <div class="heading-section">
+            <h2 class="heading line">Standard T&C<span> of "Invite Friends" program.</span></h2>
+           </div> 
+           <div class="paragraph-Pp">
+           
+
+<ul>
+    <li>The JUSTKHELO Invite Friends Program lets you invite friends to join JUSTKHELO ("Program"). In the event that you and your referred friend meet the criteria and complete all the steps specified in these terms, you and your friend can earn a Cash Bonus from JUSTKHELO of upto Rs. 100 ("Bonus Amount"), which Bonus Amount will be redeemable to join cash contests and contests through the JUSTKHELO mobile application for the iOS and/or Android mobile devices ("JUSTKHELO Application"). To participate in the Program, please note our terms and conditions ("Terms") in this respect, as they govern your participation in the Program:
+</li>
+ <li>Eligibility – All users who: (i) have an account registered with JUSTKHELO fantasy gaming platform ("Platform") which account has been verified by JUSTKHELO, and (ii) are eligible to participate in the pay-to-play JUSTKHELO fantasy cricket, (as per the JUSTKHELO terms and conditions, accessible at https://JUSTKHELO.in/in/termsandconditions); and (iii) have downloaded and installed the JUSTKHELO Application on their respective mobile devices, will be eligible to participate in the Program. Participation in the Program by proxy is not permitted.
+</li>
+  <li>Participation in the Program is voluntary. It is forbidden for a user to open more than one account with JUSTKHELO and to participate in the Program with more than one user account.
+</li>
+
+<p>By participating in the Program, you agree to and accept these Terms.</p>
+
+   <li> For the purpose of participation in the Program, you are required to have the JUSTKHELO Application downloaded and installed on your mobile device. Through the JUSTKHELO Application, you will be provided with a unique link or code, which can be shared by you ("Inviter") with friends (each an "Invitee") for the purpose of inviting such friends to create and register an account with JUSTKHELO and download the JUSTKHELO Application. On receiving the link or code from the Inviter, the Invitee may either: (i) Click on the link, consequent to which such Invitee will be directed to a registration page and will be provided the option to register an account with JUSTKHELO and download and install the JUSTKHELO Application on his/her device; or (ii) download and install the JUSTKHELO Application on his/her device independently, register for a JUSTKHELO account through the JUSTKHELO Application and enter the unique code shared by the Inviter where prompted in the JUSTKHELO  Application.</li>
+
+    <li>The Inviter and the Invitee will be eligible to earn the Bonus Amount subject to (amongst other terms specified in these Terms): (i) the Invitee not being an existing user of JUSTKHELO; and (ii) the Inviter and Invitee being eligible to participate in the pay-to play JUSTKHELO fantasy cricket, fantasy basketball, fantasy hockey, fantasy volleyball, fantasy kabbadi or football game; and (iii) the Invitee successfully registering for an account with JUSTKHELO through the unique link or by using the unique code shared by the Inviter; and (iv) the Inviter and Invitee agreeing to the license agreement for the JUSTKHELO Application and downloading and installing the JUSTKHELO Application as available for the Inviter’s and Invitee’s respective mobile devices; and (v) the Inviter and Invitee verifying the Inviter’s and the Invitee’s respective mobile number as provided at the time of registration within thirty (30) days from the date on which Invitee registers for an account with JUSTKHELO ("Verification Period"). For the purposes of these Terms, an 'existing user of JUSTKHELO shall mean a user who presently operates an account with the Platform or operated an account with the Platform at any point of time.
+</li>
+
+<li>Invitees who are already users of JUSTKHELO are not permitted to create a new account with the Platform in order to receive the Bonus Amount. An invitee's status as a JUSTKHELO user will be determined by JUSTKHELO in its sole discretion and appropriate action will be taken.</li>
+
+<li>The verification process may require an Inviter/Invitee to submit personal information about the user (Inviter/Invitee) and documents identifying the Inviter/Invitee. The Inviter agrees to receive communication from JUSTKHELO and to allow JUSTKHELO to communicate with Invitees referred by you about the Inviter's participation in the Program. Any information collected in respect of the Inviter/Invitee as part of the Program or otherwise in the course of such person's use of the Website shall be subject to JUSTKHELO Privacy Policy (available here:</li>
+
+ <li>The verification of an Inviter/Invitee shall be completed at the time of first withdrawal by the Inviter/Invitee from the Inviter’s/Invitee's 'Your Winnings' account or 'Your Deposits' account with the Platform. An Inviter/Invitee may voluntarily seek verification of the Inviter/Invitee by clicking on the 'Verify Now' tab of the Account Balance page of the Inviter/Invitee's account with the Platform. In the event that the Invitee opts to register for a JUSTKHELO account through the JUSTKHELO Application, the Invitee can verify his/her contact information at the time of registration.
+</li>
+
+<li>The Invitee will be eligible to earn a Bonus of Rs.100 (“Invitee Bonus”) upon a) successful verification of the Invitee’s mobile number. b) Provided that the Invitee completes the step mentioned in a) above within the Verification Period, the applicable Invitee Bonus shall be credited to the Invitee's Cash Bonus Account with the Platform, within fifteen (15) days of completion of successful verification of the Invitee’s mobile number. In the event that the Invitee fails to verify the Invitee's mobile number within the Verification Period or omits to provide documents requested for such verification, the Invitee shall not receive the applicable Invitee Bonus specified above due to the Invitee for completing such verification process.
+</li>
+
+<li>Inviter Bonus a) In order for an Inviter to be eligible to earn the Bonus Amount due to him/her ("Inviter Bonus"), the Inviter must also download and install the JUSTKHELO Application on his/her mobile device verify his/her mobile number and email address prior to the completion of the Verification Period. b) The credit of the Inviter Bonus is contingent on the Invitee's participation in cash contests on the Platform. For every Rs. 1 spent by the Invitee to join cash contests on the Platform, the Inviter will be eligible to earn a bonus amount of Rs. 0.50 subject to a maximum of Rs. 100. As an example, in the event that the invitee uses Rs. 100 from his Cash Bonus Account or Unutilized Account to join a cash contest or contest through a JUSTKHELO Application, the Inviter shall be eligible to receive Rs. 50 as Inviter Bonus upon the successful completion of such contest or contest, provided that the Inviter has successfully completed the requisite steps detailed in a) above that make him/her eligible to receive such amount. c) Subject to the provisions of a) and b) above, the applicable Inviter Bonus earned by the Inviter shall be credited to the Inviter's Cash Bonus Account within fifteen (15) days of the completion of the cash contest or contest in which Invitee has used the Invitee Bonus or within fifteen (15) days of the Inviter completing the relevant step verification process, as the case may be. In the event that the Inviter fails to complete any of the verification steps within the Verification Period or omits to provide documents requested for such verification, the Inviter shall not be eligible to earn the applicable Inviter Bonus. d) It is clarified that the Inviter will be eligible to receive the Inviter Bonus with respect to any contests or contests only in the event the winners are declared for such contests or contests only. In the event that the contest entry amount paid by the Invitee is refunded to the Invitee with respect to any cash contest or contest, for any reason, the Inviter shall not be eligible to receive any Inviter Bonus for such contest or contest.
+</li>
+<li> The Bonus Amounts credited to the Inviter/Invitee can be used by the Inviter/Invitee to join cash contests and contests offered by JUSTKHELO through the Platform. No part of the Bonus Amount may be used to join private contests or be withdrawn or transferred to any other cash balance account held by the Inviter/Invitee with JUSTKHELO or to any third party account or to any bank/payment instrument account. THE BONUS AMOUNT SHALL EXPIRE AND BE WITHOUT EFFECT AT THE END OF FOURTEEN DAYS FROM THE DATE OF CREDIT OF THE BONUS AMOUNT.
+</li>
+<li> JUSTKHELO reserves the right to determine the amount of Bonus Amount to be deposited and to require the Inviter to comply with these Terms prior to depositing the Bonus Amount. The Bonus Amount may be substituted or changed at any time without prior notice by JustKhelo. Inviters/Invitees may not substitute Bonus Amount for any other item or offer for cash.
+</li>
+
+
+
+</ul>
+
+
+
+
+           </div>
+</div>
+  </div>
+    </div>
+     </section>  
+ 
+
+
+<section class="refund_policy">
+      <div class="container">
+           <div class="row">
+          <div class="col-md-12">
+           <div class="heading-section">
+            <h2 class="heading line">JUSTKHELO <span>RESERVES THE RIGHT TO</span></h2>
+           </div> 
+           <div class="paragraph-Pp">
+            
+
+<ul>
+    <li>ithhold the Bonus Amount from the deposit; and/or</li>
+ <li>A participant may forfeit any Bonus Amount deposited by an Inviter/Invitee or any prize/winnings earned by using such Bonus Amount; and/or
+</li>
+  <li> When the Inviter or Invitee violates these Terms or the terms and conditions of the JUSTKHELO fantasy games, the Company may deactivate such Inviter or Invitee accounts.
+</li>
+   <li>An Inviter/Invitee may not receive a Bonus Amount by simply participating in the Program.
+</li>
+    <li>In its sole and absolute discretion, JUSTKHELO may disqualify any Inviter/Invitee who engages in or is found to have engaged in the following conduct: engaged in any illegal, unlawful or improper conduct (with regard to the Program or otherwise).
+</li>
+
+<li>With regard to the Program, JUSTKHELO's decision will be final and binding, and no correspondence, objections, complaints, etc. will be entertained.
+</li>
+
+
+<li>The Program cannot be combined with any other contest, promotion, or program that is simultaneously running and is organised or conducted by JUSTKHELO.
+
+</li>
+<li>At its sole discretion, JUSTKHELO reserves the right to change, modify, or withdraw the Program and/or these terms and conditions without notice.
+</li>
+
+<li>The Program is governed by the Terms and Conditions, as they apply to the JUSTKHELO fantasy games and services.
+</li>
+
+<li>Participants (Inviter/Invitee) of the Program who provide feedback, suggestions, or queries were not promised by JUSTKHELO any response, express or implied.
+</li>
+
+<li>For any reason whatsoever, JUSTKHELO shall have no liability over Rs.100 to an Inviter/Invitee participating in this Program.</li>
+
+</ul>
+</div>
+</div>
+  </div>
+    </div>
+     </section>  
+
 
 @stop

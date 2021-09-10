@@ -12430,6 +12430,14 @@ text-align:left;
 font-weight: 500;
 font-family: poppins, sans-serif;
 line-height: 1.5 !important;
+list-style: circle;
+padding: 10px;
 
 
+}
+
+.process{
+font-weight:600;
+font-size: 20px;
+font-family: poppins,sans-serif;
 }

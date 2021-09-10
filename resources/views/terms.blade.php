@@ -26,7 +26,7 @@
            <div class="row">
           <div class="col-md-12">
            <div class="heading-section">
-            <h2 class="heading line">TREAMS & <span>CONDITIONS</span></h2>
+            <h2 class="heading line">TERMS & <span>CONDITIONS</span></h2>
            </div> 
            <div class="paragraph-Pp">
             <p>All sales are final as justkhelo & Advisory offers free 2-day evaluation to ensure that our products and services will meet your needs without the need to purchase, there will be ABSOLUTELY NO REFUNDS and CANCELLATIONS.</p>
