@@ -94,14 +94,7 @@
                            </a>
                         </h4>
                      </div>
-                     <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-                        <div class="panel-body">
-                           <p>Every time you make a transaction, you'll receive an email with details about that transaction. 
-If you suspect a transaction was not done by you, please let us know at
-<a href="https://justkhelo.com/"> info@justkhelo.com.</a> Please reset your password as soon as possible.  
-</p>
-                        </div>
-                     </div>
+                   
                   </div>
 
                   <div class="panel panel-default">
