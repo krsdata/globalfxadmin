@@ -51,33 +51,33 @@
             </div>
             <div class="col-md-12">
                <div class="col-md-4 spacing">
-   <div class="img_space"><img src="https://localhost/justkhelo1/webmedia/images/icons/1Quickest.png" alt="what-makes-Justkhelo-so-popular-1?" class="img-thumbnail" width="70"></div>
+   <div class="img_space"><img src="webmedia/images/icons/1Quickest.png" alt="what-makes-Justkhelo-so-popular-1?" class="img-thumbnail" width="70"></div>
                   <h4>Easy To Join Contest</h4>
                   <p>JUSTKHELO Fantasy League allows you to participate in the fantasy sports where you can quickly level up your performance choosing your dream players. As you are just a step away from the contest, So, buy the entry ticket and get yourself enrolled for the upcoming contest just in a few clicks.</p>
                </div>
                <div class="col-md-4 spacing">
-         <div class="img_space"><img src="https://localhost/justkhelo1/webmedia/images/icons/2bonus.png" alt="what-makes-Justkhelo-so-popular-2?" class="img-thumbnail" width="70"></div>
+         <div class="img_space"><img src="webmedia/images/icons/2bonus.png" alt="what-makes-Justkhelo-so-popular-2?" class="img-thumbnail" width="70"></div>
                   <h4>High Speedy App</h4>
                   <p>Download the JUSTKHELO app to access exciting features easily. Also, the app is super easy to use as it fastens the speed so download it to win your cash rewards a few clicks away. Besides this, get instant notifications, offers and promotions in regards to your fantasy sport, upcoming contests, dream player, and so forth.</p>
                </div>
                <div class="col-md-4 spacing">
-                  <div class="img_space"><img src="https://localhost/justkhelo1/webmedia/images/icons/3winning.png" alt="what-makes-Justkhelo-so-popular-3?" class="img-thumbnail" width="70"></div>
+                  <div class="img_space"><img src="webmedia/images/icons/3winning.png" alt="what-makes-Justkhelo-so-popular-3?" class="img-thumbnail" width="70"></div>
                   <h4>Full Protection</h4>
                   <p>We understand safety measures, and that is why we make each participant register with their verified email address or phone number. Or you can log with your current Facebook or Google account as well. It will help check the user’s details for undertaking further procedures. Do not worry, as your details are safe with us and we do not share it with any third party without your consent.</p>
                </div>
             </div>
             <div class="col-md-4 spacing">
-               <div class="img_space"><img src="https://localhost/justkhelo1/webmedia/images/icons/4instantbonus.png" alt="what-makes-Justkhelo-so-popular-4?" class="img-thumbnail" width="70"></div>
+               <div class="img_space"><img src="webmedia/images/icons/4instantbonus.png" alt="what-makes-Justkhelo-so-popular-4?" class="img-thumbnail" width="70"></div>
                <h4>Easy To Withdraw</h4>
                <p>JUSTKHELO Fantasy League is a dream come true for the users, as they get an excellent chance to choose their ideal players alongside you can even earn points by winning the contest or a bonus by inviting a friend. After winning users switch to withdraw the earnings, with an easy withdrawal request procedure. As soon as the withdrawal request gets approved, your registered bank account will be verified to transfer the earnings into your account.</p>
             </div>
             <div class="col-md-4 spacing">
-               <div class="img_space"><img src="https://localhost/justkhelo1/webmedia/images/icons/5creditscore.png" alt="what-makes-Justkhelo-so-popular-5?" class="img-thumbnail" width="70"></div>
+               <div class="img_space"><img src="webmedia/images/icons/5creditscore.png" alt="what-makes-Justkhelo-so-popular-5?" class="img-thumbnail" width="70"></div>
                <h4>India’s Quickest Fantasy Game</h4>
                <p>Enjoy Fantasy Gaming by creating your own teams of 2 to 4 players.</p>
             </div>
             <div class="col-md-4 spacing">
-               <div class="img_space"><img src="https://localhost/justkhelo1/webmedia/images/icons/6support.png" alt="what-makes-Justkhelo-so-popular-6?" class="img-thumbnail" width="70"></div>
+               <div class="img_space"><img src="webmedia/images/icons/6support.png" alt="what-makes-Justkhelo-so-popular-6?" class="img-thumbnail" width="70"></div>
                <h4>Best Customer Support</h4>
                <p>The Support Team is ready to answer your KYC and Withdrawal inquiries via email or social media.</p>
             </div>
