@@ -325,8 +325,13 @@ class HomeController extends BaseController
          'ip' => $ip,
          'origin' => $name,
      ]);
-   
-     return view('install');
+     $remove_header = false;
+     if($request->get('request')=='mobile'){
+
+         $remove_header = true;
+
+     }
+     return view('install','remove_header');
   
      //return response()->download('public/upload/apk/justkhelo.apk');
 
