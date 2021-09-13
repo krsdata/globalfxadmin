@@ -11825,12 +11825,11 @@ width: 100%;
       color: #63aa3d;
       background: white; }
 
-      .footer-logo img {
-    width: 300px;
+     .footer-logo img {
+    width: 350px !important;
     position: relative;
     left: 0;
-    bottom: 20px;
-    top: 10px !important;
+    top: 0px !important;
 }
 .copywriteline  a {
   text-align: center;
@@ -12477,4 +12476,27 @@ font-family: poppins,sans-serif;
 .spacingabout {
     padding: 20px;
     text-align: left;
+}
+
+.img_spaceabout {
+    margin-top: 20px;
+    text-align: left;
+}
+
+
+.about_us{
+
+margin-top: 70px;
+}
+
+
+
+.feature p{
+font-family: "poppins", sans-serif;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 400;
+    padding: 0 0;
+    line-height: 1.7;
+
 }

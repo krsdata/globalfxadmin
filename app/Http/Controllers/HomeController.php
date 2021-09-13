@@ -182,7 +182,16 @@ class HomeController extends BaseController
     }
     public function termsAndConditions(Request $request){
 
-        return view('terms');
+        $content = \DB::table('pages')
+        ->where('slug','terms-and-conditions')
+        ->first();
+        $remove_header = false;
+        if($request->get('request')=='mobile'){
+
+            $remove_header = true;
+
+        }
+        return view('terms',compact('content','remove_header'));
     }
 
     public function privacyPolicy(Request $request){

@@ -18,14 +18,7 @@
         
       </div>
    </div>
-<style type="text/css">
-  .page_title{
-    margin-top: -135px;right: 10px;position: absolute;background: #fff;padding: 10px;border-radius: 10px;
-  }
-</style>
-
-  <!--Section: Content-->
-  <section class="About-us">
+<section class="About-us">
       <div class="container">
            <div class="row">
 					<div class="col-md-12">
@@ -42,38 +35,45 @@
      </section>  
 
 
-       <section class="booking bookticket">
+   <section class="feature">
       <div class="container">
          <div class="row">
-            <div class="col-md-12 text-center">
+            <div class="col-sm-12 text-center">
                <h2 class="heading line">OUR<span> FEATURES</span></h2>
-               <p></p>
-            </div>
-            <div class="col-sm-12">
-               <div class="col-sm-3 spacingabout">
-   <div class="img_spaceabout"><img src="https://localhost/justkhelo1/webmedia/images/icons/easytojoincontest.svg" alt="what-makes-Justkhelo-so-popular-1?" class="img-thumbnail" width="70"></div>
+               <p></p></div>
+
+<div class="col-sm-12">  
+   <div class="col-sm-3 spacingabout">
+    <div class="img_spaceabout">
+      <img src="webmedia/images/icons/easytojoincontest.svg" alt="easytojoin" class="img-thumbnail" width="70"></div>
+
                   <h4>Easy To Join Contest</h4>
                   <p>As the name tells JOINING a CONTEST is very easy. Go to HOME, ENTER A MATCH, CREATE TEAM and JOIN CONTEST.</p>
                </div>
-               <div class="col-sm-3 spacingabout">
-         <div class="img_spaceabout"><img src="https://localhost/justkhelo1/webmedia/images/icons/highspeed.svg" alt="what-makes-Justkhelo-so-popular-2?" class="img-thumbnail" width="70"></div>
-                  <h4>High Speedy App</h4>
+
+      <div class="col-sm-3 spacingabout">
+         <div class="img_spaceabout"><img src="webmedia/images/icons/highspeed.svg" alt="Highspeed" class="img-thumbnail" width="70"></div>
+         <h4>High Speedy App</h4>
                   <p>JUSTKHELO boasts of quick DOWNLOADS and UPLOADS, the user experience is very smooth as it doesn't lag. This means quick PAYOUTS of your CASH REWARDS.</p>
                </div>
+
                <div class="col-sm-3 spacingabout">
-                  <div class="img_spaceabout"><img src="https://localhost/justkhelo1/webmedia/images/icons/fullprotection.svg" alt="what-makes-Justkhelo-so-popular-3?" class="img-thumbnail" width="70"></div>
+                  <div class="img_spaceabout"><img src="webmedia/images/icons/fullprotection.svg" alt="Privacy" class="img-thumbnail" width="70"></div>
                   <h4>Privacy</h4>
-                  <p>We take all necessary safety measures i.e,registration via
-                  E-mail/Phone/Facebook/Google. Content or details are not shared with 3P. </p>
+                  <p>We take all necessary safety measures i.e,registration via Email/Phone/Facebook/Google. Content or details are not shared with 3P. </p>
                </div>
           
             <div class="col-sm-3 spacingabout">
-               <div class="img_spaceabout"><img src="https://localhost/justkhelo1/webmedia/images/icons/easytowithdraw.svg" alt="what-makes-Justkhelo-so-popular-4?" class="img-thumbnail" width="70"></div>
+      <div class="img_spaceabout"><img src="webmedia/images/icons/easytowithdraw.svg" alt="withdraw" class="img-thumbnail" width="70"></div>
                <h4>Easy To Withdraw</h4>
                <p>It doesn't get easier than this. Register and Verify your bank. Earn rewards and cash points HIT Withdraw and VOILA you get the money in your account. </p>
-            </div>
-        </div>
+               </div>
+
+               
+            
+           </div>
          </div>
+          </div>
       </div>
    </section>
 

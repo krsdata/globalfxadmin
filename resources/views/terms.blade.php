@@ -29,7 +29,8 @@
             <h2 class="heading line">TERMS & <span>CONDITIONS</span></h2>
            </div> 
            <div class="paragraph-Pp">
-            <p>All sales are final as justkhelo & Advisory offers free 2-day evaluation to ensure that our products and services will meet your needs without the need to purchase, there will be ABSOLUTELY NO REFUNDS and CANCELLATIONS.</p>
+            <p>JUST KHELO is the flagship brand of Insta IT Technologies Through JUST KHELO, along with its sub-pages, and the JUST KHELO App, JUST KHELO operates five separate portals through which it offers cricket-based, football-based, basketball based, volleyball based, hockey based and kabaddi based online fantasy games. JUST KHELO, as used herein, shall be construed as a collective reference to JUST KHELO and the JUST KHELO App.</p>
+
 
 <p>Before deciding to subscribe to our services, please make sure to take our 2 day free trial, the evaluation version that we provide. We do not offer refunds on subscriptions that have already been taken. We believe in our services and support and even give two-day free trial that without any exception we have NO REFUND POLICY.</p>
 
