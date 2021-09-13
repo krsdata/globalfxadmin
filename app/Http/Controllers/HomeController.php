@@ -81,7 +81,15 @@ class HomeController extends BaseController
     }
     public function home(Request $request){
       
-        $upcomings =  Matches::where('status',1)->limit(6)->get();
+
+        $upcomings = Matches::with('teama','teamb')
+        ->where('match_abondon',0)
+        ->where('status',1)
+        ->where('timestamp_start','>=' , time())
+        ->limit(6)
+        ->orderBy('created_at','ASC')
+        ->get();
+      
         $completed =  Matches::where('status',2)->latest('date_end')->first();
   
          return view('home',compact('upcomings','completed'));
