@@ -1,3 +1,4 @@
+@if ($remove_header != true) 
 <header class="header-main">
    <div class="menubar">
       
@@ -34,3 +35,4 @@
 <script>
    $('.navbar-header').addClass('original').clone().insertAfter('.navbar-header').addClass('cloned').css('position','fixed').css('top','0').css('margin-top','0').css('z-index','500').removeClass('original').hide();  
 </script>
+@endif
