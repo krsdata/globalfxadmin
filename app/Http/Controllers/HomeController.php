@@ -91,8 +91,13 @@ class HomeController extends BaseController
         ->get();
       
         $completed =  Matches::where('status',2)->latest('date_end')->first();
-  
-         return view('home',compact('upcomings','completed'));
+        $remove_header = false;
+        if($request->get('request')=='mobile'){
+
+            $remove_header = true;
+
+        }
+         return view('home',compact('upcomings','completed','remove_header'));
     }
 
     public function liveChat(Request $request){

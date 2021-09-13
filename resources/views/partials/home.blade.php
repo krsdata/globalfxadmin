@@ -6,7 +6,9 @@
       $url  = "downloadapk?_branch_name=010O";
       @endphp 
    <div class=wrapper>
+   @if ($remove_header != true) 
    @include('layouts.menu')
+   @endif
    <section class="slider-up">
       <div class="container-fluid">
          <div id="myCarousel" class="carousel slide" data-ride="carousel">

@@ -1,3 +1,4 @@
+@if ($remove_header != true) 
 <footer class="footer-type01">
    <div class="container">
       <div class="row">
@@ -91,6 +92,7 @@
       </div>
    </div>
 </footer>
+@endif
 </div>
 <script src="{{ URL::asset('webmedia/js/vendor/vendor.js')}}"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
