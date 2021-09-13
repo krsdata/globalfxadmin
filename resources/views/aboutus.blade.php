@@ -33,7 +33,7 @@
 						<h2 class="heading line"> About <span>Us</span></h2>
            </div> 
            <div class="paragraph-Pp">
-            <p>The Best Fantasy App of Justkhelo lets you showcase your expertise and knowledge. We offer one of the biggest virtual cricket fantasy sports platforms of India. We let you pick your team from a pool of the best cricketers from all around the world. Lets keep a watch on your fan base through shared posts in the feed. The more you invest in learning to Invest in Fantasy Sports and advancing to the next level, the more Cash Bonuses and other Rewards you receive.
+            <p>We are the biggest Virtual Fantasy Sports Platform. We let you set-up your PERSONAL FAN-BASE by keeping a watch over your shared posts in the feed. Not just this, you can also improve your game by playing continuously and reaching the different levels and be rewarded with exciting CASH REWARDS. You can CREATE YOUR OWN TEAM by choosing favorite players which help you earn coins in contests. JUSTKHELO Fantasy League is a stage that permits you to play virtually by participating with real-life players and earn points using your game expertise and knowledge. 
 </p>
            </div>
 </div>
@@ -49,38 +49,29 @@
                <h2 class="heading line">OUR<span> FEATURES</span></h2>
                <p></p>
             </div>
-            <div class="col-md-12">
-               <div class="col-md-4 spacing">
-   <div class="img_space"><img src="https://localhost/justkhelo1/webmedia/images/icons/1Quickest.png" alt="what-makes-Justkhelo-so-popular-1?" class="img-thumbnail" width="70"></div>
+            <div class="col-sm-12">
+               <div class="col-sm-3 spacing">
+   <div class="img_space"><img src="https://localhost/justkhelo1/webmedia/images/icons/easytojoincontest.svg" alt="what-makes-Justkhelo-so-popular-1?" class="img-thumbnail" width="70"></div>
                   <h4>Easy To Join Contest</h4>
-                  <p>JUSTKHELO Fantasy League allows you to participate in the fantasy sports where you can quickly level up your performance choosing your dream players. As you are just a step away from the contest, So, buy the entry ticket and get yourself enrolled for the upcoming contest just in a few clicks.</p>
+                  <p>As the name tells JOINING a CONTEST is very easy. Go to HOME, ENTER A MATCH, CREATE TEAM and JOIN CONTEST.</p>
                </div>
-               <div class="col-md-4 spacing">
-         <div class="img_space"><img src="https://localhost/justkhelo1/webmedia/images/icons/2bonus.png" alt="what-makes-Justkhelo-so-popular-2?" class="img-thumbnail" width="70"></div>
+               <div class="col-sm-3 spacing">
+         <div class="img_space"><img src="https://localhost/justkhelo1/webmedia/images/icons/highspeed.svg" alt="what-makes-Justkhelo-so-popular-2?" class="img-thumbnail" width="70"></div>
                   <h4>High Speedy App</h4>
-                  <p>Download the JUSTKHELO app to access exciting features easily. Also, the app is super easy to use as it fastens the speed so download it to win your cash rewards a few clicks away. Besides this, get instant notifications, offers and promotions in regards to your fantasy sport, upcoming contests, dream player, and so forth.</p>
+                  <p>JUSTKHELO boasts of quick DOWNLOADS and UPLOADS, the user experience is very smooth as it doesn't lag. This means quick PAYOUTS of your CASH REWARDS.</p>
                </div>
-               <div class="col-md-4 spacing">
-                  <div class="img_space"><img src="https://localhost/justkhelo1/webmedia/images/icons/3winning.png" alt="what-makes-Justkhelo-so-popular-3?" class="img-thumbnail" width="70"></div>
+               <div class="col-sm-3 spacing">
+                  <div class="img_space"><img src="https://localhost/justkhelo1/webmedia/images/icons/fullprotection.svg" alt="what-makes-Justkhelo-so-popular-3?" class="img-thumbnail" width="70"></div>
                   <h4>Full Protection</h4>
-                  <p>We understand safety measures, and that is why we make each participant register with their verified email address or phone number. Or you can log with your current Facebook or Google account as well. It will help check the user’s details for undertaking further procedures. Do not worry, as your details are safe with us and we do not share it with any third party without your consent.</p>
+                  <p>We understand safety measures, and that is why we make each participant register with their verified email address or phone number. Or you can log with your current Facebook or Google account as well.</p>
                </div>
-            </div>
-            <div class="col-md-4 spacing">
-               <div class="img_space"><img src="https://localhost/justkhelo1/webmedia/images/icons/4instantbonus.png" alt="what-makes-Justkhelo-so-popular-4?" class="img-thumbnail" width="70"></div>
+          
+            <div class="col-sm-3 spacing">
+               <div class="img_space"><img src="https://localhost/justkhelo1/webmedia/images/icons/easytowithdraw.svg" alt="what-makes-Justkhelo-so-popular-4?" class="img-thumbnail" width="70"></div>
                <h4>Easy To Withdraw</h4>
-               <p>JUSTKHELO Fantasy League is a dream come true for the users, as they get an excellent chance to choose their ideal players alongside you can even earn points by winning the contest or a bonus by inviting a friend. After winning users switch to withdraw the earnings, with an easy withdrawal request procedure. As soon as the withdrawal request gets approved, your registered bank account will be verified to transfer the earnings into your account.</p>
+               <p>JUSTKHELO Fantasy League is a dream come true for the users, as they get an excellent chance to choose their ideal players alongside you can even earn points by winning the contest or a bonus by inviting a friend. </p>
             </div>
-            <div class="col-md-4 spacing">
-               <div class="img_space"><img src="https://localhost/justkhelo1/webmedia/images/icons/5creditscore.png" alt="what-makes-Justkhelo-so-popular-5?" class="img-thumbnail" width="70"></div>
-               <h4>India’s Quickest Fantasy Game</h4>
-               <p>Enjoy Fantasy Gaming by creating your own teams of 2 to 4 players.</p>
-            </div>
-            <div class="col-md-4 spacing">
-               <div class="img_space"><img src="https://localhost/justkhelo1/webmedia/images/icons/6support.png" alt="what-makes-Justkhelo-so-popular-6?" class="img-thumbnail" width="70"></div>
-               <h4>Best Customer Support</h4>
-               <p>The Support Team is ready to answer your KYC and Withdrawal inquiries via email or social media.</p>
-            </div>
+        </div>
          </div>
       </div>
    </section>

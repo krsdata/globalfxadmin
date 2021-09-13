@@ -12454,3 +12454,22 @@ font-family: poppins,sans-serif;
   line-height: 1.5 !important;
   padding-top: 20px;
 }
+
+.info1 > p {
+    font-family: poppins,sans-serif;
+    color: #1b1b1b;
+    font-size: 16px;
+    padding-top: 10px;
+    text-align: center;
+    line-height: 1.5;
+   }
+
+   .info1 h5 {
+    font-family: poppins, sans-serif;
+    font-size: 20px;
+    color: #0e42b8;
+    line-height: normal;
+    padding-top: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
