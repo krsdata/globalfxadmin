@@ -50,26 +50,27 @@
                <p></p>
             </div>
             <div class="col-sm-12">
-               <div class="col-sm-3 spacing">
-   <div class="img_space"><img src="https://localhost/justkhelo1/webmedia/images/icons/easytojoincontest.svg" alt="what-makes-Justkhelo-so-popular-1?" class="img-thumbnail" width="70"></div>
+               <div class="col-sm-3 spacingabout">
+   <div class="img_spaceabout"><img src="https://localhost/justkhelo1/webmedia/images/icons/easytojoincontest.svg" alt="what-makes-Justkhelo-so-popular-1?" class="img-thumbnail" width="70"></div>
                   <h4>Easy To Join Contest</h4>
                   <p>As the name tells JOINING a CONTEST is very easy. Go to HOME, ENTER A MATCH, CREATE TEAM and JOIN CONTEST.</p>
                </div>
-               <div class="col-sm-3 spacing">
-         <div class="img_space"><img src="https://localhost/justkhelo1/webmedia/images/icons/highspeed.svg" alt="what-makes-Justkhelo-so-popular-2?" class="img-thumbnail" width="70"></div>
+               <div class="col-sm-3 spacingabout">
+         <div class="img_spaceabout"><img src="https://localhost/justkhelo1/webmedia/images/icons/highspeed.svg" alt="what-makes-Justkhelo-so-popular-2?" class="img-thumbnail" width="70"></div>
                   <h4>High Speedy App</h4>
                   <p>JUSTKHELO boasts of quick DOWNLOADS and UPLOADS, the user experience is very smooth as it doesn't lag. This means quick PAYOUTS of your CASH REWARDS.</p>
                </div>
-               <div class="col-sm-3 spacing">
-                  <div class="img_space"><img src="https://localhost/justkhelo1/webmedia/images/icons/fullprotection.svg" alt="what-makes-Justkhelo-so-popular-3?" class="img-thumbnail" width="70"></div>
-                  <h4>Full Protection</h4>
-                  <p>We understand safety measures, and that is why we make each participant register with their verified email address or phone number. Or you can log with your current Facebook or Google account as well.</p>
+               <div class="col-sm-3 spacingabout">
+                  <div class="img_spaceabout"><img src="https://localhost/justkhelo1/webmedia/images/icons/fullprotection.svg" alt="what-makes-Justkhelo-so-popular-3?" class="img-thumbnail" width="70"></div>
+                  <h4>Privacy</h4>
+                  <p>We take all necessary safety measures i.e,registration via
+                  E-mail/Phone/Facebook/Google. Content or details are not shared with 3P. </p>
                </div>
           
-            <div class="col-sm-3 spacing">
-               <div class="img_space"><img src="https://localhost/justkhelo1/webmedia/images/icons/easytowithdraw.svg" alt="what-makes-Justkhelo-so-popular-4?" class="img-thumbnail" width="70"></div>
+            <div class="col-sm-3 spacingabout">
+               <div class="img_spaceabout"><img src="https://localhost/justkhelo1/webmedia/images/icons/easytowithdraw.svg" alt="what-makes-Justkhelo-so-popular-4?" class="img-thumbnail" width="70"></div>
                <h4>Easy To Withdraw</h4>
-               <p>JUSTKHELO Fantasy League is a dream come true for the users, as they get an excellent chance to choose their ideal players alongside you can even earn points by winning the contest or a bonus by inviting a friend. </p>
+               <p>It doesn't get easier than this. Register and Verify your bank. Earn rewards and cash points HIT Withdraw and VOILA you get the money in your account. </p>
             </div>
         </div>
          </div>
