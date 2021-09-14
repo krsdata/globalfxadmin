@@ -20,7 +20,7 @@
       <div class="container">
          <div class="row">
             <div class="col-md-12 text-center download">
-               <a href="{{$url}}" class="btn btn-default" role="button">Download Now</a>
+               <a href="{{$url}}" class="btn btn-default" style="font-size: 25px;" role="button">Download Now</a>
             </div>
             <div class="col-md-12">
                Download Now and Win UpTo 1CR Today.
