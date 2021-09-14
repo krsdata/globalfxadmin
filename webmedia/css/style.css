@@ -7366,9 +7366,19 @@ h4.footerheading span:after{
   padding: 20px 0;
   text-align: center; }
 
+  .banner-text-install {
+    background: #0e42b8;
+    font-family: "poppins",sans-serif;
+    font-size: 30px;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 20px 0;
+    text-align: center; }
 @media screen and (min-width: 992px) {
   .banner-text {
-    display: none; } }
+    display: none; } 
+  }
 
 .layercontent01 {
   left: 0% !important;
@@ -11868,7 +11878,7 @@ width: 100%;
 .secure_safe{
 
 text-align: center;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 
 @media screen and (min-width: 360px) {
