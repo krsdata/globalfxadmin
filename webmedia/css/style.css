@@ -7369,11 +7369,11 @@ h4.footerheading span:after{
   .banner-text-install {
     background: #0e42b8;
     font-family: "poppins",sans-serif;
-    font-size: 30px;
+    font-size: 15px;
     color: white;
     font-weight: 400;
     text-transform: uppercase;
-    padding: 20px 0;
+    padding: 10px 0;
     text-align: center; }
 @media screen and (min-width: 992px) {
   .banner-text {
@@ -12031,7 +12031,7 @@ footer ul {
 }
 
 .download{
-padding: 20px 0;
+padding: 15px 0;
 
 }
 
