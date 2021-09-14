@@ -18,11 +18,7 @@
         
       </div>
    </div>
-<style type="text/css">
-  .page_title{
-    margin-top: -135px;right: 10px;position: absolute;background: #fff;padding: 10px;border-radius: 10px;
-  }
-</style>
+
 
   <!--Section: Content-->
   <section  id="termscondition">
@@ -76,6 +72,6 @@ Participation in this Contest(s) constitutes the Participant's acknowledgement a
 
      </section>  
 
-<
+
 
 @stop
