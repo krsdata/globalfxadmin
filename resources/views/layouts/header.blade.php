@@ -19,7 +19,7 @@
 
       <meta name="google-site-verification" content="UHF02krjE6P_UzBkn8ZNRZK8R7FGkcyAkQ4VtR3NQoI">
 
-
+      <meta name="facebook-domain-verification" content="mr2otjc3bsgyngmlhnava68li5yabn" />
       <meta name="robots" content="index, follow" />
 
       <link rel="shortcut icon" href="{{ URL::asset('webmedia/images/JKfavicon.svg')}}">
