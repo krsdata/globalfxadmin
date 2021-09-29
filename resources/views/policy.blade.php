@@ -251,12 +251,7 @@ The information you enter into the Portal is collected, used, and stored by JUST
             <h2 class="heading line">Updating <span>Information</span></h2>
            </div> 
            <div class="paragraph-Pp">
-            <p>Any changes, updates or modifications to your information will be promptly notified to JUSTKHELO. Moreover, you can review, update or modify your information and preferences by logging into your Profile page on the Portal. 
- 
-
-
-
-</p>
+            <p>Any changes, updates or modifications to your information will be promptly notified to JUSTKHELO. Moreover, you can review, update or modify your information and preferences by logging into your Profile page on the Portal.</p>
 
            
 

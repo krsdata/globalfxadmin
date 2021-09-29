@@ -85,7 +85,7 @@
             <h2 class="heading line">OUR <span> WORKS</span></h2>
            </div> 
            <div class="paragraph-Pp">
-            <p>The Best Fantasy App of Justkhelo lets you showcase your expertise and knowledge. We offer one of the biggest virtual cricket fantasy sports platforms of India. We let you pick your team from a pool of the best cricketers from all around the world. Lets keep a watch on your fan base through shared posts in the feed. The more you invest in learning to Invest in Fantasy Sports and advancing to the next level, the more Cash Bonuses and other Rewards you receive.
+            <p>The Best Fantasy App Justkhelo lets you showcase your expertise and knowledge. We offer one of India's largest online fantasy cricket platform. We let you choose your team from the best cricket players worldwide. Let's keep a watch on your fan base through shared posts in the feed. The more you invest in the Fantasy Sports and advance to the next level, the more you receive Cash Bonuses and other rewards.
 </p>
            </div>
 </div>
