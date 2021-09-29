@@ -1,15 +1,17 @@
 @if ($remove_header != true) 
 <header class="header-main">
    <div class="menubar">
-      
+   
    <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
          <div class="navbar-header">
+         @if (!isset($is_mobile))  
          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>                        
             </button>
+            @endif
             <a href="{{url('/')}}" class="navbar-brand "><img src="{{URL::asset('webmedia/images/jk-logo.svg')}}" alt="image-logo"></a>
          </div>
          <div class="collapse navbar-collapse" id="myNavbar">
@@ -28,7 +30,7 @@
       </div>
    </nav>
    
-   
+
          </div>
       
 </header>

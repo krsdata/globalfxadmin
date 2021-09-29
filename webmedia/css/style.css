@@ -7366,9 +7366,19 @@ h4.footerheading span:after{
   padding: 20px 0;
   text-align: center; }
 
+  .banner-text-install {
+    background: #0e42b8;
+    font-family: "poppins",sans-serif;
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 10px 0;
+    text-align: center; }
 @media screen and (min-width: 992px) {
   .banner-text {
-    display: none; } }
+    display: none; } 
+  }
 
 .layercontent01 {
   left: 0% !important;
@@ -8264,7 +8274,7 @@ ul.videoLive {
     height: 550px;
     position: relative;
     overflow: hidden;
-    background: url(../images/background/innerinstallBg.jpg);
+    background: url(../images/background/innerinstallBg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -11868,7 +11878,7 @@ width: 100%;
 .secure_safe{
 
 text-align: center;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 
 @media screen and (min-width: 360px) {
@@ -12021,7 +12031,7 @@ footer ul {
 }
 
 .download{
-padding: 20px 0;
+padding: 15px 0;
 
 }
 

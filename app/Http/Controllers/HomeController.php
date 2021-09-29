@@ -331,7 +331,13 @@ class HomeController extends BaseController
          $remove_header = true;
 
      }
-     return view('install',compact('remove_header'));
+     $is_mobile = false;
+     if($request->get('utm_orgin')=='mobile'){
+
+         $is_mobile = true;
+
+     }
+     return view('install',compact('remove_header','is_mobile'));
   
      //return response()->download('public/upload/apk/justkhelo.apk');
 
