@@ -315,6 +315,9 @@ if (App::environment('prod')) {
                     ]
         );
 
+         Route::get('quiz/delete/{id}', 'Modules\Admin\Http\Controllers\BannerController@quiz_delete');
+         Route::get('quiz/edit/{id}', 'Modules\Admin\Http\Controllers\BannerController@quiz_edit');
+         Route::post('quiz/update', 'Modules\Admin\Http\Controllers\BannerController@quiz_update')->name('quiz.update');
          Route::bind('bannerOffer', function ($value, $route) {
             return Modules\Admin\Models\BannerOffer::find($value);
         });

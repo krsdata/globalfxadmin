@@ -15,6 +15,7 @@ use Illuminate\Http\Dispatcher;
 use App\Helpers\Helper;
 use Modules\Admin\Models\Roles; 
 use Modules\Admin\Models\Banner; 
+use Modules\Admin\Models\QuizBanner;
  
 
 /**
@@ -75,10 +76,11 @@ class BannerController extends Controller {
                     })->Paginate($this->record_per_page);
         } else {
             $banners = Banner::Paginate($this->record_per_page);
+            $quiz = QuizBanner::Paginate($this->record_per_page);
         }
          
         
-        return view('packages::banner.index', compact('banners', 'page_title', 'page_action','sub_page_title'));
+        return view('packages::banner.index', compact('banners', 'page_title', 'page_action','sub_page_title','quiz'));
     }
 
     /*
@@ -110,7 +112,7 @@ class BannerController extends Controller {
         $photo_name = time().$photo->getClientOriginalName();
         $request->merge(['photo'=>$photo_name]);
         
-        
+        if($request->get('type') == 'header'){
         $banner = new Banner;
         $banner->title        =  $request->get('title');
         $banner->photo        =  $photo_name; 
@@ -118,7 +120,15 @@ class BannerController extends Controller {
         $banner->description  =  $request->get('description');
         
         $banner->save();   
-         
+        }else{
+
+        $quiz_banner = new QuizBanner;
+        $quiz_banner->title        =  $request->get('title') ;
+        $quiz_banner->url          =  url('storage/uploads/banner/'.$photo_name);
+
+        $quiz_banner->save();
+        }
+
         return Redirect::to(route('banner'))
                             ->with('flash_alert_notice', 'New banner  successfully created !');
         }
@@ -184,8 +194,56 @@ class BannerController extends Controller {
         
     }
 
-    public function show(Banner $banner) {
+    public function quiz_delete($id) {
+        
+      QuizBanner::where('id',$id)->delete(); 
+        return Redirect::to(route('banner'))
+                        ->with('flash_alert_notice', ' Banner  successfully deleted.');
         
     }
+    public function quiz_edit($id) {
+        $banner = QuizBanner::find($id);
+        $page_title = 'Quiz';
+        $page_action = 'Edit Quiz'; 
+        $url = $banner->url;
+        return view('packages::banner.quiz_edit', compact( 'url','banner', 'page_title', 'page_action'));
+    }
+
+    public function quiz_update(Request $request) {
+        $id= $request->id;
+        //dd($request->id);
+        $banner = QuizBanner::find($id);
+       
+
+        $validate_cat = QuizBanner::where('title',$request->get('title'))
+                            ->where('id','!=',$banner->id)
+                            ->first();
+         
+        if($validate_cat){
+              return  Redirect::back()->withInput()->with(
+                'field_errors','The banner name already been taken!'
+            );
+        } 
+
+
+        if ($request->file('photo')) {
+            $photo = $request->file('photo');
+            $destinationPath = storage_path('uploads/banner');
+            $photo->move($destinationPath, time().$photo->getClientOriginalName());
+            $photo_name = time().$photo->getClientOriginalName();
+            $request->merge(['photo'=>$photo_name]);
+            $banner->photo        =  $photo_name; 
+            $banner->url          =  url('storage/uploads/banner/'.$photo_name);    
+        } 
+
+        $banner->title         =  $request->get('title');  
+         
+        $banner->save();    
+
+
+        return Redirect::to(route('banner'))
+                        ->with('flash_alert_notice', 'Quiz Banner  successfully updated.');
+    }
+
 
 }

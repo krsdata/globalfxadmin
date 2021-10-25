@@ -63,6 +63,7 @@
                                             <tr>
                                                 <th> Banner Title </th>
                                                 <th> Image </th> 
+                                                <th>Type</th>
                                                 <th>Created date</th> 
                                                 <th>Action</th> 
                                             </tr>
@@ -74,10 +75,11 @@
                                                 <td>
                                                 <a href="{{ url::asset('storage/uploads/banner/'.$result->photo)  }}" target="_blank" >
                                                 <img src="{{ url::asset('storage/uploads/banner/'.$result->photo)  }}" width="100px"> </a>  </td>
-                                                
+                                                <td>Header</td>
                                                      <td>
                                                         {!! Carbon\Carbon::parse($result->created_at)->format('d-m-Y'); !!}
                                                     </td>
+                                                    
                                                     
                                                     <td> 
                                                         <a href="{{ route('banner.edit',$result->id)}}">
@@ -88,6 +90,33 @@
                                                         <button class='delbtn btn btn-danger btn-xs' type="submit" name="remove_levels" value="delete" id="{{$result->id}}"><i class="fa fa-fw fa-trash" title="Delete"></i></button>
                                                         
                                                          {!! Form::close() !!}
+
+                                                    </td>
+                                               
+                                            </tr>
+                                           @endforeach
+
+                                           <tbody>
+                                        @foreach($quiz as $k => $value)
+                                            <tr>
+                                                <td> {{$value->title}} </td>
+                                                <td>
+                                                <a href="{{ $value->url}}" target="_blank" >
+                                                <img src="{{ $value->url}}" width="100px"> </a>  </td>
+                                                <td>Quiz</td>
+                                                     <td>
+                                                        {!! Carbon\Carbon::parse($value->created_at)->format('d-m-Y'); !!}
+                                                    </td>
+                                                    
+                                                    <td> 
+                                                        <a href="{{ url('quiz/delete/'.$value->id)}}" class='delbtn btn btn-danger btn-xs'>
+                                                            <i class="fa fa-fw fa-trash" title="Delete"></i>
+                                                        </a>
+                                                        <a href="{{ url('quiz/edit/'.$value->id)}}">
+                                                            <i class="fa fa-edit" title="edit"></i> 
+                                                        </a>
+                                                        
+                                                         
 
                                                     </td>
                                                

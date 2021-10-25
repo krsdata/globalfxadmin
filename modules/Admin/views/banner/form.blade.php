@@ -14,7 +14,17 @@
 										            <span class="help-block" style="color:red">{{ $errors->first('title', ':message') }} @if(session('field_errors')) {{ 'The  Banner name already been taken!' }} @endif</span>
 										        </div>
 										    </div> 
-                                            
+
+                                         <div class="form-group ">
+                                             <label class="control-label col-md-3">  Type <span class="required"> * </span></label> <div class="col-md-4">
+                                             <select class="form-control" name="type">
+                                                 <option value="quiz">Type</option>
+                                                 <option value="quiz">Quiz</option>
+                                                 <option value="header">Header</option>
+                                             </select>
+                                         </div>
+                                     </div>
+                                         
 
 
                                         <div class="form-group  {{ $errors->first('photo', ' has-error') }}">

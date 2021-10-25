@@ -206,7 +206,7 @@
                   </div>
                   <div class="figure figresult">
                      <div class="team-logo">
-                        <div style="background:url('{{str_replace('-32x32','',$completed->teamb->thumb_url) }}')" class="teamLogoImg"></div>
+                        <div style="background:url('{{str_replace('-32x32','',$completed->teamb->thumb_url) }}z)" class="teamLogoImg"></div>
                      </div>
                   </div>
                </div>
