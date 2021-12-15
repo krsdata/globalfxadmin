@@ -59,7 +59,7 @@
                         </div>
 
                         <div class="single_features_item  text-white">
-                            <span class="icon clearfix"><img src="website/images/banner/easytojoincontest.svg" alt="easytojoin"
+                            <span class="icon clearfix"><img src="website/images/banner/highspeed.svg" alt="easytojoin"
                                     width="60"></span>
                             <h3>High Speedy App</h3>
                             <p>JUSTKHELO boasts of quick DOWNLOADS and UPLOADS, the user experience is very smooth as it
@@ -67,7 +67,7 @@
                         </div>
 
                         <div class="single_features_item  text-white">
-                            <span class="icon clearfix"><img src="website/images/banner/easytojoincontest.svg" alt="easytojoin"
+                            <span class="icon clearfix"><img src="website/images/banner/full protection.svg" alt="easytojoin"
                                     width="60"></span>
                             <h3>Privacy</h3>
                             <p>We take all necessary safety measures i.e,registration via Email/Phone/Facebook/Google.
@@ -75,7 +75,7 @@
                         </div>
 
                         <div class="single_features_item  text-white">
-                            <span class="icon clearfix"><img src="website/images/banner/easytojoincontest.svg" alt="easytojoin"
+                            <span class="icon clearfix"><img src="website/images/banner/easytowithdraw.svg" alt="easytojoin"
                                     width="60"></span>
                             <h3>Easy To Withdraw</h3>
                             <p>It doesn't get easier than this. Register and Verify your bank. Earn rewards and cash points
