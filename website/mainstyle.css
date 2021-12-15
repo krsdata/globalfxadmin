@@ -740,7 +740,7 @@ height:1500px;
   }  
 .card img {
    
-    padding: 20%!important;
+   /* padding: 20%!important;*/
 }
 
 .jkimg{
@@ -1307,8 +1307,8 @@ padding: 50px;
 }
 @media (min-width: 768px) {
   .card img {
-   width: 130px;
-   height: 130px;
+   width: 100px;
+   height: 100px;
   }
 }
 
