@@ -91,13 +91,16 @@ class HomeController extends BaseController
         ->get();
       
         $completed =  Matches::where('status',2)->latest('date_end')->first();
+        
         $remove_header = false;
         if($request->get('request')=='mobile'){
 
             $remove_header = true;
 
         }
-         return view('home',compact('upcomings','completed','remove_header'));
+        //  return view('home',compact('upcomings','completed','remove_header'));
+         return view('website.home', compact('upcomings','completed','remove_header'));
+
     }
 
     public function liveChat(Request $request){
@@ -115,7 +118,8 @@ class HomeController extends BaseController
             $remove_header = true;
 
         }
-        return view('faqs',compact('content','remove_header'));
+        // return view('faqs',compact('content','remove_header'));
+          return view('website.faqs');
    
     }
 
@@ -130,7 +134,8 @@ class HomeController extends BaseController
             $remove_header = true;
 
         }
-        return view('aboutus',compact('content','remove_header'));
+       // return view('aboutus',compact('content','remove_header'));
+        return view('website.about');
         
     }
 
@@ -145,7 +150,8 @@ class HomeController extends BaseController
             $remove_header = true;
 
         }
-        return view('disclaimer',compact('content','remove_header'));
+        // return view('disclaimer',compact('content','remove_header'));
+           return view('website.Discalimer');
         
     }
 
@@ -160,7 +166,8 @@ class HomeController extends BaseController
             $remove_header = true;
 
         }
-        return view('howto',compact('content','remove_header'));
+        // return view('howto',compact('content','remove_header'));
+        return view('website.play');
         
     }
 
@@ -175,7 +182,8 @@ class HomeController extends BaseController
             $remove_header = true;
 
         }
-        return view('legality',compact('content','remove_header'));
+        // return view('legality',compact('content','remove_header'));
+         return view('website.legality');
         
     }
 
@@ -190,7 +198,8 @@ class HomeController extends BaseController
             $remove_header = true;
 
         }
-        return view('refund',compact('content','remove_header'));
+        // return view('refund',compact('content','remove_header'));
+        return view('website.Refund-Policy');
         
     }
     public function termsAndConditions(Request $request){
@@ -204,7 +213,8 @@ class HomeController extends BaseController
             $remove_header = true;
 
         }
-        return view('terms',compact('content','remove_header'));
+        // return view('terms',compact('content','remove_header'));
+         return view('website.t&c');
     }
 
     public function privacyPolicy(Request $request){
@@ -217,7 +227,8 @@ class HomeController extends BaseController
             $remove_header = true;
 
         }
-        return view('policy',compact('content','remove_header'));
+        // return view('policy',compact('content','remove_header'));
+         return view('website.privacy-policy');
     }
 
     public function topReferralUser(Request $request){
@@ -286,7 +297,9 @@ class HomeController extends BaseController
             $remove_header = true;
 
         }
-        return view('contactus',compact('content','remove_header'));
+        // return view('contactus',compact('content','remove_header'));
+
+        return view('website.help');
 
     }
     public function getPage(Request $request, $name=null){
@@ -313,32 +326,32 @@ class HomeController extends BaseController
     {
          // write here code to capture previous url
 
-     $url = URL::previous();
+    //  $url = URL::previous();
  
-     $ip = \Request::ip() ;
-     if (preg_match("(^[0-9]{3}[fstgi]$)i",request()->get('_branch_name')))
-     $name = request()->get('_branch_name');
-     else
-     $name = '010O';
-     \DB::table('source_urls')->insert([
-         'source_url' => $url,
-         'ip' => $ip,
-         'origin' => $name,
-     ]);
-     $remove_header = false;
-     if($request->get('request')=='mobile'){
+    //  $ip = \Request::ip() ;
+    //  if (preg_match("(^[0-9]{3}[fstgi]$)i",request()->get('_branch_name')))
+    //  $name = request()->get('_branch_name');
+    //  else
+    //  $name = '010O';
+    //  \DB::table('source_urls')->insert([
+    //      'source_url' => $url,
+    //      'ip' => $ip,
+    //      'origin' => $name,
+    //  ]);
+    //  $remove_header = false;
+    //  if($request->get('request')=='mobile'){
 
-         $remove_header = true;
+    //      $remove_header = true;
 
-     }
-     $is_mobile = false;
-     if($request->get('utm_orgin')=='mobile'){
+    //  }
+    //  $is_mobile = false;
+    //  if($request->get('utm_orgin')=='mobile'){
 
-         $is_mobile = true;
+    //      $is_mobile = true;
 
-     }
-     return view('install',compact('remove_header','is_mobile'));
-  
+    //  }
+    //  return view('install',compact('remove_header','is_mobile'));
+     return view('website.install');
      //return response()->download('public/upload/apk/justkhelo.apk');
 
       

@@ -764,6 +764,30 @@ if (App::environment('prod')) {
             ]
                 ]
         ); 
+         
+
+        
+        Route::get('admin/coupon/create', 'Modules\Admin\Http\Controllers\CoupanController@create')->name('coupon.create');
+       Route::post('coupon/store', 'Modules\Admin\Http\Controllers\CoupanController@store')->name('coupan.store');
+         Route::get('admin/coupan/search','Modules\Admin\Http\Controllers\CoupanController@index');
+         
+     Route::get('coupon/delete/{id}', 'Modules\Admin\Http\Controllers\CoupanController@destroy')->name('coupon.destroy');
+
+     Route::get('coupon/edit/{id}', 'Modules\Admin\Http\Controllers\CoupanController@edit')->name('coupon.edit');
+
+     Route::post('coupon/update', 'Modules\Admin\Http\Controllers\CoupanController@update')->name('coupan.update');
+      Route::get('coupon','Modules\Admin\Http\Controllers\CoupanController@index')->name('coupon');
+
+      Route::get('admin/leaderboard/create', 'Modules\Admin\Http\Controllers\LeaderboardController@create')->name('leaderboard.create');
+      Route::post('admin/leaderboard/store', 'Modules\Admin\Http\Controllers\LeaderboardController@store')->name('leaderboard.store');
+       Route::get('admin/leaderboard/search','Modules\Admin\Http\Controllers\LeaderboardController@index');
+        Route::get('leaderboard','Modules\Admin\Http\Controllers\LeaderboardController@index')->name('Leaderboard');
+        // Route::get('leaderboard','Modules\Admin\Http\Controllers\LeaderboardController@index')->name('Leaderboard.Show');
+     Route::get('leaderboard/delete/{id}', 'Modules\Admin\Http\Controllers\LeaderboardController@destroy')->name('leaderboard.destroy');
+     Route::get('leaderboard/edit/{id}', 'Modules\Admin\Http\Controllers\LeaderboardController@edit')->name('leaderboard.edit');
+     Route::post('leaderboard/update', 'Modules\Admin\Http\Controllers\LeaderboardController@update')->name('leaderboard.update');
+
+
 
         Route::match(['get','post'], 'admin/permission', 'Modules\Admin\Http\Controllers\RoleController@permission');
 

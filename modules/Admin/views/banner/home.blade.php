@@ -97,7 +97,8 @@
                                            @endforeach
 
                                            <tbody>
-                                        @foreach($quiz as $k => $value)
+                                            @if(!empty($quiz))
+                                            @foreach($quiz as $k => $value)
                                             <tr>
                                                 <td> {{$value->title}} </td>
                                                 <td>
@@ -122,6 +123,7 @@
                                                
                                             </tr>
                                            @endforeach
+                                           @endif
                                             
                                         </tbody>
                                     </table>

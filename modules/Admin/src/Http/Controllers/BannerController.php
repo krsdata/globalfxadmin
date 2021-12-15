@@ -74,6 +74,12 @@ class BannerController extends Controller {
                         }
                         
                     })->Paginate($this->record_per_page);
+            $quiz = QuizBanner::where(function($query) use($search) {
+                        if (!empty($search)) {
+                            $query->Where('title', 'LIKE', "%$search%");
+                        }
+                        
+                    })->Paginate($this->record_per_page);
         } else {
             $banners = Banner::Paginate($this->record_per_page);
             $quiz = QuizBanner::Paginate($this->record_per_page);

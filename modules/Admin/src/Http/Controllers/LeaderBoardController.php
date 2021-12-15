@@ -1,267 +1,179 @@
 <?php
+
 namespace Modules\Admin\Http\Controllers;
 
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Redirect;
-use App\Http\Requests;
+
 use Illuminate\Http\Request;
-use Modules\Admin\Http\Requests\CategoryRequest;
-use Modules\Admin\Models\User;
+use Modules\Admin\Models\User; 
 use Input, Validator, Auth, Paginate, Grids, HTML;
 use Form, Hash, View, URL, Lang, Session, DB;
 use Route, Crypt, Str;
 use App\Http\Controllers\Controller;
-use Illuminate\Http\Dispatcher;
+use Illuminate\Http\Dispatcher; 
 use App\Helpers\Helper;
-use Modules\Admin\Models\Roles;
-use Modules\Admin\Models\Menu;
-use Modules\Admin\Models\JoinContest;
+use Modules\Admin\Models\Roles; 
+use Modules\Admin\Models\Leaderboard; 
 
-/**
- * Class MenuController
- */
-class LeaderBoardController extends Controller {
+
+class LeaderboardController extends Controller
+{
+    
+
+
     /**
-     * @var  Repository
-     */
-    /**
-     * Displays all admin.
+     * Display a listing of the resource.
      *
-     * @return \Illuminate\View\View
+     * @return \Illuminate\Http\Response
      */
-    public function __construct() {
+      public function __construct() { 
         $this->middleware('admin');
-        View::share('viewPage', 'leaderBoard');
-        View::share('sub_page_title', 'leaderBoard');
+        View::share('viewPage', 'leaderboard');
+        View::share('sub_page_title', 'Create');
         View::share('helper',new Helper);
-        View::share('heading','leaderBoard');
-        View::share('route_url',route('leaderBoard'));
+        View::share('heading','Create');
+        View::share('route_url',route('leaderboard.create'));
 
         $this->record_per_page = Config::get('app.record_per_page');
     }
-
-
-    /*
-     * Dashboard
-     * */
-
-    public function index(LeaderBoard $leaderBoard, Request $request)
+    public function index(Leaderboard $leaderboard, Request $request)
     {
-        $page_title = 'prize leaderBoard';
-        $sub_page_title = 'prize leaderBoard';
-        $page_action = 'View  leaderBoard';
-
-
-        if ($request->ajax()) {
-            $id = $request->get('id');
-            $leaderBoard = LeaderBoard::find($id);
-            $leaderBoard->status = $s;
-            $leaderBoard->save();
-            echo $s;
+       $page_title = 'leaderboard';
+        $page_action = 'View leaderboard'; 
+ 
+        $url = '';//dd($banner);
+          if ($request->ajax()) {
+            $id = $request->get('id'); 
+            $banner = Leaderboard::find($id); 
+            $banner->status = $s;
+            $banner->save(); 
             exit();
         }
 
         // Search by name ,email and group
         $search = Input::get('search');
-        $status = Input::get('status');
+
         if ((isset($search) && !empty($search))) {
 
             $search = isset($search) ? Input::get('search') : '';
-
-            $leaderBoard = LeaderBoard::where(function($query) use($search,$status) {
+               
+            $leaderboard = Leaderboard::where(function($query) use($search) {
                         if (!empty($search)) {
-                             $query->Where('match_id', 'LIKE', $search);
-                             $query->orWhere('email', 'LIKE', "%$search%");
-                             $query->orWhere('name', 'LIKE', "%$search%");
-                             $query->orWhere('mobile', 'LIKE', $search);
+                            $query->Where('series_name', 'LIKE', "%$search%");
                         }
-
+                        
                     })->Paginate($this->record_per_page);
-                 $leaderBoard->transform(function($item,$key){
-                
-                
-                $palyer_id[]  = $item->captain;
-                $palyer_id[]  = $item->vice_captain;
-                $palyer_id[]  = $item->trump;
-                 
-                $user_teams  = array_merge($palyer_id, json_decode($item->user_teams,true));
-
-
-                $palyer = \DB::table('match_player_points')
-                                        ->where('match_id',$item->match_id)
-                                        ->whereIn('pid',$user_teams) 
-                                        ->get();
-                
-                $item->captain = $palyer->where('pid',$item->captain)->first()->name;
-               
-                $item->trump = ($palyer->where('pid',$item->trump)->first())->name;
-                $item->vice_captain = ($palyer->where('pid',$item->vice_captain))->first()->name;
-                
-
-                $palyer_name = "";
-                foreach ($palyer  as $key => $value) {
-                     $palyer_name = $palyer_name.'<li>'.$value->name.'</li>';
-                }
-                $item->user_teams = $palyer_name;
-                
-                $match= \DB::table('matches')->where('match_id',$item->match_id)->first(); 
-                $item->match_id = $match->title;
-                 
-                return $item; 
-            });
+  
         } else {
-            $leaderBoard = LeaderBoard::orderBy('rank','asc')->Paginate($this->record_per_page);
-            $leaderBoard->transform(function($item,$key){
-                
-                
-                $palyer_id[]  = $item->captain;
-                $palyer_id[]  = $item->vice_captain;
-                $palyer_id[]  = $item->trump;
-                 
-                $user_teams  = array_merge($palyer_id, json_decode($item->user_teams,true));
-
-
-                $palyer = \DB::table('match_player_points')
-                                        ->where('match_id',$item->match_id)
-                                        ->whereIn('pid',$user_teams) 
-                                        ->get();
-                
-                $item->captain = $palyer->where('pid',$item->captain)->first()->name;
-               
-                $item->trump = ($palyer->where('pid',$item->trump)->first())->name;
-                $item->vice_captain = ($palyer->where('pid',$item->vice_captain))->first()->name;
-                
-
-                $palyer_name = "";
-                foreach ($palyer  as $key => $value) {
-                     $palyer_name = $palyer_name.'<li>'.$value->name.'</li>';
-                }
-                $item->user_teams = $palyer_name;
-                
-                $match= \DB::table('matches')->where('match_id',$item->match_id)->first(); 
-                $item->match_id = $match->title;
-                 
-                return $item; 
-            });
-        } 
-        $table_cname = \Schema::getColumnListing('join_contests');
-        $except = ['user_teams','id','created_at','updated_at','device_id','contest_type_id','default_contest_id','user_id','contest_id','created_team_id','match_team_id'];
-        $data = [];
-        foreach ($table_cname as $key => $value) {
-
-           if(in_array($value, $except )){
-                continue;
-           }
-             $tables[] = $value;
-        }
-
-        return view('packages::leaderBoard.index', compact('leaderBoard', 'page_title', 'page_action','sub_page_title','tables'));
+            $leaderboard = Leaderboard::Paginate($this->record_per_page);
     }
-
-    /*
-     * create Group method
-     * */
-
-    public function create(LeaderBoard $leaderBoard)
-    {
-
-        $page_title     = 'prize leaderBoard';
-        $page_action    = 'Create prize leaderBoard';
-        $table_cname = \Schema::getColumnListing('join_contests');
-        $except = ['id','created_at','updated_at'];
-        $data = [];
-        foreach ($table_cname as $key => $value) {
-
-           if(in_array($value, $except )){
-                continue;
-           }
-             $tables[] = $value;
-        }
-
-        return view('packages::leaderBoard.create', compact('leaderBoard', 'page_title', 'page_action','tables'));
-    }
-
-    /*
-     * Save Group method
-     * */
-
-    public function store(Request $request, LeaderBoard $leaderBoard)
-    {
-        $data = [];
-        $table_cname = \Schema::getColumnListing('join_contests');
-        $except = ['id','created_at','updated_at','_token','_method'];
-        $data = [];
-        foreach ($table_cname as $key => $value) {
-
-           if(in_array($value, $except )){
-                continue;
-           }
-            if($request->$value!=null){
-                $leaderBoard->$value = $request->$value;
-           }
-        }
-        $leaderBoard->save();
-        return Redirect::to(route('leaderBoard'))
-                            ->with('flash_alert_notice', 'Player points successfully created !');
-        }
-
-    /*
-     * Edit Group method
-     * @param
-     * object : $menu
-     * */
-
-    public function edit($id) {
-        $leaderBoard = LeaderBoard::find($id);
-        $page_title = 'leaderBoard';
-        $page_action = 'leaderBoard';
-
-        $table_cname = \Schema::getColumnListing('join_contests');
-        $except = ['id','created_at','updated_at'];
-        $data = [];
-        foreach ($table_cname as $key => $value) {
-
-           if(in_array($value, $except )){
-                continue;
-           }
-             $tables[] = $value;
-        }
-
-
-        return view('packages::leaderBoard.edit', compact( 'leaderBoard', 'page_title','page_action', 'tables'));
-    }
-
-    public function update(Request $request, $id) {
-
-        $leaderBoard = LeaderBoard::find($id);
-        $data = [];
-        $table_cname = \Schema::getColumnListing('join_contests');
-        $except = ['id','created_at','updated_at','_token','_method','match_id','pid'];
-        $data = [];
-        foreach ($table_cname as $key => $value) {
-
-           if(in_array($value, $except )){
-                continue;
-           }
-            if($request->$value){
-                $leaderBoard->$value = $request->$value;
-           }
-        }
-        $leaderBoard->save();
-
-        return Redirect::to(route('leaderBoard'))
-                        ->with('flash_alert_notice', ' Points  successfully updated.');
-    }
-    /*
-     * Delete User
-     * @param ID
+    return view('packages::leaderboard.home', compact( 'page_title','leaderboard','page_action','url'));
+}
+    /**
+     * Show the form for creating a new resource.
      *
+     * @return \Illuminate\Http\Response
      */
-    public function destroy($id) {
-        LeaderBoard::where('id',$id)->delete();
-        return Redirect::to(route('leaderBoard'))
-                        ->with('flash_alert_notice', ' leaderBoard  successfully deleted.');
+    public function create(Leaderboard $leaderboard)
+    {
+        //dd('hhhhh');
+         $page_title = 'leaderboard';
+        $page_action = 'Create Leaderboard';
+        $url ="";
 
+       return view('packages::leaderboard.create', compact( 'page_title','leaderboard','page_action','url'));  
     }
 
+    /**
+     * Store a newly created resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
+    public function store(Request $request, Leaderboard $leaderboard)
+    {
+        $leaderboard = new Leaderboard;
+      
+       $leaderboard->cid            =  $request->get('cid');
+       $leaderboard->league_duration  =  $request->get('league_duration');
+       $leaderboard->status  =  $request->get('status');
+       
+       $leaderboard->series_name  =  $request->get('series_name');
+        $leaderboard->priority  =  $request->get('priority');
+      
+
+        $leaderboard->save();
+
+        return redirect('leaderboard')
+                            ->with('flash_alert_notice', 'New Leaderboard  successfully created !');
+      
+    }
+
+    /**
+     * Display the specified resource.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function show()
+    {
+       dd('hhhhh');
+    }
+
+    /**
+     * Show the form for editing the specified resource.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function edit($id, Leaderboard $leaderboard)
+    {
+       $page_title = 'leaderboard';
+        $page_action = 'Edit Leaderboard';
+        $url ="";
+
+        $leaderboard_data = Leaderboard::where('id',$id)->first();
+       
+       return view('packages::leaderboard.edit', compact( 'page_title','leaderboard','leaderboard_data','page_action','url'));
+    }
+
+    /**
+     * Update the specified resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function update(Request $request)
+    {
+         $id= $request->id;
+        $leaderboard = Leaderboard::find($id);
+
+       $leaderboard->cid            =  $request->get('cid');
+       $leaderboard->league_duration  =  $request->get('league_duration');
+       $leaderboard->status  =  $request->get('status');
+       
+       $leaderboard->series_name  =  $request->get('series_name');
+        $leaderboard->priority  =  $request->get('priority');
+      
+
+        $leaderboard->save();
+
+        return Redirect::to(url('leaderboard'))
+                        ->with('flash_alert_notice', ' Leaderboard Update successfully.');
+    }
+
+    /**
+     * Remove the specified resource from storage.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function destroy($id)
+    {
+       DB::table('leaderboard_matches')->where('id',$id)->delete(); 
+        return Redirect::to(url('leaderboard'))
+                        ->with('flash_alert_notice', ' leaderboard  successfully deleted.');
+    }
 }
