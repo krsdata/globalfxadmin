@@ -4,4 +4,9 @@
 <script src="website/js/bootstrap.min.js"></script>
 <script src="website/js/carousel.js"></script>
 
-
+<script>
+    $(".navbar-expand-lg .navbar-nav .nav-item nav-link").on("click", function() {
+      $(".navbar-expand-lg .navbar-nav .nav-item nav-link").removeClass("active");
+      $(this).addClass("active");
+    });
+</script>

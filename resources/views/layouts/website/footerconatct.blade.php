@@ -46,6 +46,7 @@
                     <li class="list-inline-item"><a href="{{('https://twitter.com/JustKhelo_')}}"><i class="fa fa-twitter"></i></a></li>
                     <li class="list-inline-item"><a href="{{('https://www.instagram.com/just_khelo/')}}"><i class="fa fa-instagram"></i></a></li>
                     <li class="list-inline-item"><a href="{{('https://www.youtube.com/channel/UCUx9Ii3ekrzKubqI5zibQNw/featured')}}"><i class="fa fa-youtube"></i></a></li>
+                    <li class="list-inline-item"><a href="{{('https://t.me/+6T24y48v6-44ZGZl')}}"><i class="fa fa-telegram"></i></a></li>
                 </ul>
 
             </div>
