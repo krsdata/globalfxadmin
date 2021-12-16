@@ -6,6 +6,14 @@
 @endsection
 
 @section('content')
+<head>   <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>{{ strip_tags(isset($content->meta_title) ? $content->meta_title : $settings->meta_title) }}</title>
+      <meta name="description" content="{{strip_tags(isset($content->meta_description) ? $content->meta_description :$settings->meta_description)}}" />
+      <meta name="keywords" content="{{strip_tags(isset($content->meta_key) ? $content->meta_key : $settings->meta_key)}}"/>
+
+      <meta name="google-site-verification" content="UHF02krjE6P_UzBkn8ZNRZK8R7FGkcyAkQ4VtR3NQoI">
+
 <div class="bannerwrap">
 <div class="aboutbanner">
 <div class="bannertxt">
@@ -47,3 +55,4 @@ Participation in this Contest(s) constitutes the Participant's acknowledgement a
 </div>
 </section>
 @endsection
+</head>

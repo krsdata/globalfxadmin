@@ -12,6 +12,13 @@ $url  = "downloadapk?_branch_name=".$_REQUEST['_branch_name'];
 else
 $url  = "downloadapk?_branch_name=010O";
 @endphp
+<head>   <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>{{ strip_tags(isset($content->meta_title) ? $content->meta_title : $settings->meta_title) }}</title>
+      <meta name="description" content="{{strip_tags(isset($content->meta_description) ? $content->meta_description :$settings->meta_description)}}" />
+      <meta name="keywords" content="{{strip_tags(isset($content->meta_key) ? $content->meta_key : $settings->meta_key)}}"/>
+
+      <meta name="google-site-verification" content="UHF02krjE6P_UzBkn8ZNRZK8R7FGkcyAkQ4VtR3NQoI">
 <div id="demo" class="carousel slide" data-ride="carousel">
 
     <!-- Indicators -->
@@ -39,7 +46,7 @@ $url  = "downloadapk?_branch_name=010O";
             <img src="website/images/Background/slide2.jpg" alt="justkeloimg2" class="img-thumbnail">
             <div class="carousel-caption  slideheading">
                 <a href="{{url('just-khelo-download-app')}}">
-                <h1>ON JUSTKHELO<span>DIL SE KHELO</span></h1></a>
+                <h1 class="text-white">ON JUSTKHELO<span> DIL SE KHELO</span></h1></a>
                 <p>You will receive a welcome bonus of INR 100</p>
                 <button type="button" class="btn btn-primary active">Get INR 100 Bonus</button>
                 <a href="{{url('just-khelo-download-app')}}">
@@ -554,3 +561,4 @@ Mobile numbers are collected during registration. Whenever you wish to update th
     }
 </script>
 @endsection
+</head>

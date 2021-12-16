@@ -1,6 +1,14 @@
 
 
 <title>JUSTKHELO</title>
+<head>   <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>{{ strip_tags(isset($content->meta_title) ? $content->meta_title : $settings->meta_title) }}</title>
+      <meta name="description" content="{{strip_tags(isset($content->meta_description) ? $content->meta_description :$settings->meta_description)}}" />
+      <meta name="keywords" content="{{strip_tags(isset($content->meta_key) ? $content->meta_key : $settings->meta_key)}}"/>
+
+      <meta name="google-site-verification" content="UHF02krjE6P_UzBkn8ZNRZK8R7FGkcyAkQ4VtR3NQoI">
+
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="website/css/bootstrap.min.css">
@@ -20,39 +28,6 @@
     <div class="bannertxt">
     <h1>How to<span> Install</span></h1></div>
     </div>
-    
-    
-   <section class="howtoinstall">
-    <div class="container">
-      <div class="row align-item-center">
-        <div class="col-lg-12 text-center">
-            <h2>How to<span> Install</span></h2>
-        </div>
-    
-    <div class="col-lg-4 mt-5 text-center">
-      <h4 class="info-install">Tap "OK" to Download the app</h4>
-      <img src="website/images/install1.png" alt="step1" class="img-fluid" >
-      
-    </div>
-    
-    <div class="col-lg-4 mt-5 text-center">
-      <h4 class="info-install">Tap "open" to start the download</h4>
-      <img src="website/images/install2.png" alt="step2" class="img-fluid">
-      
-    </div>
-    
-    
-    
-    <div class="col-lg-4 mt-5 text-center">
-       <h4 class="info-install">Allow installing the app</h4>
-      <img src="website/images/install3.png" alt="step3" class="img-fluid">
-     
-    </div>
-    
-    
-        </div>
-    </div>
-    </section>
      <section class="section slider" id="multiple">
        <div class="container">
         <div class="row">
@@ -159,6 +134,39 @@
         </section>
     
     
+   <section class="howtoinstall">
+    <div class="container">
+      <div class="row align-item-center">
+        <div class="col-lg-12 text-center">
+            <h2>How to<span> Install</span></h2>
+        </div>
+    
+    <div class="col-lg-4 mt-5 text-center">
+      <h4 class="info-install">Tap "OK" to Download the app</h4>
+      <img src="website/images/install1.png" alt="step1" class="img-fluid" >
+      
+    </div>
+    
+    <div class="col-lg-4 mt-5 text-center">
+      <h4 class="info-install">Tap "open" to start the download</h4>
+      <img src="website/images/install2.png" alt="step2" class="img-fluid">
+      
+    </div>
+    
+    
+    
+    <div class="col-lg-4 mt-5 text-center">
+       <h4 class="info-install">Allow installing the app</h4>
+      <img src="website/images/install3.png" alt="step3" class="img-fluid">
+     
+    </div>
+    
+    
+        </div>
+    </div>
+    </section>
+    
+    
     
     
     <section class="rate-review mt-5">
@@ -245,6 +253,7 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 </script>
+</head>
 
 
 

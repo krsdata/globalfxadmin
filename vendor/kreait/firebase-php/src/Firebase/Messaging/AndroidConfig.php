@@ -18,11 +18,11 @@ final class AndroidConfig implements JsonSerializable
     /** @var array{
      *      collapse_key?: string,
      *      priority?: 'normal'|'high',
-     *      ttl?: int|double,
+     *      ttl?: string,
      *      restricted_package_name?: string,
      *      data?: array<string, string>,
-     *      notification?: array,
-     *      fcm_options?: array,
+     *      notification?: array<string, string>,
+     *      fcm_options?: array<string, mixed>,
      *      direct_boot_ok?: bool
      * }
      */
@@ -32,11 +32,11 @@ final class AndroidConfig implements JsonSerializable
      * @param array{
      *     collapse_key?: string,
      *     priority?: 'normal'|'high',
-     *     ttl?: int|double,
+     *     ttl?: string,
      *     restricted_package_name?: string,
      *     data?: array<string, string>,
-     *     notification?: array,
-     *     fcm_options?: array,
+     *     notification?: array<string, string>,
+     *     fcm_options?: array<string, mixed>,
      *     direct_boot_ok?: bool
      * } $config
      */
@@ -54,11 +54,11 @@ final class AndroidConfig implements JsonSerializable
      * @param array{
      *     collapse_key?: string,
      *     priority?: 'normal'|'high',
-     *     ttl?: int|double,
+     *     ttl?: string,
      *     restricted_package_name?: string,
      *     data?: array<string, string>,
-     *     notification?: array,
-     *     fcm_options?: array,
+     *     notification?: array<string, string>,
+     *     fcm_options?: array<string, mixed>,
      *     direct_boot_ok?: bool
      * } $config
      */
@@ -79,7 +79,7 @@ final class AndroidConfig implements JsonSerializable
     public function withSound(string $sound): self
     {
         $config = clone $this;
-        $config->config['notification'] = $config->config['notification'] ?? [];
+        $config->config['notification'] ??= [];
         $config->config['notification']['sound'] = $sound;
 
         return $config;
