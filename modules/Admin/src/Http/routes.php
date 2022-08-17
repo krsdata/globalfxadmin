@@ -114,6 +114,30 @@ if (App::environment('prod')) {
             ]
                 ]
         );
+
+
+        Route::bind('position', function ($value, $route) {
+            return Modules\Admin\Models\Position::find($value);
+        });
+
+        Route::resource(
+            'admin/position',
+            'Modules\Admin\Http\Controllers\PositionController',
+            [
+            'names' => [
+                'edit' => 'position.edit',
+                'show' => 'position.show',
+                'destroy' => 'position.destroy',
+                'update' => 'position.update',
+                'store' => 'position.store',
+                'index' => 'position',
+                'create' => 'position.create',
+            ]
+                ]
+        );
+
+
+
         //wallets
          Route::bind('wallets', function ($value, $route) {
             return Modules\Admin\Models\Wallets::find($value);
