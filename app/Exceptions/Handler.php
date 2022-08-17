@@ -74,7 +74,7 @@ class Handler extends ExceptionHandler
      */
     public function render($request, Throwable $exception)
     {   
-       dd($exception);
+      // dd($exception);
        if ($exception instanceof \BadMethodCallException) {
  
           echo  json_encode(
@@ -146,7 +146,7 @@ class Handler extends ExceptionHandler
             if(!$request->is('admin/*')){
                 $err = Str::slug($exception->getMessage());
                 $err = ($err=="")?'Page-Not-Found':$err;
-                return redirect('404?error='.$err); 
+                return redirect('admin/404?error='.$err); 
             }
         }
 
