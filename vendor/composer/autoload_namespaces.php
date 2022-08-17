@@ -6,6 +6,8 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Rize\\UriTemplate' => array($vendorDir . '/rize/uri-template/src'),
+    'Requests' => array($vendorDir . '/rmccue/requests/library'),
     'Mockery' => array($vendorDir . '/mockery/mockery/library'),
     'Detection' => array($vendorDir . '/mobiledetect/mobiledetectlib/namespaced'),
 );

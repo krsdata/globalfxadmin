@@ -4,7 +4,6 @@ return [
 
     'record_per_page' => env('record_per_page', 15),
 
-    'cricket_api_key' => env('cricket_api_key', '8740931958a5c24fed8b66c7609c1c49'),
     /* 
     |--------------------------------------------------------------------------
     | Application Name
@@ -172,7 +171,7 @@ return [
          
         Modules\Admin\AdminServiceProvider::class ,
 
-        Barryvdh\DomPDF\ServiceProvider::class, 
+       // Barryvdh\DomPDF\ServiceProvider::class, 
         Anand\LaravelPaytmWallet\PaytmWalletServiceProvider::class,
 
         /*

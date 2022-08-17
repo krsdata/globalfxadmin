@@ -28,6 +28,7 @@
                         </li>
                         </ul>
                 </li>
+
                 @foreach($main_menu as $key => $result)
                 <li class="nav-item start  @if($route==$result->title) active open @endif @if($route==$result->title.'.create') active open @endif">
                             <a href="javascript:;" class="nav-link nav-toggle">

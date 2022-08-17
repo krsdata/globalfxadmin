@@ -55,82 +55,10 @@
                                 </div>
                                 <!-- END PORTLET MAIN -->
                                 <!-- PORTLET MAIN -->
-                                <div class="portlet light bordered">
-                                    <!-- STAT -->
-                                   
-                                    <!-- END STAT -->
-                                    <div>
-                                        <h4 class="profile-desc-title">About {{$user->name}}</h4>
-                                          <div class="row list-separated profile-stat">
-                                        <div class="col-md-4 col-sm-4 col-xs-6">
-                                            <div class="uppercase profile-stat-title"> 0 </div>
-                                            <div class="uppercase profile-stat-text"> Referral </div>
-                                        </div> 
-                                         <div class="col-md-4 col-sm-4 col-xs-6">
-                                            <div class="uppercase profile-stat-title"> 0 </div>
-                                            <div class="uppercase profile-stat-text"> Deposit </div>
-                                        </div> 
-                                         <div class="col-md-4 col-sm-4 col-xs-6">
-                                            <div class="uppercase profile-stat-title"> 61 </div>
-                                            <div class="uppercase profile-stat-text"> Uploads </div>
-                                        </div> 
-
-                                    </div>
-
-                                        <span class="profile-desc-text">{{$user->about_me}}</span>
-                                        <div class="margin-top-20 profile-desc-link">
-                                            <i class="fa fa-phone"></i>
-                                            {{$user->phone}}
-                                        </div>
-                                       <!--  <div class="margin-top-20 profile-desc-link">
-                                            <i class="fa fa-twitter"></i>
-                                            <a href="http://www.twitter.com/keenthemes/">@keenthemes</a>
-                                        </div>
-                                        <div class="margin-top-20 profile-desc-link">
-                                            <i class="fa fa-facebook"></i>
-                                            <a href="http://www.facebook.com/keenthemes/">keenthemes</a>
-                                        </div> -->
-                                    </div>
-                                </div>
+                                
 
 
-                                <div class="portlet light bordered">
-                                    <!-- STAT -->
-                                   
-                                    <!-- END STAT -->
-                                    <div>
-                                        <h4 class="profile-desc-title">About Matches</h4>
-                                          <div class="row list-separated profile-stat">
-                                        <div class="col-md-4 col-sm-4 col-xs-6">
-                                            <div class="uppercase profile-stat-title"> 37 </div>
-                                            <div class="uppercase profile-stat-text"> Referral </div>
-                                        </div> 
-                                         <div class="col-md-4 col-sm-4 col-xs-6">
-                                            <div class="uppercase profile-stat-title"> 0 </div>
-                                            <div class="uppercase profile-stat-text"> Deposit </div>
-                                        </div> 
-                                         <div class="col-md-4 col-sm-4 col-xs-6">
-                                            <div class="uppercase profile-stat-title"> 61 </div>
-                                            <div class="uppercase profile-stat-text"> Uploads </div>
-                                        </div> 
-
-                                    </div>
-                                    
-                                        <span class="profile-desc-text">{{$user->about_me}}</span>
-                                        <div class="margin-top-20 profile-desc-link">
-                                            <i class="fa fa-phone"></i>
-                                            {{$user->phone}}
-                                        </div>
-                                       <!--  <div class="margin-top-20 profile-desc-link">
-                                            <i class="fa fa-twitter"></i>
-                                            <a href="http://www.twitter.com/keenthemes/">@keenthemes</a>
-                                        </div>
-                                        <div class="margin-top-20 profile-desc-link">
-                                            <i class="fa fa-facebook"></i>
-                                            <a href="http://www.facebook.com/keenthemes/">keenthemes</a>
-                                        </div> -->
-                                    </div>
-                                </div>
+                                
                                 <!-- END PORTLET MAIN -->
                             </div>
                             <!-- END BEGIN PROFILE SIDEBAR -->
@@ -148,15 +76,17 @@
                                                     <li class="active">
                                                         <a href="#tab_1_1" data-toggle="tab">Personal Info</a>
                                                     </li>
+                                                    <!--
                                                     <li>
                                                         <a href="#tab_1_2" data-toggle="tab">Change Avatar</a>
                                                     </li>
-                                                    <!-- <li>
+                                                     <li>
                                                         <a href="#tab_1_3" data-toggle="tab"> Business Info</a>
-                                                    </li> -->
+                                                    </li
                                                     <li>
                                                         <a href="#tab_1_4" data-toggle="tab">  Payment Info</a>
                                                     </li>
+                                                    > -->
                                                 </ul>
                                             </div>
                                     {!! Form::model($user, ['route' => ['user.store'],'class'=>'','id'=>'users_form']) !!}

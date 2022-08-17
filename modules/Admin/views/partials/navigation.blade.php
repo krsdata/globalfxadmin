@@ -23,68 +23,7 @@
                 <!-- END RESPONSIVE MENU TOGGLER -->
                 <!-- BEGIN PAGE ACTIONS -->
                 <!-- DOC: Remove "hide" class to enable the page header actions -->
-                <div class="page-actions">
-                    <div class="btn-group">
-                        <button type="button" class="btn red-haze btn-sm dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-                            <span class="hidden-sm hidden-xs">Actions&nbsp;</span>
-                            <i class="fa fa-angle-down"></i>
-                        </button>
-                        <ul class="dropdown-menu" role="menu">
-                             
-                              @foreach($main_menu as $key => $result) 
-                                  
-                               
-                             <li>
-                                <a href="{{ route($result->title)}}">
-                                    <i class="glyphicon glyphicon-th"></i> 
-                                    {{ $result->title }} </a>
-                            </li> 
-                             @endforeach
-                        </ul>
-                    </div>
-                </div>
-                 <div class="page-actions">
-                    <div class="btn-group"> 
-                             <a class="btn red-haze btn-sm dropdown-toggle"  href="{{ route('match')}}">
-                                    <i class="glyphicon glyphicon-th"></i> View Match </a> 
-                    </div>
-
-                    <div class="btn-group"> 
-                             <a class="btn red-haze btn-sm dropdown-toggle"  href="{{ route('updatePlayerPoints')}}">
-                                    <i class="glyphicon glyphicon-th"></i> Player Points </a>
-                    </div>
-                    <div class="btn-group"> 
-                             <a class="btn red-haze btn-sm dropdown-toggle"  href="{{ route('wallets')}}">
-                                    <i class="glyphicon glyphicon-th"></i> User Wallets </a>
-                    </div>
-
-                    <div class="btn-group"> 
-                             <a class="btn red-haze btn-sm dropdown-toggle"  href="{{ route('matchContest')}}">
-                                    <i class="glyphicon glyphicon-th"></i> Match Contest </a>
-                    </div>
-
-                    <div class="btn-group"> 
-                             <a class="btn red-haze btn-sm dropdown-toggle"  href="{{ route('matchTeams')}}">
-                                    <i class="glyphicon glyphicon-th"></i> Match Teams </a>
-                    </div>
-
-                    <div class="btn-group"> 
-                             <a class="btn red-haze btn-sm dropdown-toggle"  href="{{ route('defaultContest')}}">
-                                    <i class="glyphicon glyphicon-th"></i> Default Contest </a>
-                    </div>
-
-                    <div class="btn-group"> 
-                             <a class="btn red-haze btn-sm dropdown-toggle"  href="{{ route('getMatchReport')}}">
-                                    <i class="glyphicon glyphicon-th"></i> Match Reports </a>
-                    </div>
- 
-
-                    <div class="btn-group"> 
-                             <a class="btn red-haze btn-sm dropdown-toggle"  href="{{ route('notification')}}">
-                                    <i class="glyphicon glyphicon-th"></i> Notify </a>
-                    </div>
-
-                    </div>
+                
                 <!-- END PAGE ACTIONS -->
                 <!-- BEGIN PAGE TOP -->
                 <div class="page-top">

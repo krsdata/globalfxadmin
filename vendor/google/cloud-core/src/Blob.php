@@ -17,7 +17,7 @@
 
 namespace Google\Cloud\Core;
 
-use GuzzleHttp\Psr7\Utils;
+use GuzzleHttp\Psr7;
 use Psr\Http\Message\StreamInterface;
 
 /**
@@ -52,7 +52,7 @@ class Blob
      */
     public function __construct($value)
     {
-        $this->value = Utils::streamFor($value);
+        $this->value = Psr7\stream_for($value);
     }
 
     /**

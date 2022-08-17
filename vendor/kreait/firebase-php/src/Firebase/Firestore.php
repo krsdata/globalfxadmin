@@ -6,18 +6,21 @@ namespace Kreait\Firebase;
 
 use Google\Cloud\Firestore\FirestoreClient;
 
-final class Firestore implements Contract\Firestore
+final class Firestore
 {
-    private FirestoreClient $client;
+    /** @var FirestoreClient */
+    private $client;
 
-    private function __construct(FirestoreClient $client)
+    private function __construct()
     {
-        $this->client = $client;
     }
 
     public static function withFirestoreClient(FirestoreClient $firestoreClient): self
     {
-        return new self($firestoreClient);
+        $firestore = new self();
+        $firestore->client = $firestoreClient;
+
+        return $firestore;
     }
 
     public function database(): FirestoreClient

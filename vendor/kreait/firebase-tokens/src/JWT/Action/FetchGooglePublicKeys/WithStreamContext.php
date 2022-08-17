@@ -9,10 +9,12 @@ use Kreait\Firebase\JWT\Action\FetchGooglePublicKeys;
 use Kreait\Firebase\JWT\Contract\Keys;
 use Kreait\Firebase\JWT\Error\FetchingGooglePublicKeysFailed;
 use Kreait\Firebase\JWT\Keys\ExpiringKeys;
+use Kreait\Firebase\JWT\Keys\StaticKeys;
 
 final class WithStreamContext implements Handler
 {
-    private Clock $clock;
+    /** @var Clock */
+    private $clock;
 
     public function __construct(Clock $clock)
     {
@@ -21,35 +23,6 @@ final class WithStreamContext implements Handler
 
     public function handle(FetchGooglePublicKeys $action): Keys
     {
-        $keys = [];
-        $ttls = [];
-
-        foreach ($action->urls() as $url) {
-            $result = $this->fetchKeysFromUrl($url);
-
-            $keys[] = $result['keys'];
-            $ttls[] = $result['ttl'];
-        }
-
-        $keys = \array_merge(...$keys);
-        $ttl = \min($ttls);
-        $now = $this->clock->now();
-
-        $expiresAt = $ttl > 0
-            ? $now->setTimestamp($now->getTimestamp() + $ttl)
-            : $now->add($action->getFallbackCacheDuration()->value());
-
-        return ExpiringKeys::withValuesAndExpirationTime($keys, $expiresAt);
-    }
-
-    /**
-     * @return array{
-     *                keys: array<string, string>,
-     *                ttl: int
-     *                }
-     */
-    private function fetchKeysFromUrl(string $url): array
-    {
         $context = \stream_context_create([
             'http' => [
                 'method' => 'GET',
@@ -57,16 +30,16 @@ final class WithStreamContext implements Handler
             ],
         ]);
 
-        $stream = \fopen($url, 'rb', false, $context);
+        $stream = \fopen($action->url(), 'rb', false, $context);
 
         if (!\is_resource($stream)) {
-            throw FetchingGooglePublicKeysFailed::because("{$url} could not be opened");
+            throw FetchingGooglePublicKeysFailed::because("{$action->url()} could not be opened");
         }
 
         $metadata = \stream_get_meta_data($stream);
         $headers = $metadata['wrapper_data'] ?? [];
 
-        $ttl = 0;
+        $expiresAt = null;
 
         foreach ($headers as $header) {
             if (\mb_stripos($header, 'cache-control') === false) {
@@ -74,7 +47,10 @@ final class WithStreamContext implements Handler
             }
 
             if (((int) \preg_match('/max-age=(\d+)/i', $header, $matches)) === 1) {
-                $ttl = (int) $matches[1];
+                $maxAge = (int) $matches[1];
+                $now = $this->clock->now();
+                $expiresAt = $now->setTimestamp($now->getTimestamp() + $maxAge);
+                break;
             }
         }
 
@@ -83,14 +59,15 @@ final class WithStreamContext implements Handler
         \fclose($stream);
 
         if (!\is_string($contents)) {
-            throw FetchingGooglePublicKeysFailed::because("{$url} returned no contents.");
+            throw FetchingGooglePublicKeysFailed::because("{$action->url()} returned no contents.");
         }
 
         $keys = \json_decode($contents, true);
 
-        return [
-            'keys' => $keys,
-            'ttl' => $ttl,
-        ];
+        if ($expiresAt) {
+            return ExpiringKeys::withValuesAndExpirationTime($keys, $expiresAt);
+        }
+
+        return StaticKeys::withValues($keys);
     }
 }

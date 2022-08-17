@@ -60,109 +60,12 @@
                                 </div>
                                 <!-- END PORTLET MAIN -->
                                 <!-- PORTLET MAIN -->
-                                <div class="portlet light bordered">
-                                    <!-- STAT -->
-                                   
-                                    <!-- END STAT -->
-                                    <div>
-                                        <h4 class="profile-desc-title">About Match</h4>
-                                          <div class="row list-separated profile-stat">
-                                        <div class="col-md-4 col-sm-4 col-xs-6">
-                                            <div class="uppercase profile-stat-title"> {{$match_id??0}} </div>
-                                            <div class="uppercase profile-stat-text">  Match </div>
-                                        </div> 
-                                        <div class="col-md-4 col-sm-4 col-xs-6">
-                                            <div class="uppercase profile-stat-title"> {{$contest_id??0}} </div>
-                                            <div class="uppercase profile-stat-text"> contest </div>
-                                        </div>
-                                         <div class="col-md-4 col-sm-4 col-xs-6">
-                                            <div class="uppercase profile-stat-title"> {{$win??0}} </div>
-                                            <div class="uppercase profile-stat-text"> WIN </div>
-                                        </div>
-                                         
-                                    </div>
-                                        <span class="profile-desc-text">{{$user->about_me}}</span>
-                                        <div class="margin-top-20 profile-desc-link">
-                                            <i class="fa fa-phone"></i>
-                                            {{$user->phone}}
-                                        </div>
-                                       <!--  <div class="margin-top-20 profile-desc-link">
-                                            <i class="fa fa-twitter"></i>
-                                            <a href="http://www.twitter.com/keenthemes/">@keenthemes</a>
-                                        </div>
-                                        <div class="margin-top-20 profile-desc-link">
-                                            <i class="fa fa-facebook"></i>
-                                            <a href="http://www.facebook.com/keenthemes/">keenthemes</a>
-                                        </div> -->
-                                    </div>
-                                </div>
+                                
+
+ 
 
 
-                                <div class="portlet light bordered">
-                                    <!-- STAT -->
-                                   
-                                    <!-- END STAT -->
-                                    <div>
-                                        <h4 class="profile-desc-title">Referral : {{$user->referal_code}}</h4>
-                                          <div class="row list-separated profile-stat">
-                                        <div class="col-md-6 col-sm-4 col-xs-6">
-                                            <div class="uppercase profile-stat-title"> {{$referral??0}} </div>
-                                            <div class="uppercase profile-stat-text">  Total Referral </div>
-                                        </div> 
-                                        <div class="col-md-4 col-sm-4 col-xs-6">
-                                            <div class="uppercase profile-stat-title"> {{$referral*3??0}} </div>
-                                            <div class="uppercase profile-stat-text"> Earning </div>
-                                        </div>
-                                         
-                                         
-                                    </div>
-                                        <span class="profile-desc-text">{{$user->about_me}}</span>
-                                        <div class="margin-top-20 profile-desc-link">
-                                            <i class="fa fa-phone"></i>
-                                            {{$user->phone}}
-                                        </div>
-                                       <!--  <div class="margin-top-20 profile-desc-link">
-                                            <i class="fa fa-twitter"></i>
-                                            <a href="http://www.twitter.com/keenthemes/">@keenthemes</a>
-                                        </div>
-                                        <div class="margin-top-20 profile-desc-link">
-                                            <i class="fa fa-facebook"></i>
-                                            <a href="http://www.facebook.com/keenthemes/">keenthemes</a>
-                                        </div> -->
-                                    </div>
-                                </div>
-
-
-                                <div class="portlet light bordered">
-                                    <!-- STAT -->
-                                   
-                                    <!-- END STAT -->
-                                    <div>
-                                        <h4 class="profile-desc-title">Wallets : INR {{round($prize+$deposit+$referral*3,2)}}</h4>
-                                          <div class="row list-separated profile-stat">
-                                        <div class="col-md-6 col-sm-4 col-xs-6">
-                                            <div class="  profile-stat-title">   {{round($prize??0,2)}} </div>
-                                            <div class="uppercase profile-stat-text"> Prize </div>
-                                        </div> 
-                                        <div class="col-md-4 col-sm-4 col-xs-6">
-                                            <div class="  profile-stat-title">   {{round($deposit??0,2)}} </div>
-                                            <div class="uppercase profile-stat-text"> Deposit </div>
-                                        </div>
-                                         
-                                         
-                                    </div>
-                                         
-                                         
-                                       <!--  <div class="margin-top-20 profile-desc-link">
-                                            <i class="fa fa-twitter"></i>
-                                            <a href="http://www.twitter.com/keenthemes/">@keenthemes</a>
-                                        </div>
-                                        <div class="margin-top-20 profile-desc-link">
-                                            <i class="fa fa-facebook"></i>
-                                            <a href="http://www.facebook.com/keenthemes/">keenthemes</a>
-                                        </div> -->
-                                    </div>
-                                </div>
+                                
                                 <!-- END PORTLET MAIN -->
                             </div>
                             <!-- END BEGIN PROFILE SIDEBAR -->
@@ -181,7 +84,7 @@
                                                         <a href="#tab_1_1" data-toggle="tab">Personal Info</a>
                                                     </li>
                                                     <li>
-                                                        <a href="#Document" data-toggle="tab">Document</a>
+                                                        <a href="#Document" data-toggle="tab">Customer Document</a>
                                                     </li>
                                                    
                                                 </ul>

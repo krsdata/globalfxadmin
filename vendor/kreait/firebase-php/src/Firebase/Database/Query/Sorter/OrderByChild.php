@@ -13,7 +13,8 @@ final class OrderByChild implements Sorter
 {
     use ModifierTrait;
 
-    private string $childKey;
+    /** @var string */
+    private $childKey;
 
     public function __construct(string $childKey)
     {
@@ -33,7 +34,9 @@ final class OrderByChild implements Sorter
 
         $expression = \str_replace('/', '.', $this->childKey);
 
-        \uasort($value, static fn ($a, $b) => search($expression, $a) <=> search($expression, $b));
+        \uasort($value, static function ($a, $b) use ($expression) {
+            return search($expression, $a) <=> search($expression, $b);
+        });
 
         return $value;
     }

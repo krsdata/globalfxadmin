@@ -23,9 +23,10 @@ use Kreait\Firebase\Exception\InvalidArgumentException;
  */
 class Snapshot
 {
-    private Reference $reference;
+    /** @var Reference */
+    private $reference;
 
-    /** @var mixed mixed */
+    /** @var mixed */
     private $value;
 
     /**
@@ -75,6 +76,8 @@ class Snapshot
      * @see https://firebase.google.com/docs/reference/js/firebase.database.DataSnapshot#child
      *
      * @throws InvalidArgumentException if the given child path is invalid
+     *
+     * @return Snapshot
      */
     public function getChild(string $path): self
     {

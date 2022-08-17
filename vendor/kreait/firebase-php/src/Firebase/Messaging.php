@@ -5,9 +5,10 @@ declare(strict_types=1);
 namespace Kreait\Firebase;
 
 use GuzzleHttp\Promise\Utils;
+use Kreait\Firebase\Exception\FirebaseException;
 use Kreait\Firebase\Exception\InvalidArgumentException;
 use Kreait\Firebase\Exception\Messaging\InvalidArgument;
-use Kreait\Firebase\Exception\Messaging\NotFound;
+use Kreait\Firebase\Exception\Messaging\InvalidMessage;
 use Kreait\Firebase\Exception\MessagingException;
 use Kreait\Firebase\Http\ResponseWithSubResponses;
 use Kreait\Firebase\Messaging\ApiClient;
@@ -26,13 +27,16 @@ use Kreait\Firebase\Messaging\Topic;
 use Kreait\Firebase\Project\ProjectId;
 use Kreait\Firebase\Util\JSON;
 
-class Messaging implements Contract\Messaging
+class Messaging
 {
-    private string $projectId;
+    /** @var string */
+    private $projectId;
 
-    private ApiClient $messagingApi;
+    /** @var ApiClient */
+    private $messagingApi;
 
-    private AppInstanceApiClient $appInstanceApi;
+    /** @var AppInstanceApiClient */
+    private $appInstanceApi;
 
     /**
      * @internal
@@ -44,26 +48,33 @@ class Messaging implements Contract\Messaging
         $this->projectId = $projectId->value();
     }
 
+    /**
+     * @param Message|array<string, mixed> $message
+     *
+     * @throws InvalidArgumentException
+     * @throws MessagingException
+     * @throws FirebaseException
+     *
+     * @return array<mixed>
+     */
     public function send($message, bool $validateOnly = false): array
     {
         $message = $this->makeMessage($message);
 
         $request = new SendMessage($this->projectId, $message, $validateOnly);
-
-        try {
-            $response = $this->messagingApi->send($request);
-        } catch (NotFound $e) {
-            $token = $message->jsonSerialize()['token'] ?? null;
-            if ($token) {
-                throw NotFound::becauseTokenNotFound($token);
-            }
-
-            throw $e;
-        }
+        $response = $this->messagingApi->send($request);
 
         return JSON::decode((string) $response->getBody(), true);
     }
 
+    /**
+     * @param Message|array<string, mixed> $message
+     * @param RegistrationTokens|RegistrationToken|RegistrationToken[]|string[]|string $registrationTokens
+     *
+     * @throws InvalidArgumentException if the message is invalid
+     * @throws MessagingException if the API request failed
+     * @throws FirebaseException if something very unexpected happened (never :))
+     */
     public function sendMulticast($message, $registrationTokens, bool $validateOnly = false): MulticastSendReport
     {
         $message = $this->makeMessage($message);
@@ -76,6 +87,13 @@ class Messaging implements Contract\Messaging
         return MulticastSendReport::fromRequestsAndResponses($request->subRequests(), $response->subResponses());
     }
 
+    /**
+     * @param array[]|Message[]|Messages $messages
+     *
+     * @throws InvalidArgumentException if the message is invalid
+     * @throws MessagingException if the API request failed
+     * @throws FirebaseException if something very unexpected happened (never :))
+     */
     public function sendAll($messages, bool $validateOnly = false): MulticastSendReport
     {
         $ensuredMessages = [];
@@ -91,11 +109,29 @@ class Messaging implements Contract\Messaging
         return MulticastSendReport::fromRequestsAndResponses($request->subRequests(), $response->subResponses());
     }
 
+    /**
+     * @param Message|array<string, mixed> $message
+     *
+     * @throws InvalidArgumentException
+     * @throws InvalidMessage
+     * @throws MessagingException
+     * @throws FirebaseException
+     *
+     * @return array<mixed>
+     */
     public function validate($message): array
     {
         return $this->send($message, true);
     }
 
+    /**
+     * @param RegistrationTokens|RegistrationToken|RegistrationToken[]|string[]|string $registrationTokenOrTokens
+     *
+     * @throws FirebaseException
+     * @throws MessagingException
+     *
+     * @return array<string, array<int, string>>
+     */
     public function validateRegistrationTokens($registrationTokenOrTokens): array
     {
         $registrationTokenOrTokens = $this->ensureNonEmptyRegistrationTokens($registrationTokenOrTokens);
@@ -109,11 +145,23 @@ class Messaging implements Contract\Messaging
         ];
     }
 
+    /**
+     * @param string|Topic $topic
+     * @param mixed $registrationTokenOrTokens
+     *
+     * @return array<string, array<string, string>>
+     */
     public function subscribeToTopic($topic, $registrationTokenOrTokens): array
     {
         return $this->subscribeToTopics([$topic], $registrationTokenOrTokens);
     }
 
+    /**
+     * @param iterable<string|Topic> $topics
+     * @param RegistrationTokens|RegistrationToken|RegistrationToken[]|string[]|string $registrationTokenOrTokens
+     *
+     * @return array<string, array<string, string>>
+     */
     public function subscribeToTopics(iterable $topics, $registrationTokenOrTokens): array
     {
         $topicObjects = [];
@@ -127,23 +175,39 @@ class Messaging implements Contract\Messaging
         return $this->appInstanceApi->subscribeToTopics($topicObjects, $tokens);
     }
 
+    /**
+     * @param string|Topic $topic
+     * @param mixed $registrationTokenOrTokens
+     *
+     * @return array<string, array<string, string>>
+     */
     public function unsubscribeFromTopic($topic, $registrationTokenOrTokens): array
     {
         return $this->unsubscribeFromTopics([$topic], $registrationTokenOrTokens);
     }
 
+    /**
+     * @param array<string|Topic> $topics
+     * @param RegistrationTokens|RegistrationToken|RegistrationToken[]|string[]|string $registrationTokenOrTokens
+     *
+     * @return array<string, array<string, string>>
+     */
     public function unsubscribeFromTopics(array $topics, $registrationTokenOrTokens): array
     {
-        $topics = \array_map(
-            static fn ($topic) => $topic instanceof Topic ? $topic : Topic::fromValue($topic),
-            $topics
-        );
+        $topics = \array_map(static function ($topic) {
+            return $topic instanceof Topic ? $topic : Topic::fromValue($topic);
+        }, $topics);
 
         $tokens = $this->ensureNonEmptyRegistrationTokens($registrationTokenOrTokens);
 
         return $this->appInstanceApi->unsubscribeFromTopics($topics, $tokens);
     }
 
+    /**
+     * @param RegistrationTokens|RegistrationToken|RegistrationToken[]|string[]|string $registrationTokenOrTokens
+     *
+     * @return array<string, array<string, string>>
+     */
     public function unsubscribeFromAllTopics($registrationTokenOrTokens): array
     {
         $tokens = $this->ensureNonEmptyRegistrationTokens($registrationTokenOrTokens);
@@ -151,8 +215,7 @@ class Messaging implements Contract\Messaging
         $promises = [];
 
         foreach ($tokens as $token) {
-            $promises[$token->value()] = $this->appInstanceApi
-                ->getAppInstanceAsync($token)
+            $promises[$token->value()] = $this->appInstanceApi->getAppInstanceAsync($token)
                 ->then(function (AppInstance $appInstance) use ($token) {
                     $topics = [];
                     foreach ($appInstance->topicSubscriptions() as $subscription) {
@@ -161,8 +224,9 @@ class Messaging implements Contract\Messaging
 
                     return \array_keys($this->unsubscribeFromTopics($topics, $token));
                 })
-                ->otherwise(static fn (\Throwable $e) => $e->getMessage())
-            ;
+                ->otherwise(static function (\Throwable $e) {
+                    return $e->getMessage();
+                });
         }
 
         $responses = Utils::settle($promises)->wait();
@@ -176,6 +240,14 @@ class Messaging implements Contract\Messaging
         return $result;
     }
 
+    /**
+     * @see https://developers.google.com/instance-id/reference/server#results
+     *
+     * @param RegistrationToken|string $registrationToken
+     *
+     * @throws InvalidArgument if the registration token is invalid
+     * @throws FirebaseException
+     */
     public function getAppInstance($registrationToken): AppInstance
     {
         $token = $registrationToken instanceof RegistrationToken
@@ -184,8 +256,6 @@ class Messaging implements Contract\Messaging
 
         try {
             return $this->appInstanceApi->getAppInstanceAsync($token)->wait();
-        } catch (NotFound $e) {
-            throw NotFound::becauseTokenNotFound($token->value());
         } catch (MessagingException $e) {
             // The token is invalid
             throw new InvalidArgument("The registration token '{$token}' is invalid or not available", $e->getCode(), $e);

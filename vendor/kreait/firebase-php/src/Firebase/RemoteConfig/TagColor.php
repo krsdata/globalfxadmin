@@ -25,7 +25,8 @@ class TagColor
         self::ORANGE, self::PINK, self::PURPLE, self::TEAL,
     ];
 
-    private string $value;
+    /** @var string */
+    private $value;
 
     public function __construct(string $value)
     {
@@ -35,10 +36,8 @@ class TagColor
             throw new InvalidArgumentException(
                 \sprintf(
                     'Invalid tag color "%s". Supported colors are "%s".',
-                    $value,
-                    \implode('", "', self::VALID_COLORS)
-                )
-            );
+                    $value, \implode('", "', self::VALID_COLORS)
+            ));
         }
 
         $this->value = $value;

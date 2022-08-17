@@ -14,9 +14,9 @@ use Psr\Http\Message\RequestInterface;
 
 final class SendMessages implements HasSubRequests, RequestInterface
 {
-    use WrappedPsr7Request;
-
     public const MAX_AMOUNT_OF_MESSAGES = 500;
+
+    use WrappedPsr7Request;
 
     public function __construct(string $projectId, Messages $messages, bool $validateOnly = false)
     {
@@ -33,8 +33,7 @@ final class SendMessages implements HasSubRequests, RequestInterface
                 // see https://github.com/firebase/firebase-admin-node/blob/master/src/messaging/batch-request.ts#L104
                 ->withHeader('Content-ID', (string) ++$index)
                 ->withHeader('Content-Transfer-Encoding', 'binary')
-                ->withHeader('Content-Type', 'application/http')
-            ;
+                ->withHeader('Content-Type', 'application/http');
         }
 
         $this->wrappedRequest = new RequestWithSubRequests(

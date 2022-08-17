@@ -30,13 +30,7 @@
                         <span class="caption-subject font-red sbold uppercase">{{$heading ?? ''}}</span>
                     </div>
                      
-                <div class="col-md-2 pull-right">
-                                            <div style="width: 150px;" class="input-group"> 
-                                                <a href="#" data-toggle="modal" data-target="#notification"> 
-                                                    <button  class="btn btn-success"><i class="fa fa-plus-circle"></i> Send notification</button> 
-                                                </a>
-                                            </div>
-                                        </div>
+              
 
                 </div>
                 <div class="portlet-body table-responsive">
@@ -98,15 +92,11 @@
                         <thead>
                             <tr>
                                  <th> Sno. </th>
-                                 <th>User Details</th>
-                                 <th>Referral Code</th>
-                                 <th>Team Name</th>
                                 <th> Full Name </th>
                                 <th> Email </th>
-                                 <th> Account Details </th>
-                                <th> Phone </th>
-                                <th> {{($heading=='Admin Users')?'User Type':''}} </th>
-                                <th>Signup Date</th>
+                                <th>User Type </th>
+                                <th> Phone no</th>
+                                <th> Signup Date </th>
                                 <th>Status</th>
                                 <th>Action</th> 
                             </tr>
@@ -117,165 +107,18 @@
                         @foreach($users as $key => $result)
                             <tr>
                                  <td> {{ (($users->currentpage()-1)*15)+(++$key) }}</td>
-                                 <td>
-
-                              <table class="table table-striped table-hover table-bordered">
-                                <tr>
-                                  <td>User Id</td>
-                                  <td>{{$result->id}}</td>    
-                                </tr>
-                                <tr>
-                                  <td>UserName</td>
-                                  <td>{{$result->user_name}}</td>    
-                                </tr>
-                                <tr>
-                                  <td>Referral</td>
-                                  <td>{{$result->referal_code}}</td>
-                                </tr>
-                                <tr>
-                                  <td>Used by</td>
-                                  <td>{{$result->ref_count}}</td>
-                                </tr>
-                                <tr>
-                                  <td>User deposit</td>
-                                  <td>{{round($result->ref_deposit??0,2)}}</td>
-                                </tr>
-                                <tr>  
-                                  <td>Referral Deposit</td>
-                                  <td>{{round($result->reference_deposit??0,2)}}</td>
-                                </tr>
-                                <tr>  
-                                  <td>Affiliate User</td>
-                                  <td>{{($result->affiliate_user?'Yes':'No')}}</td>
-                                </tr>
-
-                              </table>
+                                
+                                 <td> {{$result->first_name}}
                                  </td>
-                                 <td> {{$result->reference_code}}
-                                 </td>
-                                 <td> {{$result->team_name}}</td>
-                                <td> {{$result->name}} </td>
                                 <td> {{$result->email}} </td>
-                                 <td>  
-
-
-<table class="table table-striped table-hover table-bordered">
-  <tr>
-    <td>
-      
-
- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#account_{{$result->id}}">
-         Total Balance : 
- {{round($result->balance,2)}} INR
-        </button>
-
-    </td>
-  </tr>
-  <tr>
-    <td>
-      
-
-<a href="{{url('admin/wallets?search='.$result->email)}}" target="_blank">
-<button type="button" class="btn btn-success">
- View Wallets
-</button>
-</a>
-    </td>
-  </tr>
-
-    <tr>
-      <td>
-        <a href="{{url('admin/wallets/create?user_id='.$result->id)}}" target="_blank">
-        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#11account_{{$result->id}}">
-         Add Money
-        </button>
-        </a>
-    </td>
-  </tr>
-
-  <tr>
-    <td>
-
-<a href="{{url('admin/documents?search='.$result->email)}}" target="_blank">
-<button type="button" class="btn btn-success" data-toggle="modal" data-target="#1account_{{$result->id}}">
- View documents
-</button>
-</a>
-    </td>
-  </tr>
-
-
-  <tr>
-    <td>
-      Last Match Played: <br><br>
-      @foreach($result->mat_id as $key => $val)
-       <p>
-          <a  style="padding: 3px; width: 100%" class="btn-success" href="{{url('admin/matchContest?match_id='.$val->match_id.'&email='.$result->email)}}">
-            {{ $val->short_title }} - {{ $val->status_str}} </a>  
-          </p>
-      @endforeach
-
-    </td>
-  </tr>
-
-  <tr>
-    <td></td>
-  </tr>
-</table>
-                                    <!-- Button trigger modal -->
-
-<!-- Modal -->
-<div class="modal fade" id="account_{{$result->id}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Account Summary</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <table  class="table table-striped table-hover table-bordered"> 
-        @foreach($result->amount as $key => $val)
-          <tr>
-              <td>{{ucfirst($key)}}</td>
-              <td>{{round($val,2)}}</td>
-          </tr>
-        @endforeach
-        <tr>
-              <td>Available Balance</td>
-              <td>{{round($result->balance,2)}} INR</td>
-          </tr>
-        
-        </table>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <a href="{{url('admin/paymentsHistory?search='.$result->id)}}">
-        <button type="button" class="btn btn-primary">
-            View All Transaction
-        </button>
-      </div>
-    </div>
-  </div>
-</div>
-
-                                 </td>
-                                <td> {{$result->mobile_number}} </td>
+                                
                                 <td class="center"> 
                                
-                                    @if($result->role_type==3)
-                                    <a href="{{ route('user.edit',$result->id)}}?role_type={{$result->role_type}}">
-                                        View Details
-                                        <i class="glyphicon glyphicon-eye-open" title="edit"></i> 
-
-                                    </a>
-                                    @else
-                                      {{ (($result->role_type==1)?'admin':($result->role_type==2))
-
-                                      ?'Sales':(($result->role_type==4)?'Support':'Admin')}}
-                                    @endif
+                                       Customer
+                                    
                                 </td>
+
+                                <td> {{$result->mobile_number}} </td>
                                 <td>
                                     {!! Carbon\Carbon::parse($result->created_at)->format('d-m-Y'); !!}
                                 </td>
@@ -329,60 +172,6 @@
       </div> 
       <div class="modal-body">
 
-{!! Form::model($users, ['route' => ['user.store'],'class'=>'form-horizontal user-form','id'=>'user-form','enctype'=>'multipart/form-data']) !!}
-
-<div class="form-body">
-    <div class="alert alert-danger display-hide">
-        <button class="close" data-close="alert"></button> Please fill the required field! </div>
-        <div class="form-group {{ $errors->first('message_type', ' has-error') }}">
-            <label class="control-label col-md-3">Message Type <span class="required"> * </span></label>
-            <div class="col-md-7"> 
-                <select class="form-control" name="message_type"> 
-                        <option value="notify">Notify</option>
-                </select>
-                
-                <span class="help-block">{{ $errors->first('message_type', ':message') }}</span>
-            </div>
-        </div> 
-
-        <div class="form-group {{ $errors->first('title', ' has-error') }}">
-            <label class="control-label col-md-3">Email <span class="required"> * </span></label>
-            <div class="col-md-7"> 
-                {!! Form::email('email',null, ['class' => 'form-control','data-required'=>1])  !!} 
-                <input type="hidden" name="notification" value="notification">
-                <span class="help-block">{{ $errors->first('title', ':message') }}</span>
-            </div>
-        </div>
- 
-        <div class="form-group {{ $errors->first('title', ' has-error') }}">
-            <label class="control-label col-md-3">Title <span class="required"> * </span></label>
-            <div class="col-md-7"> 
-                {!! Form::text('title',null, ['class' => 'form-control','data-required'=>1])  !!} 
-                
-                <span class="help-block">{{ $errors->first('title', ':message') }}</span>
-            </div>
-        </div> 
-
-          <div class="form-group {{ $errors->first('message', ' has-error') }}">
-            <label class="control-label col-md-3">Message<span class="required"> </span></label>
-            <div class="col-md-7"> 
-                {!! Form::textarea('message',null, ['class' => 'form-control','data-required'=>1,'rows'=>3,'cols'=>5])  !!} 
-                
-                <span class="help-block">{{ $errors->first('message', ':message') }}</span>
-            </div>
-        </div>
-
-    
-        
-    <div class="form-actions">
-        <div class="row" style="padding-right:12px">
-            <div class="col-md-10">
-              {!! Form::submit(' Send Notification ', ['class'=>'btn  btn-success pull-right','id'=>'saveBtn']) !!}
-            </div>
-        </div>
-    </div>
-</div>
-{!! Form::close() !!}   
 
 
    </div>

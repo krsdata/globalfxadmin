@@ -17,8 +17,7 @@
 
 namespace Google\Cloud\Core;
 
-use GuzzleHttp\Psr7\Query;
-use GuzzleHttp\Psr7\Utils;
+use GuzzleHttp\Psr7;
 use Psr\Http\Message\UriInterface;
 use Rize\UriTemplate;
 
@@ -60,6 +59,6 @@ trait UriTrait
             }
         }
 
-        return Utils::uriFor($uri)->withQuery(Query::build($query));
+        return Psr7\uri_for($uri)->withQuery(Psr7\build_query($query));
     }
 }

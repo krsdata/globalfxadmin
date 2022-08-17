@@ -49,16 +49,7 @@ class User extends Authenticatable {
                             'role_type',
                             'password',
                             'status',
-                            'user_name',
-                            'mobile_number',
-                            'referal_code',
-                            'reference_code',
-                            'team_name',
-                            "dateOfBirth",
-                            "state",
-                            "block_referral",
-                            "affiliate_user",
-                            "affiliate_commission"
+                            'mobile_number'
                         ];  // All field of user table h
 
 

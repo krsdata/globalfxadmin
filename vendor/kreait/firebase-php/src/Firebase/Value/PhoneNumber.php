@@ -11,26 +11,23 @@ use libphonenumber\PhoneNumberUtil;
 
 class PhoneNumber implements \JsonSerializable
 {
-    private string $value;
+    /** @var string */
+    private $value;
 
     /**
      * @internal
      */
     public function __construct(string $value)
     {
-        if (\class_exists(PhoneNumberUtil::class)) {
-            $util = PhoneNumberUtil::getInstance();
+        $util = PhoneNumberUtil::getInstance();
 
-            try {
-                $parsed = $util->parse($value);
-            } catch (NumberParseException $e) {
-                throw new InvalidArgumentException('Invalid phone number: '.$e->getMessage());
-            }
-
-            $value = $util->format($parsed, PhoneNumberFormat::E164);
+        try {
+            $parsed = $util->parse($value);
+        } catch (NumberParseException $e) {
+            throw new InvalidArgumentException('Invalid phone number: '.$e->getMessage());
         }
 
-        $this->value = $value;
+        $this->value = $util->format($parsed, PhoneNumberFormat::E164);
     }
 
     public function __toString(): string

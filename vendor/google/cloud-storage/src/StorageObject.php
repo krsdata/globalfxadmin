@@ -23,7 +23,7 @@ use Google\Cloud\Core\Timestamp;
 use Google\Cloud\Core\Upload\SignedUrlUploader;
 use Google\Cloud\Storage\Connection\ConnectionInterface;
 use GuzzleHttp\Promise\PromiseInterface;
-use GuzzleHttp\Psr7\Utils;
+use GuzzleHttp\Psr7;
 use Psr\Http\Message\StreamInterface;
 
 /**
@@ -611,9 +611,9 @@ class StorageObject
      */
     public function downloadToFile($path, array $options = [])
     {
-        $destination = Utils::streamFor(fopen($path, 'w'));
+        $destination = Psr7\stream_for(fopen($path, 'w'));
 
-        Utils::copyToStream(
+        Psr7\copy_to_stream(
             $this->downloadAsStream($options),
             $destination
         );

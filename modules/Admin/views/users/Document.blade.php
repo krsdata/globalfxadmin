@@ -8,16 +8,13 @@
             </div> 
         </div>
             <input type="hidden" name="action" value="document">
-            <div class="form-group">
+            <div class="form-group" style="display: none">
                     <label for="multiple" class="control-label">User ID</label>
                      <input type="text" name="user_id" class="form-control" value="{{$user->id}}" readonly="">
                 </div>
             <div class="form-group">
                     <label for="multiple" class="control-label">Document Type</label>
-                     <select class="form-control" name="doc_type">
-                         <option value="pancard" @if(isset($document) && $document->doc_type=='pancard') selected @endif>PAN CARD</option>
-                         <option value="adharcard" @if($document) &&  $document->doc_type=='adharcard') selected @endif>Adhar CARD</option>
-                     </select>
+                     
                 </div>
                 
                 <div class="form-group">
