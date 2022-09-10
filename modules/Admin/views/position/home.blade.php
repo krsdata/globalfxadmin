@@ -73,14 +73,32 @@
                                         </thead>
                                         <tbody>
                                         @foreach($position as $key => $result)
+
+                                        @if($result->p_l_amount > $result->bid_amount)
+                                        <?php $pl_symbol = "+"; ?>
+                                        @elseif($result->p_l_amount < $result->bid_amount)
+                                        <?php $pl_symbol = ""; ?>
+                                        @else
+                                        <?php $pl_symbol = ""; ?>
+                                        @endif
                                             <tr>
                                              <th>  {{++$key}} </th>
                                                 <td> {{$result->user->first_name}} </td>
                                                  <td> {{$result->market_name}} </td>
-                                                 <td> ₹{{$result->bid_amount}} </td>
-                                                    <td>  ₹{{$result->p_l_amount}} </td> 
+                                                 <td>@if($setting->currency=="INR")
+                                                    ₹{{$result->bid_amount*$setting->currency_value}}
+                                                    @else 
+                                                    ${{$result->bid_amount}}
+                                                    @endif </td>
+                                                    <td>  
+                                                    @if($setting->currency=="INR")
+                                                    ₹{{$pl_symbol}}{{($result->p_l_amount-$result->bid_amount)*$setting->currency_value}}
+                                                    @else 
+                                                    ${{$pl_symbol}}{{($result->p_l_amount-$result->bid_amount)}}
+                                                    @endif
+                                                     </td> 
                                                      <td>
-                                                        {!! Carbon\Carbon::parse($result->date_time)->format('d-m-Y') !!}
+                                                        {!! Carbon\Carbon::parse($result->created_at)->format('d-M-Y | H:i:s A') !!}
                                                     </td>
                                                     <td> Active </td>
                                                     

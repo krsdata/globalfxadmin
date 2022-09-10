@@ -173,65 +173,13 @@ class PositionController extends Controller {
      * @param ID
      * 
      */
-    public function destroy($program) { 
+    public function destroy($id) { 
         
-        Program::where('id',$program)->delete();
-        return Redirect::to(route('program'))
-                        ->with('flash_alert_notice', 'Campaign  successfully deleted.');
+        Position::where('id',$id)->delete();
+        return Redirect::to(route('position'))
+                        ->with('flash_alert_notice', 'Position  successfully deleted.');
     }
 
-    public function show($id) {
-        $program = Program::find($id);
-        $page_title     = 'Campaign';
-        $page_action    = 'Show Campaign'; 
-        $result = $program;
-
-        $trigger_condition = '(
-                        CASE 
-                        WHEN trigger_condition = 1 THEN "Sign up" 
-                        WHEN trigger_condition = 2 THEN "First Transaction"
-                        ELSE
-                        "Sign up" end) as trigger_condition';
-
-         $reward_type = '(
-                        CASE
-                        WHEN reward_type = 1 THEN "Fixed" 
-                        WHEN reward_type = 2 THEN "Percentage" 
-                        ELSE
-                        "Fixed" end) as reward_type';
-        $promotion_type = '(
-                        CASE
-                        WHEN promotion_type = 1 THEN "Referral" 
-                        WHEN promotion_type = 2 THEN "Bonus" 
-                        ELSE
-                        "Bonus" end) as promotion_type';
-
-        $status = '(
-                        CASE
-                        WHEN status = 1 THEN "Active" 
-                        WHEN status = 2 THEN "Planned"
-                        WHEN status = 3 THEN "Draft" 
-                        ELSE
-                        "Active" end) as status';
-        $customer_type = '(
-                        CASE
-                        WHEN customer_type = 1 THEN "Public" 
-                        WHEN customer_type = 2 THEN "Custom"
-                        ELSE
-                        "Public" end) as customer_type';
-
-        $program = Program::where('id',$program->id)
-                    ->select('*',
-                        \DB::raw($customer_type),
-                        \DB::raw($trigger_condition),
-                        \DB::raw($reward_type),
-                        \DB::raw($promotion_type),
-                        \DB::raw($status))
-                    ->first()
-                    ->toArray();  
-
-        return view('packages::program.show', compact( 'result','program','page_title', 'page_action'));
-
-    }
+    
 
 }

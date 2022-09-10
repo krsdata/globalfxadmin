@@ -22,8 +22,14 @@
             </div>
         </div> 
        
+        <input type="hidden" name="currency" value="{{$setting->currency}}">
+        
         <div class="form-group {{ $errors->first('bid_amount', ' has-error') }}">
-            <label class="control-label col-md-4">Bid amount. <span class="required"> * </span></label>
+            <label class="control-label col-md-4">Bid amount(@if($setting->currency=="INR")
+                                                    ₹ 
+                                                    @else 
+                                                    $ 
+                                                    @endif) <span class="required"> * </span></label>
             <div class="col-md-7"> 
                 {!! Form::text('bid_amount',null, ['class' => 'form-control','data-required'=>1,'onkeypress'=>'return isNumberKey(event)','required'])  !!} 
                  
@@ -32,7 +38,12 @@
         </div>
 
         <div class="form-group {{ $errors->first('p_l_amount', ' has-error') }}">
-            <label class="control-label col-md-4">p_l_amount <span class="required"> * </span></label>
+            <label class="control-label col-md-4">P_L_amount(@if($setting->currency=="INR")
+                                                    ₹ 
+                                                    @else 
+                                                    $ 
+                                                    @endif)
+                                                    <span class="required"> * </span></label>
             <div class="col-md-7"> 
                 {!! Form::text('p_l_amount',null, ['class' => 'form-control','data-required'=>1,'onkeypress'=>'return isNumberKey(event)','required'])  !!} 
                  
@@ -40,6 +51,7 @@
             </div>
         </div>
 
+        <!--
         <div class="form-group {{ $errors->first('date_time', ' has-error') }}  @if(session('field_errors')) {{ 'has-group' }} @endif">
             <label class="col-md-4 control-label">Position Date 
                 <span class="required"> * </span>
@@ -52,7 +64,7 @@
             </div> 
         </div>
 
-         
+-->
 
 
         

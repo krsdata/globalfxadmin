@@ -94,7 +94,7 @@
                                  <th> Sno. </th>
                                 <th> Full Name </th>
                                 <th> Email </th>
-                                <th>User Type </th>
+                                <th>Wallet Balance </th>
                                 <th> Phone no</th>
                                 <th> Signup Date </th>
                                 <th>Status</th>
@@ -113,8 +113,12 @@
                                 <td> {{$result->email}} </td>
                                 
                                 <td class="center"> 
-                               
-                                       Customer
+                                @if($setting->currency=='INR')
+                                ₹{{$result->wallet_balance*$setting->currency_value}}
+                                @else
+                                ${{$result->wallet_balance}}
+                                @endif
+                                
                                     
                                 </td>
 

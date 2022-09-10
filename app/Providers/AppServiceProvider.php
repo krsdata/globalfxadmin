@@ -27,15 +27,18 @@ class AppServiceProvider extends ServiceProvider
                         return $item;
 
                     });
-            
+           $setting = (object)(\DB::table('settings')->pluck('field_value','field_key')->toArray());
+             
+                  //  dd($setting );
            
         }catch(\Illuminate\Database\QueryException $e){
+            $setting = (object)[];
             $main_menu = (object)[];
         } 
        // dd($main_menu);
 
         View::share('main_menu',$main_menu??null); 
-       // View::share('setting',$setting??null);
+        View::share('setting',$setting??null);
     }
 
     /**

@@ -121,5 +121,10 @@ class User extends Authenticatable {
         return $this->belongsTo('Modules\Admin\Models\Role','user_id');
     }
 
+    public function position() 
+    {
+        return $this->hasMany('Modules\Admin\Models\Position','user_name','id');
+    }
+
 
 }

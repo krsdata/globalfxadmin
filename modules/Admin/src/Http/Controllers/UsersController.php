@@ -83,7 +83,7 @@ class UsersController extends Controller {
 
             $search = isset($search) ? Input::get('search') : '';
                
-            $users = User::where(function($query) use($mobile_number,$search,$status,$role_type) {
+            $users = User::with('position')->where(function($query) use($mobile_number,$search,$status,$role_type) {
 
                         if (!empty($search)) {
                             $query->Where('first_name', 'LIKE', "%$search%")
@@ -102,12 +102,24 @@ class UsersController extends Controller {
                         }
                     })->orderBy('id','asc')->Paginate($this->record_per_page);
             $users->transform(function($item,$key){
+                  
+                $item->bid_amt = $item->position->sum('bid_amount');
+                $item->pl_amount = $item->position->sum('p_l_amount');
 
-
+                $item->wallet_balance =  $item->pl_amount- $item->bid_amt;
                 return $item;
             });
         } else {
-            $users = User::orderBy('id','desc')->Paginate($this->record_per_page);
+            $users = User::with('position')->orderBy('id','desc')->Paginate($this->record_per_page);
+
+            $users->transform(function($item,$key){
+                $item->bid_amt = $item->position->sum('bid_amount');
+                $item->pl_amount = $item->position->sum('p_l_amount');
+
+                $item->wallet_balance =  $item->pl_amount- $item->bid_amt;
+
+                return $item;
+            });
             
         } 
        // return $users;

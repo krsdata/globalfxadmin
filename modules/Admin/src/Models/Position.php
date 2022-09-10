@@ -47,7 +47,8 @@ class Position extends Model {
             'p_l_amount',
             'date_time',
             'amount',
-            'status'
+            'status',
+            'currency'
         ];  // All field of user table here    
 
     
@@ -55,6 +56,8 @@ class Position extends Model {
     {
         return $this->hasOne('Modules\Admin\Models\User','id','user_name');
     }
+
+  
     
   
 }
